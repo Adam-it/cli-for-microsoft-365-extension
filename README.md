@@ -1,65 +1,23 @@
-# cli-for-microsoft-365-extension README
+# cli for microsoft 365 extension snippets
 
-This is the README for your extension "cli-for-microsoft-365-extension". After writing up a brief description, we recommend including the following sections.
+This extension adds snippets with all possible commands from CLI for Microsoft 365. Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+The extensions helps to quickly find the proper CLI for Microsoft 365 command and add it into the code using snippets. The command is added with the list of obligatory parameters. It is possible to quickly move between parameters using 'Tab' key. Each CLI command snippet is also provided with the same description as may be found in the docs which help to quickly understand the commands functionality.
 
-For example if there is an image subfolder under your extension project workspace:
+![snippetsList](/assets/howItWorks.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
+## Usage
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+In order to use snippets please type part of a snippet and press enter or tab. The command will be automatically with possibility to provide obligatory parameters. You may also use 'Ctrl + Space' (Windows, Linux) or 'Cmd + Space' (macOS) to activate snippets from within the editor.
 
-## Requirements
+![snippetsList](/assets/snippetsList.png)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+It is also possible to use command `Insert Snippet` in VS Code to see the full list
 
-## Extension Settings
+![snippetsList](/assets/listOfCommandsFromToolbar.png)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Feedback
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Any questions, problems, feedback is more than welcome. Please create an issue in the extension repository [issue list](https://github.com/Adam-it/cli-for-microsoft-365-extension/issues).
