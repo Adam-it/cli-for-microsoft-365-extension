@@ -1,14 +1,28 @@
 {
     "name": "cli-for-microsoft-365-extension",
     "displayName": "CLI for Microsoft 365 extension",
-    "description": "",
-    "version": "0.0.1",
+    "description": "This extension adds snippets with all possible commands from CLI for Microsoft 365",
+    "version": "1.0.0",
+    "author": {
+        "name": "Adam"
+    },
+    "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "CLI",
+        "Microsoft365",
+        "SharePoint"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Adam-it/cli-for-microsoft-365-extension"
+    },
     "contributes": {
         "snippets": [
             {
