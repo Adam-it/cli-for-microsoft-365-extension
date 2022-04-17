@@ -27,8 +27,8 @@ foreach ($command in $allCommands) {
     $optionsEndIndex = @($html.all).IndexOf($subTitles[2])
     $commandOptions = @($html.all)[($optionsStartIndex + 1)..($optionsEndIndex - 1)]
     $commandOptions = $commandOptions | Where-Object { $_.nodeName -eq 'CODE' } | ForEach-Object { $_.innerText }
-    $commandOptions = $commandOptions | Where-Object { $_ -match '\[(.*?)\]' }
-    $commandOptions = $commandOptions | ForEach-Object { $_.split('[')[1].split(']')[0] }
+    $commandOptions = $commandOptions | Where-Object { $_ -match '\<(.*?)\>' }
+    $commandOptions = $commandOptions | ForEach-Object { $_.split('<')[1].split('>')[0] }
     $commandOptions = $commandOptions | ForEach-Object { "--" + $_ + ' $' + $($commandOptions.IndexOf($_) + 1)}
     $commandOptions = $commandOptions -join " "
 
