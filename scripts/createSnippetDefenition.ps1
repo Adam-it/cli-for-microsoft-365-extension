@@ -34,7 +34,7 @@ foreach ($command in $allCommands) {
 
     $commandSnippets += @"
         "$commandTitle":{
-            "scope": "javascript,typescript,powershell",
+            "scope": "javascript,typescript,powershell,bash",
             "prefix": ["m365 $commandTitle"],
             "body": ["m365 $commandTitle $commandOptions"],
             "description": "$commandDescription"
