@@ -2,7 +2,7 @@
     "name": "cli-for-microsoft-365-extension",
     "displayName": "CLI for Microsoft 365 extension",
     "description": "This extension adds snippets with all possible commands from CLI for Microsoft 365",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "adamwojcikit",
     "author": {
         "name": "Adam"
