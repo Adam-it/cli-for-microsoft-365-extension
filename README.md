@@ -4,7 +4,7 @@ This extension adds snippets with all possible commands from CLI for Microsoft 3
 
 ## Please be aware 👀
 
-The current solution (extension) is in prototype faze so may not have regular releases.
+The current solution (extension) is in prototype phase so may not have regular releases.
 
 ## Features 🪄
 
