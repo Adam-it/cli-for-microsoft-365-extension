@@ -1,6 +1,5 @@
 {
     "aad app add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app add"
         ],
@@ -10,7 +9,6 @@
         "description": "Creates new Azure AD app registration"
     },
     "aad app get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app get"
         ],
@@ -20,7 +18,6 @@
         "description": "Gets an Azure AD app registration"
     },
     "aad app remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app remove"
         ],
@@ -30,7 +27,6 @@
         "description": "Removes an Azure AD app registration"
     },
     "aad app role add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app role add"
         ],
@@ -40,7 +36,6 @@
         "description": "Adds role to the specified Azure AD app registration"
     },
     "aad app role list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app role list"
         ],
@@ -50,7 +45,6 @@
         "description": "Gets Azure AD app registration roles"
     },
     "aad app role remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app role remove"
         ],
@@ -60,7 +54,6 @@
         "description": "Removes role from the specified Azure AD app registration"
     },
     "aad app set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app set"
         ],
@@ -70,7 +63,6 @@
         "description": "Updates Azure AD app registration"
     },
     "aad approleassignment add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad approleassignment add"
         ],
@@ -80,7 +72,6 @@
         "description": "Adds service principal permissions also known as scopes and app role assignments for specified Azure AD application registration"
     },
     "aad approleassignment list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad approleassignment list"
         ],
@@ -90,7 +81,6 @@
         "description": "Lists app role assignments for the specified application registration"
     },
     "aad approleassignment remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad approleassignment remove"
         ],
@@ -100,7 +90,6 @@
         "description": "Deletes an app role assignment for the specified Azure AD Application Registration"
     },
     "aad group list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad group list"
         ],
@@ -110,7 +99,6 @@
         "description": "Lists Azure AD groups"
     },
     "aad groupsetting add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsetting add"
         ],
@@ -120,7 +108,6 @@
         "description": "Creates a group setting"
     },
     "aad groupsetting get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsetting get"
         ],
@@ -130,7 +117,6 @@
         "description": "Gets information about the particular group setting"
     },
     "aad groupsetting list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsetting list"
         ],
@@ -140,7 +126,6 @@
         "description": "Lists Azure AD group settings"
     },
     "aad groupsetting remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsetting remove"
         ],
@@ -150,7 +135,6 @@
         "description": "Removes the particular group setting"
     },
     "aad groupsetting set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsetting set"
         ],
@@ -160,7 +144,6 @@
         "description": "Updates the particular group setting"
     },
     "aad groupsettingtemplate get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsettingtemplate get"
         ],
@@ -170,7 +153,6 @@
         "description": "Gets information about the specified Azure AD group settings template"
     },
     "aad groupsettingtemplate list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad groupsettingtemplate list"
         ],
@@ -180,7 +162,6 @@
         "description": "Lists Azure AD group settings templates"
     },
     "aad o365group add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group add"
         ],
@@ -190,7 +171,6 @@
         "description": "Creates a Microsoft 365 Group"
     },
     "aad o365group conversation list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group conversation list"
         ],
@@ -200,7 +180,6 @@
         "description": "Lists conversations for the specified Microsoft 365 group"
     },
     "aad o365group conversation post list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group conversation post list"
         ],
@@ -210,7 +189,6 @@
         "description": "Lists conversation posts of a Microsoft 365 group"
     },
     "aad o365group get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group get"
         ],
@@ -220,7 +198,6 @@
         "description": "Gets information about the specified Microsoft 365 Group or Microsoft Teams team"
     },
     "aad o365group list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group list"
         ],
@@ -230,7 +207,6 @@
         "description": "Lists Microsoft 365 Groups in the current tenant"
     },
     "aad o365group recyclebinitem clear": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group recyclebinitem clear"
         ],
@@ -240,7 +216,6 @@
         "description": "Clears Microsoft 365 Groups from the recycle bin in the current tenant"
     },
     "aad o365group recyclebinitem list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group recyclebinitem list"
         ],
@@ -250,7 +225,6 @@
         "description": "Lists Groups from the recycle bin in the current tenant"
     },
     "aad o365group restore": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group restore"
         ],
@@ -260,7 +234,6 @@
         "description": "Restores a deleted Microsoft 365 Group"
     },
     "aad o365group remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group remove"
         ],
@@ -270,7 +243,6 @@
         "description": "Removes an Microsoft 365 Group"
     },
     "aad o365group renew": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group renew"
         ],
@@ -280,7 +252,6 @@
         "description": "Renews Microsoft 365 group's expiration"
     },
     "aad o365group report activitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group report activitycounts"
         ],
@@ -290,7 +261,6 @@
         "description": "Get the number of group activities across group workloads"
     },
     "aad o365group report activitydetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group report activitydetail"
         ],
@@ -300,7 +270,6 @@
         "description": "Get details about Microsoft 365 Groups activity by group."
     },
     "aad o365group report activityfilecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group report activityfilecounts"
         ],
@@ -310,7 +279,6 @@
         "description": "Get the total number of files and how many of them were active across all group sites associated with an Microsoft 365 Group"
     },
     "aad o365group report activitygroupcounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group report activitygroupcounts"
         ],
@@ -320,7 +288,6 @@
         "description": "Get the daily total number of groups and how many of them were active based on email conversations, Yammer posts, and SharePoint file activities."
     },
     "aad o365group report activitystorage": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group report activitystorage"
         ],
@@ -330,7 +297,6 @@
         "description": "Get the total storage used across all group mailboxes and group sites"
     },
     "aad o365group set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group set"
         ],
@@ -340,7 +306,6 @@
         "description": "Updates Microsoft 365 Group properties"
     },
     "aad o365group teamify": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group teamify"
         ],
@@ -350,7 +315,6 @@
         "description": "Creates a new Microsoft Teams team under existing Microsoft 365 group"
     },
     "aad o365group user add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group user add"
         ],
@@ -360,7 +324,6 @@
         "description": "Adds user to specified Microsoft 365 Group or Microsoft Teams team"
     },
     "aad o365group user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group user list"
         ],
@@ -370,7 +333,6 @@
         "description": "Lists users for the specified Microsoft 365 group"
     },
     "aad o365group user remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group user remove"
         ],
@@ -380,7 +342,6 @@
         "description": "Removes the specified user from specified Microsoft 365 Group or Microsoft Teams team"
     },
     "aad o365group user set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad o365group user set"
         ],
@@ -390,7 +351,6 @@
         "description": "Updates role of the specified user in the specified Microsoft 365 Group or Microsoft Teams team"
     },
     "aad oauth2grant add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad oauth2grant add"
         ],
@@ -400,7 +360,6 @@
         "description": "Grant the specified service principal OAuth2 permissions to the specified resource"
     },
     "aad oauth2grant list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad oauth2grant list"
         ],
@@ -410,7 +369,6 @@
         "description": "Lists OAuth2 permission grants for the specified service principal"
     },
     "aad oauth2grant remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad oauth2grant remove"
         ],
@@ -420,7 +378,6 @@
         "description": "Remove specified service principal OAuth2 permissions"
     },
     "aad oauth2grant set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad oauth2grant set"
         ],
@@ -430,7 +387,6 @@
         "description": "Update OAuth2 permissions for the service principal"
     },
     "aad policy list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad policy list"
         ],
@@ -440,7 +396,6 @@
         "description": "Returns policies from Azure AD"
     },
     "aad siteclassification disable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad siteclassification disable"
         ],
@@ -450,7 +405,6 @@
         "description": "Disables site classification"
     },
     "aad siteclassification enable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad siteclassification enable"
         ],
@@ -460,7 +414,6 @@
         "description": "Enables site classification configuration"
     },
     "aad siteclassification get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad siteclassification get"
         ],
@@ -470,7 +423,6 @@
         "description": "Gets site classification configuration"
     },
     "aad siteclassification set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad siteclassification set"
         ],
@@ -480,7 +432,6 @@
         "description": "Updates site classification configuration"
     },
     "aad sp add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad sp add"
         ],
@@ -490,7 +441,6 @@
         "description": "Adds a service principal to a registered Azure AD app"
     },
     "aad sp get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad sp get"
         ],
@@ -500,7 +450,6 @@
         "description": "Gets information about the specific service principal"
     },
     "aad user get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user get"
         ],
@@ -510,7 +459,6 @@
         "description": "Gets information about the specified user"
     },
     "aad user hibp": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user hibp"
         ],
@@ -520,7 +468,6 @@
         "description": "Allows you to retrieve all accounts that have been pwned with the specified username"
     },
     "aad user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user list"
         ],
@@ -530,7 +477,6 @@
         "description": "Lists users matching specified criteria"
     },
     "aad user password validate": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user password validate"
         ],
@@ -540,7 +486,6 @@
         "description": "Check a user's password against the organization's password validation policy"
     },
     "aad user set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user set"
         ],
@@ -550,7 +495,6 @@
         "description": "Updates information of the specified user"
     },
     "aad user signin list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad user signin list"
         ],
@@ -560,7 +504,6 @@
         "description": "Retrieves the Azure AD user sign-ins for the tenant"
     },
     "adaptivecard send": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 adaptivecard send"
         ],
@@ -570,7 +513,6 @@
         "description": "Sends adaptive card to the specified URL"
     },
     "app permission list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 app permission list"
         ],
@@ -580,7 +522,6 @@
         "description": "Lists API permissions for the current AAD app"
     },
     "app get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 app get"
         ],
@@ -590,7 +531,6 @@
         "description": "Retrieves information about the current Azure AD app"
     },
     "aad app open": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 aad app open"
         ],
@@ -600,7 +540,6 @@
         "description": "Returns deep link of the current AD app to open the Azure portal on the Azure AD app registration management page."
     },
     "cli completion clink update": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli completion clink update"
         ],
@@ -610,7 +549,6 @@
         "description": "Updates command completion for Clink (cmder)"
     },
     "cli completion pwsh setup": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli completion pwsh setup"
         ],
@@ -620,7 +558,6 @@
         "description": "Sets up command completion for PowerShell"
     },
     "cli completion pwsh update": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli completion pwsh update"
         ],
@@ -630,7 +567,6 @@
         "description": "Updates command completion for PowerShell"
     },
     "cli completion sh setup": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli completion sh setup"
         ],
@@ -640,7 +576,6 @@
         "description": "Sets up command completion for Zsh, Bash and Fish"
     },
     "cli completion sh update": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli completion sh update"
         ],
@@ -650,7 +585,6 @@
         "description": "Updates command completion for Zsh, Bash and Fish"
     },
     "cli config get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli config get"
         ],
@@ -660,7 +594,6 @@
         "description": "Gets value of a CLI for Microsoft 365 configuration option"
     },
     "cli config reset": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli config reset"
         ],
@@ -670,7 +603,6 @@
         "description": "Resets the specified CLI configuration option to its default value"
     },
     "cli config set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli config set"
         ],
@@ -680,7 +612,6 @@
         "description": "Sets CLI for Microsoft 365 configuration options"
     },
     "cli consent": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli consent"
         ],
@@ -690,7 +621,6 @@
         "description": "Consent additional permissions for the Azure AD application used by the CLI for Microsoft 365"
     },
     "cli doctor": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli doctor"
         ],
@@ -700,7 +630,6 @@
         "description": "Retrieves diagnostic information about the current environment"
     },
     "cli issue": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli issue"
         ],
@@ -710,7 +639,6 @@
         "description": "Returns, or opens a URL that takes the user to the right place in the CLI GitHub repo to create a new issue reporting bug, feedback, ideas, etc."
     },
     "cli reconsent": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 cli reconsent"
         ],
@@ -720,7 +648,6 @@
         "description": "Returns Azure AD URL to open in the browser to re-consent CLI for Microsoft 365 permissions"
     },
     "file convert pdf": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 file convert pdf"
         ],
@@ -730,7 +657,6 @@
         "description": "Converts the specified file to PDF using Microsoft Graph"
     },
     "file add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 file add"
         ],
@@ -740,7 +666,6 @@
         "description": "Uploads file to the specified site using Microsoft Graph"
     },
     "file list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 file list"
         ],
@@ -750,7 +675,6 @@
         "description": "Retrieves files from the specified folder and site"
     },
     "flow environment get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow environment get"
         ],
@@ -760,7 +684,6 @@
         "description": "Gets information about the specified Microsoft Flow environment"
     },
     "flow environment list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow environment list"
         ],
@@ -770,7 +693,6 @@
         "description": "Lists Microsoft Flow environments in the current tenant"
     },
     "flow run cancel": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow run cancel"
         ],
@@ -780,7 +702,6 @@
         "description": "Cancels a specific run for the specified flow"
     },
     "flow run get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow run get"
         ],
@@ -790,7 +711,6 @@
         "description": "Gets information about a specific run of the specified Power Automate flow"
     },
     "flow run list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow run list"
         ],
@@ -800,7 +720,6 @@
         "description": "Lists runs of the specified Microsoft Flow"
     },
     "flow run resubmit": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow run resubmit"
         ],
@@ -810,7 +729,6 @@
         "description": "Resubmits a specific flow run for the specified Microsoft Flow"
     },
     "flow disable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow disable"
         ],
@@ -820,7 +738,6 @@
         "description": "Disables specified Power Automate flow"
     },
     "flow enable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow enable"
         ],
@@ -830,7 +747,6 @@
         "description": "Enables specified Power Automate flow"
     },
     "flow export": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow export"
         ],
@@ -840,7 +756,6 @@
         "description": "Exports the specified Power Automate flow"
     },
     "flow get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow get"
         ],
@@ -850,7 +765,6 @@
         "description": "Gets information about the specified Power Automate flow"
     },
     "flow list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow list"
         ],
@@ -860,7 +774,6 @@
         "description": "Lists Power Automate flow in the given environment"
     },
     "flow remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 flow remove"
         ],
@@ -870,7 +783,6 @@
         "description": "Removes the specified Power Automate flow"
     },
     "graph schemaextension add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph schemaextension add"
         ],
@@ -880,7 +792,6 @@
         "description": "Creates a Microsoft Graph schema extension"
     },
     "graph schemaextension get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph schemaextension get"
         ],
@@ -890,7 +801,6 @@
         "description": "Gets the properties of the specified schema extension definition"
     },
     "graph schemaextension list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph schemaextension list"
         ],
@@ -900,7 +810,6 @@
         "description": "Get a list of schemaExtension objects created in the current tenant, that can be InDevelopment, Available, or Deprecated."
     },
     "graph schemaextension remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph schemaextension remove"
         ],
@@ -910,7 +819,6 @@
         "description": "Removes specified Microsoft Graph schema extension"
     },
     "graph schemaextension set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph schemaextension set"
         ],
@@ -920,7 +828,6 @@
         "description": "Updates a Microsoft Graph schema extension"
     },
     "graph subscription add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph subscription add"
         ],
@@ -930,7 +837,6 @@
         "description": "Creates a Microsoft Graph subscription"
     },
     "onedrive report activityfilecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report activityfilecounts"
         ],
@@ -940,7 +846,6 @@
         "description": "Gets the number of unique, licensed users that performed file interactions against any OneDrive account"
     },
     "onerive report activityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onerive report activityusercounts"
         ],
@@ -950,7 +855,6 @@
         "description": "Gets the trend in the number of active OneDrive users"
     },
     "onedrive report activityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report activityuserdetail"
         ],
@@ -960,7 +864,6 @@
         "description": "Gets details about OneDrive activity by user"
     },
     "onedrive report usageaccountcounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report usageaccountcounts"
         ],
@@ -970,7 +873,6 @@
         "description": "Gets the trend in the number of active OneDrive for Business sites"
     },
     "onedrive report usageaccountdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report usageaccountdetail"
         ],
@@ -980,7 +882,6 @@
         "description": "Gets details about OneDrive usage by account"
     },
     "onedrive report usagefilecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report usagefilecounts"
         ],
@@ -990,7 +891,6 @@
         "description": "Gets the total number of files across all sites and how many are active files"
     },
     "onedrive report usagestorage": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive report usagestorage"
         ],
@@ -1000,7 +900,6 @@
         "description": "Gets the trend on the amount of storage you are using in OneDrive for Business"
     },
     "onedrive list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 onedrive list"
         ],
@@ -1010,7 +909,6 @@
         "description": "Retrieves a list of OneDrive sites"
     },
     "outlook sendmail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook sendmail"
         ],
@@ -1020,7 +918,6 @@
         "description": "Sends e-mail on behalf of the current user"
     },
     "outlook message list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook message list"
         ],
@@ -1030,7 +927,6 @@
         "description": "Gets all mail messages from the specified folder"
     },
     "outlook message move": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook message move"
         ],
@@ -1040,7 +936,6 @@
         "description": "Moves message to the specified folder"
     },
     "outlook report mailactivitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailactivitycounts"
         ],
@@ -1050,7 +945,6 @@
         "description": "Enables you to understand the trends of email activity (like how many were sent, read, and received) in your organization"
     },
     "outlook report mailactivityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailactivityusercounts"
         ],
@@ -1060,7 +954,6 @@
         "description": "Enables you to understand trends on the number of unique users who are performing email activities like send, read, and receive"
     },
     "outlook report mailactivityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailactivityuserdetail"
         ],
@@ -1070,7 +963,6 @@
         "description": "Gets details about email activity users have performed"
     },
     "outlook report mailappusageappsusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailappusageappsusercounts"
         ],
@@ -1080,7 +972,6 @@
         "description": "Gets the count of unique users per email app"
     },
     "outlook report mailappusageusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailappusageusercounts"
         ],
@@ -1090,7 +981,6 @@
         "description": "Gets the count of unique users that connected to Exchange Online using any email app"
     },
     "outlook report mailappusageuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailappusageuserdetail"
         ],
@@ -1100,7 +990,6 @@
         "description": "Gets details about which activities users performed on the various email apps"
     },
     "outlook report mailappusageversionsusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailappusageversionsusercounts"
         ],
@@ -1110,7 +999,6 @@
         "description": "Gets the count of unique users by Outlook desktop version."
     },
     "outlook report mailboxusagedetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailboxusagedetail"
         ],
@@ -1120,7 +1008,6 @@
         "description": "Gets details about mailbox usage"
     },
     "outlook report mailboxusagemailboxcount": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailboxusagemailboxcount"
         ],
@@ -1130,7 +1017,6 @@
         "description": "Gets the total number of user mailboxes in your organization and how many are active each day of the reporting period."
     },
     "outlook report mailboxusagequotastatusmailboxcounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailboxusagequotastatusmailboxcounts"
         ],
@@ -1140,7 +1026,6 @@
         "description": "Gets the count of user mailboxes in each quota category"
     },
     "outlook report mailboxusagestorage": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook report mailboxusagestorage"
         ],
@@ -1150,7 +1035,6 @@
         "description": "Gets the amount of mailbox storage used in your organization"
     },
     "outlook room list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook room list"
         ],
@@ -1160,7 +1044,6 @@
         "description": "Get a collection of all available rooms"
     },
     "outlook roomlist list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 outlook roomlist list"
         ],
@@ -1170,7 +1053,6 @@
         "description": "Get a collection of available roomlists"
     },
     "pa app get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa app get"
         ],
@@ -1180,7 +1062,6 @@
         "description": "Gets information about the specified Microsoft Power App"
     },
     "pa app list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa app list"
         ],
@@ -1190,7 +1071,6 @@
         "description": "Lists all Power Apps apps"
     },
     "pa app remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa app remove"
         ],
@@ -1200,7 +1080,6 @@
         "description": "Removes the specified Power App"
     },
     "pa connector export": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa connector export"
         ],
@@ -1210,7 +1089,6 @@
         "description": "Exports the specified Power Automate or Power Apps custom connector"
     },
     "pa connector list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa connector list"
         ],
@@ -1220,7 +1098,6 @@
         "description": "Lists custom connectors in the given environment"
     },
     "pa environment get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa environment get"
         ],
@@ -1230,7 +1107,6 @@
         "description": "Gets information about the specified Power Apps environment"
     },
     "pa environment list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa environment list"
         ],
@@ -1240,7 +1116,6 @@
         "description": "Lists Microsoft Power Apps environments in the current tenant"
     },
     "pa pcf init": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa pcf init"
         ],
@@ -1250,7 +1125,6 @@
         "description": "Creates new PowerApps component framework project"
     },
     "pa solution init": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa solution init"
         ],
@@ -1260,7 +1134,6 @@
         "description": "Initializes a directory with a new CDS solution project"
     },
     "pa solution reference add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pa solution reference add"
         ],
@@ -1270,7 +1143,6 @@
         "description": "Adds a project reference to the solution in the current directory"
     },
     "planner bucket add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner bucket add"
         ],
@@ -1280,7 +1152,6 @@
         "description": "Adds a new Microsoft Planner bucket"
     },
     "planner bucket get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner bucket get"
         ],
@@ -1290,7 +1161,6 @@
         "description": "Gets the Microsoft Planner bucket in a plan"
     },
     "planner bucket list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner bucket list"
         ],
@@ -1300,7 +1170,6 @@
         "description": "Lists the Microsoft Planner buckets in a plan"
     },
     "planner bucket remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner bucket remove"
         ],
@@ -1310,7 +1179,6 @@
         "description": "Removes the Microsoft Planner bucket from a plan"
     },
     "planner bucket set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner bucket set"
         ],
@@ -1320,7 +1188,6 @@
         "description": "Updates a Microsoft Planner bucket"
     },
     "planner plan add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner plan add"
         ],
@@ -1330,7 +1197,6 @@
         "description": "Adds a new Microsoft Planner plan"
     },
     "planner plan details get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner plan details get"
         ],
@@ -1340,7 +1206,6 @@
         "description": "Retrieve the planner details about the specified plan."
     },
     "planner plan get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner plan get"
         ],
@@ -1350,7 +1215,6 @@
         "description": "Retrieve information about the specified plan"
     },
     "planner plan list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner plan list"
         ],
@@ -1360,7 +1224,6 @@
         "description": "Returns a list of plans associated with a specified group"
     },
     "planner task add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task add"
         ],
@@ -1370,7 +1233,6 @@
         "description": "Adds a new Microsoft Planner task"
     },
     "planner task details get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task details get"
         ],
@@ -1380,7 +1242,6 @@
         "description": "Retrieve the details of the specified planner task"
     },
     "planner task get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task get"
         ],
@@ -1390,7 +1251,6 @@
         "description": "Retrieve the the specified planner task"
     },
     "planner task list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task list"
         ],
@@ -1400,7 +1260,6 @@
         "description": "Lists planner tasks in a bucket, plan, or tasks for the currently logged in user"
     },
     "planner task reference add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task reference add"
         ],
@@ -1410,7 +1269,6 @@
         "description": "Adds a new reference to a Planner task."
     },
     "planner task reference list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task reference list"
         ],
@@ -1420,7 +1278,6 @@
         "description": "Retrieve the references associated to a Planner task."
     },
     "planner task set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 planner task set"
         ],
@@ -1430,7 +1287,6 @@
         "description": "Updates a Microsoft Planner task"
     },
     "pp environment list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pp environment list"
         ],
@@ -1440,7 +1296,6 @@
         "description": "Lists Microsoft Power Platform environments"
     },
     "pp gateway list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pp gateway list"
         ],
@@ -1450,7 +1305,6 @@
         "description": "Returns a list of gateways for which the user is an admin"
     },
     "pp managementapp add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pp managementapp add"
         ],
@@ -1460,7 +1314,6 @@
         "description": "Register management application for Power Platform"
     },
     "pp managementapp list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 pp managementapp list"
         ],
@@ -1470,7 +1323,6 @@
         "description": "Lists management applications for Power Platform"
     },
     "search externalconnection add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 search externalconnection add"
         ],
@@ -1480,7 +1332,6 @@
         "description": "Add a new external connection to be defined for Microsoft Search"
     },
     "search externalconnection list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 search externalconnection list"
         ],
@@ -1490,7 +1341,6 @@
         "description": "Lists external connections defined in Microsoft Search"
     },
     "skype report activitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 skype report activitycounts"
         ],
@@ -1500,7 +1350,6 @@
         "description": "Gets the trends on how many users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions"
     },
     "skype report activityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 skype report activityusercounts"
         ],
@@ -1510,7 +1359,6 @@
         "description": "Gets the trends on how many unique users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions"
     },
     "skype report activityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 skype report activityuserdetail"
         ],
@@ -1520,7 +1368,6 @@
         "description": "Gets details about Skype for Business activity by user"
     },
     "spfx package generate": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx package generate"
         ],
@@ -1530,7 +1377,6 @@
         "description": "Generates SharePoint Framework solution package with a no-framework web part rendering the specified HTML snippet"
     },
     "spfx project doctor": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx project doctor"
         ],
@@ -1540,7 +1386,6 @@
         "description": "Validates correctness of a SharePoint Framework project"
     },
     "spfx project externalize": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx project externalize"
         ],
@@ -1550,7 +1395,6 @@
         "description": "Externalizes SharePoint Framework project dependencies"
     },
     "spfx project rename": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx project rename"
         ],
@@ -1560,7 +1404,6 @@
         "description": "Renames SharePoint Framework project"
     },
     "spfx project upgrade": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx project upgrade"
         ],
@@ -1570,7 +1413,6 @@
         "description": "Upgrades SharePoint Framework project to the specified version"
     },
     "spfx doctor": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spfx doctor"
         ],
@@ -1580,7 +1422,6 @@
         "description": "Verifies environment configuration for using the specific version of the SharePoint Framework"
     },
     "spo app add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app add"
         ],
@@ -1590,7 +1431,6 @@
         "description": "Adds an app to the specified SharePoint Online app catalog"
     },
     "spo app deploy": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app deploy"
         ],
@@ -1600,7 +1440,6 @@
         "description": "Deploys the specified app in the specified app catalog"
     },
     "spo app get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app get"
         ],
@@ -1610,7 +1449,6 @@
         "description": "Gets information about the specific app from the specified app catalog"
     },
     "spo app install": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app install"
         ],
@@ -1620,7 +1458,6 @@
         "description": "Installs an app from the specified app catalog in the site"
     },
     "spo app instance list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app instance list"
         ],
@@ -1630,7 +1467,6 @@
         "description": "Retrieve apps installed in a site"
     },
     "spo app list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app list"
         ],
@@ -1640,7 +1476,6 @@
         "description": "Lists apps from the specified app catalog"
     },
     "spo app remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app remove"
         ],
@@ -1650,7 +1485,6 @@
         "description": "Removes the specified app from the specified app catalog"
     },
     "spo app retract": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app retract"
         ],
@@ -1660,7 +1494,6 @@
         "description": "Retracts the specified app from the specified app catalog"
     },
     "spo app teamspackage download": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app teamspackage download"
         ],
@@ -1670,7 +1503,6 @@
         "description": "Downloads Teams app package for an SPFx solution deployed to tenant app catalog"
     },
     "spo app uninstall": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app uninstall"
         ],
@@ -1680,7 +1512,6 @@
         "description": "Uninstalls an app from the site"
     },
     "spo app upgrade": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo app upgrade"
         ],
@@ -1690,7 +1521,6 @@
         "description": "Upgrades app in the specified site"
     },
     "spo apppage add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo apppage add"
         ],
@@ -1700,7 +1530,6 @@
         "description": "Creates a single-part app page"
     },
     "spo apppage set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo apppage set"
         ],
@@ -1710,7 +1539,6 @@
         "description": "Updates the single-part app page"
     },
     "spo cdn get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn get"
         ],
@@ -1720,7 +1548,6 @@
         "description": "View current status of the specified Microsoft 365 CDN"
     },
     "spo cdn origin add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn origin add"
         ],
@@ -1730,7 +1557,6 @@
         "description": "Adds CDN origin to the current SharePoint Online tenant"
     },
     "spo cdn origin list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn origin list"
         ],
@@ -1740,7 +1566,6 @@
         "description": "List CDN origins settings for the current SharePoint Online tenant"
     },
     "spo cdn origin remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn origin remove"
         ],
@@ -1750,7 +1575,6 @@
         "description": "Removes CDN origin for the current SharePoint Online tenant"
     },
     "spo cdn policy list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn policy list"
         ],
@@ -1760,7 +1584,6 @@
         "description": "Lists CDN policies settings for the current SharePoint Online tenant"
     },
     "spo cdn policy set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn policy set"
         ],
@@ -1770,7 +1593,6 @@
         "description": "Sets CDN policy value for the current SharePoint Online tenant"
     },
     "spo cdn set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo cdn set"
         ],
@@ -1780,7 +1602,6 @@
         "description": "Enable or disable the specified Microsoft 365 CDN"
     },
     "spo contenttype add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype add"
         ],
@@ -1790,7 +1611,6 @@
         "description": "Adds a new list or site content type"
     },
     "spo contenttype field remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype field remove"
         ],
@@ -1800,7 +1620,6 @@
         "description": "Removes a column from a site- or list content type"
     },
     "spo contenttype field set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype field set"
         ],
@@ -1810,7 +1629,6 @@
         "description": "Adds or updates a site column reference in a site content type"
     },
     "spo contenttype get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype get"
         ],
@@ -1820,7 +1638,6 @@
         "description": "Retrieves information about the specified list or site content type"
     },
     "spo contenttype list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype list"
         ],
@@ -1830,7 +1647,6 @@
         "description": "Lists content types from specified site"
     },
     "spo contenttype remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttype remove"
         ],
@@ -1840,7 +1656,6 @@
         "description": "Deletes site content type"
     },
     "spo contenttypehub get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo contenttypehub get"
         ],
@@ -1850,7 +1665,6 @@
         "description": "Returns the URL of the SharePoint Content Type Hub of the Tenant"
     },
     "spo customaction add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction add"
         ],
@@ -1860,7 +1674,6 @@
         "description": "Adds a user custom action for site or site collection"
     },
     "spo customaction clear": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction clear"
         ],
@@ -1870,7 +1683,6 @@
         "description": "Deletes all custom actions from site or site collection"
     },
     "spo customaction get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction get"
         ],
@@ -1880,7 +1692,6 @@
         "description": "Gets information about a user custom action for site or site collection"
     },
     "spo customaction list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction list"
         ],
@@ -1890,7 +1701,6 @@
         "description": "Lists user custom actions for site or site collection"
     },
     "spo customaction remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction remove"
         ],
@@ -1900,7 +1710,6 @@
         "description": "Removes specified custom action from site or site collection"
     },
     "spo customaction set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo customaction set"
         ],
@@ -1910,7 +1719,6 @@
         "description": "Updates a user custom action for site or site collection"
     },
     "spo eventreceiver get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo eventreceiver get"
         ],
@@ -1920,7 +1728,6 @@
         "description": "Retrieves specific event receiver for the specified web, site or list by event receiver name or id."
     },
     "spo externaluser list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo externaluser list"
         ],
@@ -1930,7 +1737,6 @@
         "description": "Lists external users in the tenant"
     },
     "spo feature disable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo feature disable"
         ],
@@ -1940,7 +1746,6 @@
         "description": "Disables a feature for the specified site or web"
     },
     "spo feature enable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo feature enable"
         ],
@@ -1950,7 +1755,6 @@
         "description": "Enables feature for the specified site or web"
     },
     "spo feature list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo feature list"
         ],
@@ -1960,7 +1764,6 @@
         "description": "Lists Features activated in the specified site or site collection"
     },
     "spo field add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo field add"
         ],
@@ -1970,7 +1773,6 @@
         "description": "Adds a new list or site column using the CAML field definition"
     },
     "spo field get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo field get"
         ],
@@ -1980,7 +1782,6 @@
         "description": "Retrieves information about the specified list- or site column"
     },
     "spo field list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo field list"
         ],
@@ -1990,7 +1791,6 @@
         "description": "Retrieves columns for the specified list or site"
     },
     "spo field remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo field remove"
         ],
@@ -2000,7 +1800,6 @@
         "description": "Removes the specified list- or site column"
     },
     "spo field set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo field set"
         ],
@@ -2010,7 +1809,6 @@
         "description": "Updates existing list or site column"
     },
     "spo file add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file add"
         ],
@@ -2020,7 +1818,6 @@
         "description": "Uploads file to the specified folder"
     },
     "spo file checkin": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file checkin"
         ],
@@ -2030,7 +1827,6 @@
         "description": "Checks in specified file"
     },
     "spo file checkout": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file checkout"
         ],
@@ -2040,7 +1836,6 @@
         "description": "Checks out specified file"
     },
     "spo file copy": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file copy"
         ],
@@ -2050,7 +1845,6 @@
         "description": "Copies a file to another location"
     },
     "spo file get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file get"
         ],
@@ -2060,7 +1854,6 @@
         "description": "Gets information about the specified file"
     },
     "spo file list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file list"
         ],
@@ -2070,7 +1863,6 @@
         "description": "Gets all files within the specified folder and site"
     },
     "spo file move": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file move"
         ],
@@ -2080,7 +1872,6 @@
         "description": "Moves a file to another location"
     },
     "spo file remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file remove"
         ],
@@ -2090,7 +1881,6 @@
         "description": "Removes the specified file"
     },
     "spo file sharinginfo get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo file sharinginfo get"
         ],
@@ -2100,7 +1890,6 @@
         "description": "Generates a sharing information report for the specified file"
     },
     "spo folder add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder add"
         ],
@@ -2110,7 +1899,6 @@
         "description": "Creates a folder within a parent folder"
     },
     "spo folder copy": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder copy"
         ],
@@ -2120,7 +1908,6 @@
         "description": "Copies a folder to another location"
     },
     "spo folder get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder get"
         ],
@@ -2130,7 +1917,6 @@
         "description": "Gets information about the specified folder"
     },
     "spo folder list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder list"
         ],
@@ -2140,7 +1926,6 @@
         "description": "Returns all folders under the specified parent folder"
     },
     "spo folder move": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder move"
         ],
@@ -2150,7 +1935,6 @@
         "description": "Moves a folder to another location"
     },
     "spo folder remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder remove"
         ],
@@ -2160,7 +1944,6 @@
         "description": "Deletes the specified folder"
     },
     "spo folder rename": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo folder rename"
         ],
@@ -2170,7 +1953,6 @@
         "description": "Renames a folder"
     },
     "spo group get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group get"
         ],
@@ -2180,7 +1962,6 @@
         "description": "Gets site group"
     },
     "spo group list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group list"
         ],
@@ -2190,7 +1971,6 @@
         "description": "Lists all the groups within specific web"
     },
     "spo group remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group remove"
         ],
@@ -2200,7 +1980,6 @@
         "description": "Removes group from specific web"
     },
     "spo group user add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group user add"
         ],
@@ -2210,7 +1989,6 @@
         "description": "Add a user or multiple users to SharePoint Group"
     },
     "spo group user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group user list"
         ],
@@ -2220,7 +1998,6 @@
         "description": "List members of a SharePoint Group"
     },
     "spo group user remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo group user remove"
         ],
@@ -2230,7 +2007,6 @@
         "description": "Removes the specified user from a SharePoint group"
     },
     "spo hidedefaultthemes get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hidedefaultthemes get"
         ],
@@ -2240,7 +2016,6 @@
         "description": "Gets the current value of the HideDefaultThemes setting"
     },
     "spo hidedefaultthemes set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hidedefaultthemes set"
         ],
@@ -2250,7 +2025,6 @@
         "description": "Sets the value of the HideDefaultThemes setting"
     },
     "spo homesite get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo homesite get"
         ],
@@ -2260,7 +2034,6 @@
         "description": "Gets information about the Home Site"
     },
     "spo homesite remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo homesite remove"
         ],
@@ -2270,7 +2043,6 @@
         "description": "Removes the current Home Site"
     },
     "spo homesite set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo homesite set"
         ],
@@ -2280,7 +2052,6 @@
         "description": "Sets the specified site as the Home Site"
     },
     "spo hubsite connect": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite connect"
         ],
@@ -2290,7 +2061,6 @@
         "description": "Connects the specified site collection to the given hub site"
     },
     "spo hubsite data get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite data get"
         ],
@@ -2300,7 +2070,6 @@
         "description": "Get hub site data for the specified site"
     },
     "spo hubsite disconnect": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite disconnect"
         ],
@@ -2310,7 +2079,6 @@
         "description": "Disconnects the specifies site collection from its hub site"
     },
     "spo hubsite get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite get"
         ],
@@ -2320,7 +2088,6 @@
         "description": "Gets information about the specified hub site"
     },
     "spo hubsite list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite list"
         ],
@@ -2330,7 +2097,6 @@
         "description": "Lists hub sites in the current tenant"
     },
     "spo hubsite register": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite register"
         ],
@@ -2340,7 +2106,6 @@
         "description": "Registers the specified site collection as a hub site"
     },
     "spo hubsite rights grant": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite rights grant"
         ],
@@ -2350,7 +2115,6 @@
         "description": "Grants permissions to join the hub site for one or more principals"
     },
     "spo hubsite rights revoke": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite rights revoke"
         ],
@@ -2360,7 +2124,6 @@
         "description": "Revokes rights to join sites to the specified hub site for one or more principals"
     },
     "spo hubsite set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite set"
         ],
@@ -2370,7 +2133,6 @@
         "description": "Updates properties of the specified hub site"
     },
     "spo hubsite theme sync": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite theme sync"
         ],
@@ -2380,7 +2142,6 @@
         "description": "Applies any theme updates from the parent hub site."
     },
     "spo hubsite unregister": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo hubsite unregister"
         ],
@@ -2390,7 +2151,6 @@
         "description": "Unregisters the specifies site collection as a hub site"
     },
     "spo knowledgehub get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo knowledgehub get"
         ],
@@ -2400,7 +2160,6 @@
         "description": "Gets the Knowledge Hub Site URL for your tenant"
     },
     "spo knowledgehub remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo knowledgehub remove"
         ],
@@ -2410,7 +2169,6 @@
         "description": "Removes the Knowledge Hub Site setting for your tenant"
     },
     "spo knowledgehub set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo knowledgehub set"
         ],
@@ -2420,7 +2178,6 @@
         "description": "Sets the Knowledge Hub Site for your tenant"
     },
     "spo list add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list add"
         ],
@@ -2430,7 +2187,6 @@
         "description": "Creates list in the specified site"
     },
     "spo list contenttype add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list contenttype add"
         ],
@@ -2440,7 +2196,6 @@
         "description": "Adds content type to list"
     },
     "spo list contenttype default set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list contenttype default set"
         ],
@@ -2450,7 +2205,6 @@
         "description": "Sets the default content type for a list"
     },
     "spo list contenttype list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list contenttype list"
         ],
@@ -2460,7 +2214,6 @@
         "description": "Lists content types configured on the list"
     },
     "spo list contenttype remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list contenttype remove"
         ],
@@ -2470,7 +2223,6 @@
         "description": "Removes content type from list"
     },
     "spo list get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list get"
         ],
@@ -2480,7 +2232,6 @@
         "description": "Gets information about the specific list"
     },
     "spo list label get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list label get"
         ],
@@ -2490,7 +2241,6 @@
         "description": "Gets label set on the specified list"
     },
     "spo list label set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list label set"
         ],
@@ -2500,7 +2250,6 @@
         "description": "Sets classification label on the specified list"
     },
     "spo list list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list list"
         ],
@@ -2510,7 +2259,6 @@
         "description": "Gets all lists within the specified site"
     },
     "spo list remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list remove"
         ],
@@ -2520,7 +2268,6 @@
         "description": "Removes the specified list"
     },
     "spo list roleinheritance break": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list roleinheritance break"
         ],
@@ -2530,7 +2277,6 @@
         "description": "Breaks role inheritance on list or library"
     },
     "spo list roleinheritance reset": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list roleinheritance reset"
         ],
@@ -2540,7 +2286,6 @@
         "description": "Restores role inheritance on list or library"
     },
     "spo list set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list set"
         ],
@@ -2550,7 +2295,6 @@
         "description": "Updates the settings of the specified list"
     },
     "spo list sitescript get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list sitescript get"
         ],
@@ -2560,7 +2304,6 @@
         "description": "Extracts a site script from a SharePoint list"
     },
     "spo list view add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view add"
         ],
@@ -2570,7 +2313,6 @@
         "description": "Adds a new view to a SharePoint list"
     },
     "spo list view field add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view field add"
         ],
@@ -2580,7 +2322,6 @@
         "description": "Adds the specified field to list view"
     },
     "spo list view field remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view field remove"
         ],
@@ -2590,7 +2331,6 @@
         "description": "Removes the specified field from list view"
     },
     "spo list view field set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view field set"
         ],
@@ -2600,7 +2340,6 @@
         "description": "Updates existing column in an existing view (eg. move to a specific position)"
     },
     "spo list view get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view get"
         ],
@@ -2610,7 +2349,6 @@
         "description": "Gets information about specific list view"
     },
     "spo list view list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view list"
         ],
@@ -2620,7 +2358,6 @@
         "description": "Lists views configured on the specified list"
     },
     "spo list view remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view remove"
         ],
@@ -2630,7 +2367,6 @@
         "description": "Deletes the specified view from the list"
     },
     "spo list view set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list view set"
         ],
@@ -2640,7 +2376,6 @@
         "description": "Updates existing list view"
     },
     "spo list webhook add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list webhook add"
         ],
@@ -2650,7 +2385,6 @@
         "description": "Adds a new webhook to the specified list"
     },
     "spo list webhook get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list webhook get"
         ],
@@ -2660,7 +2394,6 @@
         "description": "Gets information about the specific webhook"
     },
     "spo list webhook list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list webhook list"
         ],
@@ -2670,7 +2403,6 @@
         "description": "Lists all webhooks for the specified list"
     },
     "spo list webhook remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list webhook remove"
         ],
@@ -2680,7 +2412,6 @@
         "description": "Removes the specified webhook from the list"
     },
     "spo list webhook set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo list webhook set"
         ],
@@ -2690,7 +2421,6 @@
         "description": "Updates the specified webhook"
     },
     "spo listitem add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem add"
         ],
@@ -2700,7 +2430,6 @@
         "description": "Creates a list item in the specified list"
     },
     "spo listitem attachment list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem attachment list"
         ],
@@ -2710,7 +2439,6 @@
         "description": "Gets the attachments associated to a list item"
     },
     "spo listitem get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem get"
         ],
@@ -2720,7 +2448,6 @@
         "description": "Gets a list item from the specified list"
     },
     "spo listitem isrecord": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem isrecord"
         ],
@@ -2730,7 +2457,6 @@
         "description": "Checks if the specified list item is a record"
     },
     "spo listitem list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem list"
         ],
@@ -2740,7 +2466,6 @@
         "description": "Gets a list of items from the specified list"
     },
     "spo listitem record declare": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem record declare"
         ],
@@ -2750,7 +2475,6 @@
         "description": "Declares the specified list item as a record"
     },
     "spo listitem record undeclare": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem record undeclare"
         ],
@@ -2760,7 +2484,6 @@
         "description": "Undeclares list item as a record"
     },
     "spo listitem remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem remove"
         ],
@@ -2770,7 +2493,6 @@
         "description": "Removes the specified list item"
     },
     "spo listitem roleinheritance break": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem roleinheritance break"
         ],
@@ -2780,7 +2502,6 @@
         "description": "Break inheritance of list item."
     },
     "spo listitem roleinheritance reset": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem roleinheritance reset"
         ],
@@ -2790,7 +2511,6 @@
         "description": "Restores the role inheritance of list item, file, or folder"
     },
     "spo listitem set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo listitem set"
         ],
@@ -2800,7 +2520,6 @@
         "description": "Updates a list item in the specified list"
     },
     "spo mail send": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo mail send"
         ],
@@ -2810,7 +2529,6 @@
         "description": "Sends an e-mail from SharePoint"
     },
     "spo navigation node add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo navigation node add"
         ],
@@ -2820,7 +2538,6 @@
         "description": "Adds a navigation node to the specified site navigation"
     },
     "spo navigation node list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo navigation node list"
         ],
@@ -2830,7 +2547,6 @@
         "description": "Lists nodes from the specified site navigation"
     },
     "spo navigation node remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo navigation node remove"
         ],
@@ -2840,7 +2556,6 @@
         "description": "Removes the specified navigation node"
     },
     "spo orgassetslibrary add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgassetslibrary add"
         ],
@@ -2850,7 +2565,6 @@
         "description": "Promotes an existing library to become an organization assets library"
     },
     "spo orgassetslibrary list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgassetslibrary list"
         ],
@@ -2860,7 +2574,6 @@
         "description": "List all libraries that are assigned as asset library"
     },
     "spo orgassetslibrary remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgassetslibrary remove"
         ],
@@ -2870,7 +2583,6 @@
         "description": "Removes a library that was designated as a central location for organization assets across the tenant."
     },
     "spo orgnewssite list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgnewssite list"
         ],
@@ -2880,7 +2592,6 @@
         "description": "Lists all organizational news sites"
     },
     "spo orgnewssite remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgnewssite remove"
         ],
@@ -2890,7 +2601,6 @@
         "description": "Removes a site from the list of organizational news sites"
     },
     "spo orgnewssite set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo orgnewssite set"
         ],
@@ -2900,7 +2610,6 @@
         "description": "Marks site as an organizational news site"
     },
     "spo page add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page add"
         ],
@@ -2910,7 +2619,6 @@
         "description": "Creates modern page"
     },
     "spo page clientsidewebpart add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page clientsidewebpart add"
         ],
@@ -2920,7 +2628,6 @@
         "description": "Adds a client-side web part to a modern page"
     },
     "spo page column get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page column get"
         ],
@@ -2930,7 +2637,6 @@
         "description": "Get information about a specific column of a modern page"
     },
     "spo page column list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page column list"
         ],
@@ -2940,7 +2646,6 @@
         "description": "Lists columns in the specific section of a modern page"
     },
     "spo page control get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page control get"
         ],
@@ -2950,7 +2655,6 @@
         "description": "Gets information about the specific control on a modern page"
     },
     "spo page control list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page control list"
         ],
@@ -2960,7 +2664,6 @@
         "description": "Lists controls on the specific modern page"
     },
     "spo page control set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page control set"
         ],
@@ -2970,7 +2673,6 @@
         "description": "Updates web part data or properties of a control on a modern page"
     },
     "spo page copy": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page copy"
         ],
@@ -2980,7 +2682,6 @@
         "description": "Creates a copy of a modern page or template"
     },
     "spo page get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page get"
         ],
@@ -2990,7 +2691,6 @@
         "description": "Gets information about the specific modern page"
     },
     "spo page header set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page header set"
         ],
@@ -3000,7 +2700,6 @@
         "description": "Sets modern page header"
     },
     "spo page list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page list"
         ],
@@ -3010,7 +2709,6 @@
         "description": "Lists all modern pages in the given site"
     },
     "spo page remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page remove"
         ],
@@ -3020,7 +2718,6 @@
         "description": "Removes a modern page"
     },
     "spo page section add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page section add"
         ],
@@ -3030,7 +2727,6 @@
         "description": "Adds section to modern page"
     },
     "spo page section get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page section get"
         ],
@@ -3040,7 +2736,6 @@
         "description": "Get information about the specified modern page section"
     },
     "spo page section list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page section list"
         ],
@@ -3050,7 +2745,6 @@
         "description": "List sections in the specific modern page"
     },
     "spo page set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page set"
         ],
@@ -3060,7 +2754,6 @@
         "description": "Updates modern page properties"
     },
     "spo page template list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page template list"
         ],
@@ -3070,7 +2763,6 @@
         "description": "Lists all page templates in the given site"
     },
     "spo page text add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo page text add"
         ],
@@ -3080,7 +2772,6 @@
         "description": "Adds text to a modern page"
     },
     "spo propertybag get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo propertybag get"
         ],
@@ -3090,7 +2781,6 @@
         "description": "Gets the value of the specified property from the property bag"
     },
     "spo propertybag list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo propertybag list"
         ],
@@ -3100,7 +2790,6 @@
         "description": "Gets property bag values"
     },
     "spo propertybag remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo propertybag remove"
         ],
@@ -3110,7 +2799,6 @@
         "description": "Removes specified property from the property bag"
     },
     "spo propertybag set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo propertybag set"
         ],
@@ -3120,7 +2808,6 @@
         "description": "Sets the value of the specified property in the property bag. Adds the property if it does not exist"
     },
     "spo report activityfilecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report activityfilecounts"
         ],
@@ -3130,7 +2817,6 @@
         "description": "Gets the number of unique, licensed users who interacted with files stored on SharePoint sites"
     },
     "spo report activitypages": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report activitypages"
         ],
@@ -3140,7 +2826,6 @@
         "description": "Gets the number of unique pages visited by users"
     },
     "spo report activityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report activityusercounts"
         ],
@@ -3150,7 +2835,6 @@
         "description": "Gets the trend in the number of active users"
     },
     "spo report activityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report activityuserdetail"
         ],
@@ -3160,7 +2844,6 @@
         "description": "Gets details about SharePoint activity by user."
     },
     "spo report siteusagedetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report siteusagedetail"
         ],
@@ -3170,7 +2853,6 @@
         "description": "Gets details about SharePoint site usage"
     },
     "spo report siteusagefilecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report siteusagefilecounts"
         ],
@@ -3180,7 +2862,6 @@
         "description": "Get the total number of files across all sites and the number of active files"
     },
     "spo report siteusagepages": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report siteusagepages"
         ],
@@ -3190,7 +2871,6 @@
         "description": "Gets the number of pages viewed across all sites"
     },
     "spo report siteusagesitecounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report siteusagesitecounts"
         ],
@@ -3200,7 +2880,6 @@
         "description": "Gets the total number of files across all sites and the number of active files"
     },
     "spo report siteusagestorage": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo report siteusagestorage"
         ],
@@ -3210,7 +2889,6 @@
         "description": "Gets the trend of storage allocated and consumed during the reporting period"
     },
     "spo roledefinition list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo roledefinition list"
         ],
@@ -3220,7 +2898,6 @@
         "description": "Gets list of role definitions for the specified site"
     },
     "spo serviceprincipal grant add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal grant add"
         ],
@@ -3230,7 +2907,6 @@
         "description": "Grants the service principal permission to the specified API"
     },
     "spo serviceprincipal grant list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal grant list"
         ],
@@ -3240,7 +2916,6 @@
         "description": "Lists permissions granted to the service principal"
     },
     "spo serviceprincipal grant revoke": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal grant revoke"
         ],
@@ -3250,7 +2925,6 @@
         "description": "Revokes the specified set of permissions granted to the service principal"
     },
     "spo serviceprincipal permissionrequest approve": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal permissionrequest approve"
         ],
@@ -3260,7 +2934,6 @@
         "description": "Approves the specified permission request"
     },
     "spo serviceprincipal permissionrequest deny": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal permissionrequest deny"
         ],
@@ -3270,7 +2943,6 @@
         "description": "Denies the specified permission request"
     },
     "spo serviceprincipal permissionrequest list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal permissionrequest list"
         ],
@@ -3280,7 +2952,6 @@
         "description": "Lists pending permission requests"
     },
     "spo serviceprincipal set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo serviceprincipal set"
         ],
@@ -3290,7 +2961,6 @@
         "description": "Enable or disable the service principal"
     },
     "spo site add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site add"
         ],
@@ -3300,7 +2970,6 @@
         "description": "Creates new SharePoint Online site"
     },
     "spo site appcatalog add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site appcatalog add"
         ],
@@ -3310,7 +2979,6 @@
         "description": "Creates a site collection app catalog in the specified site"
     },
     "spo site appcatalog remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site appcatalog remove"
         ],
@@ -3320,7 +2988,6 @@
         "description": "Removes site collection app catalog from the specified site"
     },
     "spo site apppermission add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site apppermission add"
         ],
@@ -3330,7 +2997,6 @@
         "description": "Adds a specific application permissions to the site"
     },
     "spo site apppermission get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site apppermission get"
         ],
@@ -3340,7 +3006,6 @@
         "description": "Get a specific application permissions for the site"
     },
     "spo site apppermission list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site apppermission list"
         ],
@@ -3350,7 +3015,6 @@
         "description": "Lists application permissions for a site"
     },
     "spo site apppermission remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site apppermission remove"
         ],
@@ -3360,7 +3024,6 @@
         "description": "Removes a specific application permission from a site"
     },
     "spo site apppermission set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site apppermission set"
         ],
@@ -3370,7 +3033,6 @@
         "description": "Updates a specific application permission for a site"
     },
     "spo site chrome set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site chrome set"
         ],
@@ -3380,7 +3042,6 @@
         "description": "Set the chrome header and footer for the specified site"
     },
     "spo site classic add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site classic add"
         ],
@@ -3390,7 +3051,6 @@
         "description": "Creates new classic site."
     },
     "spo site classic list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site classic list"
         ],
@@ -3400,7 +3060,6 @@
         "description": "Lists classic sites of the given type"
     },
     "spo site classic set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site classic set"
         ],
@@ -3410,7 +3069,6 @@
         "description": "Change classic site settings"
     },
     "spo site commsite enable": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site commsite enable"
         ],
@@ -3420,7 +3078,6 @@
         "description": "Enables communication site features on the specified site"
     },
     "spo site ensure": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site ensure"
         ],
@@ -3430,7 +3087,6 @@
         "description": "Ensures that the particular site collection exists and updates its properties if necessary. The command is a combination of spo web get, spo site add and spo site set. spo web get spo site add spo site set"
     },
     "spo site get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site get"
         ],
@@ -3440,7 +3096,6 @@
         "description": "Gets information about the specific site collection"
     },
     "spo site groupify": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site groupify"
         ],
@@ -3450,7 +3105,6 @@
         "description": "Connects site collection to an Microsoft 365 Group !!! attention This command is based on a SharePoint API that is currently in preview and is subject to change once the API reached general availability."
     },
     "spo site inplacerecordsmanagement set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site inplacerecordsmanagement set"
         ],
@@ -3460,7 +3114,6 @@
         "description": "Activates or deactivates in-place records management for a site collection"
     },
     "spo site list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site list"
         ],
@@ -3470,7 +3123,6 @@
         "description": "Lists modern sites of the given type"
     },
     "spo site recyclebinitem list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site recyclebinitem list"
         ],
@@ -3480,7 +3132,6 @@
         "description": "Lists items from recycle bin"
     },
     "spo site recyclebinitem restore": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site recyclebinitem restore"
         ],
@@ -3490,7 +3141,6 @@
         "description": "Restores given items from the site recycle bin"
     },
     "spo site remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site remove"
         ],
@@ -3500,7 +3150,6 @@
         "description": "Removes the specified site"
     },
     "spo site rename": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site rename"
         ],
@@ -3510,7 +3159,6 @@
         "description": "Renames the URL and title of a site collection"
     },
     "spo site set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo site set"
         ],
@@ -3520,7 +3168,6 @@
         "description": "Updates properties of the specified site"
     },
     "spo sitedesign add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign add"
         ],
@@ -3530,7 +3177,6 @@
         "description": "Adds site design for creating modern sites"
     },
     "spo sitedesign apply": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign apply"
         ],
@@ -3540,7 +3186,6 @@
         "description": "Applies a site design to an existing site collection"
     },
     "spo sitedesign get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign get"
         ],
@@ -3550,7 +3195,6 @@
         "description": "Gets information about the specified site design"
     },
     "spo sitedesign list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign list"
         ],
@@ -3560,7 +3204,6 @@
         "description": "Lists available site designs for creating modern sites"
     },
     "spo sitedesign remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign remove"
         ],
@@ -3570,7 +3213,6 @@
         "description": "Removes the specified site design"
     },
     "spo sitedesign rights grant": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign rights grant"
         ],
@@ -3580,7 +3222,6 @@
         "description": "Grants access to a site design for one or more principals"
     },
     "spo sitedesign rights list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign rights list"
         ],
@@ -3590,7 +3231,6 @@
         "description": "Gets a list of principals that have access to a site design"
     },
     "spo sitedesign rights revoke": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign rights revoke"
         ],
@@ -3600,7 +3240,6 @@
         "description": "Revokes access from a site design for one or more principals"
     },
     "spo sitedesign run list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign run list"
         ],
@@ -3610,7 +3249,6 @@
         "description": "Lists information about site designs applied to the specified site"
     },
     "spo sitedesign run status get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign run status get"
         ],
@@ -3620,7 +3258,6 @@
         "description": "Gets information about the site scripts executed for the specified site design"
     },
     "spo sitedesign set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign set"
         ],
@@ -3630,7 +3267,6 @@
         "description": "Updates a site design with new values"
     },
     "spo sitedesign task get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign task get"
         ],
@@ -3640,7 +3276,6 @@
         "description": "Gets information about the specified site design scheduled for execution"
     },
     "spo sitedesign task list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign task list"
         ],
@@ -3650,7 +3285,6 @@
         "description": "Lists site designs scheduled for execution on the specified site"
     },
     "spo sitedesign task remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitedesign task remove"
         ],
@@ -3660,7 +3294,6 @@
         "description": "Removes the specified site design scheduled for execution"
     },
     "spo sitescript add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitescript add"
         ],
@@ -3670,7 +3303,6 @@
         "description": "Adds site script for use with site designs"
     },
     "spo sitescript get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitescript get"
         ],
@@ -3680,7 +3312,6 @@
         "description": "Gets information about the specified site script"
     },
     "spo sitescript list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitescript list"
         ],
@@ -3690,7 +3321,6 @@
         "description": "Lists site script available for use with site designs"
     },
     "spo sitescript remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitescript remove"
         ],
@@ -3700,7 +3330,6 @@
         "description": "Removes the specified site script"
     },
     "spo sitescript set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo sitescript set"
         ],
@@ -3710,7 +3339,6 @@
         "description": "Updates existing site script"
     },
     "spo storageentity get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo storageentity get"
         ],
@@ -3720,7 +3348,6 @@
         "description": "Get details for the specified tenant property"
     },
     "spo storageentity list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo storageentity list"
         ],
@@ -3730,7 +3357,6 @@
         "description": "Lists tenant properties stored on the specified SharePoint Online app catalog"
     },
     "spo storageentity remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo storageentity remove"
         ],
@@ -3740,7 +3366,6 @@
         "description": "Removes tenant property stored on the specified SharePoint Online app catalog"
     },
     "spo storageentity set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo storageentity set"
         ],
@@ -3750,7 +3375,6 @@
         "description": "Sets tenant property on the specified SharePoint Online app catalog"
     },
     "spo tenant appcatalog add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant appcatalog add"
         ],
@@ -3760,7 +3384,6 @@
         "description": "Creates new tenant app catalog site"
     },
     "spo tenant appcatalogurl get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant appcatalogurl get"
         ],
@@ -3770,7 +3393,6 @@
         "description": "Gets the URL of the tenant app catalog"
     },
     "spo tenant recyclebinitem list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant recyclebinitem list"
         ],
@@ -3780,7 +3402,6 @@
         "description": "Returns all modern and classic site collections in the tenant scoped recycle bin"
     },
     "spo tenant recyclebinitem remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant recyclebinitem remove"
         ],
@@ -3790,7 +3411,6 @@
         "description": "Removes the specified deleted Site Collection from Tenant Recycle Bin"
     },
     "spo tenant recyclebinitem restore": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant recyclebinitem restore"
         ],
@@ -3800,7 +3420,6 @@
         "description": "Restores the specified deleted Site Collection from Tenant Recycle Bin"
     },
     "spo tenant settings list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant settings list"
         ],
@@ -3810,7 +3429,6 @@
         "description": "Lists the global tenant settings"
     },
     "spo tenant settings set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo tenant settings set"
         ],
@@ -3820,7 +3438,6 @@
         "description": "Sets tenant global settings"
     },
     "spo term add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term add"
         ],
@@ -3830,7 +3447,6 @@
         "description": "Adds taxonomy term"
     },
     "spo term get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term get"
         ],
@@ -3840,7 +3456,6 @@
         "description": "Gets information about the specified taxonomy term"
     },
     "spo term group add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term group add"
         ],
@@ -3850,7 +3465,6 @@
         "description": "Adds taxonomy term group"
     },
     "spo term group get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term group get"
         ],
@@ -3860,7 +3474,6 @@
         "description": "Gets information about the specified taxonomy term group"
     },
     "spo term group list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term group list"
         ],
@@ -3870,7 +3483,6 @@
         "description": "Lists taxonomy term groups"
     },
     "spo term list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term list"
         ],
@@ -3880,7 +3492,6 @@
         "description": "Lists taxonomy terms from the given term set"
     },
     "spo term set add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term set add"
         ],
@@ -3890,7 +3501,6 @@
         "description": "Adds taxonomy term set"
     },
     "spo term set get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term set get"
         ],
@@ -3900,7 +3510,6 @@
         "description": "Gets information about the specified taxonomy term set"
     },
     "spo term set list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo term set list"
         ],
@@ -3910,7 +3519,6 @@
         "description": "Lists taxonomy term sets from the given term group"
     },
     "spo theme apply": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo theme apply"
         ],
@@ -3920,7 +3528,6 @@
         "description": "Applies theme to the specified site"
     },
     "spo theme get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo theme get"
         ],
@@ -3930,7 +3537,6 @@
         "description": "Gets custom theme information"
     },
     "spo theme list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo theme list"
         ],
@@ -3940,7 +3546,6 @@
         "description": "Retrieves the list of custom themes"
     },
     "spo theme remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo theme remove"
         ],
@@ -3950,7 +3555,6 @@
         "description": "Removes existing theme"
     },
     "spo theme set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo theme set"
         ],
@@ -3960,7 +3564,6 @@
         "description": "Add or update a theme"
     },
     "spo user get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo user get"
         ],
@@ -3970,7 +3573,6 @@
         "description": "Gets a site user within specific web"
     },
     "spo user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo user list"
         ],
@@ -3980,7 +3582,6 @@
         "description": "Lists all the users within specific web"
     },
     "spo user remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo user remove"
         ],
@@ -3990,7 +3591,6 @@
         "description": "Removes user from specific web"
     },
     "spo userprofile get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo userprofile get"
         ],
@@ -4000,7 +3600,6 @@
         "description": "Get SharePoint user profile properties for the specified user"
     },
     "spo userprofile set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo userprofile set"
         ],
@@ -4010,7 +3609,6 @@
         "description": "Sets user profile property for a SharePoint user"
     },
     "spo web add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web add"
         ],
@@ -4020,7 +3618,6 @@
         "description": "Create new subsite"
     },
     "spo web clientsidewebpart list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web clientsidewebpart list"
         ],
@@ -4030,7 +3627,6 @@
         "description": "Lists available client-side web parts"
     },
     "spo web get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web get"
         ],
@@ -4040,7 +3636,6 @@
         "description": "Retrieve information about the specified site"
     },
     "spo web installedlanguage list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web installedlanguage list"
         ],
@@ -4050,7 +3645,6 @@
         "description": "Lists all installed languages on site"
     },
     "spo web list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web list"
         ],
@@ -4060,7 +3654,6 @@
         "description": "Lists subsites of the specified site"
     },
     "spo web reindex": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web reindex"
         ],
@@ -4070,7 +3663,6 @@
         "description": "Requests reindexing the specified subsite"
     },
     "spo web remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web remove"
         ],
@@ -4080,7 +3672,6 @@
         "description": "Delete specified subsite"
     },
     "spo web set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo web set"
         ],
@@ -4090,7 +3681,6 @@
         "description": "Updates subsite properties"
     },
     "spo get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo get"
         ],
@@ -4100,7 +3690,6 @@
         "description": "Gets the context URL for the root SharePoint site collection and SharePoint tenant admin site"
     },
     "spo search": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo search"
         ],
@@ -4110,7 +3699,6 @@
         "description": "Executes a search query"
     },
     "spo set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 spo set"
         ],
@@ -4120,7 +3708,6 @@
         "description": "Sets the URL of the root SharePoint site collection for use in SPO commands"
     },
     "teams app install": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app install"
         ],
@@ -4130,7 +3717,6 @@
         "description": "Installs a Microsoft Teams team app from the catalog in the specified team or for the specified user"
     },
     "teams app list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app list"
         ],
@@ -4140,7 +3726,6 @@
         "description": "Lists apps from the Microsoft Teams app catalog or apps installed in the specified team"
     },
     "teams app publish": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app publish"
         ],
@@ -4150,7 +3735,6 @@
         "description": "Publishes Teams app to the organization's app catalog"
     },
     "teams app remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app remove"
         ],
@@ -4160,7 +3744,6 @@
         "description": "Removes a Teams app from the organization's app catalog"
     },
     "teams app uninstall": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app uninstall"
         ],
@@ -4170,7 +3753,6 @@
         "description": "Uninstalls an app from a Microsoft Team team"
     },
     "teams app update": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams app update"
         ],
@@ -4180,7 +3762,6 @@
         "description": "Updates Teams app in the organization's app catalog"
     },
     "teams channel add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel add"
         ],
@@ -4190,7 +3771,6 @@
         "description": "Adds a channel to the specified Microsoft Teams team"
     },
     "teams channel get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel get"
         ],
@@ -4200,7 +3780,6 @@
         "description": "Gets information about the specific Microsoft Teams team channel"
     },
     "teams channel list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel list"
         ],
@@ -4210,7 +3789,6 @@
         "description": "Lists channels in the specified Microsoft Teams team"
     },
     "teams channel member add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel member add"
         ],
@@ -4220,7 +3798,6 @@
         "description": "Adds a specified member in the specified Microsoft Teams private team channel"
     },
     "teams channel member list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel member list"
         ],
@@ -4230,7 +3807,6 @@
         "description": "Lists members of the specified Microsoft Teams team channel"
     },
     "teams channel member remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel member remove"
         ],
@@ -4240,7 +3816,6 @@
         "description": "Remove the specified member from the specified Microsoft Teams private team channel"
     },
     "teams channel member set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel member set"
         ],
@@ -4250,7 +3825,6 @@
         "description": "Updates the role of the specified member in the specified Microsoft Teams private team channel"
     },
     "teams channel remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel remove"
         ],
@@ -4260,7 +3834,6 @@
         "description": "Removes the specified channel in the Microsoft Teams team"
     },
     "teams channel set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams channel set"
         ],
@@ -4270,7 +3843,6 @@
         "description": "Updates properties of the specified channel in the given Microsoft Teams team"
     },
     "teams chat get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams chat get"
         ],
@@ -4280,7 +3852,6 @@
         "description": "Get a Microsoft Teams chat conversation by id, participants or chat name."
     },
     "teams chat list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams chat list"
         ],
@@ -4290,7 +3861,6 @@
         "description": "Lists all Microsoft Teams chat conversations for the current user."
     },
     "teams chat member list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams chat member list"
         ],
@@ -4300,7 +3870,6 @@
         "description": "Lists all members from a Microsoft Teams chat conversation."
     },
     "teams chat message list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams chat message list"
         ],
@@ -4310,7 +3879,6 @@
         "description": "Lists all messages from a Microsoft Teams chat conversation."
     },
     "teams chat message send": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams chat message send"
         ],
@@ -4320,7 +3888,6 @@
         "description": "Sends a chat message to a Microsoft Teams chat conversation."
     },
     "teams funsettings list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams funsettings list"
         ],
@@ -4330,7 +3897,6 @@
         "description": "Lists fun settings for the specified Microsoft Teams team"
     },
     "graph teams funsettings set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 graph teams funsettings set"
         ],
@@ -4340,7 +3906,6 @@
         "description": "Updates fun settings of a Microsoft Teams team"
     },
     "teams guestsettings list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams guestsettings list"
         ],
@@ -4350,7 +3915,6 @@
         "description": "Lists guest settings for a Microsoft Teams team"
     },
     "teams guestsettings set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams guestsettings set"
         ],
@@ -4360,7 +3924,6 @@
         "description": "Updates guest settings of a Microsoft Teams team"
     },
     "teams membersettings list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams membersettings list"
         ],
@@ -4370,7 +3933,6 @@
         "description": "Lists member settings for a Microsoft Teams team"
     },
     "teams membersettings set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams membersettings set"
         ],
@@ -4380,7 +3942,6 @@
         "description": "Updates member settings of a Microsoft Teams team"
     },
     "teams message get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams message get"
         ],
@@ -4390,7 +3951,6 @@
         "description": "Retrieves a message from a channel in a Microsoft Teams team"
     },
     "teams message list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams message list"
         ],
@@ -4400,7 +3960,6 @@
         "description": "Lists all messages from a channel in a Microsoft Teams team"
     },
     "teams message reply list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams message reply list"
         ],
@@ -4410,7 +3969,6 @@
         "description": "Retrieves replies to a message from a channel in a Microsoft Teams team"
     },
     "teams messagingsettings list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams messagingsettings list"
         ],
@@ -4420,7 +3978,6 @@
         "description": "Lists messaging settings for a Microsoft Teams team"
     },
     "teams messagingsettings set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams messagingsettings set"
         ],
@@ -4430,7 +3987,6 @@
         "description": "Updates messaging settings of a Microsoft Teams team"
     },
     "teams report deviceusagedistributionusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report deviceusagedistributionusercounts"
         ],
@@ -4440,7 +3996,6 @@
         "description": "Get the number of Microsoft Teams unique users by device type."
     },
     "teams report deviceusageusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report deviceusageusercounts"
         ],
@@ -4450,7 +4005,6 @@
         "description": "Get the number of Microsoft Teams daily unique users by device type."
     },
     "teams report deviceusageuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report deviceusageuserdetail"
         ],
@@ -4460,7 +4014,6 @@
         "description": "Gets detail about Microsoft Teams device usage by user."
     },
     "teams report directroutingcalls": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report directroutingcalls"
         ],
@@ -4470,7 +4023,6 @@
         "description": "Get details about direct routing calls made within a given time period"
     },
     "teams report pstncalls": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report pstncalls"
         ],
@@ -4480,7 +4032,6 @@
         "description": "Get details about PSTN calls made within a given time period"
     },
     "teams report useractivitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report useractivitycounts"
         ],
@@ -4490,7 +4041,6 @@
         "description": "Get the number of Microsoft Teams activities by activity type. The activity types are team chat messages, private chat messages, calls, and meetings."
     },
     "teams report useractivityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report useractivityusercounts"
         ],
@@ -4500,7 +4050,6 @@
         "description": "Get the number of Microsoft Teams users by activity type. The activity types are number of teams chat messages, private chat messages, calls, or meetings."
     },
     "teams report useractivityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams report useractivityuserdetail"
         ],
@@ -4510,7 +4059,6 @@
         "description": "Get details about Microsoft Teams user activity by user."
     },
     "teams tab add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams tab add"
         ],
@@ -4520,7 +4068,6 @@
         "description": "Add a tab to the specified channel"
     },
     "teams tab get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams tab get"
         ],
@@ -4530,7 +4077,6 @@
         "description": "Gets information about the specified Microsoft Teams tab"
     },
     "teams tab list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams tab list"
         ],
@@ -4540,7 +4086,6 @@
         "description": "Lists tabs in the specified Microsoft Teams channel"
     },
     "teams tab remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams tab remove"
         ],
@@ -4550,7 +4095,6 @@
         "description": "Removes a tab from the specified channel"
     },
     "teams team add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team add"
         ],
@@ -4560,7 +4104,6 @@
         "description": "Adds a new Microsoft Teams team"
     },
     "teams team archive": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team archive"
         ],
@@ -4570,7 +4113,6 @@
         "description": "Archives specified Microsoft Teams team"
     },
     "teams team clone": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team clone"
         ],
@@ -4580,7 +4122,6 @@
         "description": "Creates a clone of a Microsoft Teams team"
     },
     "teams team get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team get"
         ],
@@ -4590,7 +4131,6 @@
         "description": "Gets information about the specified Microsoft Teams team"
     },
     "teams team list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team list"
         ],
@@ -4600,7 +4140,6 @@
         "description": "Lists Microsoft Teams teams in the current tenant"
     },
     "teams team remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team remove"
         ],
@@ -4610,7 +4149,6 @@
         "description": "Removes the specified Microsoft Teams team"
     },
     "teams team set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team set"
         ],
@@ -4620,7 +4158,6 @@
         "description": "Updates settings of a Microsoft Teams team"
     },
     "teams team unarchive": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams team unarchive"
         ],
@@ -4630,7 +4167,6 @@
         "description": "Restores an archived Microsoft Teams team"
     },
     "teams user app add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams user app add"
         ],
@@ -4640,7 +4176,6 @@
         "description": "Install an app in the personal scope of the specified user"
     },
     "teams user app list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams user app list"
         ],
@@ -4650,7 +4185,6 @@
         "description": "List the apps installed in the personal scope of the specified user"
     },
     "teams user app remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams user app remove"
         ],
@@ -4660,7 +4194,6 @@
         "description": "Uninstall an app from the personal scope of the specified user"
     },
     "teams user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 teams user list"
         ],
@@ -4670,7 +4203,6 @@
         "description": "Lists users for the specified Microsoft Teams team"
     },
     "tenant id get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant id get"
         ],
@@ -4680,7 +4212,6 @@
         "description": "Gets Microsoft 365 tenant ID for the specified domain"
     },
     "tenant report activeusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report activeusercounts"
         ],
@@ -4690,7 +4221,6 @@
         "description": "Gets the count of daily active users in the reporting period by product."
     },
     "tenant report activeuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report activeuserdetail"
         ],
@@ -4700,7 +4230,6 @@
         "description": "Gets details about Microsoft 365 active users"
     },
     "tenant report office365activationcounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report office365activationcounts"
         ],
@@ -4710,7 +4239,6 @@
         "description": "Get the count of Microsoft 365 activations on desktops and devices"
     },
     "tenant report office365activationsusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report office365activationsusercounts"
         ],
@@ -4720,7 +4248,6 @@
         "description": "Get the count of users that are enabled and those that have activated the Office subscription on desktop or devices or shared computers"
     },
     "tenant report office365activationsuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report office365activationsuserdetail"
         ],
@@ -4730,7 +4257,6 @@
         "description": "Get details about users who have activated Microsoft 365"
     },
     "tenant report servicesusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant report servicesusercounts"
         ],
@@ -4740,7 +4266,6 @@
         "description": "Gets the count of users by activity type and service."
     },
     "tenant security alerts list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant security alerts list"
         ],
@@ -4750,7 +4275,6 @@
         "description": "Gets the security alerts for a tenant"
     },
     "tenant service announcement health get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant service announcement health get"
         ],
@@ -4760,7 +4284,6 @@
         "description": "Get the health report of a specified service for a tenant"
     },
     "tenant service announcement health list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant service announcement health list"
         ],
@@ -4770,7 +4293,6 @@
         "description": "Gets the health report of all subscribed services for a tenant"
     },
     "tenant serviceannouncement healthissue get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant serviceannouncement healthissue get"
         ],
@@ -4780,7 +4302,6 @@
         "description": "Gets a specified service health issue for tenant."
     },
     "tenant serviceannouncement healthissue list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant serviceannouncement healthissue list"
         ],
@@ -4790,7 +4311,6 @@
         "description": "Gets all service health issues for the tenant."
     },
     "tenant serviceannouncement message get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant serviceannouncement message get"
         ],
@@ -4800,7 +4320,6 @@
         "description": "Retrieves a specified service update message for the tenant"
     },
     "tenant serviceannouncement message list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 tenant serviceannouncement message list"
         ],
@@ -4810,7 +4329,6 @@
         "description": "Gets all service update messages for the tenant."
     },
     "todo list add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo list add"
         ],
@@ -4820,7 +4338,6 @@
         "description": "Adds a new Microsoft To Do task list"
     },
     "todo list list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo list list"
         ],
@@ -4830,7 +4347,6 @@
         "description": "Returns a list of Microsoft To Do task lists"
     },
     "todo list remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo list remove"
         ],
@@ -4840,7 +4356,6 @@
         "description": "Removes a Microsoft To Do task list"
     },
     "todo list set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo list set"
         ],
@@ -4850,7 +4365,6 @@
         "description": "Updates a Microsoft To Do task list"
     },
     "todo task add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo task add"
         ],
@@ -4860,7 +4374,6 @@
         "description": "Adds a task to a Microsoft To Do list"
     },
     "todo task list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo task list"
         ],
@@ -4870,7 +4383,6 @@
         "description": "List tasks from a Microsoft To Do task list"
     },
     "todo task remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo task remove"
         ],
@@ -4880,7 +4392,6 @@
         "description": "Removes the specified Microsoft To Do task"
     },
     "todo task set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 todo task set"
         ],
@@ -4890,7 +4401,6 @@
         "description": "Update a task in a Microsoft To Do task list"
     },
     "util accesstoken get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 util accesstoken get"
         ],
@@ -4900,7 +4410,6 @@
         "description": "Gets access token for the specified resource"
     },
     "viva connections app create": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 viva connections app create"
         ],
@@ -4910,7 +4419,6 @@
         "description": "Creates a Viva Connections desktop app package to upload to Microsoft Teams"
     },
     "yammer group list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer group list"
         ],
@@ -4920,7 +4428,6 @@
         "description": "Returns the list of groups in a Yammer network or the groups for a specific user"
     },
     "yammer group user add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer group user add"
         ],
@@ -4930,7 +4437,6 @@
         "description": "Adds a user to a Yammer Group"
     },
     "yammer group user remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer group user remove"
         ],
@@ -4940,7 +4446,6 @@
         "description": "Removes a user from a Yammer group"
     },
     "yammer message add": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer message add"
         ],
@@ -4950,7 +4455,6 @@
         "description": "Posts a Yammer network message on behalf of the current user"
     },
     "yammer message get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer message get"
         ],
@@ -4960,7 +4464,6 @@
         "description": "Returns a Yammer message"
     },
     "yammer message like set": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer message like set"
         ],
@@ -4970,7 +4473,6 @@
         "description": "Likes or unlikes a Yammer message"
     },
     "yammer message list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer message list"
         ],
@@ -4980,7 +4482,6 @@
         "description": "Returns all accessible messages from the user's Yammer network"
     },
     "yammer message remove": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer message remove"
         ],
@@ -4990,7 +4491,6 @@
         "description": "Removes a Yammer message"
     },
     "Yammer network list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 Yammer network list"
         ],
@@ -5000,7 +4500,6 @@
         "description": "Returns a list of networks to which the current user has access"
     },
     "yammer report activitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report activitycounts"
         ],
@@ -5010,7 +4509,6 @@
         "description": "Gets the trends on the amount of Yammer activity in your organization by how many messages were posted, read, and liked"
     },
     "yammer report activityusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report activityusercounts"
         ],
@@ -5020,7 +4518,6 @@
         "description": "Gets the trends on the number of unique users who posted, read, and liked Yammer messages"
     },
     "yammer report activityuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report activityuserdetail"
         ],
@@ -5030,7 +4527,6 @@
         "description": "Gets details about Yammer activity by user"
     },
     "yammer report deviceusagedistributionusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report deviceusagedistributionusercounts"
         ],
@@ -5040,7 +4536,6 @@
         "description": "Gets the number of users by device type"
     },
     "yammer report deviceusageusercounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report deviceusageusercounts"
         ],
@@ -5050,7 +4545,6 @@
         "description": "Gets the number of daily users by device type"
     },
     "yammer report deviceusageuserdetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report deviceusageuserdetail"
         ],
@@ -5060,7 +4554,6 @@
         "description": "Gets details about Yammer device usage by user"
     },
     "yammer report groupsactivitycounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report groupsactivitycounts"
         ],
@@ -5070,7 +4563,6 @@
         "description": "Gets the number of Yammer messages posted, read, and liked in groups"
     },
     "yammer report groupsactivitydetail": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report groupsactivitydetail"
         ],
@@ -5080,7 +4572,6 @@
         "description": "Gets details about Yammer groups activity by group"
     },
     "yammer report groupsactivitygroupcounts": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer report groupsactivitygroupcounts"
         ],
@@ -5090,7 +4581,6 @@
         "description": "Gets the total number of groups that existed and how many included group conversation activity"
     },
     "yammer user get": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer user get"
         ],
@@ -5100,7 +4590,6 @@
         "description": "Retrieves the current user or searches for a user by ID or e-mail"
     },
     "yammer user list": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer user list"
         ],
@@ -5110,7 +4599,6 @@
         "description": "Returns users from the current network"
     },
     "yammer search": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 yammer search"
         ],
@@ -5120,7 +4608,6 @@
         "description": "Returns a list of messages, users, topics and groups that match the specified query."
     },
     "login": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 login"
         ],
@@ -5130,7 +4617,6 @@
         "description": "Log in to Microsoft 365"
     },
     "logout": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 logout"
         ],
@@ -5140,7 +4626,6 @@
         "description": "Log out from Microsoft 365"
     },
     "status": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 status"
         ],
@@ -5150,7 +4635,6 @@
         "description": "Shows Microsoft 365 login status"
     },
     "version": {
-        "scope": "javascript,typescript,powershell,bash",
         "prefix": [
             "m365 version"
         ],
