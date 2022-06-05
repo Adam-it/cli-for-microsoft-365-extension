@@ -1248,7 +1248,7 @@
         "body": [
             "m365 planner task get "
         ],
-        "description": "Retrieve the the specified planner task"
+        "description": "Retrieve the specified planner task"
     },
     "planner task list": {
         "prefix": [
