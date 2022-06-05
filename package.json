@@ -63,7 +63,7 @@
 			"cliM365": [
 				{
 					"type": "webview",
-					"id": "cli.m365",
+					"id": "clim365",
 					"name": "CLI for Microsoft 365 commands",
 					"icon": "./assets/icon.png"
 				}
@@ -71,14 +71,9 @@
 		}
 	},
 	"main": "./dist/extension.js",
-	"activationEvents": [ "onView:cli.m365" ],
+	"activationEvents": [ "onView:clim365" ],
 	"scripts": {
-		"tsc": "tsc",
-		"compile": "npm run tsc -p ./",
-		"watch": "tsc -watch -p ./ && npm run compile",
-		"vscode:package": "vsce package",
-		"webpack": "rm -rf ./dist/* && webpack --mode development",
-		"package": "rm -rf *.vsix && npm run webpack && vsce package"
+		"compile": "tsc --project ./"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.2.0",
