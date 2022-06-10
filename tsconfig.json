@@ -17,6 +17,7 @@
 		"noUnusedParameters": false,  /* Report errors on unused parameters. */
 		"noEmitHelpers": true,
 		"importHelpers": true,
+		"resolveJsonModule": true
 	},
 	"exclude": [
 		"node_modules",

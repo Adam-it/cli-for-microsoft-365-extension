@@ -34,7 +34,7 @@ const config = {
     },
   },
   plugins: [
-      // @ts-ignore
+    // @ts-ignore
   ],
   module: {
     rules: [
@@ -59,7 +59,7 @@ const config = {
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        use: [ 'style-loader', 'css-loader']
+        use: ['style-loader', 'css-loader']
       }
     ]
   }
