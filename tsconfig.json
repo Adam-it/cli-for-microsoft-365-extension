@@ -12,9 +12,9 @@
 		"paths" : {
 			"*": ["*"],
 		},
-		"strict": false,   /* enable all strict type-checking options */
+		"strict": false, 
 		"jsx": "react-jsx",
-		"noUnusedParameters": false,  /* Report errors on unused parameters. */
+		"noUnusedParameters": false, 
 		"noEmitHelpers": true,
 		"importHelpers": true,
 		"resolveJsonModule": true,
