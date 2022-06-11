@@ -549,6 +549,10 @@
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-add.md"
 		},
 		{
+			"name": "planner task checklistitem add",
+			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-checklistitem-add.md"
+		},
+		{
 			"name": "planner task details get",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-details-get.md"
 		},
@@ -567,6 +571,10 @@
 		{
 			"name": "planner task reference list",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-reference-list.md"
+		},
+		{
+			"name": "planner task remove",
+			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-remove.md"
 		},
 		{
 			"name": "planner task set",
@@ -835,10 +843,6 @@
 		{
 			"name": "spo file remove",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-remove.md"
-		},
-		{
-			"name": "spo file rename",
-			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-rename.md"
 		},
 		{
 			"name": "spo file sharinginfo get",
@@ -1291,6 +1295,10 @@
 		{
 			"name": "spo roledefinition list",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/roledefinition/roledefinition-list.md"
+		},
+		{
+			"name": "spo roledefinition remove",
+			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/roledefinition/roledefinition-remove.md"
 		},
 		{
 			"name": "spo serviceprincipal grant add",
