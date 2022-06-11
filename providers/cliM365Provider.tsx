@@ -9,6 +9,9 @@ import {
 	ViewColumn
 } from "vscode";
 import * as ReactDOMServer from "react-dom/server";
+import ReactMarkdown from "react-markdown";
+import fetch from "node-fetch";
+import * as m365Commands from '../data/m365Model.json';
 import SideBar from "../components/sideBar/SideBar";
 
 export class CliM365Provider implements WebviewViewProvider {
@@ -48,7 +51,7 @@ export class CliM365Provider implements WebviewViewProvider {
 		});
 	}
 
-	private _getHtmlWebviewForMainView(command: string) {
+	private _getHtmlWebviewForMainView(commandName: string) {
 
 		if (this.mainView === null) {
 			this.mainView = window.createWebviewPanel(
@@ -61,21 +64,25 @@ export class CliM365Provider implements WebviewViewProvider {
 			this.mainView.onDidDispose(() => { this.mainView = null });
 		}
 
-		this.mainView.webview.html = `	
-		<html>
-			<head>
-				<meta charSet="utf-8"/>
-				<meta http-equiv="Content-Security-Policy" 
-						img-src vscode-resource: https:;
-						font-src ${this.mainView.webview.cspSource};
-						style-src ${this.mainView.webview.cspSource} 'unsafe-inline';">             
+		const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
+		fetch(commandUrl)
+			.then((response) => response.text())
+			.then(response => {
+				this.mainView.webview.html = `	
+				<html>
+					<head>
+						<meta charSet="utf-8"/>
+						<meta img-src vscode-resource: https:;
+								font-src ${this.mainView.webview.cspSource};
+								style-src ${this.mainView.webview.cspSource} 'unsafe-inline';">             
 
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			</head>
-			<body>
-				${command}
-			</body>
-		</html>`;
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					</head>
+					<body>
+						${ReactDOMServer.renderToString((<ReactMarkdown>{response}</ReactMarkdown>))}
+					</body>
+				</html>`;
+			});
 	}
 
 	private _getHtmlWebviewForSideBar(webview: Webview) {

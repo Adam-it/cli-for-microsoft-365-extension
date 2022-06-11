@@ -61,7 +61,7 @@
 				{
 					"id": "cliM365",
 					"title": "CLI for Microsoft 365 commands",
-					"icon": "./assets/icon.png"
+					"icon": "$(terminal)"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 					"type": "webview",
 					"id": "clim365",
 					"name": "CLI for Microsoft 365 commands",
-					"icon": "./assets/icon.png"
+					"icon": "$(terminal)"
 				}
 			]
 		}
@@ -87,6 +87,7 @@
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.1.0",
 		"@types/node": "14.x",
+		"@types/node-fetch": "^2.6.1",
 		"@types/vscode": "^1.64.0",
 		"@typescript-eslint/eslint-plugin": "^5.12.1",
 		"@typescript-eslint/parser": "^5.12.1",
@@ -104,9 +105,11 @@
 		"@types/react-dom": "^17.0.11",
 		"dotenv-webpack": "^7.1.0",
 		"module-alias": "^2.2.2",
+		"node-fetch": "^2.6.6",
 		"path": "^0.12.7",
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"react-dom": "^17.0.2",
+		"react-markdown": "^6.0.0"
 	},
 	"_moduleAliases": {
 		"providers": "dist/providers",
