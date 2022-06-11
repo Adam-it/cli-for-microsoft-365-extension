@@ -1,6 +1,12 @@
-# CLI for Microsoft 365 extension snippets
+# CLI for Microsoft 365 extension
 
-This extension adds snippets with all possible commands from CLI for Microsoft 365. Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
+This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365. Currently the extension provides:
+- snippets with all possible commands
+- syntax support
+- docs viewer inside vscode
+
+
+Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
 ## ⚠️ Please be aware 
 
@@ -14,11 +20,25 @@ The extensions helps to quickly find the proper CLI for Microsoft 365 command an
 
 ![snippetsList](/assets/snippets.gif)
 
+In order to use snippets please type part of a snippet and press enter or tab. The command will be automatically with possibility to provide obligatory parameters. You may also use 'Ctrl + Space' (Windows, Linux) or 'Cmd + Space' (macOS) to activate snippets from within the editor.
+
+![snippetsList](/assets/snippetsList.png)
+
+It is also possible to use command `Insert Snippet` in VS Code to see the full list
+
+![snippetsList](/assets/listOfCommandsFromToolbar.png)
+
 ### Syntax
 
 As first step of syntax support the extension has syntax highlight.
 
 ![syntaxColor](/assets/syntaxColor.gif)
+
+### Docs
+
+This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. 
+
+![docs](/assets/howDocsWork.gif)
 
 ## 📑 Language 
 
@@ -28,16 +48,6 @@ Currently the extension supports the following language:
 - javascript
 
 ![languageSupport](/assets/languageSupport.png)
-
-## 💪 Usage 
-
-In order to use snippets please type part of a snippet and press enter or tab. The command will be automatically with possibility to provide obligatory parameters. You may also use 'Ctrl + Space' (Windows, Linux) or 'Cmd + Space' (macOS) to activate snippets from within the editor.
-
-![snippetsList](/assets/snippetsList.png)
-
-It is also possible to use command `Insert Snippet` in VS Code to see the full list
-
-![snippetsList](/assets/listOfCommandsFromToolbar.png)
 
 ## 💬 Feedback 
 

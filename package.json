@@ -11,8 +11,14 @@
 	"engines": {
 		"vscode": "^1.66.0"
 	},
-	"categories": [ "Snippets" ],
-	"keywords": [ "CLI", "Microsoft365", "SharePoint" ],
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"CLI",
+		"Microsoft365",
+		"SharePoint"
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -20,16 +26,16 @@
 	},
 	"contributes": {
 		"snippets": [
-            {
-                "language": "shellscript",
-                "path": "./snippets/cliForMicrosoft365.code-snippets"
-            },
 			{
-                "language": "powershell",
+				"language": "shellscript",
 				"path": "./snippets/cliForMicrosoft365.code-snippets"
 			},
 			{
-                "language": "javascript",
+				"language": "powershell",
+				"path": "./snippets/cliForMicrosoft365.code-snippets"
+			},
+			{
+				"language": "javascript",
 				"path": "./snippets/cliForMicrosoft365.code-snippets"
 			}
 		],
@@ -39,16 +45,74 @@
 				"scopeName": "cliM365.ps1",
 				"path": "./syntaxes/cliForM365.tmGrammar.json"
 			},
-            {
+			{
 				"language": "powershell",
 				"scopeName": "cliM365.ps1",
 				"path": "./syntaxes/cliForM365.tmGrammar.json"
 			},
-            {
+			{
 				"language": "javascript",
 				"scopeName": "cliM365.ps1",
 				"path": "./syntaxes/cliForM365.tmGrammar.json"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "cliM365",
+					"title": "CLI for Microsoft 365 commands",
+					"icon": "$(terminal)"
+				}
+			]
+		},
+		"views": {
+			"cliM365": [
+				{
+					"type": "webview",
+					"id": "clim365",
+					"name": "CLI for Microsoft 365 commands",
+					"icon": "$(terminal)"
+				}
+			]
+		}
+	},
+	"main": "./dist/extension.js",
+	"activationEvents": [
+		"onView:clim365"
+	],
+	"scripts": {
+		"compile": "tsc --project ./"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"@types/node-fetch": "^2.6.1",
+		"@types/vscode": "^1.64.0",
+		"@typescript-eslint/eslint-plugin": "^5.12.1",
+		"@typescript-eslint/parser": "^5.12.1",
+		"@vscode/test-electron": "^2.1.2",
+		"eslint": "^8.9.0",
+		"glob": "^7.2.0",
+		"json-loader": "^0.5.7",
+		"mocha": "^9.2.1",
+		"ts-loader": "^9.2.6",
+		"typescript": "^4.5.5",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2"
+	},
+	"dependencies": {
+		"@types/react-dom": "^17.0.11",
+		"dotenv-webpack": "^7.1.0",
+		"module-alias": "^2.2.2",
+		"node-fetch": "^2.6.6",
+		"path": "^0.12.7",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-markdown": "^6.0.0"
+	},
+	"_moduleAliases": {
+		"providers": "dist/providers",
+		"components": "dist/components"
 	}
 }
