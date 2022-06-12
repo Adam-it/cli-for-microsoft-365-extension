@@ -2,7 +2,7 @@
 	"name": "cli-for-microsoft-365-extension",
 	"displayName": "CLI for Microsoft 365 extension",
 	"description": "This extension adds snippets with all possible commands from CLI for Microsoft 365",
-	"version": "1.5.3",
+	"version": "1.5.4",
 	"publisher": "adamwojcikit",
 	"author": {
 		"name": "Adam"
@@ -109,7 +109,8 @@
 		"path": "^0.12.7",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-markdown": "^6.0.0"
+		"react-markdown": "^6.0.0",
+		"tslib": "^2.4.0"
 	},
 	"_moduleAliases": {
 		"providers": "dist/providers",
