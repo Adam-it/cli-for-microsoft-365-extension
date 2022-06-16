@@ -1241,15 +1241,6 @@
         ],
         "description": "Adds a new checklist item to a Planner task"
     },
-    "planner task details get": {
-        "prefix": [
-            "m365 planner task details get"
-        ],
-        "body": [
-            "m365 planner task details get --taskId $1"
-        ],
-        "description": "Retrieve the details of the specified planner task"
-    },
     "planner task get": {
         "prefix": [
             "m365 planner task get"
@@ -1303,6 +1294,15 @@
             "m365 planner task set --id $1"
         ],
         "description": "Updates a Microsoft Planner task"
+    },
+    "planner tenant settings list": {
+        "prefix": [
+            "m365 planner tenant settings list"
+        ],
+        "body": [
+            "m365 planner tenant settings list "
+        ],
+        "description": "Lists the Microsoft Planner configuration of the tenant"
     },
     "pp environment list": {
         "prefix": [
@@ -1744,6 +1744,15 @@
             "m365 spo eventreceiver get --webUrl $1"
         ],
         "description": "Retrieves specific event receiver for the specified web, site or list by event receiver name or id."
+    },
+    "spo eventreceiver list": {
+        "prefix": [
+            "m365 spo eventreceiver list"
+        ],
+        "body": [
+            "m365 spo eventreceiver list --webUrl $1"
+        ],
+        "description": "Retrieves event receivers for the specified web, site or list."
     },
     "spo externaluser list": {
         "prefix": [

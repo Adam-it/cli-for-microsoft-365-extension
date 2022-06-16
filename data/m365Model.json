@@ -553,10 +553,6 @@
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-checklistitem-add.md"
 		},
 		{
-			"name": "planner task details get",
-			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-details-get.md"
-		},
-		{
 			"name": "planner task get",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-get.md"
 		},
@@ -579,6 +575,10 @@
 		{
 			"name": "planner task set",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-set.md"
+		},
+		{
+			"name": "planner tenant settings list",
+			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/tenant/tenant-settings-list.md"
 		},
 		{
 			"name": "pp environment list",
@@ -775,6 +775,10 @@
 		{
 			"name": "spo eventreceiver get",
 			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/eventreceiver/eventreceiver-get.md"
+		},
+		{
+			"name": "spo eventreceiver list",
+			"url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/eventreceiver/eventreceiver-list.md"
 		},
 		{
 			"name": "spo externaluser list",
