@@ -61,7 +61,10 @@ export class CliM365Provider implements WebviewViewProvider {
 				{}
 			);
 
-			this.mainView.onDidDispose(() => { this.mainView = null });
+			this.mainView.onDidDispose(() => 
+			{ 
+				this.mainView = null; 
+			});
 		}
 
 		const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
