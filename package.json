@@ -61,7 +61,7 @@
 				{
 					"id": "cliM365",
 					"title": "CLI for Microsoft 365 commands",
-					"icon": "$(terminal)"
+					"icon": "assets/logo.svg"
 				}
 			]
 		},
@@ -71,7 +71,7 @@
 					"type": "webview",
 					"id": "clim365",
 					"name": "CLI for Microsoft 365 commands",
-					"icon": "$(terminal)"
+					"icon": "assets/logo.svg"
 				}
 			]
 		}
