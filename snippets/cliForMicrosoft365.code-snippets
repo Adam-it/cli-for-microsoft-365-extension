@@ -1241,6 +1241,15 @@
         ],
         "description": "Adds a new checklist item to a Planner task"
     },
+    "planner task checklistitem list": {
+        "prefix": [
+            "m365 planner task checklistitem list"
+        ],
+        "body": [
+            "m365 planner task checklistitem list --taskId $1"
+        ],
+        "description": "Lists the checklist items of a Planner task."
+    },
     "planner task get": {
         "prefix": [
             "m365 planner task get"
