@@ -7,12 +7,12 @@ import {
 	window,
 	WebviewPanel,
 	ViewColumn
-} from "vscode";
-import * as ReactDOMServer from "react-dom/server";
-import ReactMarkdown from "react-markdown";
-import fetch from "node-fetch";
+} from 'vscode';
+import * as ReactDOMServer from 'react-dom/server';
+import ReactMarkdown from 'react-markdown';
+import fetch from 'node-fetch';
 import * as m365Commands from '../data/m365Model.json';
-import SideBar from "../components/sideBar/SideBar";
+import SideBar from '../components/sideBar/SideBar';
 
 export class CliM365Provider implements WebviewViewProvider {
 
@@ -24,12 +24,12 @@ export class CliM365Provider implements WebviewViewProvider {
 		private _view: any = null
 	) { }
 
-	public refresh(context: any): void {
+	public refresh(): void {
 		this._onDidChangeTreeData.fire(null);
 		this._view.webview.html = this._getHtmlWebviewForSideBar(this._view?.webview);
 	}
 
-	public resolveWebviewView(webviewView: WebviewView): void | Thenable<void> {
+	public resolveWebviewView(webviewView: WebviewView): void | Promise<void> {
 		webviewView.webview.options = {
 			enableScripts: true,
 			localResourceRoots: [this.extensionPath],
@@ -61,7 +61,10 @@ export class CliM365Provider implements WebviewViewProvider {
 				{}
 			);
 
-			this.mainView.onDidDispose(() => { this.mainView = null });
+			this.mainView.onDidDispose(() =>
+			{
+				this.mainView = null;
+			});
 		}
 
 		const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
@@ -88,11 +91,11 @@ export class CliM365Provider implements WebviewViewProvider {
 	private _getHtmlWebviewForSideBar(webview: Webview) {
 
 		const scriptUri = webview.asWebviewUri(
-			Uri.joinPath(this.extensionPath, "scripts", "listener.js")
+			Uri.joinPath(this.extensionPath, 'scripts', 'listener.js')
 		);
 
 		const styleSideBarUri = webview.asWebviewUri(
-			Uri.joinPath(this.extensionPath, "styles", "sideBar.css")
+			Uri.joinPath(this.extensionPath, 'styles', 'sideBar.css')
 		);
 
 		return `<html>
