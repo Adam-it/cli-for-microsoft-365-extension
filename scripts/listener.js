@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 (function () {
     const vscode = acquireVsCodeApi();
     const cliCommands = document.getElementsByClassName('cliCommand');
