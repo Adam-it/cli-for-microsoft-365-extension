@@ -2,27 +2,16 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es6",
-		"outDir": "dist",
+		"outDir": "out",
 		"lib": [
 			"es6",
 			"dom"
 		],
-		"baseUrl": "./src",
 		"sourceMap": true,
-		"paths" : {
-			"*": ["*"],
-		},
-		"strict": false, 
-		"jsx": "react-jsx",
-		"noUnusedParameters": false, 
-		"noEmitHelpers": true,
-		"importHelpers": true,
-		"resolveJsonModule": true,
-		"allowSyntheticDefaultImports": true,
-		"esModuleInterop": true,
+		"rootDir": "src",
+		"strict": true
 	},
 	"exclude": [
-		"node_modules",
-		".vscode-test"
+		"node_modules"
 	]
 }

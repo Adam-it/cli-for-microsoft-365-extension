@@ -12,7 +12,9 @@
 		"vscode": "^1.66.0"
 	},
 	"categories": [
-		"Snippets"
+		"Snippets",
+		"Programming Languages",
+		"Other"
 	],
 	"keywords": [
 		"CLI",
@@ -69,57 +71,38 @@
 			"cliM365": [
 				{
 					"type": "webview",
-					"id": "clim365",
+					"id": "cliM365",
 					"name": "CLI for Microsoft 365 commands",
 					"icon": "assets/logo.svg"
 				}
 			]
 		}
 	},
-	"main": "./dist/extension.js",
 	"activationEvents": [
-		"onView:clim365"
+		"onView:cliM365"
 	],
+	"main": "./out/extension.js",
 	"scripts": {
-		"compile": "tsc --project ./",
-		"vscode:prepublish": "npm run clean && npm run package",
-		"webpack": "webpack --mode development",
-		"webpack-dev": "webpack --mode development --watch",
-		"package": "webpack --mode production --devtool hidden-source-map",
-		"clean": "del-cli --force ./dist"
+		"install:all": "npm install && npm --prefix ./webview-ui install ./webview-ui",
+		"start:webview": "npm --prefix ./webview-ui run start",
+		"build:webview": "npm --prefix ./webview-ui run build",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"clean": "del-cli --force ./out"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.2.0",
-		"@types/mocha": "^9.1.0",
-		"@types/node": "14.x",
-		"@types/node-fetch": "^2.6.1",
-		"@types/vscode": "^1.64.0",
-		"@typescript-eslint/eslint-plugin": "^5.12.1",
-		"@typescript-eslint/parser": "^5.12.1",
-		"@vscode/test-electron": "^2.1.2",
+		"@types/glob": "^7.1.3",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.46.0",
+		"@typescript-eslint/eslint-plugin": "^4.14.1",
+		"@typescript-eslint/parser": "^4.14.1",
 		"del-cli": "^4.0.1",
-		"eslint": "^8.9.0",
-		"glob": "^7.2.0",
-		"json-loader": "^0.5.7",
-		"mocha": "^9.2.1",
-		"ts-loader": "^9.2.6",
-		"typescript": "^4.5.5",
-		"webpack": "^5.69.1",
-		"webpack-cli": "^4.9.2"
-	},
-	"dependencies": {
-		"@types/react-dom": "^17.0.11",
-		"dotenv-webpack": "^7.1.0",
-		"module-alias": "^2.2.2",
-		"node-fetch": "^2.6.6",
-		"path": "^0.12.7",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-markdown": "^6.0.0",
-		"tslib": "^2.4.0"
-	},
-	"_moduleAliases": {
-		"providers": "dist/providers",
-		"components": "dist/components"
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"prettier": "^2.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
 	}
 }
