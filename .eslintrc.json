@@ -12,7 +12,7 @@
         "@typescript-eslint/naming-convention": "warn",
         "@typescript-eslint/semi": "warn",
         "no-unused-vars": "error",
-        "no-undef": "error",
+        "no-undef": "off",
         "no-const-assign": "error",
         "prefer-const": "error",
         "semi": "error",

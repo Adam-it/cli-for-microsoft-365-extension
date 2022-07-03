@@ -83,9 +83,9 @@
 	],
 	"main": "./out/extension.js",
 	"scripts": {
-		"install:all": "npm install && npm --prefix ./webview-ui install ./webview-ui",
-		"start:webview": "npm --prefix ./webview-ui run start",
-		"build:webview": "npm --prefix ./webview-ui run build",
+		"install:all": "npm install && npm --prefix ./webview-ui/activityBar install ./webview-ui/activityBar",
+		"start:webview": "npm --prefix ./webview-ui/activityBar run start",
+		"build:webview": "npm --prefix ./webview-ui/activityBar run build",
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",

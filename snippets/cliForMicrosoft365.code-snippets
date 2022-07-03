@@ -1205,15 +1205,6 @@
         ],
         "description": "Adds a new Microsoft Planner plan"
     },
-    "planner plan details get": {
-        "prefix": [
-            "m365 planner plan details get"
-        ],
-        "body": [
-            "m365 planner plan details get "
-        ],
-        "description": "Retrieve the planner details about the specified plan."
-    },
     "planner plan get": {
         "prefix": [
             "m365 planner plan get"
@@ -1231,6 +1222,65 @@
             "m365 planner plan list "
         ],
         "description": "Returns a list of plans associated with a specified group"
+    },
+    "": {
+        "prefix": [
+            "m365 "
+        ],
+        "body": [
+            "m365  "
+        ],
+        "description": "planner plan remove
+Removes the Microsoft Planner plan
+Usage
+m365 planner plan remove [options
+        ]
+
+Options
+i, --id [id
+        ] : ID of the plan to remove. Specify either id or title but not both.
+-t, --title [title
+        ] : Title of the plan to remove. Specify either id or title but not both.
+--ownerGroupId [ownerGroupId
+        ] : ID of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
+--ownerGroupName [ownerGroupName
+        ] : Name of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
+--confirm : Don't prompt for confirmation.
+--8<-- "docs/cmd/_global.md"
+Examples
+Removes the Microsoft Planner plan by ID
+m365 planner plan remove --id gndWOTSK60GfPQfiDDj43JgACDCb
+
+Removes the Microsoft Planner plan with title My Plan in group with specific ID
+m365 planner plan remove --title "My Plan" --ownerGroupId 00000000-0000-0000-0000-000000000000
+
+Removes the Microsoft Planner plan with title My Plan in group with name My Planner Group without confirmation prompt
+m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" --confirm   planner plan remove
+Removes the Microsoft Planner plan
+Usage
+m365 planner plan remove [options
+        ]
+
+Options
+i, --id [id
+        ] : ID of the plan to remove. Specify either id or title but not both.
+-t, --title [title
+        ] : Title of the plan to remove. Specify either id or title but not both.
+--ownerGroupId [ownerGroupId
+        ] : ID of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
+--ownerGroupName [ownerGroupName
+        ] : Name of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
+--confirm : Don't prompt for confirmation.
+--8<-- "docs/cmd/_global.md"
+Examples
+Removes the Microsoft Planner plan by ID
+m365 planner plan remove --id gndWOTSK60GfPQfiDDj43JgACDCb
+
+Removes the Microsoft Planner plan with title My Plan in group with specific ID
+m365 planner plan remove --title "My Plan" --ownerGroupId 00000000-0000-0000-0000-000000000000
+
+Removes the Microsoft Planner plan with title My Plan in group with name My Planner Group without confirmation prompt
+m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" --confirm"
     },
     "planner task add": {
         "prefix": [
@@ -1339,6 +1389,15 @@
             "m365 planner tenant settings list "
         ],
         "description": "Lists the Microsoft Planner configuration of the tenant"
+    },
+    "planner tenant settings set": {
+        "prefix": [
+            "m365 planner tenant settings set"
+        ],
+        "body": [
+            "m365 planner tenant settings set "
+        ],
+        "description": "Sets Microsoft Planner configuration of the tenant"
     },
     "pp environment list": {
         "prefix": [
@@ -3832,6 +3891,15 @@
             "m365 teams app update --filePath $1"
         ],
         "description": "Updates Teams app in the organization's app catalog"
+    },
+    "teams cache remove": {
+        "prefix": [
+            "m365 teams cache remove"
+        ],
+        "body": [
+            "m365 teams cache remove "
+        ],
+        "description": "Removes the Microsoft Teams client cache"
     },
     "teams channel add": {
         "prefix": [
