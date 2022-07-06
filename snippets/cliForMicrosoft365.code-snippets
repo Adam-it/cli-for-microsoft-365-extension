@@ -1205,15 +1205,6 @@
         ],
         "description": "Adds a new Microsoft Planner plan"
     },
-    "planner plan details get": {
-        "prefix": [
-            "m365 planner plan details get"
-        ],
-        "body": [
-            "m365 planner plan details get "
-        ],
-        "description": "Retrieve the planner details about the specified plan."
-    },
     "planner plan get": {
         "prefix": [
             "m365 planner plan get"
@@ -1231,6 +1222,15 @@
             "m365 planner plan list "
         ],
         "description": "Returns a list of plans associated with a specified group"
+    },
+    "planner plan remove": {
+        "prefix": [
+            "m365 planner plan remove"
+        ],
+        "body": [
+            "m365 planner plan remove "
+        ],
+        "description": "Removes the Microsoft Planner plan"
     },
     "planner task add": {
         "prefix": [
@@ -1340,6 +1340,15 @@
         ],
         "description": "Lists the Microsoft Planner configuration of the tenant"
     },
+    "planner tenant settings set": {
+        "prefix": [
+            "m365 planner tenant settings set"
+        ],
+        "body": [
+            "m365 planner tenant settings set "
+        ],
+        "description": "Sets Microsoft Planner configuration of the tenant"
+    },
     "pp environment list": {
         "prefix": [
             "m365 pp environment list"
@@ -1384,6 +1393,15 @@
             "m365 search externalconnection add --id $1 --name $2 --description $3"
         ],
         "description": "Add a new external connection to be defined for Microsoft Search"
+    },
+    "search externalconnection get": {
+        "prefix": [
+            "m365 search externalconnection get"
+        ],
+        "body": [
+            "m365 search externalconnection get "
+        ],
+        "description": "Allow the administrator to get a specific external connection for use in Microsoft Search."
     },
     "search externalconnection list": {
         "prefix": [
@@ -2146,7 +2164,7 @@
             "m365 spo hubsite get"
         ],
         "body": [
-            "m365 spo hubsite get --id $1"
+            "m365 spo hubsite get "
         ],
         "description": "Gets information about the specified hub site"
     },
@@ -2950,6 +2968,15 @@
             "m365 spo report siteusagestorage --period $1"
         ],
         "description": "Gets the trend of storage allocated and consumed during the reporting period"
+    },
+    "spo roledefinition get": {
+        "prefix": [
+            "m365 spo roledefinition get"
+        ],
+        "body": [
+            "m365 spo roledefinition get --webUrl $1 --id $2"
+        ],
+        "description": "Gets specified role definition from web by id"
     },
     "spo roledefinition list": {
         "prefix": [
@@ -3832,6 +3859,15 @@
             "m365 teams app update --filePath $1"
         ],
         "description": "Updates Teams app in the organization's app catalog"
+    },
+    "teams cache remove": {
+        "prefix": [
+            "m365 teams cache remove"
+        ],
+        "body": [
+            "m365 teams cache remove "
+        ],
+        "description": "Removes the Microsoft Teams client cache"
     },
     "teams channel add": {
         "prefix": [
