@@ -8,8 +8,10 @@
 			"dom"
 		],
 		"sourceMap": true,
-		"rootDir": "src",
-		"strict": true
+		"strict": false,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
 	},
 	"exclude": [
 		"node_modules",
