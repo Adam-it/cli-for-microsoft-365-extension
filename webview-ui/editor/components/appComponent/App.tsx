@@ -3,7 +3,9 @@ import './App.css';
 import { IAppProps } from './IAppProps';
 import { IAppState } from './IAppState';
 import axios from 'axios';
-import ReactMarkdown from 'react-markdown';
+import Docs from '../docsComponent/Docs';
+import Loader from '../loaderComponent/Loader';
+import NotFound from '../notFoundComponent/NotFound';
 
 export default class SideBar extends React.Component<IAppProps, IAppState> {
 
@@ -12,6 +14,7 @@ export default class SideBar extends React.Component<IAppProps, IAppState> {
 
     this.state = {
       loading: true,
+      notFound: false,
       docs: ''
     };
   }
@@ -22,23 +25,28 @@ export default class SideBar extends React.Component<IAppProps, IAppState> {
     axios
       .get(commandUrl)
       .then(res => {
-        const docs = res.data.replaceAll('\n', ' \n');
         this.setState({
-          docs: docs,
+          docs: res.data,
           loading: false
         });
+      })
+      .catch(() => {
+        this.setState({
+          loading: false,
+          notFound: true
+        });
       });
-    // .catch((error: AxiosError) => {
-    // });
   }
 
   public render(): React.ReactElement<IAppProps> {
 
-    const { loading, docs } = this.state;
-    console.log(docs);
+    const { loading, notFound, docs } = this.state;
     return (
       <main className='docs'>
-        {loading ? 'laoding' : <ReactMarkdown>{docs}</ReactMarkdown>}
+        {notFound ?
+          <NotFound /> :
+          loading ? <Loader /> : <Docs docsMarkDown={docs} />
+        }
       </main>
     );
   }

@@ -1,11 +1,11 @@
 .vscode/**
 .vscode-test/**
 out/test/**
+node_modules/**
 
 src/**
 data/**
 ps1Scripts/**
-node_modules/**
 
 .gitignore
 .eslintrc.json
@@ -14,10 +14,18 @@ tsconfig.json
 
 assets/images/**
 
-webview-ui/src/**
-webview-ui/public/**
-webview-ui/scripts/**
-webview-ui/index.html
-webview-ui/package.json
-webview-ui/package-lock.json
-webview-ui/node_modules/**
+webview-ui/activityBar/src/**
+webview-ui/activityBar/public/**
+webview-ui/activityBar/scripts/**
+webview-ui/activityBar/index.html
+webview-ui/activityBar/package.json
+webview-ui/activityBar/package-lock.json
+webview-ui/activityBar/node_modules/**
+
+webview-ui/editor/src/**
+webview-ui/editor/public/**
+webview-ui/editor/scripts/**
+webview-ui/editor/index.html
+webview-ui/editor/package.json
+webview-ui/editor/package-lock.json
+webview-ui/editor/node_modules/**

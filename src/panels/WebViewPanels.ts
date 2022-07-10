@@ -61,16 +61,19 @@ export class WebViewPanels implements WebviewViewProvider {
     const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'editor', 'build', 'assets', 'index.css'));
 
     const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
-    this.mainView.webview.html = this._getHtmlWebview(scriptUri, stylesUri, commandUrl);
+    this.mainView.webview.html = this._getHtmlWebview(this.mainView.webview, scriptUri, stylesUri, commandUrl);
   }
 
   private _getHtmlWebviewForActivityBar(webview: Webview) {
     const scriptUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.js'));
     const stylesUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.css'));
-    return this._getHtmlWebview(scriptUri, stylesUri);
+    return this._getHtmlWebview(webview, scriptUri, stylesUri);
   }
 
-  private _getHtmlWebview(scriptUri: Uri, stylesUri: Uri, initialData: string = '') {
+  private _getHtmlWebview(webview: Webview, scriptUri: Uri, stylesUri: Uri, initialData: string = '') {
+
+     const codiconsUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'media', 'codicon', 'codicon.css'));
+
     return /*html*/ `
       <!DOCTYPE html>
       <html lang="en">
@@ -78,6 +81,7 @@ export class WebViewPanels implements WebviewViewProvider {
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="stylesheet" type="text/css" href="${stylesUri}">
+          <link rel="stylesheet" type="text/css" href="${codiconsUri}">
         </head>
         ${initialData !== '' ?
         `<script>window.initialData = "${initialData}";</script>`

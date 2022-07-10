@@ -1,6 +1,6 @@
 .cliCommandsList {
-    list-style: none;
     padding: 0;
+    list-style: inside;
 }
 
 .cliCommandsList li {
