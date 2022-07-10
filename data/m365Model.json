@@ -545,7 +545,7 @@
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/plan/plan-list.md"
                     },
                     {
-                        "name": "",
+                        "name": "planner plan remove",
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/plan/plan-remove.md"
                     },
                     {
@@ -619,6 +619,10 @@
                     {
                         "name": "search externalconnection add",
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-add.md"
+                    },
+                    {
+                        "name": "search externalconnection get",
+                        "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-get.md"
                     },
                     {
                         "name": "search externalconnection list",
@@ -911,6 +915,10 @@
                     {
                         "name": "spo group remove",
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-remove.md"
+                    },
+                    {
+                        "name": "spo group set",
+                        "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-set.md"
                     },
                     {
                         "name": "spo group user add",
@@ -1315,6 +1323,10 @@
                     {
                         "name": "spo report siteusagestorage",
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/report/report-siteusagestorage.md"
+                    },
+                    {
+                        "name": "spo roledefinition get",
+                        "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/roledefinition/roledefinition-get.md"
                     },
                     {
                         "name": "spo roledefinition list",

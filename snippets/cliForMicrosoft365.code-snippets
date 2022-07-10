@@ -1223,64 +1223,14 @@
         ],
         "description": "Returns a list of plans associated with a specified group"
     },
-    "": {
+    "planner plan remove": {
         "prefix": [
-            "m365 "
+            "m365 planner plan remove"
         ],
         "body": [
-            "m365  "
+            "m365 planner plan remove "
         ],
-        "description": "planner plan remove
-Removes the Microsoft Planner plan
-Usage
-m365 planner plan remove [options
-        ]
-
-Options
-i, --id [id
-        ] : ID of the plan to remove. Specify either id or title but not both.
--t, --title [title
-        ] : Title of the plan to remove. Specify either id or title but not both.
---ownerGroupId [ownerGroupId
-        ] : ID of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
---ownerGroupName [ownerGroupName
-        ] : Name of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
---confirm : Don't prompt for confirmation.
---8<-- "docs/cmd/_global.md"
-Examples
-Removes the Microsoft Planner plan by ID
-m365 planner plan remove --id gndWOTSK60GfPQfiDDj43JgACDCb
-
-Removes the Microsoft Planner plan with title My Plan in group with specific ID
-m365 planner plan remove --title "My Plan" --ownerGroupId 00000000-0000-0000-0000-000000000000
-
-Removes the Microsoft Planner plan with title My Plan in group with name My Planner Group without confirmation prompt
-m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" --confirm   planner plan remove
-Removes the Microsoft Planner plan
-Usage
-m365 planner plan remove [options
-        ]
-
-Options
-i, --id [id
-        ] : ID of the plan to remove. Specify either id or title but not both.
--t, --title [title
-        ] : Title of the plan to remove. Specify either id or title but not both.
---ownerGroupId [ownerGroupId
-        ] : ID of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
---ownerGroupName [ownerGroupName
-        ] : Name of the Group that owns the plan. Specify either ownerGroupId or ownerGroupName when using title.
---confirm : Don't prompt for confirmation.
---8<-- "docs/cmd/_global.md"
-Examples
-Removes the Microsoft Planner plan by ID
-m365 planner plan remove --id gndWOTSK60GfPQfiDDj43JgACDCb
-
-Removes the Microsoft Planner plan with title My Plan in group with specific ID
-m365 planner plan remove --title "My Plan" --ownerGroupId 00000000-0000-0000-0000-000000000000
-
-Removes the Microsoft Planner plan with title My Plan in group with name My Planner Group without confirmation prompt
-m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" --confirm"
+        "description": "Removes the Microsoft Planner plan"
     },
     "planner task add": {
         "prefix": [
@@ -1443,6 +1393,15 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 search externalconnection add --id $1 --name $2 --description $3"
         ],
         "description": "Add a new external connection to be defined for Microsoft Search"
+    },
+    "search externalconnection get": {
+        "prefix": [
+            "m365 search externalconnection get"
+        ],
+        "body": [
+            "m365 search externalconnection get "
+        ],
+        "description": "Allow the administrator to get a specific external connection for use in Microsoft Search."
     },
     "search externalconnection list": {
         "prefix": [
@@ -2101,6 +2060,15 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
         ],
         "description": "Removes group from specific web"
     },
+    "spo group set": {
+        "prefix": [
+            "m365 spo group set"
+        ],
+        "body": [
+            "m365 spo group set --webUrl $1"
+        ],
+        "description": "Updates a group in the specified site"
+    },
     "spo group user add": {
         "prefix": [
             "m365 spo group user add"
@@ -2205,7 +2173,7 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 spo hubsite get"
         ],
         "body": [
-            "m365 spo hubsite get --id $1"
+            "m365 spo hubsite get "
         ],
         "description": "Gets information about the specified hub site"
     },
@@ -3009,6 +2977,15 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 spo report siteusagestorage --period $1"
         ],
         "description": "Gets the trend of storage allocated and consumed during the reporting period"
+    },
+    "spo roledefinition get": {
+        "prefix": [
+            "m365 spo roledefinition get"
+        ],
+        "body": [
+            "m365 spo roledefinition get --webUrl $1 --id $2"
+        ],
+        "description": "Gets specified role definition from web by id"
     },
     "spo roledefinition list": {
         "prefix": [
@@ -4248,7 +4225,7 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 teams team archive"
         ],
         "body": [
-            "m365 teams team archive --teamId $1"
+            "m365 teams team archive "
         ],
         "description": "Archives specified Microsoft Teams team"
     },
@@ -4284,7 +4261,7 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 teams team remove"
         ],
         "body": [
-            "m365 teams team remove --teamId $1"
+            "m365 teams team remove "
         ],
         "description": "Removes the specified Microsoft Teams team"
     },
@@ -4302,7 +4279,7 @@ m365 planner plan remove --title "My Plan" --ownerGroupName "My Planner Group" -
             "m365 teams team unarchive"
         ],
         "body": [
-            "m365 teams team unarchive --teamId $1"
+            "m365 teams team unarchive "
         ],
         "description": "Restores an archived Microsoft Teams team"
     },
