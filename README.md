@@ -35,6 +35,7 @@ As first step of syntax support the extension has syntax highlight.
 This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. 
 
 ![docs](/assets/images/howDocsWork.gif)
+![docs](/assets/images/docsSearch.gif)
 
 ## 📑 Language 
 
