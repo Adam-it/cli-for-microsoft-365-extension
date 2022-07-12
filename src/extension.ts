@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { WebViewPanels } from './panels/webViewPanels';
+import { WebViewPanels } from './panels/WebViewPanels';
 
 export function activate(context: vscode.ExtensionContext) {
     const cliM365Provider = new WebViewPanels(context?.extensionUri, {});
