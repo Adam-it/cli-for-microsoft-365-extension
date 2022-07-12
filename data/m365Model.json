@@ -917,6 +917,10 @@
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-remove.md"
                     },
                     {
+                        "name": "spo group set",
+                        "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-set.md"
+                    },
+                    {
                         "name": "spo group user add",
                         "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-user-add.md"
                     },

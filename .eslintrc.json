@@ -12,7 +12,7 @@
         "@typescript-eslint/naming-convention": "warn",
         "@typescript-eslint/semi": "warn",
         "no-unused-vars": "error",
-        "no-undef": "error",
+        "no-undef": "off",
         "no-const-assign": "error",
         "prefer-const": "error",
         "semi": "error",
@@ -45,7 +45,10 @@
         "no-trailing-spaces": "error",
         "no-whitespace-before-property": "error",
         "block-spacing": "error",
-        "quotes": ["error", "single"]
+        "quotes": [
+            "error",
+            "single"
+        ]
     },
     "ignorePatterns": [
         "out",

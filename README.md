@@ -8,37 +8,33 @@ This extension provides functionalities that may be helpful when creating script
 
 Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
-## ⚠️ Please be aware 
-
-The current solution (extension) is in prototype phase so may not have regular releases.
-
 ## 🪄 Features 
 
 ### Snippets
 
 The extensions helps to quickly find the proper CLI for Microsoft 365 command and add it into the code using snippets. The command is added with the list of obligatory parameters. It is possible to quickly move between parameters using 'Tab' key. Each CLI command snippet is also provided with the same description as may be found in the docs which is a great help to quickly understand the commands functionality.
 
-![snippetsList](/assets/snippets.gif)
+![snippetsList](/assets/images/snippets.gif)
 
 In order to use snippets please type part of a snippet and press enter or tab. The command will be automatically with possibility to provide obligatory parameters. You may also use 'Ctrl + Space' (Windows, Linux) or 'Cmd + Space' (macOS) to activate snippets from within the editor.
 
-![snippetsList](/assets/snippetsList.png)
+![snippetsList](/assets/images/snippetsList.png)
 
 It is also possible to use command `Insert Snippet` in VS Code to see the full list
 
-![snippetsList](/assets/listOfCommandsFromToolbar.png)
+![snippetsList](/assets/images/listOfCommandsFromToolbar.png)
 
 ### Syntax
 
 As first step of syntax support the extension has syntax highlight.
 
-![syntaxColor](/assets/syntaxColor.gif)
+![syntaxColor](/assets/images/syntaxColor.gif)
 
 ### Docs
 
 This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. 
 
-![docs](/assets/howDocsWork.gif)
+![docs](/assets/images/howDocsWork.gif)
 
 ## 📑 Language 
 
@@ -47,7 +43,7 @@ Currently the extension supports the following language:
 - powershell
 - javascript
 
-![languageSupport](/assets/languageSupport.png)
+![languageSupport](/assets/images/languageSupport.png)
 
 ## 💬 Feedback 
 

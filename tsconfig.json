@@ -2,27 +2,21 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"target": "es6",
-		"outDir": "dist",
+		"outDir": "out",
 		"lib": [
 			"es6",
 			"dom"
 		],
-		"baseUrl": "./src",
 		"sourceMap": true,
-		"paths" : {
-			"*": ["*"],
-		},
-		"strict": false, 
-		"jsx": "react-jsx",
-		"noUnusedParameters": false, 
-		"noEmitHelpers": true,
-		"importHelpers": true,
+		"strict": false,
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 	},
 	"exclude": [
 		"node_modules",
-		".vscode-test"
+		".vscode-test",
+		"webview-ui",
+		"models"
 	]
 }

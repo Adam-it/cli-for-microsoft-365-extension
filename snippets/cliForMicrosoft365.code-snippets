@@ -2060,6 +2060,15 @@
         ],
         "description": "Removes group from specific web"
     },
+    "spo group set": {
+        "prefix": [
+            "m365 spo group set"
+        ],
+        "body": [
+            "m365 spo group set --webUrl $1"
+        ],
+        "description": "Updates a group in the specified site"
+    },
     "spo group user add": {
         "prefix": [
             "m365 spo group user add"
@@ -4216,7 +4225,7 @@
             "m365 teams team archive"
         ],
         "body": [
-            "m365 teams team archive --teamId $1"
+            "m365 teams team archive "
         ],
         "description": "Archives specified Microsoft Teams team"
     },
@@ -4252,7 +4261,7 @@
             "m365 teams team remove"
         ],
         "body": [
-            "m365 teams team remove --teamId $1"
+            "m365 teams team remove "
         ],
         "description": "Removes the specified Microsoft Teams team"
     },
@@ -4270,7 +4279,7 @@
             "m365 teams team unarchive"
         ],
         "body": [
-            "m365 teams team unarchive --teamId $1"
+            "m365 teams team unarchive "
         ],
         "description": "Restores an archived Microsoft Teams team"
     },
