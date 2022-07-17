@@ -2033,6 +2033,15 @@
         ],
         "description": "Renames a folder"
     },
+    "spo group add": {
+        "prefix": [
+            "m365 spo group add"
+        ],
+        "body": [
+            "m365 spo group add --webUrl $1 --name $2"
+        ],
+        "description": "Creates group in the specified site"
+    },
     "spo group get": {
         "prefix": [
             "m365 spo group get"
