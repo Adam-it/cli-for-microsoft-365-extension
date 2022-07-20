@@ -1759,7 +1759,7 @@
             "m365 spo customaction get"
         ],
         "body": [
-            "m365 spo customaction get --id $1 --url $2"
+            "m365 spo customaction get --url $1"
         ],
         "description": "Gets information about a user custom action for site or site collection"
     },
@@ -1777,7 +1777,7 @@
             "m365 spo customaction remove"
         ],
         "body": [
-            "m365 spo customaction remove --id $1 --url $2"
+            "m365 spo customaction remove --url $1"
         ],
         "description": "Removes specified custom action from site or site collection"
     },
