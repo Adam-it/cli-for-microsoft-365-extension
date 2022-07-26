@@ -4243,7 +4243,7 @@
             "m365 teams team clone"
         ],
         "body": [
-            "m365 teams team clone --teamId $1 --displayName $2 --partsToClone $3"
+            "m365 teams team clone --partsToClone $1"
         ],
         "description": "Creates a clone of a Microsoft Teams team"
     },
@@ -4279,7 +4279,7 @@
             "m365 teams team set"
         ],
         "body": [
-            "m365 teams team set --teamId $1"
+            "m365 teams team set "
         ],
         "description": "Updates settings of a Microsoft Teams team"
     },
