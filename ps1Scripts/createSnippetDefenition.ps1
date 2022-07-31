@@ -5,16 +5,11 @@ if ($null -eq $cliDocsFolderPath -or $cliDocsFolderPath -eq "") {
     exit
 }
 
-
-
 $allCommands = Get-ChildItem -Path "$cliDocsFolderPath\docs\cmd\*.md" -Recurse -Force -Exclude "_global*"
 
-$commandSnippets = '{'
-$m365Model = @"
-            {
-                "commands": [
-"@
-
+[hashtable]$commandSnippets = @{}
+[hashtable]$m365Model = @{}
+$commands = @()
 
 foreach ($command in $allCommands) {
     $commandDocs = ConvertFrom-Markdown -Path $command
@@ -40,28 +35,28 @@ foreach ($command in $allCommands) {
     $commandOptions = $commandOptions | ForEach-Object { "--" + $_ + ' $' + $($commandOptions.IndexOf($_) + 1) }
     $commandOptions = $commandOptions -join " "
 
-    $commandSnippets += @"
-        "$commandTitle":{
-            "prefix": ["m365 $commandTitle"],
-            "body": ["m365 $commandTitle $commandOptions"],
-            "description": "$commandDescription"
-        },
-"@
+    [hashtable]$commandProperties = [ordered]@{}
+    $commandProperties.Add('prefix', @("m365 $commandTitle"))
+    $commandProperties.Add('body', @("m365 $commandTitle $commandOptions"))
+    $commandProperties.Add('description', "$commandDescription")
+    $commandClass = New-Object -TypeName psobject -Property $commandProperties
+
+    $commandSnippets.Add($commandTitle, $commandClass)
 
     $commandUrl = $command.FullName.Split("PnP\cli-microsoft365")[1]
     $commandUrl = $commandUrl.Replace('\','/')
-    $m365Model += @"
-    {
-        "name": "$commandTitle",
-        "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl"
-    },
-"@
+    $commands += [pscustomobject]@{name="$commandTitle"; url="https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl"}
 }
 
-$commandSnippets = $commandSnippets.Substring(0, $commandSnippets.Length - 1)
-$commandSnippets += '}'
-$commandSnippets | Out-File "..\snippets\cliForMicrosoft365.code-snippets"
+$orderedCommandSnippets = [ordered]@{}
+foreach ($Item in ($commandSnippets.GetEnumerator() | Sort-Object -Property Key)) {
+    $orderedCommandSnippets[$Item.Key] = $Item.Value
+}
+New-Object -TypeName psobject -Property $orderedCommandSnippets | ConvertTo-Json | Out-File "..\snippets\cliForMicrosoft365.code-snippets"
 
-$m365Model = $m365Model.Substring(0, $m365Model.Length - 1)
-$m365Model += ']}'
-$m365Model | Out-File "..\data\m365Model.json"
+$m365Model.Add('commands', $commands)
+$orderedM365Model = [ordered]@{}
+foreach ($Item in ($m365Model.GetEnumerator() | Sort-Object -Property Key)) {
+    $orderedM365Model[$Item.Key] = $Item.Value
+}
+New-Object -TypeName psobject -Property $orderedM365Model | ConvertTo-Json | Out-File "..\data\m365Model.json"
