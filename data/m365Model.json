@@ -1409,6 +1409,18 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-chrome-set.md"
     },
     {
+      "name": "spo site classic add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-add.md"
+    },
+    {
+      "name": "spo site classic list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-list.md"
+    },
+    {
+      "name": "spo site classic set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-set.md"
+    },
+    {
       "name": "spo site commsite enable",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-commsite-enable.md"
     },
