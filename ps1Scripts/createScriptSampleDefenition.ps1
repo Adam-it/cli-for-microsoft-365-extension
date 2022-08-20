@@ -5,17 +5,33 @@ if ($null -eq $scriptSampleFolderPath -or $scriptSampleFolderPath -eq "") {
     exit
 }
 
-$allSamples = Get-ChildItem -Path "$scriptSampleFolderPath\scripts\*.md" -Recurse -Force
+$allSamples = Get-ChildItem -Path "$scriptSampleFolderPath\scripts\*.json" -Recurse -Force
 
-[hashtable]$samples = @{}
+[hashtable]$sampleModel = @{}
+$samples = @()
 
 foreach ($sample in $allSamples) {
-    $sampleDefenition = ConvertFrom-Markdown -Path $sample
-    $html = New-Object -Com 'HTMLFile'
-    $html.write([ref]$sampleDefenition.Html)
+    $sampleContent = Get-Content -Path $sample.FullName -Raw
+    $sampleJson = ConvertFrom-Json -InputObject $sampleContent
+    if ($sampleJson.metadata.Where({ $_.key -eq 'CLI-FOR-MICROSOFT365' }, 'First').Count -eq 0) {
+        continue
+    }
 
-    $title = $html.all.tags('h1')[0]
-    $sampleTitle = $title.innerText
+    if ($sampleJson.name -eq '<foldername>') {
+        continue
+    }
 
-    $sampleTitle
+    $samples += [pscustomobject]@{title = $sampleJson.title; url = $sampleJson.url; description = $sampleJson.shortDescription; image = $sampleJson.thumbnails[0].url}
 }
+
+$sampleModel.Add('samples', $samples)
+$orderedSampleModel = [ordered]@{}
+foreach ($Item in ($sampleModel.GetEnumerator() | Sort-Object -Property Key)) {
+    $orderedSampleModel[$Item.Key] = $Item.Value
+}
+New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json | Out-File "..\data\samples.json"
+
+// TODO: rename current webViews to related with functionality
+// TODO: add new web view which will show samples in nice card/list view with possibility to open in browser
+// TODO: add a command which will open this web view 
+// TODO: add a command which will allow to search and open the doc web view
