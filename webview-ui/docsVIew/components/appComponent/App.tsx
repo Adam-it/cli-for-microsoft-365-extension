@@ -7,7 +7,7 @@ import Docs from '../docsComponent/Docs';
 import Loader from '../loaderComponent/Loader';
 import NotFound from '../notFoundComponent/NotFound';
 
-export default class SideBar extends React.Component<IAppProps, IAppState> {
+export default class App extends React.Component<IAppProps, IAppState> {
 
   constructor(props: IAppProps) {
     super(props);
@@ -39,8 +39,8 @@ export default class SideBar extends React.Component<IAppProps, IAppState> {
   }
 
   public render(): React.ReactElement<IAppProps> {
-
     const { loading, notFound, docs } = this.state;
+
     return (
       <main className='docs'>
         {notFound ?

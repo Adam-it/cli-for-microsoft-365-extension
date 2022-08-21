@@ -22,10 +22,18 @@ webview-ui/commandsList/package.json
 webview-ui/commandsList/package-lock.json
 webview-ui/commandsList/node_modules/**
 
-webview-ui/docsVIew/src/**
-webview-ui/docsVIew/public/**
-webview-ui/docsVIew/scripts/**
-webview-ui/docsVIew/index.html
-webview-ui/docsVIew/package.json
-webview-ui/docsVIew/package-lock.json
-webview-ui/docsVIew/node_modules/**
+webview-ui/docsView/src/**
+webview-ui/docsView/public/**
+webview-ui/docsView/scripts/**
+webview-ui/docsView/index.html
+webview-ui/docsView/package.json
+webview-ui/docsView/package-lock.json
+webview-ui/docsView/node_modules/**
+
+webview-ui/samplesView/src/**
+webview-ui/samplesView/public/**
+webview-ui/samplesView/scripts/**
+webview-ui/samplesView/index.html
+webview-ui/samplesView/package.json
+webview-ui/samplesView/package-lock.json
+webview-ui/samplesView/node_modules/**

@@ -83,8 +83,8 @@
 	],
 	"main": "./out/src/extension.js",
 	"scripts": {
-		"install:all": "npm install && npm --prefix ./webview-ui/commandsList install ./webview-ui/commandsList && npm --prefix ./webview-ui/docsView install ./webview-ui/docsView",
-		"build:webview": "npm --prefix ./webview-ui/commandsList run build && npm --prefix ./webview-ui/docsView run build",
+		"install:all": "npm install && npm --prefix ./webview-ui/commandsList install ./webview-ui/commandsList && npm --prefix ./webview-ui/docsView install ./webview-ui/docsView && npm --prefix ./webview-ui/samplesView install ./webview-ui/samplesView",
+		"build:webview": "npm --prefix ./webview-ui/commandsList run build && npm --prefix ./webview-ui/docsView run build && npm --prefix ./webview-ui/samplesView run build",
 		"vscode:prepublish": "npm run clean && npm run build:webview && npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",

@@ -30,7 +30,7 @@ export class WebViewPanels implements WebviewViewProvider {
     this._view.webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
-          this._getHtmlWebviewForDocsVIew(message.text);
+          this._getHtmlWebviewForDocsView(message.text);
           break;
         default:
           break;
@@ -38,7 +38,7 @@ export class WebViewPanels implements WebviewViewProvider {
     });
   }
 
-  private _getHtmlWebviewForDocsVIew(commandName: string) {
+  private _getHtmlWebviewForDocsView(commandName: string) {
     if (this.mainView === null) {
       this.mainView = window.createWebviewPanel(
         'CLIManual',
@@ -57,8 +57,8 @@ export class WebViewPanels implements WebviewViewProvider {
       });
     }
 
-    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsVIew', 'build', 'assets', 'index.js'));
-    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsVIew', 'build', 'assets', 'index.css'));
+    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.js'));
+    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
 
     const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
     this.mainView.webview.html = this._getHtmlWebview(this.mainView.webview, scriptUri, stylesUri, commandUrl);
