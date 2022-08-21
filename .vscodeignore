@@ -14,18 +14,18 @@ tsconfig.json
 
 assets/images/**
 
-webview-ui/activityBar/src/**
-webview-ui/activityBar/public/**
-webview-ui/activityBar/scripts/**
-webview-ui/activityBar/index.html
-webview-ui/activityBar/package.json
-webview-ui/activityBar/package-lock.json
-webview-ui/activityBar/node_modules/**
+webview-ui/commandsList/src/**
+webview-ui/commandsList/public/**
+webview-ui/commandsList/scripts/**
+webview-ui/commandsList/index.html
+webview-ui/commandsList/package.json
+webview-ui/commandsList/package-lock.json
+webview-ui/commandsList/node_modules/**
 
-webview-ui/editor/src/**
-webview-ui/editor/public/**
-webview-ui/editor/scripts/**
-webview-ui/editor/index.html
-webview-ui/editor/package.json
-webview-ui/editor/package-lock.json
-webview-ui/editor/node_modules/**
+webview-ui/docsVIew/src/**
+webview-ui/docsVIew/public/**
+webview-ui/docsVIew/scripts/**
+webview-ui/docsVIew/index.html
+webview-ui/docsVIew/package.json
+webview-ui/docsVIew/package-lock.json
+webview-ui/docsVIew/node_modules/**

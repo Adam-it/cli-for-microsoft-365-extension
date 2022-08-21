@@ -13,7 +13,7 @@ export class WebViewPanels implements WebviewViewProvider {
 
   public refresh(): void {
     this._onDidChangeTreeData.fire(null);
-    this._view.webview.html = this._getHtmlWebviewForActivityBar(this._view?.webview);
+    this._view.webview.html = this._getHtmlWebviewForCommandsList(this._view?.webview);
   }
 
   public resolveWebviewView(webviewView: WebviewView): void | Promise<void> {
@@ -21,7 +21,7 @@ export class WebViewPanels implements WebviewViewProvider {
       enableScripts: true,
       localResourceRoots: [this.extensionPath],
     };
-    webviewView.webview.html = this._getHtmlWebviewForActivityBar(webviewView.webview);
+    webviewView.webview.html = this._getHtmlWebviewForCommandsList(webviewView.webview);
     this._view = webviewView;
     this._activateListener();
   }
@@ -30,7 +30,7 @@ export class WebViewPanels implements WebviewViewProvider {
     this._view.webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
-          this._getHtmlWebviewForEditor(message.text);
+          this._getHtmlWebviewForDocsVIew(message.text);
           break;
         default:
           break;
@@ -38,7 +38,7 @@ export class WebViewPanels implements WebviewViewProvider {
     });
   }
 
-  private _getHtmlWebviewForEditor(commandName: string) {
+  private _getHtmlWebviewForDocsVIew(commandName: string) {
     if (this.mainView === null) {
       this.mainView = window.createWebviewPanel(
         'CLIManual',
@@ -57,16 +57,16 @@ export class WebViewPanels implements WebviewViewProvider {
       });
     }
 
-    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'editor', 'build', 'assets', 'index.js'));
-    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'editor', 'build', 'assets', 'index.css'));
+    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsVIew', 'build', 'assets', 'index.js'));
+    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsVIew', 'build', 'assets', 'index.css'));
 
     const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
     this.mainView.webview.html = this._getHtmlWebview(this.mainView.webview, scriptUri, stylesUri, commandUrl);
   }
 
-  private _getHtmlWebviewForActivityBar(webview: Webview) {
-    const scriptUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.js'));
-    const stylesUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.css'));
+  private _getHtmlWebviewForCommandsList(webview: Webview) {
+    const scriptUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'commandsList', 'build', 'assets', 'index.js'));
+    const stylesUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'commandsList', 'build', 'assets', 'index.css'));
     return this._getHtmlWebview(webview, scriptUri, stylesUri);
   }
 
