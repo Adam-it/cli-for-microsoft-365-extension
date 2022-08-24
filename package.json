@@ -27,6 +27,16 @@
 		"url": "https://github.com/Adam-it/cli-for-microsoft-365-extension"
 	},
 	"contributes": {
+		"commands": [
+			{
+				"command": "cliM365.showSamples",
+				"title": "CLI M365: Open sample gallery"
+			},
+			{
+				"command": "cliM365.showManual",
+				"title": "CLI M365: Open docs for command"
+			}
+		],
 		"snippets": [
 			{
 				"language": "shellscript",
@@ -79,7 +89,9 @@
 		}
 	},
 	"activationEvents": [
-		"onView:cliM365"
+		"onView:cliM365",
+		"onCommand:cliM365.showSamples",
+		"onCommand:cliM365.showManual"
 	],
 	"main": "./out/src/extension.js",
 	"scripts": {

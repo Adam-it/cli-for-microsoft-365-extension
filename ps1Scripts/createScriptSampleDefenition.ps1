@@ -32,5 +32,4 @@ foreach ($Item in ($sampleModel.GetEnumerator() | Sort-Object -Property Key)) {
 New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json | Out-File "..\data\samples.json"
 
 // TODO: add new web view which will show samples in nice card/list view with possibility to open in browser
-// TODO: add a command which will open this web view 
-// TODO: add a command which will allow to search and open the doc web view
+// TODO: add functionality which will allow to create local file with script coming from that sample

@@ -3,7 +3,8 @@ import * as m365Commands from '../../data/m365Model.json';
 
 export class WebViewPanels implements WebviewViewProvider {
 
-  private mainView: any = null;
+  private docsView: any = null;
+  private sampleView: any = null;
 
   constructor(
     private readonly extensionPath: Uri,
@@ -26,42 +27,77 @@ export class WebViewPanels implements WebviewViewProvider {
     this._activateListener();
   }
 
+  public getHtmlWebviewForSamplesView(){
+    if (this.sampleView === null) {
+      this.sampleView = window.createWebviewPanel(
+        'CLISamples',
+        'CLI for Microsoft 365 - samples',
+        ViewColumn.One,
+        {}
+      );
+
+      this.sampleView.webview.options = {
+        enableScripts: true,
+        localResourceRoots: [this.extensionPath],
+      };
+
+      this.sampleView.iconPath = {
+        dark: Uri.file(Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path),
+        light: Uri.file(Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path)
+      };
+
+      this.sampleView.onDidDispose(() => {
+        this.sampleView = null;
+      });
+    }
+
+    const scriptUri = this.sampleView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.js'));
+    const stylesUri = this.sampleView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.css'));
+
+    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri);
+  }
+
+  public getHtmlWebviewForDocsView(commandName: string) {
+    if (this.docsView === null) {
+      this.docsView = window.createWebviewPanel(
+        'CLIManual',
+        'CLI for Microsoft 365 - docs',
+        ViewColumn.One,
+        {}
+      );
+
+      this.docsView.webview.options = {
+        enableScripts: true,
+        localResourceRoots: [this.extensionPath],
+      };
+
+      this.docsView.iconPath = {
+        dark: Uri.file(Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path),
+        light: Uri.file(Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path)
+      };
+
+      this.docsView.onDidDispose(() => {
+        this.docsView = null;
+      });
+    }
+
+    const scriptUri = this.docsView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.js'));
+    const stylesUri = this.docsView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
+
+    const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
+    this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandUrl);
+  }
+
   private _activateListener() {
     this._view.webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
-          this._getHtmlWebviewForDocsView(message.text);
+          this.getHtmlWebviewForDocsView(message.text);
           break;
         default:
           break;
       }
     });
-  }
-
-  private _getHtmlWebviewForDocsView(commandName: string) {
-    if (this.mainView === null) {
-      this.mainView = window.createWebviewPanel(
-        'CLIManual',
-        'CLI for Microsoft 365',
-        ViewColumn.One,
-        {}
-      );
-
-      this.mainView.webview.options = {
-        enableScripts: true,
-        localResourceRoots: [this.extensionPath],
-      };
-
-      this.mainView.onDidDispose(() => {
-        this.mainView = null;
-      });
-    }
-
-    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.js'));
-    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
-
-    const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
-    this.mainView.webview.html = this._getHtmlWebview(this.mainView.webview, scriptUri, stylesUri, commandUrl);
   }
 
   private _getHtmlWebviewForCommandsList(webview: Webview) {
