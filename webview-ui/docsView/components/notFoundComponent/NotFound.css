@@ -1,24 +1,24 @@
-.notFound {
+.not-found {
     width: 100%;
     padding-top: 100px;
     text-align: center;
 }
 
-.notFound div {
+.not-found div {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     font-size: 1.2em;
 }
 
-.notFound div i{
+.not-found div i{
     font-size: 5em !important;
 }
 
-.notFoundTitle{
+.not-found-title{
     text-align: center;
 }
 
-.notFoundDescription{
+.not-found-description{
     text-align: left;
 }

@@ -22,28 +22,28 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
     return (
       <div>
-        <div className='cliCommandsSearch'>
+        <div>
           <VSCodeTextField placeholder="Search" size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
             <span slot="start" className="codicon codicon-search"></span>
           </VSCodeTextField>
           <VSCodeDivider />
         </div>
-        <ul className='cliCommandsList'>
+        <ul className='cli-commands-list'>
           {commands.map(command => (<li key={commands.indexOf(command)} onClick={() => this._handleCommandClick(command.name)} className='cliCommand'>{command.name}</li>))}
         </ul>
       </div>);
   }
 
   private _handleSearch(searchInput: string): void {
-    const commands = m365Commands.commands as ICommand[];
-    const searchResult = commands.filter(command => command.name.includes(searchInput));
+    const commands: ICommand[] = m365Commands.commands as ICommand[];
+    const searchResult: ICommand[] = commands.filter(command => command.name.includes(searchInput));
     this.setState({ commands: searchResult });
   }
 
   private _handleCommandClick(commandName: string): void {
     vscode.postMessage({
       command: 'showCommandManual',
-      text: commandName,
+      value: commandName,
     });
   }
 }

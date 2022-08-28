@@ -11,11 +11,11 @@ export default class NotFound extends React.Component<INotFoundProps, INotFoundS
 
   public render(): React.ReactElement<INotFoundProps> {
     return (
-      <div className='notFound'>
+      <div className='not-found'>
         <div>
           <i className='codicon codicon-bug' />
-          <p className='notFoundTitle'>Wait what just happened? </p>
-          <p className='notFoundDescription'>
+          <p className='not-found-title'>Wait what just happened? </p>
+          <p className='not-found-description'>
             ... it could be that the command docs were removed from the repo 🤔, and this command will not be here after next release 😉  <br />
             ... or it is possible you don't have internet connection 📶  <br />
             ... or it's a bug 🪲😅, in that case please open an issue, thanks 👍

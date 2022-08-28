@@ -1,9 +1,9 @@
-.cliCommandsList {
+.cli-commands-list {
     padding: 0;
     list-style: inside;
 }
 
-.cliCommandsList li {
+.cli-commands-list li {
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;

@@ -1,4 +1,4 @@
-import { WebviewViewProvider, WebviewView, Webview, Uri, EventEmitter, ViewColumn, window } from 'vscode';
+import { WebviewViewProvider, WebviewView, Webview, Uri, EventEmitter, ViewColumn, window, env } from 'vscode';
 import * as m365Commands from '../../data/m365Model.json';
 
 export class WebViewPanels implements WebviewViewProvider {
@@ -24,10 +24,10 @@ export class WebViewPanels implements WebviewViewProvider {
     };
     webviewView.webview.html = this._getHtmlWebviewForCommandsList(webviewView.webview);
     this._view = webviewView;
-    this._activateListener();
+    this._activateListener(this._view.webview);
   }
 
-  public getHtmlWebviewForSamplesView(){
+  public getHtmlWebviewForSamplesView() {
     if (this.sampleView === null) {
       this.sampleView = window.createWebviewPanel(
         'CLISamples',
@@ -55,6 +55,7 @@ export class WebViewPanels implements WebviewViewProvider {
     const stylesUri = this.sampleView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.css'));
 
     this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri);
+    this._activateListener(this.sampleView.webview);
   }
 
   public getHtmlWebviewForDocsView(commandName: string) {
@@ -88,11 +89,14 @@ export class WebViewPanels implements WebviewViewProvider {
     this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandUrl);
   }
 
-  private _activateListener() {
-    this._view.webview.onDidReceiveMessage((message: any) => {
+  public _activateListener(webview: Webview) {
+    webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
-          this.getHtmlWebviewForDocsView(message.text);
+          this.getHtmlWebviewForDocsView(message.value);
+          break;
+        case 'openLink':
+          env.openExternal(Uri.parse(message.value));
           break;
         default:
           break;
@@ -108,7 +112,7 @@ export class WebViewPanels implements WebviewViewProvider {
 
   private _getHtmlWebview(webview: Webview, scriptUri: Uri, stylesUri: Uri, initialData: string = '') {
 
-     const codiconsUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'media', 'codicon', 'codicon.css'));
+    const codiconsUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'media', 'codicon', 'codicon.css'));
 
     return /*html*/ `
       <!DOCTYPE html>
