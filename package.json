@@ -30,7 +30,7 @@
 		"commands": [
 			{
 				"command": "cliM365.showSamples",
-				"title": "CLI M365: Open sample gallery"
+				"title": "CLI M365: Open samples gallery"
 			},
 			{
 				"command": "cliM365.showManual",

@@ -36,7 +36,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   private _handleSearch(searchInput: string): void {
     const commands: ICommand[] = m365Commands.commands as ICommand[];
-    const searchResult: ICommand[] = commands.filter(command => command.name.includes(searchInput));
+    const searchResult: ICommand[] = commands.filter(command => command.name.toLowerCase().includes(searchInput.toLowerCase()));
     this.setState({ commands: searchResult });
   }
 
