@@ -44,8 +44,8 @@ foreach ($command in $allCommands) {
     $commandSnippets.Add($commandTitle, $commandClass)
 
     $commandUrl = $command.FullName.Split("PnP\cli-microsoft365")[1]
-    $commandUrl = $commandUrl.Replace('\','/')
-    $commands += [pscustomobject]@{name="$commandTitle"; url="https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl"}
+    $commandUrl = $commandUrl.Replace('\', '/')
+    $commands += [pscustomobject]@{name = "$commandTitle"; url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl" }
 }
 
 $orderedCommandSnippets = [ordered]@{}

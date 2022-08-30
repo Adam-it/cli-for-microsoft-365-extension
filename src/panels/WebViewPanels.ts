@@ -1,36 +1,108 @@
-import { WebviewViewProvider, WebviewView, Webview, Uri, EventEmitter, ViewColumn, window } from 'vscode';
+import * as vscode from 'vscode';
+import { WebviewViewProvider } from 'vscode';
 import * as m365Commands from '../../data/m365Model.json';
+import * as samples from '../../data/samples.json';
+import axios from 'axios';
 
 export class WebViewPanels implements WebviewViewProvider {
 
-  private mainView: any = null;
+  private docsView: any = null;
+  private sampleView: any = null;
 
   constructor(
-    private readonly extensionPath: Uri,
+    private readonly extensionPath: vscode.Uri,
     private data: any,
     private _view: any = null
   ) { }
 
   public refresh(): void {
     this._onDidChangeTreeData.fire(null);
-    this._view.webview.html = this._getHtmlWebviewForActivityBar(this._view?.webview);
+    this._view.webview.html = this._getHtmlWebviewForCommandsList(this._view?.webview);
   }
 
-  public resolveWebviewView(webviewView: WebviewView): void | Promise<void> {
+  public resolveWebviewView(webviewView: vscode.WebviewView): void | Promise<void> {
     webviewView.webview.options = {
       enableScripts: true,
       localResourceRoots: [this.extensionPath],
     };
-    webviewView.webview.html = this._getHtmlWebviewForActivityBar(webviewView.webview);
+    webviewView.webview.html = this._getHtmlWebviewForCommandsList(webviewView.webview);
     this._view = webviewView;
-    this._activateListener();
+    this._activateListener(this._view.webview);
   }
 
-  private _activateListener() {
-    this._view.webview.onDidReceiveMessage((message: any) => {
+  public getHtmlWebviewForSamplesView() {
+    if (this.sampleView === null) {
+      this.sampleView = vscode.window.createWebviewPanel(
+        'CLISamples',
+        'CLI for Microsoft 365 - samples',
+        vscode.ViewColumn.One,
+        {}
+      );
+
+      this.sampleView.webview.options = {
+        enableScripts: true,
+        localResourceRoots: [this.extensionPath],
+      };
+
+      this.sampleView.iconPath = {
+        dark: vscode.Uri.file(vscode.Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path),
+        light: vscode.Uri.file(vscode.Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path)
+      };
+
+      this.sampleView.onDidDispose(() => {
+        this.sampleView = null;
+      });
+    }
+
+    const scriptUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.js'));
+    const stylesUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.css'));
+
+    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri);
+    this._activateListener(this.sampleView.webview);
+  }
+
+  public getHtmlWebviewForDocsView(commandName: string) {
+    if (this.docsView === null) {
+      this.docsView = vscode.window.createWebviewPanel(
+        'CLIManual',
+        'CLI for Microsoft 365 - docs',
+        vscode.ViewColumn.One,
+        {}
+      );
+
+      this.docsView.webview.options = {
+        enableScripts: true,
+        localResourceRoots: [this.extensionPath],
+      };
+
+      this.docsView.iconPath = {
+        dark: vscode.Uri.file(vscode.Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path),
+        light: vscode.Uri.file(vscode.Uri.joinPath(this.extensionPath, 'assets', 'logo.svg').path)
+      };
+
+      this.docsView.onDidDispose(() => {
+        this.docsView = null;
+      });
+    }
+
+    const scriptUri = this.docsView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.js'));
+    const stylesUri = this.docsView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
+
+    const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
+    this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandUrl);
+  }
+
+  public _activateListener(webview: vscode.Webview) {
+    webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
-          this._getHtmlWebviewForEditor(message.text);
+          this.getHtmlWebviewForDocsView(message.value);
+          break;
+        case 'openLink':
+          vscode.env.openExternal(vscode.Uri.parse(message.value));
+          break;
+        case 'createScriptFile':
+          this._createScriptFile(message.value);
           break;
         default:
           break;
@@ -38,41 +110,30 @@ export class WebViewPanels implements WebviewViewProvider {
     });
   }
 
-  private _getHtmlWebviewForEditor(commandName: string) {
-    if (this.mainView === null) {
-      this.mainView = window.createWebviewPanel(
-        'CLIManual',
-        'CLI for Microsoft 365',
-        ViewColumn.One,
-        {}
-      );
+  private _createScriptFile(sampleTitle: string) {
+    const sample = samples.samples.find(sample => sample.title === sampleTitle);
+    const sampleUrl = sample.rawUrl;
 
-      this.mainView.webview.options = {
-        enableScripts: true,
-        localResourceRoots: [this.extensionPath],
-      };
-
-      this.mainView.onDidDispose(() => {
-        this.mainView = null;
+    axios
+      .get(sampleUrl)
+      .then(res => {
+        const content: string = res.data.split('```' + sample.type + '\n')[1].split('```')[0];
+        vscode.workspace.openTextDocument({content: content, language: sample.type}).then(document => vscode.window.showTextDocument(document));
+      })
+      .catch(() => {
+        vscode.window.showErrorMessage('Error while creating script file based on sample');
       });
-    }
-
-    const scriptUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'editor', 'build', 'assets', 'index.js'));
-    const stylesUri = this.mainView.webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'editor', 'build', 'assets', 'index.css'));
-
-    const commandUrl = m365Commands.commands.find(command => command.name === commandName).url;
-    this.mainView.webview.html = this._getHtmlWebview(this.mainView.webview, scriptUri, stylesUri, commandUrl);
   }
 
-  private _getHtmlWebviewForActivityBar(webview: Webview) {
-    const scriptUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.js'));
-    const stylesUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'webview-ui', 'activityBar', 'build', 'assets', 'index.css'));
+  private _getHtmlWebviewForCommandsList(webview: vscode.Webview) {
+    const scriptUri = webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'commandsList', 'build', 'assets', 'index.js'));
+    const stylesUri = webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'commandsList', 'build', 'assets', 'index.css'));
     return this._getHtmlWebview(webview, scriptUri, stylesUri);
   }
 
-  private _getHtmlWebview(webview: Webview, scriptUri: Uri, stylesUri: Uri, initialData: string = '') {
+  private _getHtmlWebview(webview: vscode.Webview, scriptUri: vscode.Uri, stylesUri: vscode.Uri, initialData: string = '') {
 
-     const codiconsUri = webview.asWebviewUri(Uri.joinPath(this.extensionPath, 'media', 'codicon', 'codicon.css'));
+    const codiconsUri = webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'media', 'codicon', 'codicon.css'));
 
     return /*html*/ `
       <!DOCTYPE html>
@@ -95,5 +156,5 @@ export class WebViewPanels implements WebviewViewProvider {
     `;
   }
 
-  private _onDidChangeTreeData: EventEmitter<any | undefined | null | void> = new EventEmitter<any | undefined | null | void>();
+  private _onDidChangeTreeData: vscode.EventEmitter<any | undefined | null | void> = new vscode.EventEmitter<any | undefined | null | void>();
 }
