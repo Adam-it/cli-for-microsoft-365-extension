@@ -4,8 +4,8 @@
     margin: 20px;
     box-shadow: 0px 0px 5px #666;
     transition: all 0.2s ease-in-out;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 440px;
+    max-height: 440px;
     float: left;
 }
 
@@ -44,5 +44,9 @@
 }
 
 .card-footer {
+    text-align: right;
+}
+
+.card-tags {
     text-align: right;
 }

@@ -3,7 +3,7 @@ import './Card.css';
 import { ICardProps } from './ICardProps';
 import { ICardState } from './ICardState';
 import { vscode } from '../../utilities/vscode';
-import { VSCodeButton } from '@vscode/webview-ui-toolkit/react';
+import { VSCodeButton, VSCodeTag } from '@vscode/webview-ui-toolkit/react';
 
 export default class Card extends React.Component<ICardProps, ICardState> {
 
@@ -23,11 +23,22 @@ export default class Card extends React.Component<ICardProps, ICardState> {
         </div>
         <div className='card-body'>
           <h3>{sample.title.length > sampleTitleLimit ? `${sample.title.substring(0, sampleTitleLimit)}...` : sample.title}</h3>
+          <div className='card-tags'>
+            <VSCodeTag>{sample.type}</VSCodeTag>
+          </div>
           <p>{sample.description.length > sampleDescriptionLimit ? `${sample.description.substring(0, sampleDescriptionLimit)}...` : sample.description}</p>
           <div className='card-footer'>
-            <VSCodeButton onClick={() => this._handleOpenRepoButtonClick(sample.url)}>
-              <span className="codicon codicon-github-inverted"></span>
+            <VSCodeButton appearance="secondary" onClick={() => this._handleOpenRepoButtonClick(sample.url)}>
+              Repo
+              <span slot="start" className="codicon codicon-github-inverted"></span>
             </VSCodeButton>
+            {sample.type !== '' ?
+              <VSCodeButton appearance="secondary" onClick={() => this._handleCreateScriptButtonClick(sample.title)}>
+                Script
+                {sample.type === 'powershell' ? <span slot="start" className="codicon codicon-terminal-powershell"></span> : ''}
+                {sample.type === 'bash' ? <span slot="start" className="codicon codicon-terminal-bash"></span> : ''}
+              </VSCodeButton>
+            : ''}
           </div>
         </div>
       </div>
@@ -38,6 +49,13 @@ export default class Card extends React.Component<ICardProps, ICardState> {
     vscode.postMessage({
       command: 'openLink',
       value: repoUrl,
+    });
+  }
+
+  private _handleCreateScriptButtonClick(title: string): void {
+    vscode.postMessage({
+      command: 'createScriptFile',
+      value: title,
     });
   }
 }

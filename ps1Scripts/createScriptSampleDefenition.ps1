@@ -21,7 +21,22 @@ foreach ($sample in $allSamples) {
         continue
     }
 
-    $samples += [pscustomobject]@{title = $sampleJson.title; url = $sampleJson.url; description = $sampleJson.shortDescription; image = $sampleJson.thumbnails[0].url}
+    $readme = $sample.FullName.Replace('assets\sample.json', 'README.md')
+    $readmeContent = Get-Content -Path $readme -Raw
+    $type = ''
+    if ($readmeContent.Contains("#tab/cli-m365-ps")) {
+        $type = 'powershell'
+        $tabTag = '#tab/cli-m365-ps'
+    }
+    if ($readmeContent.Contains("#tab/cli-m365-bash") -or $readmeContent.Contains("#tab/m365cli-bash")) {
+        $type = 'bash'
+    }
+    
+    $rawUrl = $sampleJson.url
+    $rawUrl = $rawUrl.Replace('https://pnp.github.io/script-samples', 'https://raw.githubusercontent.com/pnp/script-samples/main/scripts')
+    $rawUrl = $rawUrl.Replace('.html', '.md')
+
+    $samples += [pscustomobject]@{title = $sampleJson.title; url = $sampleJson.url; rawUrl = $rawUrl; description = $sampleJson.shortDescription; image = $sampleJson.thumbnails[0].url; type = $type}
 }
 
 $sampleModel.Add('samples', $samples)
@@ -30,5 +45,3 @@ foreach ($Item in ($sampleModel.GetEnumerator() | Sort-Object -Property Key)) {
     $orderedSampleModel[$Item.Key] = $Item.Value
 }
 New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json | Out-File "..\data\samples.json"
-
-// TODO: add functionality which will allow to create local file with script coming from that sample
