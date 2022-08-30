@@ -1057,6 +1057,14 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-remove.md"
     },
     {
+      "name": "spo list roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-roleassignment-add.md"
+    },
+    {
+      "name": "spo list roleassignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-roleassignment-remove.md"
+    },
+    {
       "name": "spo list roleinheritance break",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-roleinheritance-break.md"
     },
@@ -1687,6 +1695,10 @@
     {
       "name": "spo web remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-remove.md"
+    },
+    {
+      "name": "spo web roleinheritance reset",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleinheritance-reset.md"
     },
     {
       "name": "spo web set",
