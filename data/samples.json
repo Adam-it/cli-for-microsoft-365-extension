@@ -865,6 +865,14 @@
       "type": "powershell"
     },
     {
+      "title": "Get notified in Microsoft Teams about SharePoint health incidents",
+      "url": "https://pnp.github.io/script-samples/tenant-health-notify-teams/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-health-notify-teams/README.md",
+      "description": "This script monitors your SharePoint health status and sends a notifications to a Microsoft Teams channel.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-health-notify-teams/assets/preview.png",
+      "type": "powershell"
+    },
+    {
       "title": "Monitor and notify Microsoft 365 health status",
       "url": "https://pnp.github.io/script-samples/tenant-monitor-notify-healthstatus/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-monitor-notify-healthstatus/README.md",

@@ -245,6 +245,14 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/app/app-open.md"
     },
     {
+      "name": "booking business get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/booking/business/business-get.md"
+    },
+    {
+      "name": "booking business list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/booking/business/business-list.md"
+    },
+    {
       "name": "cli completion clink update",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/completion/completion-clink-update.md"
     },
@@ -627,6 +635,10 @@
     {
       "name": "search externalconnection list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-list.md"
+    },
+    {
+      "name": "search externalconnection remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-remove.md"
     },
     {
       "name": "skype report activitycounts",

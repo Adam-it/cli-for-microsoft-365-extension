@@ -548,6 +548,24 @@
     ],
     "description": "Lists API permissions for the current AAD app"
   },
+  "booking business get": {
+    "prefix": [
+      "m365 booking business get"
+    ],
+    "body": [
+      "m365 booking business get "
+    ],
+    "description": "Retrieve the specified Microsoft Bookings business."
+  },
+  "booking business list": {
+    "prefix": [
+      "m365 booking business list"
+    ],
+    "body": [
+      "m365 booking business list "
+    ],
+    "description": "Lists all Microsoft Bookings businesses that are created for the tenant."
+  },
   "cli completion clink update": {
     "prefix": [
       "m365 cli completion clink update"
@@ -1438,6 +1456,15 @@
       "m365 search externalconnection list "
     ],
     "description": "Lists external connections defined in Microsoft Search"
+  },
+  "search externalconnection remove": {
+    "prefix": [
+      "m365 search externalconnection remove"
+    ],
+    "body": [
+      "m365 search externalconnection remove "
+    ],
+    "description": "Allow the administrator to remove a specific external connection used in Microsoft Search."
   },
   "skype report activitycounts": {
     "prefix": [
