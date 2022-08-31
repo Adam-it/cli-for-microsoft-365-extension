@@ -3,6 +3,11 @@
 out/test/**
 node_modules/**
 !node_modules/axios/**
+!node_modules/follow-redirects/**
+!node_modules/form-data/**
+!node_modules/asynckit/**
+!node_modules/combined-stream/**
+!node_modules/mime-types/**
 
 src/**
 data/**
