@@ -9,6 +9,7 @@ node_modules/**
 !node_modules/combined-stream/**
 !node_modules/mime-types/**
 !node_modules/delayed-stream/**
+!node_modules/mime-db/**
 
 src/**
 data/**
