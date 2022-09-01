@@ -1,14 +1,15 @@
 # CLI for Microsoft 365 extension
 
 This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365. Currently the extension provides:
+- docs viewer inside vscode
+- samples gallery
 - snippets with all possible commands
 - syntax support
-- docs viewer inside vscode
 
 
 Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
-## 🪄 Features 
+## ✨ Features 
 
 ### Docs
 
@@ -71,3 +72,7 @@ Currently the extension supports the following language:
 
 Any questions, problems, feedback is more than welcome. Please create an issue in the extension repository [issue list](https://github.com/Adam-it/cli-for-microsoft-365-extension/issues).
 Any ideas or want to see what is on the list of features to show up? Please check the [discussions](https://github.com/Adam-it/cli-for-microsoft-365-extension/discussions)
+
+## 🔑 License
+
+[MIT License](https://github.com/Adam-it/cli-for-microsoft-365-extension/blob/main/LICENSE.md)
