@@ -118,7 +118,8 @@ export class WebViewPanels implements WebviewViewProvider {
       .get(sampleUrl)
       .then(res => {
         const content: string = res.data.split('```' + sample.type + '\n')[1].split('```')[0];
-        vscode.workspace.openTextDocument({content: content, language: sample.type}).then(document => vscode.window.showTextDocument(document));
+        const language = sample.type === 'powershell' ? 'powershell' : 'shellscript';
+        vscode.workspace.openTextDocument({content, language}).then(document => vscode.window.showTextDocument(document));
       })
       .catch(() => {
         vscode.window.showErrorMessage('Error while creating script file based on sample');

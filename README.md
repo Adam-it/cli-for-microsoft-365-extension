@@ -6,14 +6,19 @@ This extension provides functionalities that may be helpful when creating script
 - snippets with all possible commands
 - syntax support
 
-
 Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
-## ✨ Features 
+## ✨ Features
+
+### Script samples gallery
+
+Using `CLI M365: Open samples gallery` command you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the CLI for Microsoft 365 script.
+
+![samples](/assets/images/samplesCommand.gif)
 
 ### Docs
 
-This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. 
+This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed.
 
 ![docs](/assets/images/howDocsWork.gif)
 ![docs](/assets/images/docsSearch.gif)
@@ -21,12 +26,6 @@ This functionality provides CLI docs view for all commands inside vscode. No mor
 It is also possible to use the command `CLI M365: Open docs for command` to open the docs for a specific command.
 
 ![docs](/assets/images/docsCommand.gif)
-
-### Script samples gallery
-
-Using `CLI M365: Open samples gallery` command you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the CLI for Microsoft 365 script.
-
-![samples](/assets/images/samplesCommand.gif)
 
 ### Snippets
 
