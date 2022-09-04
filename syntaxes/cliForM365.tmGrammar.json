@@ -11,7 +11,7 @@
         "name": "support.function"
       },
       "commandOption": {
-        "begin": "-|--",
+        "begin": "--",
         "end": " ",
         "name": "variable.parameter"
       }
