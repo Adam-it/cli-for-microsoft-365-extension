@@ -417,6 +417,10 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onedrive/onedrive-list.md"
     },
     {
+      "name": "onenote notebook list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onenote/notebook/notebook-list.md"
+    },
+    {
       "name": "outlook sendmail",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-send.md"
     },
@@ -1177,6 +1181,10 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-remove.md"
     },
     {
+      "name": "spo listitem roleassignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleassignment-remove.md"
+    },
+    {
       "name": "spo listitem roleinheritance break",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleinheritance-break.md"
     },
@@ -1709,6 +1717,14 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-remove.md"
     },
     {
+      "name": "spo web roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleassignment-add.md"
+    },
+    {
+      "name": "spo web roleassignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleassignment-remove.md"
+    },
+    {
       "name": "spo web roleinheritance reset",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleinheritance-reset.md"
     },
@@ -2139,6 +2155,10 @@
     {
       "name": "logout",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/logout.md"
+    },
+    {
+      "name": "request",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/request.md"
     },
     {
       "name": "status",
