@@ -54,23 +54,6 @@
 				"path": "./snippets/cliForMicrosoft365.code-snippets"
 			}
 		],
-		"grammars": [
-			{
-				"language": "shellscript",
-				"scopeName": "cliM365.ps1",
-				"path": "./syntaxes/cliForM365.tmGrammar.json"
-			},
-			{
-				"language": "powershell",
-				"scopeName": "cliM365.ps1",
-				"path": "./syntaxes/cliForM365.tmGrammar.json"
-			},
-			{
-				"language": "javascript",
-				"scopeName": "cliM365.ps1",
-				"path": "./syntaxes/cliForM365.tmGrammar.json"
-			}
-		],
 		"viewsContainers": {
 			"activitybar": [
 				{
