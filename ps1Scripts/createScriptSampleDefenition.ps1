@@ -24,19 +24,35 @@ foreach ($sample in $allSamples) {
     $readme = $sample.FullName.Replace('assets\sample.json', 'README.md')
     $readmeContent = Get-Content -Path $readme -Raw
     $type = ''
+    $tabTag = ''
     if ($readmeContent.Contains("#tab/cli-m365-ps")) {
         $type = 'powershell'
         $tabTag = '#tab/cli-m365-ps'
     }
-    if ($readmeContent.Contains("#tab/cli-m365-bash") -or $readmeContent.Contains("#tab/m365cli-bash")) {
+    
+    if ($readmeContent.Contains("#tab/cli-m365-bash")) {
         $type = 'bash'
+        $tabTag = '#tab/cli-m365-bash'
+    }
+
+    if ($readmeContent.Contains("#tab/m365cli-bash")) {
+        $type = 'bash'
+        $tabTag = '#tab/m365cli-bash'
     }
     
     $rawUrl = $sampleJson.url
     $rawUrl = $rawUrl.Replace('https://pnp.github.io/script-samples', 'https://raw.githubusercontent.com/pnp/script-samples/main/scripts')
     $rawUrl = $rawUrl.Replace('.html', '.md')
 
-    $samples += [pscustomobject]@{title = $sampleJson.title; url = $sampleJson.url; rawUrl = $rawUrl; description = $sampleJson.shortDescription; image = $sampleJson.thumbnails[0].url; type = $type}
+    $samples += [pscustomobject]@{
+        title       = $sampleJson.title; 
+        url         = $sampleJson.url; 
+        rawUrl      = $rawUrl; 
+        description = $sampleJson.shortDescription; 
+        image       = $sampleJson.thumbnails[0].url; 
+        type        = $type
+        tabTag      = $tabTag
+    }
 }
 
 $sampleModel.Add('samples', $samples)
