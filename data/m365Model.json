@@ -361,6 +361,10 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/flow-remove.md"
     },
     {
+      "name": "graph changelog list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/changelog/changelog-list.md"
+    },
+    {
       "name": "graph schemaextension add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/schemaextension/schemaextension-add.md"
     },
