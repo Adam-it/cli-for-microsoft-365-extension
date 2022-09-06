@@ -4,7 +4,6 @@ This extension provides functionalities that may be helpful when creating script
 - docs viewer inside vscode
 - samples gallery
 - snippets with all possible commands
-- syntax support
 
 Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365/) for more information.
 
@@ -40,12 +39,6 @@ In order to use snippets please type part of a snippet and press enter or tab. T
 It is also possible to use command `Insert Snippet` in VS Code to see the full list
 
 ![snippetsList](/assets/images/listOfCommandsFromToolbar.png)
-
-### Syntax
-
-As first step of syntax support the extension has syntax highlight.
-
-![syntaxColor](/assets/images/syntaxColor.gif)
 
 ## 🤖 Commands
 
