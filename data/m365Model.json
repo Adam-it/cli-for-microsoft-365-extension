@@ -425,7 +425,7 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onenote/notebook/notebook-list.md"
     },
     {
-      "name": "outlook sendmail",
+      "name": "outlook mail send",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-send.md"
     },
     {
@@ -787,6 +787,10 @@
     {
       "name": "spo contenttype remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/contenttype/contenttype-remove.md"
+    },
+    {
+      "name": "spo contenttype set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/contenttype/contenttype-set.md"
     },
     {
       "name": "spo contenttypehub get",

@@ -980,6 +980,15 @@
       "m365 onerive report activityusercounts"
     ]
   },
+  "outlook mail send": {
+    "body": [
+      "m365 outlook mail send "
+    ],
+    "description": "Sends an email",
+    "prefix": [
+      "m365 outlook mail send"
+    ]
+  },
   "outlook message list": {
     "body": [
       "m365 outlook message list "
@@ -1113,15 +1122,6 @@
     "description": "Get a collection of available roomlists",
     "prefix": [
       "m365 outlook roomlist list"
-    ]
-  },
-  "outlook sendmail": {
-    "body": [
-      "m365 outlook sendmail "
-    ],
-    "description": "Sends an e-mail",
-    "prefix": [
-      "m365 outlook sendmail"
     ]
   },
   "pa app get": {
@@ -1806,6 +1806,15 @@
     "description": "Deletes site content type",
     "prefix": [
       "m365 spo contenttype remove"
+    ]
+  },
+  "spo contenttype set": {
+    "body": [
+      "m365 spo contenttype set --webUrl $1"
+    ],
+    "description": "Update existing content type",
+    "prefix": [
+      "m365 spo contenttype set"
     ]
   },
   "spo contenttypehub get": {
@@ -4080,7 +4089,7 @@
     "body": [
       "m365 teams channel member add "
     ],
-    "description": "Adds a specified member in the specified Microsoft Teams private team channel",
+    "description": "Adds a specified member in the specified Microsoft Teams private or shared team channel",
     "prefix": [
       "m365 teams channel member add"
     ]
@@ -4098,7 +4107,7 @@
     "body": [
       "m365 teams channel member remove "
     ],
-    "description": "Remove the specified member from the specified Microsoft Teams private team channel",
+    "description": "Remove the specified member from the specified Microsoft Teams private or shared team channel",
     "prefix": [
       "m365 teams channel member remove"
     ]
@@ -4107,7 +4116,7 @@
     "body": [
       "m365 teams channel member set --role $1"
     ],
-    "description": "Updates the role of the specified member in the specified Microsoft Teams private team channel",
+    "description": "Updates the role of the specified member in the specified Microsoft Teams private or shared team channel",
     "prefix": [
       "m365 teams channel member set"
     ]
