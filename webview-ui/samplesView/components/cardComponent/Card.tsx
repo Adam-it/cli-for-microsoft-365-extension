@@ -28,15 +28,15 @@ export default class Card extends React.Component<ICardProps, ICardState> {
           </div>
           <p>{sample.description.length > sampleDescriptionLimit ? `${sample.description.substring(0, sampleDescriptionLimit)}...` : sample.description}</p>
           <div className='card-footer'>
-            <VSCodeButton appearance="secondary" onClick={() => this._handleOpenRepoButtonClick(sample.url)}>
+            <VSCodeButton appearance='secondary' onClick={() => this._handleOpenRepoButtonClick(sample.url)}>
               Repo
-              <span slot="start" className="codicon codicon-github-inverted"></span>
+              <span slot='start' className='codicon codicon-github-inverted'></span>
             </VSCodeButton>
             {sample.type !== '' ?
-              <VSCodeButton appearance="secondary" onClick={() => this._handleCreateScriptButtonClick(sample.title)}>
+              <VSCodeButton appearance='secondary' onClick={() => this._handleCreateScriptButtonClick(sample.title)}>
                 Script
-                {sample.type === 'powershell' ? <span slot="start" className="codicon codicon-terminal-powershell"></span> : ''}
-                {sample.type === 'bash' ? <span slot="start" className="codicon codicon-terminal-bash"></span> : ''}
+                {sample.type === 'powershell' ? <span slot='start' className='codicon codicon-terminal-powershell'></span> : ''}
+                {sample.type === 'bash' ? <span slot='start' className='codicon codicon-terminal-bash'></span> : ''}
               </VSCodeButton>
             : ''}
           </div>

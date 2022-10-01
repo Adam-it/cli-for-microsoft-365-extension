@@ -104,6 +104,9 @@ export class WebViewPanels implements WebviewViewProvider {
         case 'createScriptFile':
           this._createScriptFile(message.value);
           break;
+        case 'showSamples':
+          this.getHtmlWebviewForSamplesView();
+          break;
         default:
           break;
       }
