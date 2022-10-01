@@ -1189,6 +1189,10 @@
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-remove.md"
     },
     {
+      "name": "spo listitem roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleassignment-add.md"
+    },
+    {
       "name": "spo listitem roleassignment remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleassignment-remove.md"
     },
