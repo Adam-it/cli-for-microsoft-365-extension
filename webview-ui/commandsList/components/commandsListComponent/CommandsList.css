@@ -11,3 +11,19 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.cli-commands-list-controls { 
+    position: fixed;
+    top: 0;
+    min-height: 70px;
+    background-color: var(--vscode-editorGroupHeader-tabsBackground);
+}
+
+.cli-commands-list-wrapper { 
+    padding-top: 30px;
+}
+
+.cli-commands-list-actions{
+    text-align: right;
+    padding-right: 5px;
+}
