@@ -50,7 +50,13 @@ foreach ($command in $allCommands) {
 
     $commandUrl = $command.FullName.Split("cli-microsoft365")[1]
     $commandUrl = $commandUrl.Replace('\', '/')
-    $commands += [pscustomobject]@{name = "$commandTitle"; url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl" }
+    $commandDocsUrl = $commandUrl.Replace('docs/docs/', '')
+    $commandDocsUrl = $commandDocsUrl.Replace('.md', '')
+    $commands += [pscustomobject]@{
+        name = "$commandTitle"; 
+        url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl";
+        docs = "https://pnp.github.io/cli-microsoft365$commandDocsUrl"
+    }
 }
 
 $orderedCommandSnippets = [ordered]@{}
