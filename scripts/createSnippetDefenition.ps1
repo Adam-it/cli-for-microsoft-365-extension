@@ -7,6 +7,11 @@ if ($null -eq $cliDocsFolderPath -or $cliDocsFolderPath -eq "") {
 
 $allCommands = Get-ChildItem -Path "$cliDocsFolderPath\docs\cmd\*.md" -Recurse -Force -Exclude "_global*"
 
+$globalContent = Get-Content "$cliDocsFolderPath\docs\cmd\_global.md"
+[hashtable]$global = @{}
+$global.Add('content', $globalContent)
+New-Object -TypeName psobject -Property $global | ConvertTo-Json  | Out-File "..\data\global.json"
+
 [hashtable]$commandSnippets = @{}
 [hashtable]$m365Model = @{}
 $commands = @()
