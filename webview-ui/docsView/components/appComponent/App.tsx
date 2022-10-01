@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as m365Commands from '../../../../data/m365Model.json';
 import './App.css';
 import { IAppProps } from './IAppProps';
 import { IAppState } from './IAppState';
@@ -15,18 +16,30 @@ export default class App extends React.Component<IAppProps, IAppState> {
     this.state = {
       loading: true,
       notFound: false,
-      docs: ''
+      docs: '',
+      docsUrl: ''
     };
   }
 
   public componentDidMount(): void {
-    const commandUrl = this.props.commandUrl;
+    const commandName = this.props.commandName;
+    const command = m365Commands.commands.find(command => command.name === commandName);
+
+    if(!command)
+    {
+      this.setState({
+        loading: false,
+        notFound: true
+      });
+      return;
+    }
 
     axios
-      .get(commandUrl)
+      .get(command.url)
       .then(res => {
         this.setState({
           docs: res.data,
+          docsUrl: command.docs,
           loading: false
         });
       })
@@ -39,13 +52,13 @@ export default class App extends React.Component<IAppProps, IAppState> {
   }
 
   public render(): React.ReactElement<IAppProps> {
-    const { loading, notFound, docs } = this.state;
+    const { loading, notFound, docs, docsUrl } = this.state;
 
     return (
       <main className='docs'>
         {notFound ?
           <NotFound /> :
-          loading ? <Loader /> : <Docs docsMarkDown={docs} />
+          loading ? <Loader /> : <Docs docsMarkDown={docs} docsUrl={docsUrl} />
         }
       </main>
     );
