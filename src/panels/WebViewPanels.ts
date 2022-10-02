@@ -29,13 +29,13 @@ export class WebViewPanels implements WebviewViewProvider {
     this._activateListener(this._view.webview);
   }
 
-  public getHtmlWebviewForSamplesView() {
+  public getHtmlWebviewForSamplesView(searchQuery: string = '') {
     if (this.sampleView === null) {
       this.sampleView = vscode.window.createWebviewPanel(
         'CLISamples',
         'CLI for Microsoft 365 - samples',
         vscode.ViewColumn.One,
-        {}
+        { }
       );
 
       this.sampleView.webview.options = {
@@ -56,8 +56,9 @@ export class WebViewPanels implements WebviewViewProvider {
     const scriptUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.js'));
     const stylesUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.css'));
 
-    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri);
+    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri, searchQuery);
     this._activateListener(this.sampleView.webview);
+    this.sampleView.reveal();
   }
 
   public getHtmlWebviewForDocsView(commandName: string) {
@@ -90,6 +91,7 @@ export class WebViewPanels implements WebviewViewProvider {
     const stylesUri = this.docsView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
 
     this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandName);
+    this.docsView.reveal();
   }
 
   public _activateListener(webview: vscode.Webview) {
@@ -105,7 +107,7 @@ export class WebViewPanels implements WebviewViewProvider {
           this._createScriptFile(message.value);
           break;
         case 'showSamples':
-          this.getHtmlWebviewForSamplesView();
+          this.getHtmlWebviewForSamplesView(message.value);
           break;
         default:
           break;

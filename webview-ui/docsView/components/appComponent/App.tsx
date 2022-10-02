@@ -17,7 +17,8 @@ export default class App extends React.Component<IAppProps, IAppState> {
       loading: true,
       notFound: false,
       docs: '',
-      docsUrl: ''
+      docsUrl: '',
+      docsCommandName: ''
     };
   }
 
@@ -40,6 +41,7 @@ export default class App extends React.Component<IAppProps, IAppState> {
         this.setState({
           docs: res.data,
           docsUrl: command.docs,
+          docsCommandName: command.name,
           loading: false
         });
       })
@@ -52,13 +54,13 @@ export default class App extends React.Component<IAppProps, IAppState> {
   }
 
   public render(): React.ReactElement<IAppProps> {
-    const { loading, notFound, docs, docsUrl } = this.state;
+    const { loading, notFound, docs, docsUrl, docsCommandName } = this.state;
 
     return (
       <main className='docs'>
         {notFound ?
           <NotFound /> :
-          loading ? <Loader /> : <Docs docsMarkDown={docs} docsUrl={docsUrl} />
+          loading ? <Loader /> : <Docs docsMarkDown={docs} docsUrl={docsUrl} docsCommandName={docsCommandName} />
         }
       </main>
     );

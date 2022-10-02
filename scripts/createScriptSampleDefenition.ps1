@@ -43,6 +43,14 @@ foreach ($sample in $allSamples) {
     $rawUrl = $sampleJson.url
     $rawUrl = $rawUrl.Replace('https://pnp.github.io/script-samples', 'https://raw.githubusercontent.com/pnp/script-samples/main/scripts')
     $rawUrl = $rawUrl.Replace('.html', '.md')
+    
+    $sampleAuthors = @()
+    foreach($author in $sampleJson.authors) {
+        $sampleAuthors += [pscustomobject]@{ 
+            name        = $author.name;
+            pictureUrl  = $author.pictureUrl;
+        }
+    }
 
     $samples += [pscustomobject]@{
         title       = $sampleJson.title; 
@@ -50,8 +58,10 @@ foreach ($sample in $allSamples) {
         rawUrl      = $rawUrl; 
         description = $sampleJson.shortDescription; 
         image       = $sampleJson.thumbnails[0].url; 
-        type        = $type
-        tabTag      = $tabTag
+        type        = $type;
+        tabTag      = $tabTag;
+        authors     = $sampleAuthors;
+        tags        = $sampleJson.tags
     }
 }
 
@@ -60,4 +70,4 @@ $orderedSampleModel = [ordered]@{}
 foreach ($Item in ($sampleModel.GetEnumerator() | Sort-Object -Property Key)) {
     $orderedSampleModel[$Item.Key] = $Item.Value
 }
-New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json | Out-File "..\data\samples.json"
+New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json -Depth 10 | Out-File "..\data\samples.json"
