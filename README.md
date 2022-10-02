@@ -1,6 +1,7 @@
 # CLI for Microsoft 365 extension
 
 This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365. Currently the extension provides:
+
 - docs viewer inside vscode
 - samples gallery
 - snippets with all possible commands
@@ -11,13 +12,17 @@ Please check [CLI for Microsoft 365 docs](https://pnp.github.io/cli-microsoft365
 
 ### Script samples gallery
 
-Using `CLI M365: Open samples gallery` command you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the CLI for Microsoft 365 script.
+Using `CLI M365: Open samples gallery` command or 'Samples' button you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the CLI for Microsoft 365 script. It is possible to search for sample by:
 
-![samples](/assets/images/samplesCommand.gif)
+- title
+- authors
+- commands used in samples
+
+![samples](/assets/images/samples.gif)
 
 ### Docs
 
-This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed.
+This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. It is possible to go to sample original web site location and also open sample gallery showing all samples using the command.
 
 ![docs](/assets/images/howDocsWork.gif)
 ![docs](/assets/images/docsSearch.gif)
@@ -51,16 +56,17 @@ The extension provides the following commands:
 
 ![commands](/assets/images/commands.png)
 
-## 📑 Language 
+## 📑 Language
 
 Currently the extension supports the following language:
+
 - shellscript
 - powershell
 - javascript
 
 ![languageSupport](/assets/images/languageSupport.png)
 
-## 💬 Feedback 
+## 💬 Feedback
 
 Any questions, problems, feedback is more than welcome. Please create an issue in the extension repository [issue list](https://github.com/Adam-it/cli-for-microsoft-365-extension/issues).
 Any ideas or want to see what is on the list of features to show up? Please check the [discussions](https://github.com/Adam-it/cli-for-microsoft-365-extension/discussions)

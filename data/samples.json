@@ -1375,6 +1375,39 @@
       ]
     },
     {
+      "title": "Export SharePoint Term Store terms to CSV",
+      "url": "https://pnp.github.io/script-samples/spo-export-termstore-terms-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-termstore-terms-to-csv/README.md",
+      "description": "Export SharePoint Term Store terms to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-termstore-terms-to-csv/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/cli-m365-ps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Ramin Ahmadi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15119083?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo terms list",
+        "m365 logout",
+        "m365 status",
+        "m365 spo term group list",
+        "m365 spo term list",
+        "m365 spo term set list",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPTerm",
+        "Get-PnPTermGroup",
+        "Get-PnPTermSet"
+      ]
+    },
+    {
       "title": "Generate Demo Events for SharePoint Events List",
       "url": "https://pnp.github.io/script-samples/spo-generate-demo-events/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-demo-events/README.md",

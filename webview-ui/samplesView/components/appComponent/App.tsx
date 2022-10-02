@@ -57,7 +57,7 @@ export default class App extends React.Component<IAppProps, IAppState> {
 
   private _handleSearch(searchInput: string): void {
     const allSamples: ISample[] = samples.samples as ISample[];
-    searchInput = searchInput.toLowerCase();
+    searchInput = searchInput?.toLowerCase() ?? '';
     const searchResult: ISample[] = allSamples.filter(sample =>
       sample.title.toLowerCase().includes(searchInput) ||
       (sample.tags !== null && sample.tags.some(tag => tag.toLowerCase().includes(searchInput)) ||
