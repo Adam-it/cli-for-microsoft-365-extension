@@ -15,7 +15,7 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
 
   public render(): React.ReactElement<IDocsProps> {
     let docs = this.props.docsMarkDown;
-    const docsUrl = this.props.docsUrl;
+    const { docsCommandName, docsUrl } = this.props;
     docs = (docs as any).replaceAll('\n', ' \n');
     const globalContent = global.content.join(' \n');
     docs = (docs as any).replaceAll('--8<-- "docs/cmd/_global.md"', globalContent);
@@ -23,6 +23,10 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
     return (
       <div>
         <div className='docs-header'>
+          <VSCodeButton appearance="primary" onClick={() => this._handleShowRelatedSamplesButtonClick(docsCommandName)}>
+            Show related samples
+            <span slot='start' className='codicon codicon-file-code'></span>
+          </VSCodeButton>
           <VSCodeButton appearance="primary" onClick={() => this._handleOpenDocsWebPageButtonClick(docsUrl)}>
             Go to docs web page
             <span slot="start" className="codicon codicon-go-to-file"></span>
@@ -33,6 +37,13 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
         </div>
       </div>
     );
+  }
+
+  private _handleShowRelatedSamplesButtonClick(name: string): void {
+    vscode.postMessage({
+      command: 'showSamples',
+      value: name,
+    });
   }
 
   private _handleOpenDocsWebPageButtonClick(url: string): void {
