@@ -131,7 +131,7 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-remove"
     },
     {
-      "name": "aad o365group restore",
+      "name": "aad o365group recyclebinitem restore",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-recyclebinitem-restore.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-restore"
     },
@@ -491,7 +491,7 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onedrive/report/report-activityfilecounts"
     },
     {
-      "name": "onerive report activityusercounts",
+      "name": "onedrive report activityusercounts",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onedrive/report/report-activityusercounts.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onedrive/report/report-activityusercounts"
     },
@@ -771,6 +771,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/tenant/tenant-settings-set"
     },
     {
+      "name": "pp dataverse table list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-list"
+    },
+    {
       "name": "pp environment list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/environment/environment-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/environment/environment-list"
@@ -789,6 +794,11 @@
       "name": "pp managementapp list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/managementapp/managementapp-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/managementapp/managementapp-list"
+    },
+    {
+      "name": "pp tenant settings list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/tenant/tenant-settings-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-list"
     },
     {
       "name": "search externalconnection add",
@@ -1126,6 +1136,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-rename"
     },
     {
+      "name": "spo file roleassignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleassignment-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleassignment-remove"
+    },
+    {
+      "name": "spo file roleinheritance reset",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleinheritance-reset.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleinheritance-reset"
+    },
+    {
       "name": "spo file sharinginfo get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinginfo-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
@@ -1164,6 +1184,11 @@
       "name": "spo folder rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-rename.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-rename"
+    },
+    {
+      "name": "spo folder roleinheritance reset",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-roleinheritance-reset.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-roleinheritance-reset"
     },
     {
       "name": "spo group add",
@@ -2306,7 +2331,7 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/funsettings/funsettings-list"
     },
     {
-      "name": "graph teams funsettings set",
+      "name": "teams funsettings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/funsettings/funsettings-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/funsettings/funsettings-set"
     },
@@ -2516,12 +2541,12 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/security/security-alerts-list"
     },
     {
-      "name": "tenant service announcement health get",
+      "name": "tenant serviceannouncement health get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/serviceannouncement/serviceannouncement-health-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/serviceannouncement/serviceannouncement-health-get"
     },
     {
-      "name": "tenant service announcement health list",
+      "name": "tenant serviceannouncement health list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/serviceannouncement/serviceannouncement-health-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/serviceannouncement/serviceannouncement-health-list"
     },
