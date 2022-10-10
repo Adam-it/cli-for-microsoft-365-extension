@@ -22,7 +22,7 @@ Using `CLI M365: Open samples gallery` command or 'Samples' button you may open 
 
 ### Docs
 
-This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. It is possible to go to sample original web site location and also open sample gallery showing all samples using the command.
+This functionality provides CLI docs view for all commands inside vscode. No more transition between the code editor and browser is needed. It is possible to go to docs original web site location and also open sample gallery showing all samples using the command.
 
 ![docs](/assets/images/howDocsWork.gif)
 ![docs](/assets/images/docsSearch.gif)
