@@ -1403,6 +1403,15 @@
       "m365 planner tenant settings set"
     ]
   },
+  "pp card list": {
+    "description": "Lists Microsoft Power Platform cards in the specified Power Platform environment.",
+    "body": [
+      "m365 pp card list --environment $1"
+    ],
+    "prefix": [
+      "m365 pp card list"
+    ]
+  },
   "pp dataverse table list": {
     "description": "Lists dataverse tables in a given environment",
     "body": [
@@ -1446,6 +1455,15 @@
     ],
     "prefix": [
       "m365 pp managementapp list"
+    ]
+  },
+  "pp solution list": {
+    "description": "Lists solutions in a given environment.",
+    "body": [
+      "m365 pp solution list --environment $1"
+    ],
+    "prefix": [
+      "m365 pp solution list"
     ]
   },
   "pp tenant settings list": {
@@ -1907,6 +1925,15 @@
       "m365 spo eventreceiver list"
     ]
   },
+  "spo eventreceiver remove": {
+    "description": "Removes event receivers for the specified web, site, or list.",
+    "body": [
+      "m365 spo eventreceiver remove --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo eventreceiver remove"
+    ]
+  },
   "spo externaluser list": {
     "description": "Lists external users in the tenant",
     "body": [
@@ -2069,6 +2096,15 @@
       "m365 spo file rename"
     ]
   },
+  "spo file roleassignment add": {
+    "description": "Adds a role assignment to the specified file.",
+    "body": [
+      "m365 spo file roleassignment add --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo file roleassignment add"
+    ]
+  },
   "spo file roleassignment remove": {
     "description": "Removes a role assignment from a file.",
     "body": [
@@ -2076,6 +2112,15 @@
     ],
     "prefix": [
       "m365 spo file roleassignment remove"
+    ]
+  },
+  "spo file roleinheritance break": {
+    "description": "Breaks inheritance of a file. Keeping existing permissions is the default behavior.",
+    "body": [
+      "m365 spo file roleinheritance break --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo file roleinheritance break"
     ]
   },
   "spo file roleinheritance reset": {
@@ -2157,6 +2202,15 @@
     ],
     "prefix": [
       "m365 spo folder rename"
+    ]
+  },
+  "spo folder roleinheritance break": {
+    "description": "Breaks the role inheritance of a folder.",
+    "body": [
+      "m365 spo folder roleinheritance break --webUrl $1 --folderUrl $2"
+    ],
+    "prefix": [
+      "m365 spo folder roleinheritance break"
     ]
   },
   "spo folder roleinheritance reset": {

@@ -771,6 +771,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/tenant/tenant-settings-set"
     },
     {
+      "name": "pp card list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-list"
+    },
+    {
       "name": "pp dataverse table list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-list"
@@ -794,6 +799,11 @@
       "name": "pp managementapp list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/managementapp/managementapp-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/managementapp/managementapp-list"
+    },
+    {
+      "name": "pp solution list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-list"
     },
     {
       "name": "pp tenant settings list",
@@ -1046,6 +1056,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/eventreceiver/eventreceiver-list"
     },
     {
+      "name": "spo eventreceiver remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/eventreceiver/eventreceiver-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/eventreceiver/eventreceiver-remove"
+    },
+    {
       "name": "spo externaluser list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/externaluser/externaluser-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/externaluser/externaluser-list"
@@ -1136,9 +1151,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-rename"
     },
     {
+      "name": "spo file roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleassignment-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleassignment-add"
+    },
+    {
       "name": "spo file roleassignment remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleassignment-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleassignment-remove"
+    },
+    {
+      "name": "spo file roleinheritance break",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleinheritance-break.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleinheritance-break"
     },
     {
       "name": "spo file roleinheritance reset",
@@ -1184,6 +1209,11 @@
       "name": "spo folder rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-rename.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-rename"
+    },
+    {
+      "name": "spo folder roleinheritance break",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-roleinheritance-break.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-roleinheritance-break"
     },
     {
       "name": "spo folder roleinheritance reset",
