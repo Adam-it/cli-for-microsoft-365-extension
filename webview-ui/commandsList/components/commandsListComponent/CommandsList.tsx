@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as m365Commands from '../../../../data/m365Model.json';
 import { ICommand } from '../../../../models/ICommand';
+import { CONSTANTS } from '../../../../constants/Constants';
 import './CommandsList.css';
 import { ICommandsListProps } from './ICommandsListProps';
 import { ICommandsListState } from './ICommandsListState';
@@ -24,9 +25,11 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       <div>
         <div className='cli-commands-list-controls'>
           <div className='cli-commands-list-actions'>
-            <VSCodeButton appearance='secondary' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
-              Samples
-              <span slot='start' className='codicon codicon-file-code'></span>
+            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
+              <span className='codicon codicon-file-code'></span>
+            </VSCodeButton>
+            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 web page' onClick={() => this._handleGoToHomePageButtonClick()}>
+              <span className='codicon codicon-browser'></span>
             </VSCodeButton>
           </div>
           <VSCodeDivider />
@@ -45,6 +48,13 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
   private _handleShowSamplesButtonClick(): void {
     vscode.postMessage({
       command: 'showSamples'
+    });
+  }
+
+  private _handleGoToHomePageButtonClick(): void {
+    vscode.postMessage({
+      command: 'openLink',
+      value: CONSTANTS.repoHomePageLink
     });
   }
 
