@@ -1448,6 +1448,15 @@
     ],
     "description": "Lists Microsoft Power Platform environments"
   },
+  "pp gateway get": {
+    "body": [
+      "m365 pp gateway get --id $1"
+    ],
+    "prefix": [
+      "m365 pp gateway get"
+    ],
+    "description": "Get information about the specified gateway"
+  },
   "pp gateway list": {
     "body": [
       "m365 pp gateway list "
@@ -2737,7 +2746,7 @@
   },
   "spo list webhook get": {
     "body": [
-      "m365 spo list webhook get --webUrl $1"
+      "m365 spo list webhook get --webUrl $1 --id $2"
     ],
     "prefix": [
       "m365 spo list webhook get"
@@ -2764,7 +2773,7 @@
   },
   "spo list webhook set": {
     "body": [
-      "m365 spo list webhook set --webUrl $1"
+      "m365 spo list webhook set --webUrl $1 --id $2"
     ],
     "prefix": [
       "m365 spo list webhook set"
@@ -2842,6 +2851,15 @@
       "m365 spo listitem remove"
     ],
     "description": "Removes the specified list item"
+  },
+  "spo listitem roleassignment add": {
+    "body": [
+      "m365 spo listitem roleassignment add --webUrl $1 --listItemId $2"
+    ],
+    "prefix": [
+      "m365 spo listitem roleassignment add"
+    ],
+    "description": "Adds a role assignment to a listitem."
   },
   "spo listitem roleassignment remove": {
     "body": [
@@ -4094,6 +4112,15 @@
     ],
     "description": "Removes a role assignment from web permissions."
   },
+  "spo web roleinheritance break": {
+    "body": [
+      "m365 spo web roleinheritance break --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo web roleinheritance break"
+    ],
+    "description": "Break role inheritance of subsite"
+  },
   "spo web roleinheritance reset": {
     "body": [
       "m365 spo web roleinheritance reset --webUrl $1"
@@ -4760,6 +4787,15 @@
     ],
     "description": "Adds a new Microsoft To Do task list"
   },
+  "todo list get": {
+    "body": [
+      "m365 todo list get "
+    ],
+    "prefix": [
+      "m365 todo list get"
+    ],
+    "description": "Returns a specific Microsoft To Do task list"
+  },
   "todo list list": {
     "body": [
       "m365 todo list list "
@@ -4795,6 +4831,15 @@
       "m365 todo task add"
     ],
     "description": "Adds a task to a Microsoft To Do list"
+  },
+  "todo task get": {
+    "body": [
+      "m365 todo task get --id $1"
+    ],
+    "prefix": [
+      "m365 todo task get"
+    ],
+    "description": "Gets a specific task from a Microsoft To Do task list"
   },
   "todo task list": {
     "body": [

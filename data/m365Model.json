@@ -796,6 +796,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/environment/environment-list"
     },
     {
+      "name": "pp gateway get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/gateway/gateway-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/gateway/gateway-get"
+    },
+    {
       "name": "pp gateway list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/gateway/gateway-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/gateway/gateway-list"
@@ -1561,6 +1566,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-remove"
     },
     {
+      "name": "spo listitem roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleassignment-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-roleassignment-add"
+    },
+    {
       "name": "spo listitem roleassignment remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-roleassignment-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-roleassignment-remove"
@@ -2246,6 +2256,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-roleassignment-remove"
     },
     {
+      "name": "spo web roleinheritance break",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleinheritance-break.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-roleinheritance-break"
+    },
+    {
       "name": "spo web roleinheritance reset",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleinheritance-reset.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-roleinheritance-reset"
@@ -2626,6 +2641,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/todo/list/list-add"
     },
     {
+      "name": "todo list get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/todo/list/list-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/todo/list/list-get"
+    },
+    {
       "name": "todo list list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/todo/list/list-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/todo/list/list-list"
@@ -2644,6 +2664,11 @@
       "name": "todo task add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/todo/task/task-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/todo/task/task-add"
+    },
+    {
+      "name": "todo task get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/todo/task/task-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/todo/task/task-get"
     },
     {
       "name": "todo task list",
