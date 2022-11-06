@@ -11,6 +11,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-get"
     },
     {
+      "name": "aad app list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-list"
+    },
+    {
       "name": "aad app remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-remove"
@@ -259,6 +264,11 @@
       "name": "aad user get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-get"
+    },
+    {
+      "name": "aad user guest add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-guest-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-guest-add"
     },
     {
       "name": "aad user hibp",
@@ -536,6 +546,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send"
     },
     {
+      "name": "outlook message get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/message/message-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/message/message-get"
+    },
+    {
       "name": "outlook message list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/message/message-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/message/message-list"
@@ -771,6 +786,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/tenant/tenant-settings-set"
     },
     {
+      "name": "pp card clone",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-clone.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-clone"
+    },
+    {
       "name": "pp card get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-get"
@@ -779,6 +799,16 @@
       "name": "pp card list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-list"
+    },
+    {
+      "name": "pp card remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-remove"
+    },
+    {
+      "name": "pp dataverse table get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-get"
     },
     {
       "name": "pp dataverse table list",
@@ -824,6 +854,26 @@
       "name": "pp solution list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-list"
+    },
+    {
+      "name": "pp solution publisher get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-get"
+    },
+    {
+      "name": "pp solution publisher list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-list"
+    },
+    {
+      "name": "solution remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-remove"
+    },
+    {
+      "name": "pp solution remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-remove"
     },
     {
       "name": "pp tenant settings list",
@@ -1196,6 +1246,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
     },
     {
+      "name": "spo file version list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-list"
+    },
+    {
       "name": "spo folder add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-add"
@@ -1229,6 +1284,11 @@
       "name": "spo folder rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-rename.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-rename"
+    },
+    {
+      "name": "spo folder roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-roleassignment-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-roleassignment-add"
     },
     {
       "name": "spo folder roleassignment remove",
@@ -1354,11 +1414,6 @@
       "name": "spo hubsite set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/hubsite/hubsite-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/hubsite/hubsite-set"
-    },
-    {
-      "name": "spo hubsite theme sync",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/hubsite/hubsite-theme-sync.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/hubsite/hubsite-theme-sync"
     },
     {
       "name": "spo hubsite unregister",
@@ -1896,21 +1951,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-chrome-set"
     },
     {
-      "name": "spo site classic add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-add.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-classic-add"
-    },
-    {
-      "name": "spo site classic list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-list.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-classic-list"
-    },
-    {
-      "name": "spo site classic set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-classic-set.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-classic-set"
-    },
-    {
       "name": "spo site commsite enable",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-commsite-enable.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-commsite-enable"
@@ -1929,6 +1969,21 @@
       "name": "spo site groupify",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-groupify.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-groupify"
+    },
+    {
+      "name": "spo site hubsite connect",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-hubsite-connect.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-hubsite-connect"
+    },
+    {
+      "name": "spo site hubsite disconnect",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-hubsite-disconnect.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-hubsite-disconnect"
+    },
+    {
+      "name": "spo site hubsite theme sync",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-hubsite-theme-sync.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-hubsite-theme-sync"
     },
     {
       "name": "spo site inplacerecordsmanagement set",
@@ -2409,6 +2464,11 @@
       "name": "teams guestsettings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/guestsettings/guestsettings-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/guestsettings/guestsettings-set"
+    },
+    {
+      "name": "teams meeting list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-list"
     },
     {
       "name": "teams membersettings list",
