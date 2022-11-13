@@ -816,6 +816,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-list"
     },
     {
+      "name": "pp dataverse table remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-remove"
+    },
+    {
       "name": "pp environment get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/environment/environment-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/environment/environment-get"
@@ -1246,9 +1251,29 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
     },
     {
+      "name": "spo file version clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-clear.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-clear"
+    },
+    {
+      "name": "spo file version get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-get"
+    },
+    {
       "name": "spo file version list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-list"
+    },
+    {
+      "name": "spo file version remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-remove"
+    },
+    {
+      "name": "spo file version restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-restore.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-restore"
     },
     {
       "name": "spo folder add",
