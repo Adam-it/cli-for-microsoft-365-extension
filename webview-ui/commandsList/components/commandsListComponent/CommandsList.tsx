@@ -1,12 +1,14 @@
 import * as React from 'react';
 import * as m365Commands from '../../../../data/m365Model.json';
 import { ICommand } from '../../../../models/ICommand';
-import { CONSTANTS } from '../../../../constants/Constants';
 import './CommandsList.css';
 import { ICommandsListProps } from './ICommandsListProps';
 import { ICommandsListState } from './ICommandsListState';
 import { vscode } from '../../utilities/vscode';
-import { VSCodeButton, VSCodeDivider, VSCodeTextField } from '@vscode/webview-ui-toolkit/react';
+import { VSCodeDivider } from '@vscode/webview-ui-toolkit/react';
+import CommandsAction from '../commandsActionComponent/CommandsAction';
+import CommandsSearch from '../commandsSearchComponent/CommandsSearch';
+
 
 export default class CommandsList extends React.Component<ICommandsListProps, ICommandsListState> {
 
@@ -14,28 +16,32 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
     super(props);
 
     this.state = {
-      commands: m365Commands.commands as ICommand[]
+      commands: m365Commands.commands as ICommand[],
+      previousSearchInput: ''
     };
+  }
+
+  public componentDidMount(): void {
+    const previousState = vscode.getState() as ICommandsListState;
+
+    if (previousState) {
+      this.setState({
+        commands: previousState.commands,
+        previousSearchInput: previousState.previousSearchInput,
+      });
+    }
   }
 
   public render(): React.ReactElement<ICommandsListProps> {
     const { commands } = this.state;
+    const { previousSearchInput } = this.state;
 
     return (
       <div>
         <div className='cli-commands-list-controls'>
-          <div className='cli-commands-list-actions'>
-            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
-              <span className='codicon codicon-file-code'></span>
-            </VSCodeButton>
-            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 web page' onClick={() => this._handleGoToHomePageButtonClick()}>
-              <span className='codicon codicon-browser'></span>
-            </VSCodeButton>
-          </div>
+          <CommandsAction />
           <VSCodeDivider />
-          <VSCodeTextField placeholder='Search' size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
-            <span slot='start' className='codicon codicon-search'></span>
-          </VSCodeTextField>
+          <CommandsSearch initialSearchInput={previousSearchInput} onSearch={event => this._handleSearch(event)} />
         </div>
         <div className='cli-commands-list-wrapper'>
           <ul className='cli-commands-list'>
@@ -45,23 +51,22 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       </div>);
   }
 
-  private _handleShowSamplesButtonClick(): void {
-    vscode.postMessage({
-      command: 'showSamples'
-    });
+  private _handleSearch(event: any): void {
+    const searchInput: string = (event.target as HTMLInputElement)?.value;
+    this._search(searchInput);
   }
 
-  private _handleGoToHomePageButtonClick(): void {
-    vscode.postMessage({
-      command: 'openLink',
-      value: CONSTANTS.repoHomePageLink
-    });
-  }
-
-  private _handleSearch(searchInput: string): void {
+  private _search(searchInput: string): void {
     const commands: ICommand[] = m365Commands.commands as ICommand[];
     const searchResult: ICommand[] = commands.filter(command => command.name.toLowerCase().includes(searchInput.toLowerCase()));
-    this.setState({ commands: searchResult });
+    this.setState({
+      commands: searchResult,
+      previousSearchInput: searchInput
+    });
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
+    state.commands = searchResult;
+    state.previousSearchInput = searchInput;
+    vscode.setState(state);
   }
 
   private _handleCommandClick(commandName: string): void {

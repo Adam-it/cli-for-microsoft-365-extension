@@ -2,8 +2,9 @@ import * as vscode from 'vscode';
 import { WebViewPanels } from './panels/WebViewPanels';
 import * as m365Commands from '../data/m365Model.json';
 
+
 export function activate(context: vscode.ExtensionContext) {
-    const cliM365Provider = new WebViewPanels(context?.extensionUri, {});
+    const cliM365Provider = new WebViewPanels(context, {});
     const view = vscode.window.registerWebviewViewProvider('cliM365', cliM365Provider);
     context.subscriptions.push(view);
 
