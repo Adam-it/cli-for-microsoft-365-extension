@@ -806,6 +806,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-remove"
     },
     {
+      "name": "pp chatbot list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-list"
+    },
+    {
       "name": "pp dataverse table get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-get"
@@ -1614,6 +1619,11 @@
       "name": "spo listitem attachment list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-list"
+    },
+    {
+      "name": "spo listitem batch add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-batch-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-batch-add"
     },
     {
       "name": "spo listitem get",
@@ -2491,6 +2501,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/guestsettings/guestsettings-set"
     },
     {
+      "name": "teams meeting get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-get"
+    },
+    {
       "name": "teams meeting list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-list"
@@ -2594,6 +2609,11 @@
       "name": "teams team add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/team/team-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/team/team-add"
+    },
+    {
+      "name": "teams team app list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/team/team-app-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/team/team-app-list"
     },
     {
       "name": "teams team archive",
