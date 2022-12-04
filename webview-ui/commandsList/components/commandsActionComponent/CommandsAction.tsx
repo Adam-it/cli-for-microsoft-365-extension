@@ -14,15 +14,27 @@ export default class CommandAction extends React.Component<ICommandsActionProps,
     }
 
     render(): React.ReactElement<ICommandsActionProps> {
+        const { isTreeViewEnabled,
+            showListView,
+            showTreeView } = this.props;
+
         return (
             <div className='cli-commands-list-actions'>
-            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
-              <span className='codicon codicon-file-code'></span>
-            </VSCodeButton>
-            <VSCodeButton appearance='icon' title='CLI for Microsoft 365 web page' onClick={() => this._handleGoToHomePageButtonClick()}>
-              <span className='codicon codicon-browser'></span>
-            </VSCodeButton>
-          </div>
+                {!isTreeViewEnabled ?
+                    <VSCodeButton appearance='icon' title='Tree view' onClick={showTreeView}>
+                        <span className='codicon codicon-list-tree'></span>
+                    </VSCodeButton> :
+                    <VSCodeButton appearance='icon' title='List view' onClick={showListView}>
+                        <span className='codicon codicon-list-unordered'></span>
+                    </VSCodeButton>
+                }
+                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
+                    <span className='codicon codicon-file-code'></span>
+                </VSCodeButton>
+                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 web page' onClick={() => this._handleGoToHomePageButtonClick()}>
+                    <span className='codicon codicon-browser'></span>
+                </VSCodeButton>
+            </div>
         );
     }
 

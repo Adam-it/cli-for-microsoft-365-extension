@@ -1,15 +1,33 @@
-.cli-commands-list {
+.cli-commands-list ul, .cli-commands-tree ul {
     padding: 0;
     list-style: inside;
 }
 
-.cli-commands-list li {
+.cli-commands-tree ul {
+    margin-top: 0;
+}
+
+.cli-commands-tree-group { 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cli-commands-tree-group .codicon {
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.cli-commands-list ul li, .cli-commands-tree ul li {
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
     padding-bottom: 5px;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.cli-commands-tree ul li {
+    padding-left: 20px;
 }
 
 .cli-commands-list-controls { 
