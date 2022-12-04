@@ -2,7 +2,7 @@
 	"name": "cli-for-microsoft-365-extension",
 	"displayName": "CLI for Microsoft 365 extension",
 	"description": "This extension adds snippets, syntaxes and commands manual list",
-	"version": "1.9.1",
+	"version": "1.12.1",
 	"publisher": "adamwojcikit",
 	"author": {
 		"name": "Adam"
