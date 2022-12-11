@@ -31,17 +31,37 @@ export default class CommandAction extends React.Component<ICommandsActionProps,
                 <VSCodeButton appearance='icon' title='CLI for Microsoft 365 samples' onClick={() => this._handleShowSamplesButtonClick()}>
                     <span className='codicon codicon-file-code'></span>
                 </VSCodeButton>
-                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 web page' onClick={() => this._handleGoToHomePageButtonClick()}>
+                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 docs web page' onClick={() => this._handleGoToHomePageButtonClick()}>
                     <span className='codicon codicon-browser'></span>
+                </VSCodeButton>
+                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 GitHub Repo' onClick={() => this._handleGoToRepoButtonClick()}>
+                    <span className='codicon codicon-github-inverted'></span>
+                </VSCodeButton>
+                <VSCodeButton appearance='icon' title='CLI for Microsoft 365 Discord' onClick={() => this._handleGoToDiscordButtonClick()}>
+                    <span className='codicon codicon-feedback'></span>
                 </VSCodeButton>
             </div>
         );
     }
 
+    private _handleGoToDiscordButtonClick(): void {
+        vscode.postMessage({
+            command: 'openLink',
+            value: CONSTANTS.discordLink
+        });
+    }
+
+    private _handleGoToRepoButtonClick(): void {
+        vscode.postMessage({
+            command: 'openLink',
+            value: CONSTANTS.repoLink
+        });
+    }
+
     private _handleGoToHomePageButtonClick(): void {
         vscode.postMessage({
             command: 'openLink',
-            value: CONSTANTS.repoHomePageLink
+            value: CONSTANTS.homePageLink
         });
     }
 

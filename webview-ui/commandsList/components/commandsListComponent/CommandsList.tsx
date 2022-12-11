@@ -178,12 +178,6 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       } as ICommandGroup;
     });
 
-    // if (this.state) {
-    //   treeView.forEach(group => {
-    //     this.state.commandsTreeView.find(treeGroup => treeGroup.name === group.name)?.isExpanded ? group.isExpanded = true : group.isExpanded = false;
-    //   });
-    // }
-
     return treeView;
   }
 
