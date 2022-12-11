@@ -45,8 +45,6 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       commandsTreeView,
       previousSearchInput } = this.state;
 
-      console.log('a', commandsListView, 'b', commandsTreeView);
-
     return (
       <div>
         <div className='cli-commands-list-controls'>
@@ -57,25 +55,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
         <div className='cli-commands-list-wrapper'>
           {isTreeViewEnabled ?
             <div className='cli-commands-tree'>
-              {commandsTreeView.map((group: ICommandGroup) => {
-                // const chevronExpandedIcon = group.isExpanded ? 'codicon-chevron-down' : 'codicon-chevron-right';
-                // return (
-                //   <div key={group.name}>
-                //     <div className='cli-commands-tree-group'>
-                //       <span className={'codicon ' + chevronExpandedIcon}></span>
-                //       <span className='pnp-commands-tree-group-name'>{group.name}</span>
-                //     </div>
-                //     <div className='cli-commands-tree-commands'>
-                //       {group.isExpanded ?
-                //         <ul>
-                //           {group.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(command.name)}>{command.name}</li>))}
-                //         </ul> :
-                //         ''
-                //       }
-                //     </div>
-                //   </div>
-                );
-              })}
+              {commandsTreeView.map((group: ICommandGroup) => this._createTreeView(group, commandsListView, ''))}
             </div> :
             <div className='cli-commands-list'>
               <ul>
@@ -87,11 +67,56 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       </div>);
   }
 
+  private _createTreeView(commandGroup: ICommandGroup, commandsListView: ICommand[], parentCommandPath: string): JSX.Element {
+    const chevronExpandedIcon = commandGroup.isExpanded ? 'codicon-chevron-down' : 'codicon-chevron-right';
+    const commandKey = parentCommandPath !== '' ? `${parentCommandPath}-${commandGroup.name}` : commandGroup.name;
+    return (
+      <div key={commandGroup.name}>
+        <div className='cli-commands-tree-group' data-command-key={commandKey} onClick={() => this._handleGroupNameClick(commandKey)}>
+          <span className={'codicon ' + chevronExpandedIcon}></span>
+          <span className='pnp-commands-tree-group-name'>{commandGroup.name}</span>
+        </div>
+        <div className='cli-commands-tree-commands'>
+          {commandGroup.isExpanded ?
+            <div>
+              <div className='cli-commands-tree-inner-command-groups'>
+                {commandGroup.commandGroups.map(group => this._createTreeView(group, commandsListView, commandKey))}
+              </div>
+              <ul>
+                {commandGroup.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(`${commandKey.replace('-', ' ')} ${command.name.split(' ')[1]}`)}>{command.name}</li>))}
+              </ul>
+            </div> : ''
+          }
+        </div>
+      </div>
+    );
+  }
+
+  private _handleGroupNameClick(groupPath: string): void {
+    const groupPathSegments = groupPath.split('-');
+    const commandsTreeView = this.state.commandsTreeView;
+    let treeView = commandsTreeView;
+    groupPathSegments.forEach((segment, index) => {
+      const commandGroup = treeView.filter(group => group.name === segment)[0];
+      treeView = commandGroup.commandGroups;
+
+      if(index === groupPathSegments.length - 1) {
+        commandGroup.isExpanded = !commandGroup.isExpanded;
+      }
+    });
+
+    this.setState({ commandsTreeView: commandsTreeView });
+
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
+    state.commandsTreeView = commandsTreeView;
+    vscode.setState(state);
+  }
+
   private _handleShowListViewButtonClick(): void {
     const treeView = this.state.commandsTreeView;
     const collapse = (group: ICommandGroup) => {
       group.isExpanded = false;
-      group.commandGroup.forEach(group => collapse(group));
+      group.commandGroups.forEach(group => collapse(group));
     };
     treeView.forEach(group => collapse(group));
     this.setState({
@@ -149,7 +174,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
         name: group,
         isExpanded: false,
         commands: groupCommands,
-        commandGroup: this._getTreeView(innerGroups.map(innerGroup => { return {...innerGroup, name: innerGroup.name.split(' ')[1]}; }))
+        commandGroups: this._getTreeView(innerGroups.map(innerGroup => { return { ...innerGroup, name: this._getNextCommandGroupName(innerGroup.name) }; }))
       } as ICommandGroup;
     });
 
@@ -160,5 +185,11 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
     // }
 
     return treeView;
+  }
+
+  private _getNextCommandGroupName(currentName: string): string {
+    const nameSegments = currentName.split(' ');
+    nameSegments.shift();
+    return nameSegments.join(' ');
   }
 }

@@ -5,11 +5,16 @@
 
 .cli-commands-tree ul {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .cli-commands-tree-group { 
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
+}
+
+.cli-commands-tree-inner-command-groups { 
+    padding-left: 15px;
 }
 
 .cli-commands-tree-group .codicon {
