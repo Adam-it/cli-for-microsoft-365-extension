@@ -721,6 +721,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/plan/plan-remove"
     },
     {
+      "name": "planner plan set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/plan/plan-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/plan/plan-set"
+    },
+    {
       "name": "planner task add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/task/task-add"
