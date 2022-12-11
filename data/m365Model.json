@@ -811,9 +811,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-remove"
     },
     {
+      "name": "pp chatbot get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-get"
+    },
+    {
       "name": "pp chatbot list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-list"
+    },
+    {
+      "name": "pp chatbot remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-remove"
     },
     {
       "name": "pp dataverse table get",
@@ -829,6 +839,11 @@
       "name": "pp dataverse table remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-remove"
+    },
+    {
+      "name": "pp dataverse table row list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-row-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-row-list"
     },
     {
       "name": "pp environment get",
@@ -871,6 +886,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-list"
     },
     {
+      "name": "pp solution publisher add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-add"
+    },
+    {
       "name": "pp solution publisher get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-get"
@@ -894,6 +914,16 @@
       "name": "pp tenant settings list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/tenant/tenant-settings-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-list"
+    },
+    {
+      "name": "purview retentionlabel list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-list"
+    },
+    {
+      "name": "purview retentionlabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-remove"
     },
     {
       "name": "search externalconnection add",
@@ -2504,6 +2534,11 @@
       "name": "teams guestsettings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/guestsettings/guestsettings-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/guestsettings/guestsettings-set"
+    },
+    {
+      "name": "teams meeting attendancereport list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-attendancereport-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-attendancereport-list"
     },
     {
       "name": "teams meeting get",
