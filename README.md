@@ -49,7 +49,7 @@ It is also possible to use command `Insert Snippet` in VS Code to see the full l
 
 The extension provides additional links above the command list which allows to open docs web page, github repository and CLI for Microsoft 365 Discord server in your default browser.
 
-![commandActions](/assets/images/CommandActions.png)
+![commandActions](/assets/images/commandActions.png)
 
 ## 🤖 Commands
 
