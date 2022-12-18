@@ -83,7 +83,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
                 {commandGroup.commandGroups.map(group => this._createTreeView(group, commandsListView, commandKey))}
               </div>
               <ul>
-                {commandGroup.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(`${commandKey.replace('-', ' ')} ${command.name.split(' ')[1]}`)}>{command.name}</li>))}
+                {commandGroup.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(`${commandKey.replaceAll('-', ' ')} ${command.name.split(' ')[1]}`)}>{command.name}</li>))}
               </ul>
             </div> : ''
           }
