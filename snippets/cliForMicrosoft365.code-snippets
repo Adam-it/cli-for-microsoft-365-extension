@@ -692,6 +692,15 @@
     ],
     "description": "Returns Azure AD URL to open in the browser to re-consent CLI for Microsoft 365 permissions"
   },
+  "context init": {
+    "body": [
+      "m365 context init "
+    ],
+    "prefix": [
+      "m365 context init"
+    ],
+    "description": "Initiates CLI for Microsoft 365 context in the current working folder"
+  },
   "file add": {
     "body": [
       "m365 file add --folderUrl $1 --filePath $2"
@@ -1538,6 +1547,15 @@
     ],
     "description": "Lists table rows for the given Dataverse table"
   },
+  "pp dataverse table row remove": {
+    "body": [
+      "m365 pp dataverse table row remove --environment $1 --id $2"
+    ],
+    "prefix": [
+      "m365 pp dataverse table row remove"
+    ],
+    "description": "Removes a row from a dataverse table in a given environment."
+  },
   "pp environment get": {
     "body": [
       "m365 pp environment get --name $1"
@@ -1636,6 +1654,15 @@
       "m365 pp solution publisher list"
     ],
     "description": "Lists publishers in a given environment."
+  },
+  "pp solution publisher remove": {
+    "body": [
+      "m365 pp solution publisher remove --environment $1"
+    ],
+    "prefix": [
+      "m365 pp solution publisher remove"
+    ],
+    "description": "Removes the specified publisher in the specified Power Platform environment"
   },
   "pp solution remove": {
     "body": [
@@ -1744,15 +1771,6 @@
       "m365 skype report activityuserdetail"
     ],
     "description": "Gets details about Skype for Business activity by user"
-  },
-  "solution remove": {
-    "body": [
-      "m365 solution remove --environment $1"
-    ],
-    "prefix": [
-      "m365 solution remove"
-    ],
-    "description": "Removes the specified publisher in the specified Power Platform environment"
   },
   "spfx doctor": {
     "body": [
@@ -2789,24 +2807,6 @@
     ],
     "description": "Gets information about the specific list"
   },
-  "spo list label get": {
-    "body": [
-      "m365 spo list label get --webUrl $1"
-    ],
-    "prefix": [
-      "m365 spo list label get"
-    ],
-    "description": "Gets label set on the specified list"
-  },
-  "spo list label set": {
-    "body": [
-      "m365 spo list label set --webUrl $1 --label $2"
-    ],
-    "prefix": [
-      "m365 spo list label set"
-    ],
-    "description": "Sets classification label on the specified list"
-  },
   "spo list list": {
     "body": [
       "m365 spo list list --webUrl $1"
@@ -2824,6 +2824,24 @@
       "m365 spo list remove"
     ],
     "description": "Removes the specified list"
+  },
+  "spo list retentionlabel get": {
+    "body": [
+      "m365 spo list retentionlabel get "
+    ],
+    "prefix": [
+      "m365 spo list retentionlabel get"
+    ],
+    "description": "Gets the default retention label set on the specified list or library."
+  },
+  "spo list retentionlabel set": {
+    "body": [
+      "m365 spo list retentionlabel set "
+    ],
+    "prefix": [
+      "m365 spo list retentionlabel set"
+    ],
+    "description": "Sets a default retention label on the specified list or library."
   },
   "spo list roleassignment add": {
     "body": [
@@ -4318,6 +4336,15 @@
       "m365 spo web remove"
     ],
     "description": "Delete specified subsite"
+  },
+  "spo web retentionlabel list": {
+    "body": [
+      "m365 spo web retentionlabel list --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo web retentionlabel list"
+    ],
+    "description": "Get a list of retention labels that are available on a site."
   },
   "spo web roleassignment add": {
     "body": [

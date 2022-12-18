@@ -386,6 +386,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-reconsent"
     },
     {
+      "name": "context init",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/context-init.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-init"
+    },
+    {
       "name": "file convert pdf",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/file/convert/convert-pdf.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/convert/convert-pdf"
@@ -846,6 +851,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-row-list"
     },
     {
+      "name": "pp dataverse table row remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/dataverse/dataverse-table-row-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/dataverse/dataverse-table-row-remove"
+    },
+    {
       "name": "pp environment get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/environment/environment-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/environment/environment-get"
@@ -901,7 +911,7 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-list"
     },
     {
-      "name": "solution remove",
+      "name": "pp solution publisher remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-remove"
     },
@@ -1531,16 +1541,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-get"
     },
     {
-      "name": "spo list label get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-label-get.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-label-get"
-    },
-    {
-      "name": "spo list label set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-label-set.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-label-set"
-    },
-    {
       "name": "spo list list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-list"
@@ -1549,6 +1549,16 @@
       "name": "spo list remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-remove"
+    },
+    {
+      "name": "spo list retentionlabel get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-get"
+    },
+    {
+      "name": "spo list retentionlabel set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-set"
     },
     {
       "name": "spo list roleassignment add",
@@ -2369,6 +2379,11 @@
       "name": "spo web remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-remove"
+    },
+    {
+      "name": "spo web retentionlabel list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-retentionlabel-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-retentionlabel-list"
     },
     {
       "name": "spo web roleassignment add",
