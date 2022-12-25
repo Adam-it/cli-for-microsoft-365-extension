@@ -56,6 +56,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/approleassignment/approleassignment-remove"
     },
     {
+      "name": "aad group get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-get"
+    },
+    {
       "name": "aad group list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-list"
@@ -389,6 +394,11 @@
       "name": "context init",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/context-init.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-init"
+    },
+    {
+      "name": "context remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/context-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-remove"
     },
     {
       "name": "file convert pdf",
@@ -936,6 +946,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-remove"
     },
     {
+      "name": "purview retentionlabel set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-set"
+    },
+    {
       "name": "search externalconnection add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-add"
@@ -954,6 +969,11 @@
       "name": "search externalconnection remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-remove"
+    },
+    {
+      "name": "search externalconnection schema add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-schema-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-schema-add"
     },
     {
       "name": "skype report activitycounts",
@@ -1551,14 +1571,14 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-remove"
     },
     {
+      "name": "spo list retentionlabel ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-ensure.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-ensure"
+    },
+    {
       "name": "spo list retentionlabel get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-get"
-    },
-    {
-      "name": "spo list retentionlabel set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-set.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-set"
     },
     {
       "name": "spo list roleassignment add",
@@ -1699,6 +1719,11 @@
       "name": "spo listitem remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-remove"
+    },
+    {
+      "name": "spo listitem retentionlabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-retentionlabel-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-retentionlabel-remove"
     },
     {
       "name": "spo listitem roleassignment add",
@@ -1994,6 +2019,11 @@
       "name": "spo site appcatalog add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-appcatalog-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-appcatalog-add"
+    },
+    {
+      "name": "spo site appcatalog list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-appcatalog-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-appcatalog-list"
     },
     {
       "name": "spo site appcatalog remove",

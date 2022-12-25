@@ -98,6 +98,15 @@
     ],
     "description": "Deletes an app role assignment for the specified Azure AD Application Registration"
   },
+  "aad group get": {
+    "body": [
+      "m365 aad group get "
+    ],
+    "prefix": [
+      "m365 aad group get"
+    ],
+    "description": "Gets information about the specified Azure AD Group"
+  },
   "aad group list": {
     "body": [
       "m365 aad group list "
@@ -700,6 +709,15 @@
       "m365 context init"
     ],
     "description": "Initiates CLI for Microsoft 365 context in the current working folder"
+  },
+  "context remove": {
+    "body": [
+      "m365 context remove "
+    ],
+    "prefix": [
+      "m365 context remove"
+    ],
+    "description": "Removes the CLI for Microsoft 365 context in the current working folder"
   },
   "file add": {
     "body": [
@@ -1558,7 +1576,7 @@
   },
   "pp environment get": {
     "body": [
-      "m365 pp environment get --name $1"
+      "m365 pp environment get "
     ],
     "prefix": [
       "m365 pp environment get"
@@ -1700,6 +1718,15 @@
     ],
     "description": "Delete a retention label"
   },
+  "purview retentionlabel set": {
+    "body": [
+      "m365 purview retentionlabel set --id $1"
+    ],
+    "prefix": [
+      "m365 purview retentionlabel set"
+    ],
+    "description": "Update a retention label"
+  },
   "request": {
     "body": [
       "m365 request --url $1"
@@ -1744,6 +1771,15 @@
       "m365 search externalconnection remove"
     ],
     "description": "Allow the administrator to remove a specific external connection used in Microsoft Search."
+  },
+  "search externalconnection schema add": {
+    "body": [
+      "m365 search externalconnection schema add --externalConnectionId $1"
+    ],
+    "prefix": [
+      "m365 search externalconnection schema add"
+    ],
+    "description": "This command allows the administrator to add a schema to a specific external connection for use in Microsoft Search."
   },
   "skype report activitycounts": {
     "body": [
@@ -2566,7 +2602,7 @@
   },
   "spo group member remove": {
     "body": [
-      "m365 spo group member remove --webUrl $1 --userName $2"
+      "m365 spo group member remove --webUrl $1"
     ],
     "prefix": [
       "m365 spo group member remove"
@@ -2825,6 +2861,15 @@
     ],
     "description": "Removes the specified list"
   },
+  "spo list retentionlabel ensure": {
+    "body": [
+      "m365 spo list retentionlabel ensure "
+    ],
+    "prefix": [
+      "m365 spo list retentionlabel ensure"
+    ],
+    "description": "Sets a default retention label on the specified list or library."
+  },
   "spo list retentionlabel get": {
     "body": [
       "m365 spo list retentionlabel get "
@@ -2833,15 +2878,6 @@
       "m365 spo list retentionlabel get"
     ],
     "description": "Gets the default retention label set on the specified list or library."
-  },
-  "spo list retentionlabel set": {
-    "body": [
-      "m365 spo list retentionlabel set "
-    ],
-    "prefix": [
-      "m365 spo list retentionlabel set"
-    ],
-    "description": "Sets a default retention label on the specified list or library."
   },
   "spo list roleassignment add": {
     "body": [
@@ -3094,6 +3130,15 @@
       "m365 spo listitem remove"
     ],
     "description": "Removes the specified list item"
+  },
+  "spo listitem retentionlabel remove": {
+    "body": [
+      "m365 spo listitem retentionlabel remove --webUrl $1 --listItemId $2"
+    ],
+    "prefix": [
+      "m365 spo listitem retentionlabel remove"
+    ],
+    "description": "Clears the retention label from a list item"
   },
   "spo listitem roleassignment add": {
     "body": [
@@ -3643,6 +3688,15 @@
       "m365 spo site appcatalog add"
     ],
     "description": "Creates a site collection app catalog in the specified site"
+  },
+  "spo site appcatalog list": {
+    "body": [
+      "m365 spo site appcatalog list "
+    ],
+    "prefix": [
+      "m365 spo site appcatalog list"
+    ],
+    "description": "List all site collection app catalogs within the tenant"
   },
   "spo site appcatalog remove": {
     "body": [
