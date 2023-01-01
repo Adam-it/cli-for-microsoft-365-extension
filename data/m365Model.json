@@ -806,6 +806,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/tenant/tenant-settings-set"
     },
     {
+      "name": "pp aibuildermodel list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/aibuildermodel/aibuildermodel-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/aibuildermodel/aibuildermodel-list"
+    },
+    {
       "name": "pp card clone",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/card/card-clone.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-clone"
@@ -934,6 +939,11 @@
       "name": "pp tenant settings list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/tenant/tenant-settings-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-list"
+    },
+    {
+      "name": "purview retentionlabel get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-get"
     },
     {
       "name": "purview retentionlabel list",
@@ -1319,6 +1329,11 @@
       "name": "spo file sharinginfo get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinginfo-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
+    },
+    {
+      "name": "spo file sharinglink list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-list"
     },
     {
       "name": "spo file version clear",
@@ -1711,9 +1726,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-record-declare"
     },
     {
+      "name": "spo listitem record lock",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-record-lock.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-record-lock"
+    },
+    {
       "name": "spo listitem record undeclare",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-record-undeclare.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-record-undeclare"
+    },
+    {
+      "name": "spo listitem record unlock",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-record-unlock.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-record-unlock"
     },
     {
       "name": "spo listitem remove",
