@@ -102,7 +102,7 @@ export class WebViewPanels implements WebviewViewProvider {
           vscode.env.openExternal(vscode.Uri.parse(message.value));
           break;
         case 'createScriptFile':
-          this._createScriptFile(message.value);
+          this._createScriptFile(message.value, message.type);
           break;
         case 'showSamples':
           this.getHtmlWebviewForSamplesView(message.value);
@@ -113,16 +113,33 @@ export class WebViewPanels implements WebviewViewProvider {
     });
   }
 
-  private _createScriptFile(sampleTitle: string): void {
+  private _createScriptFile(sampleTitle: string, type: string): void {
     const sample = samples.samples.find(sample => sample.title === sampleTitle);
     const sampleUrl = sample.rawUrl;
+
+    const _getLanguage = (function (type: string): string {
+      switch (type) {
+        case 'powershell':
+          return 'powershell';
+        case 'javascript':
+          return 'javascript';
+        default:
+          return 'shellscript';
+      }
+    });
 
     axios
       .get(sampleUrl)
       .then(res => {
-        const content: string = res.data.split(sample.tabTag)[1].split('```' + sample.type + '\n')[1].split('```')[0];
-        const language = sample.type === 'powershell' ? 'powershell' : 'shellscript';
-        vscode.workspace.openTextDocument({content, language}).then(document => vscode.window.showTextDocument(document));
+        let content: string;
+        if (sample.source === 'cli') {
+          content = res.data.split('```' + type + '\n')[1].split('```')[0];
+        } else {
+          const index: number = sample.type.indexOf(type);
+          content = res.data.split(sample.tabTag[index])[1].split('```' + sample.type[index] + '\n')[1].split('```')[0];
+        }
+        const language = _getLanguage(type);
+        vscode.workspace.openTextDocument({ content, language }).then(document => vscode.window.showTextDocument(document));
       })
       .catch(() => {
         vscode.window.showErrorMessage('Error while creating script file based on sample');

@@ -25,7 +25,7 @@ export default class Card extends React.Component<ICardProps, ICardState> {
         <div className='card-body'>
           <h3>{sample.title.length > sampleTitleLimit ? `${sample.title.substring(0, sampleTitleLimit)}...` : sample.title}</h3>
           <div className='card-tags'>
-            <VSCodeTag>{sample.type}</VSCodeTag>
+            {sample.type.map((type: string, index: number) => <VSCodeTag key={index}>{type}</VSCodeTag>)}
           </div>
           <p>{sample.description.length > sampleDescriptionLimit ? `${sample.description.substring(0, sampleDescriptionLimit)}...` : sample.description}</p>
           <div className='card-footer'>
@@ -34,13 +34,16 @@ export default class Card extends React.Component<ICardProps, ICardState> {
                 Repo
                 <span slot="start" className="codicon codicon-github-inverted"></span>
               </VSCodeButton>
-              {sample.type !== '' ?
-                <VSCodeButton appearance="secondary" onClick={() => this._handleCreateScriptButtonClick(sample.title)}>
-                  Script
-                  {sample.type === 'powershell' ? <span slot="start" className="codicon codicon-terminal-powershell"></span> : ''}
-                  {sample.type === 'bash' ? <span slot="start" className="codicon codicon-terminal-bash"></span> : ''}
-                </VSCodeButton>
-                : ''}
+              {sample.type.map((type: string, index: number) => {
+                return (
+                  <VSCodeButton key={index} appearance="secondary" onClick={() => this._handleCreateScriptButtonClick(sample.title, type)}>
+                    Script
+                    {type === 'powershell' ? <span slot="start" className="codicon codicon-terminal-powershell"></span> : ''}
+                    {type === 'bash' ? <span slot="start" className="codicon codicon-terminal-bash"></span> : ''}
+                    {type === 'javascript' ? <span slot="start" className="codicon codicon-terminal"></span> : ''}
+                  </VSCodeButton>
+                );
+              })}
             </div>
             <div className='card-footer-authors'>
               {sample.authors.map((author, index) => {
@@ -64,10 +67,11 @@ export default class Card extends React.Component<ICardProps, ICardState> {
     });
   }
 
-  private _handleCreateScriptButtonClick(title: string): void {
+  private _handleCreateScriptButtonClick(title: string, type: string): void {
     vscode.postMessage({
       command: 'createScriptFile',
       value: title,
+      type: type
     });
   }
 }
