@@ -24,8 +24,10 @@ export default class App extends React.Component<IAppProps, IAppState> {
   public componentDidMount(): void {
     const { searchQuery } = this.props;
 
+    const samplesList = samples.samples as ISample[];
+
     this.setState({
-      samples: samples.samples as ISample[],
+      samples: samplesList.sort((a,b) => new Date(b.createDate).getTime() - new Date(a.createDate).getTime()),
       loading: false,
       searchQueryInput: searchQuery ?? ''
     });

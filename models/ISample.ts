@@ -7,7 +7,8 @@ export interface ISample {
     rawUrl: string;
     description: string;
     image: string;
-    type: string;
+    type: string[];
     tags: string[];
     authors: IAuthor[];
+    createDate: string;
 }
