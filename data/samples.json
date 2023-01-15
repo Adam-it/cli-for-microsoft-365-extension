@@ -847,6 +847,40 @@
       "source": "script-samples"
     },
     {
+      "title": "Enable Site Collection App Catalog on a specific sites using CSV",
+      "url": "https://pnp.github.io/script-samples/spo-enable-site-collection-app-catalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-site-collection-app-catalog/README.md",
+      "description": "Enable Site Collection App Catalog on list of SharePoint sites from CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-site-collection-app-catalog/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 logout",
+        "m365 status",
+        "m365 spo site appcatalog add",
+        "Add-PnPSiteCollectionAppCatalog",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Add-SPOSiteCollectionAppCatalog",
+        "Connect-SPOService",
+        "Disconnect-SPOService",
+        "Get-SPOSite"
+      ],
+      "createDate": "2023-01-09",
+      "source": "script-samples"
+    },
+    {
       "title": "Export CSV To SharePoint List Data",
       "url": "https://pnp.github.io/script-samples/spo-export-data-to-sharepoint-lists/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-data-to-sharepoint-lists/README.md",

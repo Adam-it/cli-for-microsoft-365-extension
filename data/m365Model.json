@@ -556,6 +556,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/notebook/notebook-list"
     },
     {
+      "name": "onenote page list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onenote/page/page-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/page/page-list"
+    },
+    {
       "name": "outlook mail send",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-send.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send"
@@ -939,6 +944,11 @@
       "name": "pp tenant settings list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/tenant/tenant-settings-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-list"
+    },
+    {
+      "name": "purview retentionlabel add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-add"
     },
     {
       "name": "purview retentionlabel get",
@@ -1331,9 +1341,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
     },
     {
+      "name": "spo file sharinglink get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-get"
+    },
+    {
       "name": "spo file sharinglink list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-list"
+    },
+    {
+      "name": "spo file sharinglink remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-remove"
     },
     {
       "name": "spo file version clear",
