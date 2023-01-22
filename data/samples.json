@@ -323,6 +323,36 @@
       "source": "script-samples"
     },
     {
+      "title": "Download Library contents as PDF",
+      "url": "https://pnp.github.io/script-samples/graph-download-office-documents-as-pdf/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-download-office-documents-as-pdf/README.md",
+      "description": "Script to download files in a doclib to a local drive and convert Office Documents to PDF",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-download-office-documents-as-pdf/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Russell Gove",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/2412956?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "Document Library",
+        "Conversion",
+        "PDF"
+      ],
+      "createDate": "2021-08-13",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Started with Tooltip for Connected Account",
       "url": "https://pnp.github.io/script-samples/magic-tooltips-module/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/magic-tooltips-module/README.md",
