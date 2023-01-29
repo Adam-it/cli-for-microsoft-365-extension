@@ -391,6 +391,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-reconsent"
     },
     {
+      "name": "context option remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/option/option-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/option/option-remove"
+    },
+    {
+      "name": "context option set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/option/option-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/option/option-set"
+    },
+    {
       "name": "context init",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/context-init.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-init"
@@ -926,6 +936,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-list"
     },
     {
+      "name": "pp solution publish",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publish.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publish"
+    },
+    {
       "name": "pp solution publisher add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/solution/solution-publisher-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/solution/solution-publisher-add"
@@ -1326,6 +1341,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-rename"
     },
     {
+      "name": "spo file retentionlabel ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-retentionlabel-ensure.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-retentionlabel-ensure"
+    },
+    {
+      "name": "spo file retentionlabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-retentionlabel-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-retentionlabel-remove"
+    },
+    {
       "name": "spo file roleassignment add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-roleassignment-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-roleassignment-add"
@@ -1349,6 +1374,11 @@
       "name": "spo file sharinginfo get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinginfo-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinginfo-get"
+    },
+    {
+      "name": "spo file sharinglink add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-add"
     },
     {
       "name": "spo file sharinglink get",
@@ -1424,6 +1454,16 @@
       "name": "spo folder rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-rename.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-rename"
+    },
+    {
+      "name": "spo folder retentionlabel ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-retentionlabel-ensure.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-retentionlabel-ensure"
+    },
+    {
+      "name": "spo folder retentionlabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-retentionlabel-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-retentionlabel-remove"
     },
     {
       "name": "spo folder roleassignment add",
@@ -1624,6 +1664,11 @@
       "name": "spo list retentionlabel get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-get"
+    },
+    {
+      "name": "spo list retentionlabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-retentionlabel-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-retentionlabel-remove"
     },
     {
       "name": "spo list roleassignment add",

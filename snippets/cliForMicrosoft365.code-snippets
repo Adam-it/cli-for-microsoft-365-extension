@@ -710,6 +710,24 @@
       "m365 context init "
     ]
   },
+  "context option remove": {
+    "description": "Removes an already available name from local context file.",
+    "prefix": [
+      "m365 context option remove"
+    ],
+    "body": [
+      "m365 context option remove --name $1"
+    ]
+  },
+  "context option set": {
+    "description": "Allows to add a new name for the option and value to the local context file.",
+    "prefix": [
+      "m365 context option set"
+    ],
+    "body": [
+      "m365 context option set --name $1 --value $2"
+    ]
+  },
   "context remove": {
     "description": "Removes the CLI for Microsoft 365 context in the current working folder",
     "prefix": [
@@ -1682,6 +1700,15 @@
       "m365 pp solution list --environment $1"
     ]
   },
+  "pp solution publish": {
+    "description": "Publishes the components of a solution in a given Power Platform environment",
+    "prefix": [
+      "m365 pp solution publish"
+    ],
+    "body": [
+      "m365 pp solution publish --environment $1"
+    ]
+  },
   "pp solution publisher add": {
     "description": "Adds a specified publisher in a given environment",
     "prefix": [
@@ -2411,6 +2438,24 @@
       "m365 spo file rename --webUrl $1 --sourceUrl $2 --targetFileName $3"
     ]
   },
+  "spo file retentionlabel ensure": {
+    "description": "Apply a retention label to a file",
+    "prefix": [
+      "m365 spo file retentionlabel ensure"
+    ],
+    "body": [
+      "m365 spo file retentionlabel ensure --webUrl $1 --name $2"
+    ]
+  },
+  "spo file retentionlabel remove": {
+    "description": "Clears the retention label from a file",
+    "prefix": [
+      "m365 spo file retentionlabel remove"
+    ],
+    "body": [
+      "m365 spo file retentionlabel remove --webUrl $1"
+    ]
+  },
   "spo file roleassignment add": {
     "description": "Adds a role assignment to the specified file.",
     "prefix": [
@@ -2454,6 +2499,15 @@
     ],
     "body": [
       "m365 spo file sharinginfo get --webUrl $1"
+    ]
+  },
+  "spo file sharinglink add": {
+    "description": "Creates a new sharing link for a file",
+    "prefix": [
+      "m365 spo file sharinglink add"
+    ],
+    "body": [
+      "m365 spo file sharinglink add --webUrl $1 --type $2"
     ]
   },
   "spo file sharinglink get": {
@@ -2589,6 +2643,24 @@
     ],
     "body": [
       "m365 spo folder rename --webUrl $1 --url $2"
+    ]
+  },
+  "spo folder retentionlabel ensure": {
+    "description": "Apply a retention label to a folder",
+    "prefix": [
+      "m365 spo folder retentionlabel ensure"
+    ],
+    "body": [
+      "m365 spo folder retentionlabel ensure --webUrl $1 --name $2"
+    ]
+  },
+  "spo folder retentionlabel remove": {
+    "description": "Clears the retention label from a folder",
+    "prefix": [
+      "m365 spo folder retentionlabel remove"
+    ],
+    "body": [
+      "m365 spo folder retentionlabel remove --webUrl $1"
     ]
   },
   "spo folder roleassignment add": {
@@ -2958,6 +3030,15 @@
     ],
     "body": [
       "m365 spo list retentionlabel get "
+    ]
+  },
+  "spo list retentionlabel remove": {
+    "description": "Clears the retention label on the specified list or library.",
+    "prefix": [
+      "m365 spo list retentionlabel remove"
+    ],
+    "body": [
+      "m365 spo list retentionlabel remove --webUrl $1"
     ]
   },
   "spo list roleassignment add": {
