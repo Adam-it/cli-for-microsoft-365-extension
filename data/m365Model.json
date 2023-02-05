@@ -756,6 +756,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/plan/plan-set"
     },
     {
+      "name": "planner roster add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-add"
+    },
+    {
+      "name": "planner roster remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-remove"
+    },
+    {
       "name": "planner task add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/task/task-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/task/task-add"
@@ -971,6 +981,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-list"
     },
     {
+      "name": "purview auditlog list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/auditlog/auditlog-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/auditlog/auditlog-list"
+    },
+    {
+      "name": "purview retentioneventtype get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-get"
+    },
+    {
       "name": "purview retentionlabel add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-add"
@@ -1051,6 +1071,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-externalize"
     },
     {
+      "name": "spfx project permissions grant",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-permissions-grant.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-permissions-grant"
+    },
+    {
       "name": "spfx project rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-rename.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-rename"
@@ -1119,6 +1144,11 @@
       "name": "spo app upgrade",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/app/app-upgrade.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/app/app-upgrade"
+    },
+    {
+      "name": "spo applicationcustomizer add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-add"
     },
     {
       "name": "spo apppage add",
@@ -1874,6 +1904,11 @@
       "name": "spo navigation node remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/navigation/navigation-node-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/navigation/navigation-node-remove"
+    },
+    {
+      "name": "spo navigation node set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/navigation/navigation-node-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/navigation/navigation-node-set"
     },
     {
       "name": "spo orgassetslibrary add",
