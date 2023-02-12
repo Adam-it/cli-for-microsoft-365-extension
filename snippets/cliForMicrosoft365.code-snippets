@@ -710,6 +710,15 @@
       "m365 context init"
     ]
   },
+  "context option list": {
+    "body": [
+      "m365 context option list "
+    ],
+    "description": "List all options added to the context",
+    "prefix": [
+      "m365 context option list"
+    ]
+  },
   "context option remove": {
     "body": [
       "m365 context option remove --name $1"
@@ -1385,6 +1394,33 @@
       "m365 planner roster add"
     ]
   },
+  "planner roster get": {
+    "body": [
+      "m365 planner roster get --id $1"
+    ],
+    "description": "Gets information about the specific Microsoft Planner Roster.",
+    "prefix": [
+      "m365 planner roster get"
+    ]
+  },
+  "planner roster member add": {
+    "body": [
+      "m365 planner roster member add --rosterId $1"
+    ],
+    "description": "Adds a user to a Microsoft Planner Roster",
+    "prefix": [
+      "m365 planner roster member add"
+    ]
+  },
+  "planner roster member list": {
+    "body": [
+      "m365 planner roster member list --rosterId $1"
+    ],
+    "description": "Lists members of the specified Microsoft Planner Roster",
+    "prefix": [
+      "m365 planner roster member list"
+    ]
+  },
   "planner roster remove": {
     "body": [
       "m365 planner roster remove --id $1"
@@ -1790,6 +1826,42 @@
       "m365 purview auditlog list"
     ]
   },
+  "purview retentionevent get": {
+    "body": [
+      "m365 purview retentionevent get --id $1"
+    ],
+    "description": "Get a retention event",
+    "prefix": [
+      "m365 purview retentionevent get"
+    ]
+  },
+  "purview retentionevent list": {
+    "body": [
+      "m365 purview retentionevent list "
+    ],
+    "description": "Get a list of retention events",
+    "prefix": [
+      "m365 purview retentionevent list"
+    ]
+  },
+  "purview retentionevent remove": {
+    "body": [
+      "m365 purview retentionevent remove --id $1"
+    ],
+    "description": "Delete a retention event",
+    "prefix": [
+      "m365 purview retentionevent remove"
+    ]
+  },
+  "purview retentioneventtype add": {
+    "body": [
+      "m365 purview retentioneventtype add --displayName $1"
+    ],
+    "description": "Create a retention event type",
+    "prefix": [
+      "m365 purview retentioneventtype add"
+    ]
+  },
   "purview retentioneventtype get": {
     "body": [
       "m365 purview retentioneventtype get --id $1"
@@ -1797,6 +1869,33 @@
     "description": "Get a retention event type",
     "prefix": [
       "m365 purview retentioneventtype get"
+    ]
+  },
+  "purview retentioneventtype list": {
+    "body": [
+      "m365 purview retentioneventtype list "
+    ],
+    "description": "Get a list of retention event types",
+    "prefix": [
+      "m365 purview retentioneventtype list"
+    ]
+  },
+  "purview retentioneventtype remove": {
+    "body": [
+      "m365 purview retentioneventtype remove --id $1"
+    ],
+    "description": "Delete a retention event type",
+    "prefix": [
+      "m365 purview retentioneventtype remove"
+    ]
+  },
+  "purview retentioneventtype set": {
+    "body": [
+      "m365 purview retentioneventtype set --id $1"
+    ],
+    "description": "Update a retention event type",
+    "prefix": [
+      "m365 purview retentioneventtype set"
     ]
   },
   "purview retentionlabel add": {
@@ -2564,6 +2663,15 @@
       "m365 spo file sharinglink add"
     ]
   },
+  "spo file sharinglink clear": {
+    "body": [
+      "m365 spo file sharinglink clear --webUrl $1"
+    ],
+    "description": "Removes sharing links of a file",
+    "prefix": [
+      "m365 spo file sharinglink clear"
+    ]
+  },
   "spo file sharinglink get": {
     "body": [
       "m365 spo file sharinglink get --webUrl $1 --id $2"
@@ -2589,6 +2697,15 @@
     "description": "Removes a specific sharing link of a file",
     "prefix": [
       "m365 spo file sharinglink remove"
+    ]
+  },
+  "spo file sharinglink set": {
+    "body": [
+      "m365 spo file sharinglink set --webUrl $1 --id $2 --expirationDateTime $3"
+    ],
+    "description": "Updates a sharing link of a file",
+    "prefix": [
+      "m365 spo file sharinglink set"
     ]
   },
   "spo file version clear": {
@@ -3444,6 +3561,15 @@
     "description": "Adds a navigation node to the specified site navigation",
     "prefix": [
       "m365 spo navigation node add"
+    ]
+  },
+  "spo navigation node get": {
+    "body": [
+      "m365 spo navigation node get --webUrl $1 --id $2"
+    ],
+    "description": "Gets information about a specific navigation node.",
+    "prefix": [
+      "m365 spo navigation node get"
     ]
   },
   "spo navigation node list": {
@@ -4362,6 +4488,15 @@
     "description": "Gets the URL of the tenant app catalog",
     "prefix": [
       "m365 spo tenant appcatalogurl get"
+    ]
+  },
+  "spo tenant applicationcustomizer add": {
+    "body": [
+      "m365 spo tenant applicationcustomizer add --title $1 --clientSideComponentId $2"
+    ],
+    "description": "Add an application customizer as a tenant wide extension.",
+    "prefix": [
+      "m365 spo tenant applicationcustomizer add"
     ]
   },
   "spo tenant recyclebinitem list": {

@@ -391,6 +391,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-reconsent"
     },
     {
+      "name": "context option list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/option/option-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/option/option-list"
+    },
+    {
       "name": "context option remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/option/option-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/option/option-remove"
@@ -761,6 +766,21 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-add"
     },
     {
+      "name": "planner roster get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-get"
+    },
+    {
+      "name": "planner roster member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-add"
+    },
+    {
+      "name": "planner roster member list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-list"
+    },
+    {
       "name": "planner roster remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-remove"
@@ -986,9 +1006,44 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/auditlog/auditlog-list"
     },
     {
+      "name": "purview retentionevent get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionevent/retentionevent-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionevent/retentionevent-get"
+    },
+    {
+      "name": "purview retentionevent list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionevent/retentionevent-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionevent/retentionevent-list"
+    },
+    {
+      "name": "purview retentionevent remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionevent/retentionevent-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionevent/retentionevent-remove"
+    },
+    {
+      "name": "purview retentioneventtype add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-add"
+    },
+    {
       "name": "purview retentioneventtype get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-get"
+    },
+    {
+      "name": "purview retentioneventtype list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-list"
+    },
+    {
+      "name": "purview retentioneventtype remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-remove"
+    },
+    {
+      "name": "purview retentioneventtype set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentioneventtype/retentioneventtype-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentioneventtype/retentioneventtype-set"
     },
     {
       "name": "purview retentionlabel add",
@@ -1411,6 +1466,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-add"
     },
     {
+      "name": "spo file sharinglink clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-clear.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-clear"
+    },
+    {
       "name": "spo file sharinglink get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-get"
@@ -1424,6 +1484,11 @@
       "name": "spo file sharinglink remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-remove"
+    },
+    {
+      "name": "spo file sharinglink set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-sharinglink-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-set"
     },
     {
       "name": "spo file version clear",
@@ -1894,6 +1959,11 @@
       "name": "spo navigation node add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/navigation/navigation-node-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/navigation/navigation-node-add"
+    },
+    {
+      "name": "spo navigation node get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/navigation/navigation-node-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/navigation/navigation-node-get"
     },
     {
       "name": "spo navigation node list",
@@ -2394,6 +2464,11 @@
       "name": "spo tenant appcatalogurl get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-appcatalogurl-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-appcatalogurl-get"
+    },
+    {
+      "name": "spo tenant applicationcustomizer add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-add"
     },
     {
       "name": "spo tenant recyclebinitem list",
