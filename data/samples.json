@@ -2650,6 +2650,32 @@
       "source": "cli"
     },
     {
+      "title": "Download attachments from a SharePoint Online list",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/download-attachments-from-list",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/download-attachments-from-list/index.md",
+      "description": "Script helps to download attachments from a SharePoint Online list.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/download-attachments-from-list/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "attachments",
+        "file download",
+        "migration"
+      ],
+      "createDate": "2023-02-18",
+      "source": "cli"
+    },
+    {
       "title": "CLI - Empty the tenant recycle bin",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/empty-tenant-recyclebin",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/empty-tenant-recyclebin/index.md",

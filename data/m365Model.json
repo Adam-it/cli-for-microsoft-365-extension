@@ -291,6 +291,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-password-validate"
     },
     {
+      "name": "aad user recyclebinitem clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-clear.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-clear"
+    },
+    {
+      "name": "aad user recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-remove"
+    },
+    {
       "name": "aad user set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-set"
@@ -779,6 +789,11 @@
       "name": "planner roster member list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-list"
+    },
+    {
+      "name": "planner roster member remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-remove"
     },
     {
       "name": "planner roster remove",
