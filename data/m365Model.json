@@ -101,6 +101,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsettingtemplate/groupsettingtemplate-list"
     },
     {
+      "name": "aad license list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/license/license-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/license/license-list"
+    },
+    {
       "name": "aad o365group add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-add"
@@ -266,6 +271,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-get"
     },
     {
+      "name": "aad user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-add"
+    },
+    {
       "name": "aad user get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-get"
@@ -279,6 +289,21 @@
       "name": "aad user hibp",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-hibp.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-hibp"
+    },
+    {
+      "name": "aad user license add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-add"
+    },
+    {
+      "name": "aad user license list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-list"
+    },
+    {
+      "name": "aad user license remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-remove"
     },
     {
       "name": "aad user list",
@@ -296,9 +321,24 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-clear"
     },
     {
+      "name": "aad user recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-list"
+    },
+    {
       "name": "aad user recyclebinitem remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-remove"
+    },
+    {
+      "name": "aad user recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-restore.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-restore"
+    },
+    {
+      "name": "aad user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-remove"
     },
     {
       "name": "aad user set",

@@ -973,6 +973,32 @@
       "source": "script-samples"
     },
     {
+      "title": "Export access shared links from SharePoint Library",
+      "url": "https://pnp.github.io/script-samples/spo-export-file-shared-links/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-file-shared-links/README.md",
+      "description": "Script will export SharePoint Library with access shared links files to CSV file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-file-shared-links/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Andre Lage",
+          "pictureUrl": "https://github.com/aaclage.png"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo file list",
+        "spo file sharinginfo get"
+      ],
+      "createDate": "2023-02-18",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Hub Sites Information And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-export-hub-sites-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-sites-details-to-csv/README.md",
