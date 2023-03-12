@@ -353,6 +353,29 @@
       "source": "script-samples"
     },
     {
+      "title": "Locate all Teams having a Wiki and export the list to CSV",
+      "url": "https://pnp.github.io/script-samples/graph-get-teams-tabs-export-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-get-teams-tabs-export-to-csv/README.md",
+      "description": "Locate all Teams having a Wiki and export the list to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-get-teams-tabs-export-to-csv/assets/preview.png",
+      "type": [],
+      "tabTag": [],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        }
+      ],
+      "tags": [
+        "m365 util accesstoken get",
+        "Connect-MgGraph",
+        "Get-MgContext",
+        "Disconnect-MgGraph"
+      ],
+      "createDate": "2023-03-07",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Started with Tooltip for Connected Account",
       "url": "https://pnp.github.io/script-samples/magic-tooltips-module/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/magic-tooltips-module/README.md",

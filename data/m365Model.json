@@ -491,9 +491,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/environment/environment-list"
     },
     {
+      "name": "flow owner add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-add"
+    },
+    {
       "name": "flow owner list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-list"
+    },
+    {
+      "name": "flow owner remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-remove"
     },
     {
       "name": "flow run cancel",
@@ -829,6 +839,11 @@
       "name": "planner roster member add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-add"
+    },
+    {
+      "name": "planner roster member get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-member-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-get"
     },
     {
       "name": "planner roster member list",
@@ -2529,6 +2544,11 @@
       "name": "spo tenant applicationcustomizer add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-add"
+    },
+    {
+      "name": "spo tenant applicationcustomizer get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-get"
     },
     {
       "name": "spo tenant recyclebinitem list",
