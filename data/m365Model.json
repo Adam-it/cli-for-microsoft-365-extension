@@ -1081,6 +1081,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/auditlog/auditlog-list"
     },
     {
+      "name": "purview retentionevent add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionevent/retentionevent-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionevent/retentionevent-add"
+    },
+    {
       "name": "purview retentionevent get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionevent/retentionevent-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionevent/retentionevent-get"
@@ -1324,6 +1329,31 @@
       "name": "spo cdn set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/cdn/cdn-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/cdn/cdn-set"
+    },
+    {
+      "name": "spo commandset add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/commandset/commandset-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/commandset/commandset-add"
+    },
+    {
+      "name": "spo commandset get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/commandset/commandset-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/commandset/commandset-get"
+    },
+    {
+      "name": "spo commandset list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/commandset/commandset-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/commandset/commandset-list"
+    },
+    {
+      "name": "spo commandset remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/commandset/commandset-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/commandset/commandset-remove"
+    },
+    {
+      "name": "spo commandset set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/commandset/commandset-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/commandset/commandset-set"
     },
     {
       "name": "spo contenttype add",
@@ -2644,6 +2674,11 @@
       "name": "spo theme set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/theme/theme-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/theme/theme-set"
+    },
+    {
+      "name": "spo user ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/user/user-ensure.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/user/user-ensure"
     },
     {
       "name": "spo user get",
