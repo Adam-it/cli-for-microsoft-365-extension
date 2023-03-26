@@ -491,9 +491,9 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/environment/environment-list"
     },
     {
-      "name": "flow owner add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-add.md",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-add"
+      "name": "flow owner ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-ensure.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-ensure"
     },
     {
       "name": "flow owner list",
