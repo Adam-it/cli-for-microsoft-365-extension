@@ -1286,6 +1286,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-add"
     },
     {
+      "name": "spo applicationcustomizer list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-list"
+    },
+    {
       "name": "spo apppage add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/apppage/apppage-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/apppage/apppage-add"
