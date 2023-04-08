@@ -70,6 +70,7 @@ export class WebViewPanels implements WebviewViewProvider {
         {
           enableScripts: true,
           localResourceRoots: [this.context.extensionUri],
+          enableFindWidget: true
         }
       );
 
