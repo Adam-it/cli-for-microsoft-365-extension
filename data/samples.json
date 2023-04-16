@@ -596,6 +596,10 @@
       ],
       "authors": [
         {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        },
+        {
           "name": "Nanddeep Nachan",
           "pictureUrl": "https://github.com/nanddeepn.png"
         },
@@ -780,6 +784,34 @@
         "m365 spo field set"
       ],
       "createDate": "2021-09-29",
+      "source": "script-samples"
+    },
+    {
+      "title": "Apply SharePoint JSON View Formatting",
+      "url": "https://pnp.github.io/script-samples/spo-apply-json-view-formatting/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-json-view-formatting/README.md",
+      "description": "This sample script shows how to apply SharePoint JSON view formatting using PnP PowerShell and CLI for Microsoft 365",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-json-view-formatting/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPView",
+        "m365 login",
+        "m365 spo list view set"
+      ],
+      "createDate": "2023-04-03",
       "source": "script-samples"
     },
     {
