@@ -3203,32 +3203,6 @@
       "source": "cli"
     },
     {
-      "title": "Lists active SharePoint site collection application catalogs",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-site-app-catalogs",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-site-app-catalogs/index.md",
-      "description": "Script will find all installed site collection application catalogs within a tenant.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-site-app-catalogs/assets/preview.png",
-      "type": [
-        "powershell",
-        "bash"
-      ],
-      "tabTag": [
-        "```powershell",
-        "```bash"
-      ],
-      "authors": [
-        {
-          "name": "Velin Georgiev",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/1049476?v=4"
-        }
-      ],
-      "tags": [
-        "reports"
-      ],
-      "createDate": "2019-11-16",
-      "source": "cli"
-    },
-    {
       "title": "List site collections and their lists",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-site-collection-lists",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-site-collection-lists/index.md",

@@ -1301,6 +1301,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-add"
     },
     {
+      "name": "spo applicationcustomizer get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-get"
+    },
+    {
       "name": "spo applicationcustomizer list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-list"
@@ -2439,6 +2444,11 @@
       "name": "spo site list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-list"
+    },
+    {
+      "name": "spo site recyclebinitem clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-clear.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-clear"
     },
     {
       "name": "spo site recyclebinitem list",
