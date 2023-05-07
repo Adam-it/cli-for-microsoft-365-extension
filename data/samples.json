@@ -631,6 +631,42 @@
       "source": "script-samples"
     },
     {
+      "title": "Activate a site feature in SharePoint online",
+      "url": "https://pnp.github.io/script-samples/spo-activate-site-feature/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-activate-site-feature/README.md",
+      "description": "This sample script shows how to Activate a site feature in SharePoint online site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-activate-site-feature/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/Tanddant.png"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPFeature",
+        "Enable-PnPFeature",
+        "m365 status",
+        "m365 login",
+        "m365 spo feature list",
+        "m365 spo feature enable"
+      ],
+      "createDate": "2022-10-10",
+      "source": "script-samples"
+    },
+    {
       "title": "Add App Catalog to SharePoint site",
       "url": "https://pnp.github.io/script-samples/spo-add-app-catalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-app-catalog/README.md",
@@ -710,6 +746,41 @@
       ],
       "tags": [],
       "createDate": "2021-10-08",
+      "source": "script-samples"
+    },
+    {
+      "title": "Add Page template to Site",
+      "url": "https://pnp.github.io/script-samples/spo-add-page-template/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-page-template/README.md",
+      "description": "This sample script shows how to add a page template to a SharePoint Online site collection",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-page-template/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Dennis Goedegebuure",
+          "pictureUrl": "https://github.com/expiscornovus.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Page Template",
+        "Connect-PnPOnline",
+        "Add-PnPPage",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo page add"
+      ],
+      "createDate": "2023-04-24",
       "source": "script-samples"
     },
     {
@@ -842,6 +913,46 @@
         "m365 spo list view set"
       ],
       "createDate": "2023-04-03",
+      "source": "script-samples"
+    },
+    {
+      "title": "Associate Multiple Site Collections to Hub Site",
+      "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
+      "description": "This PowerShell script can be used to associate mutilple site collections to Hub site. You can provide list of site collection URLs in an array.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://github.com/siddharth-vaghasia.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Hub Site",
+        "Connect-SPOService",
+        "Add-SPOHubSiteAssociation",
+        "Disconnect-SPOService",
+        "Connect-PnPOnline",
+        "Add-PnPHubSiteAssociation",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo hubsite get",
+        "m365 spo site hubsite connect",
+        "m365 logout"
+      ],
+      "createDate": "2023-02-17",
       "source": "script-samples"
     },
     {
@@ -1775,6 +1886,36 @@
       "source": "script-samples"
     },
     {
+      "title": "Remove Title Area from SharePoint Page",
+      "url": "https://pnp.github.io/script-samples/spo-remove-page-title-area/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-page-title-area/README.md",
+      "description": "This sample script shows how to remove the title area from SharePoint online site page using PnP PowerShell and CLI for Microsoft 365.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-page-title-area/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPPage",
+        "m365 status",
+        "m365 login",
+        "m365 spo page set"
+      ],
+      "createDate": "2023-02-23",
+      "source": "script-samples"
+    },
+    {
       "title": "Delete custom SharePoint site designs",
       "url": "https://pnp.github.io/script-samples/spo-remove-site-designs/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-designs/README.md",
@@ -1906,16 +2047,20 @@
       ],
       "authors": [
         {
-          "name": "Smita Nachan",
-          "pictureUrl": "https://github.com/SmitaNachan.png"
-        },
-        {
           "name": "Ganesh Sanap",
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
         }
       ],
       "tags": [
         "modern",
+        "SharePoint Online",
+        "Home Site",
+        "Connect-SPOService",
+        "Set-SPOHomeSite",
         "m365 login",
         "m365 status",
         "m365 spo homesite set",
@@ -1923,6 +2068,35 @@
         "Set-PnPHomeSite"
       ],
       "createDate": "2022-01-18",
+      "source": "script-samples"
+    },
+    {
+      "title": "Update SharePoint Page Banner Image",
+      "url": "https://pnp.github.io/script-samples/spo-update-page-banner-image/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-page-banner-image/README.md",
+      "description": "This sample script shows how to update the banner image at the top of the SharePoint online modern page using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-page-banner-image/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPPage",
+        "m365 status",
+        "m365 login",
+        "m365 spo page header set"
+      ],
+      "createDate": "2023-03-05",
       "source": "script-samples"
     },
     {

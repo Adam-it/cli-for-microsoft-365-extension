@@ -861,6 +861,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-member-remove"
     },
     {
+      "name": "planner roster plan list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-plan-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-plan-list"
+    },
+    {
       "name": "planner roster remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/planner/roster/roster-remove.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/planner/roster/roster-remove"
@@ -2954,6 +2959,11 @@
       "name": "teams meeting list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-list"
+    },
+    {
+      "name": "teams meeting transcript list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-transcript-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-transcript-list"
     },
     {
       "name": "teams membersettings list",
