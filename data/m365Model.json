@@ -726,6 +726,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/roomlist/roomlist-list"
     },
     {
+      "name": "pa app consent set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/app/app-consent-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-consent-set"
+    },
+    {
       "name": "pa app export",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/app/app-export.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-export"
@@ -1164,6 +1169,21 @@
       "name": "purview retentionlabel set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/retentionlabel/retentionlabel-set.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/retentionlabel/retentionlabel-set"
+    },
+    {
+      "name": "purview sensitivitylabel get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/sensitivitylabel/sensitivitylabel-get.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/sensitivitylabel/sensitivitylabel-get"
+    },
+    {
+      "name": "purview sensitivitylabel list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/sensitivitylabel/sensitivitylabel-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/sensitivitylabel/sensitivitylabel-list"
+    },
+    {
+      "name": "purview sensitivitylabel policysettings list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/sensitivitylabel/sensitivitylabel-policysettings-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/sensitivitylabel/sensitivitylabel-policysettings-list"
     },
     {
       "name": "purview threatassessment get",
@@ -2459,6 +2479,16 @@
       "name": "spo site recyclebinitem list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-list"
+    },
+    {
+      "name": "spo site recyclebinitem move",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-move.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-move"
+    },
+    {
+      "name": "spo site recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-remove"
     },
     {
       "name": "spo site recyclebinitem restore",

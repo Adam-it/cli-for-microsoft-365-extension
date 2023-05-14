@@ -1128,6 +1128,38 @@
       "source": "script-samples"
     },
     {
+      "title": "Disable SharePoint List Commenting at tenant level",
+      "url": "https://pnp.github.io/script-samples/spo-disable-list-comments-tenant/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-list-comments-tenant/README.md",
+      "description": "This sample script shows how to disable commenting feature in SharePoint online lists at tenant level",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-list-comments-tenant/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPTenant",
+        "Connect-SPOService",
+        "Set-SPOTenant",
+        "m365 status",
+        "m365 login",
+        "m365 spo tenant settings set"
+      ],
+      "createDate": "2022-10-11",
+      "source": "script-samples"
+    },
+    {
       "title": "Empty SharePoint Online Site Recycle Bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-recycle-bin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/README.md",
@@ -1810,6 +1842,42 @@
         "Get-PnPWeb"
       ],
       "createDate": "2021-11-10",
+      "source": "script-samples"
+    },
+    {
+      "title": "Open Office documents in the Client",
+      "url": "https://pnp.github.io/script-samples/spo-open-doc-in-client/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-open-doc-in-client/README.md",
+      "description": "Ensure that office documents will open in the desktop client application if such is installed",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-open-doc-in-client/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPFeature",
+        "Enable-PnPFeature",
+        "m365 status",
+        "m365 login",
+        "m365 spo feature list",
+        "m365 spo feature enable"
+      ],
+      "createDate": "2022-10-17",
       "source": "script-samples"
     },
     {
