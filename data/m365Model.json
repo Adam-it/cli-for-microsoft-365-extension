@@ -3396,6 +3396,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/yammer-search"
     },
     {
+      "name": "docs",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/docs.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/docs"
+    },
+    {
       "name": "login",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/login.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/login"

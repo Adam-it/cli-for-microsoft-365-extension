@@ -853,6 +853,45 @@
       "source": "script-samples"
     },
     {
+      "title": "Add/Update Image in SharePoint Image column",
+      "url": "https://pnp.github.io/script-samples/spo-add-update-image-column/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-update-image-column/README.md",
+      "description": "Add/Update image in SharePoint image column in a SharePoint List or Library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-update-image-column/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Matt Jimison",
+          "pictureUrl": "https://github.com/mjimison.png"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPFile",
+        "Add-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo file get",
+        "m365 spo listitem add",
+        "m365 spo listitem set",
+        "m365 logout"
+      ],
+      "createDate": "2022-10-14",
+      "source": "script-samples"
+    },
+    {
       "title": "Script allow copy column format in SharePoint and apply to different column.",
       "url": "https://pnp.github.io/script-samples/spo-apply-column-format/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-column-format/README.md",
@@ -1057,6 +1096,43 @@
       "source": "script-samples"
     },
     {
+      "title": "Create SharePoint Groups in Bulk using CSV file",
+      "url": "https://pnp.github.io/script-samples/spo-create-sharepoint-groups-bulk-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-groups-bulk-csv/README.md",
+      "description": "This script shows how to create multiple groups in SharePoint for different site collection providing input from CSV file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-groups-bulk-csv/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Kunj Balkrishna Sangani",
+          "pictureUrl": "https://github.com/kunj-sangani.png"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "New-PnPGroup",
+        "Connect-SPOService",
+        "New-SPOSiteGroup",
+        "Disconnect-SPOService",
+        "m365 status",
+        "m365 login",
+        "m365 spo group add",
+        "m365 logout"
+      ],
+      "createDate": "2022-01-15",
+      "source": "script-samples"
+    },
+    {
       "title": "Delete orphaned temporary pages from Site Pages",
       "url": "https://pnp.github.io/script-samples/spo-delete-orphaned-temporary-sitepages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-orphaned-temporary-sitepages/README.md",
@@ -1187,6 +1263,47 @@
         "m365 spo site recyclebinitem"
       ],
       "createDate": "2023-03-30",
+      "source": "script-samples"
+    },
+    {
+      "title": "Empty the tenant recycle bin",
+      "url": "https://pnp.github.io/script-samples/spo-empty-tenant-recyclebin/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-tenant-recyclebin/README.md",
+      "description": "Script that removes sites from the tenant recycle bin",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-tenant-recyclebin/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Clear-PnPTenantRecycleBinItem",
+        "Connect-PnPOnline",
+        "Get-PnPTenantRecycleBinItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo tenant recyclebinitem list",
+        "m365 spo tenant recyclebinitem remove",
+        "m365 logout",
+        "Connect-SPOService",
+        "Get-SPODeletedSite",
+        "Remove-SPODeletedSite",
+        "Disconnect-SPOService"
+      ],
+      "createDate": "2021-01-13",
       "source": "script-samples"
     },
     {
@@ -1634,6 +1751,42 @@
       "source": "script-samples"
     },
     {
+      "title": "Hide SharePoint list from Site Contents",
+      "url": "https://pnp.github.io/script-samples/spo-hide-list-from-site-contents/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hide-list-from-site-contents/README.md",
+      "description": "Hide the SharePoint list from the UI this script will hide a specific list from the site contents",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hide-list-from-site-contents/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Hide List",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ],
+      "createDate": "2020-08-23",
+      "source": "script-samples"
+    },
+    {
       "title": "SharePoint Online Hub Site Association",
       "url": "https://pnp.github.io/script-samples/spo-hub-sites-association/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hub-sites-association/README.md",
@@ -1700,6 +1853,45 @@
         "m365 spo app install"
       ],
       "createDate": "2022-06-06",
+      "source": "script-samples"
+    },
+    {
+      "title": "Download all the content type document templates files associated with a library",
+      "url": "https://pnp.github.io/script-samples/spo-list-download-contenttype-documenttemplate/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-download-contenttype-documenttemplate/README.md",
+      "description": "The script downloads all content type document template files in a library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-download-contenttype-documenttemplate/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Content Type",
+        "Content Type Document Templates",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPFile",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list contenttype list",
+        "m365 spo file get",
+        "m365 logout"
+      ],
+      "createDate": "2022-11-04",
       "source": "script-samples"
     },
     {
@@ -1910,11 +2102,19 @@
       "title": "Delete custom color themes from SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-remove-custom-themes/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/README.md",
-      "description": "Creating a lot of beautiful themes lately and testing them but don’t want to keep them anymore, this script is for you",
+      "description": "Creating a lot of beautiful themes lately and testing them but don't want to keep them anymore, this script is for you",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/assets/preview.png",
-      "type": [],
-      "tabTag": [],
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
@@ -1922,7 +2122,20 @@
       ],
       "tags": [
         "SharePoint Online",
-        "Themes"
+        "Themes",
+        "Connect-SPOService",
+        "Get-SPOTheme",
+        "Remove-SPOTheme",
+        "Disconnect-SPOService",
+        "Connect-PnPOnline",
+        "Get-PnPTenantTheme",
+        "Remove-PnPTenantTheme",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo theme list",
+        "m365 spo theme remove",
+        "m365 logout"
       ],
       "createDate": "2020-08-23",
       "source": "script-samples"
@@ -3095,6 +3308,32 @@
       "source": "cli"
     },
     {
+      "title": "Create test documents in SharePoint with OpenAI API",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/create-sample-documents-with-openai",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/create-sample-documents-with-openai/index.md",
+      "description": "This script shows how you can use the CLI for Microsoft 365 to generate test documents in a SharePoint Online library using OpenAI.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/create-sample-documents-with-openai/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "files",
+        "libraries",
+        "ai"
+      ],
+      "createDate": "2023-05-15",
+      "source": "cli"
+    },
+    {
       "title": "Delete all (non-group connected) modern SharePoint sites",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/delete-non-group-connected-modern-sites",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-non-group-connected-modern-sites/index.md",
@@ -3517,6 +3756,31 @@
       "source": "cli"
     },
     {
+      "title": "List SharePoint sites where the particular app is installed",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-all-sites-with-app-installed",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-all-sites-with-app-installed/index.md",
+      "description": "This script will retrieve all sites in SharePoint where a particular app is installed.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-all-sites-with-app-installed/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/65232102?v=4"
+        }
+      ],
+      "tags": [
+        "reports",
+        "sites"
+      ],
+      "createDate": "2023-05-12",
+      "source": "cli"
+    },
+    {
       "title": "List Attachment Names From SharePoint Lists For A Site",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-attachment-names-from-spo-lists",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-attachment-names-from-spo-lists/index.md",
@@ -3722,6 +3986,58 @@
         "reports"
       ],
       "createDate": "2020-04-12",
+      "source": "cli"
+    },
+    {
+      "title": "Make a list or library read-only for all users",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/make-list-or-library-read-only-for-all-users",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/make-list-or-library-read-only-for-all-users/index.md",
+      "description": "This script allows you to make a list or library read-only for all users.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/make-list-or-library-read-only-for-all-users/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Nico De Cleyre",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/35696168?v=4"
+        }
+      ],
+      "tags": [
+        "list",
+        "library",
+        "security",
+        "users"
+      ],
+      "createDate": "2023-04-27",
+      "source": "cli"
+    },
+    {
+      "title": "Create custom views to differentiate SharePoint news page types in Site Pages library",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/manage-news-page-types",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/manage-news-page-types/index.md",
+      "description": "Script will create custom views to differentiate news types in site pages library.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/manage-news-page-types/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "pages",
+        "libraries"
+      ],
+      "createDate": "2023-05-14",
       "source": "cli"
     },
     {
