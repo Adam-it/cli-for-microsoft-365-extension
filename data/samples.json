@@ -2531,6 +2531,45 @@
       "source": "script-samples"
     },
     {
+      "title": "List all Microsoft Teams team's Owners and Members",
+      "url": "https://pnp.github.io/script-samples/teams-list-teams-owners-and-members/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-teams-owners-and-members/README.md",
+      "description": "This script allows you to list all Teams team's owners and members and export them into a CSV file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-teams-owners-and-members/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft Teams",
+        "Governance",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPMicrosoft365GroupOwner",
+        "m365 status",
+        "m365 login",
+        "m365 teams team list",
+        "m365 teams user list",
+        "m365 logout"
+      ],
+      "createDate": "2021-03-20",
+      "source": "script-samples"
+    },
+    {
       "title": "Get notified in Microsoft Teams about SharePoint health incidents",
       "url": "https://pnp.github.io/script-samples/tenant-health-notify-teams/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-health-notify-teams/README.md",
@@ -4382,6 +4421,31 @@
         "migration"
       ],
       "createDate": "2020-06-15",
+      "source": "cli"
+    },
+    {
+      "title": "Uninstall .sppkg package from the specified app catalog",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/uninstall-package",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/uninstall-package/index.md",
+      "description": "This script is to uninstall .sppkg package from the tenant or site collection app catalog.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/uninstall-package/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Saurabh Tripathi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18114579?v=4"
+        }
+      ],
+      "tags": [
+        "apps",
+        "cleanup"
+      ],
+      "createDate": "2023-05-24",
       "source": "cli"
     },
     {

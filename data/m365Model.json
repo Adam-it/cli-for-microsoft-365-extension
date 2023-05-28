@@ -356,6 +356,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send"
     },
     {
+      "name": "app permission add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/app/permission/permission-add.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/app/permission/permission-add"
+    },
+    {
       "name": "app permission list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/app/permission/permission-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/app/permission/permission-list"
@@ -1336,6 +1341,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-list"
     },
     {
+      "name": "spo applicationcustomizer remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-remove"
+    },
+    {
       "name": "spo apppage add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/apppage/apppage-add.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/apppage/apppage-add"
@@ -2031,6 +2041,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-batch-add"
     },
     {
+      "name": "spo listitem batch set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-batch-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-batch-set"
+    },
+    {
       "name": "spo listitem get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-get.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-get"
@@ -2646,6 +2661,26 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-get"
     },
     {
+      "name": "spo tenant applicationcustomizer list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-list.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-list"
+    },
+    {
+      "name": "spo tenant applicationcustomizer remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-remove"
+    },
+    {
+      "name": "spo tenant commandset remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-remove"
+    },
+    {
+      "name": "spo tenant commandset set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-set.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-set"
+    },
+    {
       "name": "spo tenant recyclebinitem list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-recyclebinitem-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-recyclebinitem-list"
@@ -2944,6 +2979,11 @@
       "name": "teams chat member list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/chat/chat-member-list.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/chat/chat-member-list"
+    },
+    {
+      "name": "teams chat member remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/chat/chat-member-remove.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/chat/chat-member-remove"
     },
     {
       "name": "teams chat message list",
@@ -3414,6 +3454,11 @@
       "name": "request",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/request.md",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/request"
+    },
+    {
+      "name": "setup",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/setup.md",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/setup"
     },
     {
       "name": "status",
