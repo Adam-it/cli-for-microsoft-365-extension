@@ -77,7 +77,7 @@ foreach ($sample in $allCLiSamples) {
     $sampleContent = Get-Content -Path $sample.FullName -Raw
     $sampleJson = ConvertFrom-Json -InputObject $sampleContent
     
-    $index = $sample.FullName.Replace('assets\sample.json', 'index.md')
+    $index = $sample.FullName.Replace('assets\sample.json', 'index.mdx')
     $indexContent = Get-Content -Path $index -Raw
     $type = @()
     $tabTag = @()
