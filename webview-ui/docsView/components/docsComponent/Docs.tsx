@@ -17,9 +17,21 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
   public render(): React.ReactElement<IDocsProps> {
     let docs = this.props.docsMarkDown;
     const { docsCommandName, docsUrl } = this.props;
-    docs = (docs as any).replaceAll('\n', ' \n');
+    docs = docs.replaceAll('\n', ' \n');
     const globalContent = global.content.join(' \n');
-    docs = (docs as any).replaceAll('--8<-- "docs/cmd/_global.md"', globalContent);
+    docs = this._clearDocsOfDefinitionList(docs);
+    docs = docs
+      .replaceAll('<Global />', globalContent)
+      .replaceAll('import Global from \'/docs/cmd/_global.mdx\';', '')
+      .replaceAll('import Tabs from \'@theme/Tabs\';', '')
+      .replaceAll('import TabItem from \'@theme/TabItem\';', '')
+      .replaceAll('<Tabs>', '')
+      .replaceAll('</Tabs>', ' \n')
+      .replaceAll('<TabItem value="JSON">', 'JSON representation: \n')
+      .replaceAll('<TabItem value="Text">', 'Text representation: \n')
+      .replaceAll('<TabItem value="CSV">', 'CSV representation: \n')
+      .replaceAll('<TabItem value="Markdown">', 'Markdown representation: \n')
+      .replaceAll('</TabItem>', ' \n');
 
     return (
       <div>
@@ -58,6 +70,17 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
         </div>
       </div>
     );
+  }
+
+  private _clearDocsOfDefinitionList(docs: string): string {
+    if (docs.indexOf('```md definition-list') === -1)
+      return docs;
+
+    const tmp = docs.split('```md definition-list');
+    const tmp2 = tmp[1].split('```');
+    const result = tmp[0] + tmp2[0];
+    tmp2.splice(0, 1);
+    return result + tmp2.join('```');
   }
 
   private _handleShowRelatedSamplesButtonClick(name: string): void {

@@ -892,6 +892,41 @@
       "source": "script-samples"
     },
     {
+      "title": "Allow custom scripts in SharePoint online site",
+      "url": "https://pnp.github.io/script-samples/spo-allow-custom-scripts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-allow-custom-scripts/README.md",
+      "description": "This sample script shows how to allow use of custom scripts in SharePoint online at site level",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-allow-custom-scripts/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPSite",
+        "Disconnect-PnPOnline",
+        "Connect-SPOService",
+        "Set-SPOSite",
+        "Disconnect-SPOService",
+        "m365 status",
+        "m365 login",
+        "m365 spo site set",
+        "m365 logout"
+      ],
+      "createDate": "2023-05-26",
+      "source": "script-samples"
+    },
+    {
       "title": "Script allow copy column format in SharePoint and apply to different column.",
       "url": "https://pnp.github.io/script-samples/spo-apply-column-format/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-column-format/README.md",
@@ -2661,7 +2696,7 @@
       "title": "Analyze users for known data breaches with have i been pwned",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/analyze-users-haveibeenpwnd",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-users-haveibeenpwnd/index.md",
-      "description": "Validate all your users against known breaches with the have i been pwned api.",
+      "description": "Validate all your users against known breaches with the have I been pwned api.",
       "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-users-haveibeenpwnd/assets/preview.png",
       "type": [
         "powershell"
@@ -2680,6 +2715,33 @@
         "users"
       ],
       "createDate": "2022-02-07",
+      "source": "cli"
+    },
+    {
+      "title": "Bulk add/remove users to Microsoft Teams and Microsoft 365 Groups",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/bulk-manage-group-users",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/bulk-manage-group-users/index.md",
+      "description": "Sample script to add/remove bulk users to/from Microsoft Teams team or Microsoft 365 group.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/bulk-manage-group-users/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Joseph Velliah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
+        }
+      ],
+      "tags": [
+        "users",
+        "groups",
+        "security",
+        "teams"
+      ],
+      "createDate": "2020-05-09",
       "source": "cli"
     },
     {
@@ -2740,61 +2802,6 @@
       "source": "cli"
     },
     {
-      "title": "Scan for Microsoft 365 Groups created with user's first or last name",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/flag-groups-with-user-names",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/flag-groups-with-user-names/index.md",
-      "description": "This sample script scans the Microsoft 365 groups that may contain user’s first or last name as the group mail.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/flag-groups-with-user-names/assets/preview.png",
-      "type": [
-        "powershell",
-        "bash"
-      ],
-      "tabTag": [
-        "```powershell",
-        "```bash"
-      ],
-      "authors": [
-        {
-          "name": "Joseph Velliah",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
-        }
-      ],
-      "tags": [
-        "users",
-        "groups",
-        "reports"
-      ],
-      "createDate": "2020-03-28",
-      "source": "cli"
-    },
-    {
-      "title": "Bulk add/remove users to Microsoft Teams and Microsoft 365 Groups",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/manage-group-users",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/manage-group-users/index.md",
-      "description": "Sample script to add/remove bulk users to/from Microsoft Teams team or Microsoft 365 groupl.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/manage-group-users/assets/preview.png",
-      "type": [
-        "powershell"
-      ],
-      "tabTag": [
-        "```powershell"
-      ],
-      "authors": [
-        {
-          "name": "Joseph Velliah",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
-        }
-      ],
-      "tags": [
-        "users",
-        "groups",
-        "security",
-        "teams"
-      ],
-      "createDate": "2020-05-09",
-      "source": "cli"
-    },
-    {
       "title": "CLI - Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/replace-membership-of-selected-groups",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/replace-membership-of-selected-groups/index.md",
@@ -2847,6 +2854,34 @@
         "teams"
       ],
       "createDate": "2021-04-28",
+      "source": "cli"
+    },
+    {
+      "title": "Scan for Microsoft 365 Groups created with user's first or last name",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/scan-groups-with-user-names",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/scan-groups-with-user-names/index.md",
+      "description": "This sample script scans the Microsoft 365 groups that may contain user’s first or last name as the group mail.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/scan-groups-with-user-names/assets/preview.png",
+      "type": [
+        "powershell",
+        "bash"
+      ],
+      "tabTag": [
+        "```powershell",
+        "```bash"
+      ],
+      "authors": [
+        {
+          "name": "Joseph Velliah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
+        }
+      ],
+      "tags": [
+        "users",
+        "groups",
+        "reports"
+      ],
+      "createDate": "2020-03-28",
       "source": "cli"
     },
     {
@@ -3032,10 +3067,10 @@
     },
     {
       "title": "Authenticate with and call the Microsoft Graph",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/graph/call-graph",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/graph/call-graph/index.md",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/graph/authenticate-call-graph",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/graph/authenticate-call-graph/index.md",
       "description": "This script shows different ways to call Graph API.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/graph/call-graph/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/graph/authenticate-call-graph/assets/preview.png",
       "type": [
         "powershell",
         "bash"
@@ -3373,6 +3408,33 @@
       "source": "cli"
     },
     {
+      "title": "CLI - Delete custom color themes from SharePoint",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/delete-custom-themes",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-custom-themes/index.md",
+      "description": "This script removes custom color themes from SharePoint.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-custom-themes/assets/preview.png",
+      "type": [
+        "powershell",
+        "bash"
+      ],
+      "tabTag": [
+        "```powershell",
+        "```bash"
+      ],
+      "authors": [
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        }
+      ],
+      "tags": [
+        "provisioning",
+        "cleanup"
+      ],
+      "createDate": "2019-10-13",
+      "source": "cli"
+    },
+    {
       "title": "Delete all (non-group connected) modern SharePoint sites",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/delete-non-group-connected-modern-sites",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-non-group-connected-modern-sites/index.md",
@@ -3401,6 +3463,62 @@
         "sites"
       ],
       "createDate": "2020-06-25",
+      "source": "cli"
+    },
+    {
+      "title": "CLI - Delete custom SharePoint site designs",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/delete-site-designs",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-site-designs/index.md",
+      "description": "This script helps you get rid of custom SharePoint site designs.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-site-designs/assets/preview.png",
+      "type": [
+        "powershell",
+        "bash"
+      ],
+      "tabTag": [
+        "```powershell",
+        "```bash"
+      ],
+      "authors": [
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        }
+      ],
+      "tags": [
+        "cleanup"
+      ],
+      "createDate": "2019-10-20",
+      "source": "cli"
+    },
+    {
+      "title": "CLI - Delete custom SharePoint site scripts",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/delete-site-scripts",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-site-scripts/index.md",
+      "description": "This script helps you get rid of custom SharePoint site scripts.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/delete-site-scripts/assets/preview.png",
+      "type": [
+        "powershell",
+        "bash"
+      ],
+      "tabTag": [
+        "```powershell",
+        "```bash"
+      ],
+      "authors": [
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        },
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/9557557?v=4"
+        }
+      ],
+      "tags": [
+        "cleanup"
+      ],
+      "createDate": "2020-03-15",
       "source": "cli"
     },
     {
@@ -3610,6 +3728,31 @@
         "lists"
       ],
       "createDate": "2020-03-28",
+      "source": "cli"
+    },
+    {
+      "title": "How to perform operations if a command is not covered by the CLI for Microsoft 365",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/how-to-perform-operations-not-covered-by-cli-for-microsoft-365",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/how-to-perform-operations-not-covered-by-cli-for-microsoft-365/index.md",
+      "description": "This script shows how to perform operations if a command is not covered by the CLI for Microsoft 365.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/how-to-perform-operations-not-covered-by-cli-for-microsoft-365/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Joseph Velliah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
+        }
+      ],
+      "tags": [
+        "files",
+        "listitems"
+      ],
+      "createDate": "2021-10-24",
       "source": "cli"
     },
     {
@@ -4105,31 +4248,6 @@
       "source": "cli"
     },
     {
-      "title": "How to perform operations if a command is not covered by the CLI for Microsoft 365",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/perform-operations-not-covered-by-cli-for-microsoft-365",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/perform-operations-not-covered-by-cli-for-microsoft-365/index.md",
-      "description": "This script shows how to perform operations if a command is not covered by the CLI for Microsoft 365.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/perform-operations-not-covered-by-cli-for-microsoft-365/assets/preview.png",
-      "type": [
-        "powershell"
-      ],
-      "tabTag": [
-        "```powershell"
-      ],
-      "authors": [
-        {
-          "name": "Joseph Velliah",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/21008316?v=4"
-        }
-      ],
-      "tags": [
-        "files",
-        "listitems"
-      ],
-      "createDate": "2021-10-24",
-      "source": "cli"
-    },
-    {
       "title": "Planner migration to SharePoint list",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/planner-migrate-sharepoint-list",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/planner-migrate-sharepoint-list/index.md",
@@ -4177,33 +4295,6 @@
         "security"
       ],
       "createDate": "2021-06-17",
-      "source": "cli"
-    },
-    {
-      "title": "CLI - Delete custom color themes from SharePoint",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/remove-custom-themes",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-custom-themes/index.md",
-      "description": "This script removes custom color themes from SharePoint.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-custom-themes/assets/preview.png",
-      "type": [
-        "powershell",
-        "bash"
-      ],
-      "tabTag": [
-        "```powershell",
-        "```bash"
-      ],
-      "authors": [
-        {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
-        }
-      ],
-      "tags": [
-        "provisioning",
-        "cleanup"
-      ],
-      "createDate": "2019-10-13",
       "source": "cli"
     },
     {
@@ -4260,62 +4351,6 @@
         "security"
       ],
       "createDate": "2021-06-17",
-      "source": "cli"
-    },
-    {
-      "title": "CLI - Delete custom SharePoint site designs",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/remove-site-designs",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-site-designs/index.md",
-      "description": "This script helps you get rid of custom SharePoint site designs.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-site-designs/assets/preview.png",
-      "type": [
-        "powershell",
-        "bash"
-      ],
-      "tabTag": [
-        "```powershell",
-        "```bash"
-      ],
-      "authors": [
-        {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
-        }
-      ],
-      "tags": [
-        "cleanup"
-      ],
-      "createDate": "2019-10-20",
-      "source": "cli"
-    },
-    {
-      "title": "CLI - Delete custom SharePoint site scripts",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/remove-site-scripts",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-site-scripts/index.md",
-      "description": "This script helps you get rid of custom SharePoint site scripts.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-site-scripts/assets/preview.png",
-      "type": [
-        "powershell",
-        "bash"
-      ],
-      "tabTag": [
-        "```powershell",
-        "```bash"
-      ],
-      "authors": [
-        {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
-        },
-        {
-          "name": "Siddharth Vaghasia",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/9557557?v=4"
-        }
-      ],
-      "tags": [
-        "cleanup"
-      ],
-      "createDate": "2020-03-15",
       "source": "cli"
     },
     {
@@ -4479,10 +4514,10 @@
     },
     {
       "title": "Bulk add members to Microsoft Teams team from CSV file",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/add-bulk-users-teams",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/add-bulk-users-teams/index.md",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/bulk-add-users-teams",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/bulk-add-users-teams/index.md",
       "description": "Adds bulk users from CSV file to MS Teams.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/add-bulk-users-teams/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/bulk-add-users-teams/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -4552,6 +4587,32 @@
         "teams"
       ],
       "createDate": "2021-03-10",
+      "source": "cli"
+    },
+    {
+      "title": "Deploy Microsoft Teams personal app and add it to users",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/deploy-personal-app",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/deploy-personal-app/index.md",
+      "description": "Installs or updates a Microsoft Teams app.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/deploy-personal-app/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Sébastien Levert",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7620955?v=4"
+        }
+      ],
+      "tags": [
+        "apps",
+        "provisioning",
+        "users"
+      ],
+      "createDate": "2020-10-18",
       "source": "cli"
     },
     {
@@ -4685,32 +4746,6 @@
         "users"
       ],
       "createDate": "2020-05-02",
-      "source": "cli"
-    },
-    {
-      "title": "Deploy Microsoft Teams personal app and add it to users",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/install-personal-app",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/install-personal-app/index.md",
-      "description": "Installs or updates a Microsoft Teams app.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/install-personal-app/assets/preview.png",
-      "type": [
-        "powershell"
-      ],
-      "tabTag": [
-        "```powershell"
-      ],
-      "authors": [
-        {
-          "name": "Sébastien Levert",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/7620955?v=4"
-        }
-      ],
-      "tags": [
-        "apps",
-        "provisioning",
-        "users"
-      ],
-      "createDate": "2020-10-18",
       "source": "cli"
     },
     {
@@ -4945,10 +4980,10 @@
     },
     {
       "title": "Monitor and notify Microsoft 365 health status",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/tenant/tenant-monitor-notify-healthstatus",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/tenant/tenant-monitor-notify-healthstatus/index.md",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/tenant/monitor-notify-healthstatus",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/tenant/monitor-notify-healthstatus/index.md",
       "description": "This is a script which monitors the health status of your Microsoft 365 tenant and notifies if something is not normal.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/tenant/tenant-monitor-notify-healthstatus/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/tenant/monitor-notify-healthstatus/assets/preview.png",
       "type": [
         "powershell"
       ],

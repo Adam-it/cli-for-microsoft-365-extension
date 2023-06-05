@@ -5,12 +5,13 @@ if ($null -eq $cliDocsFolderPath -or $cliDocsFolderPath -eq "") {
     exit
 }
 
-$allCommands = Get-ChildItem -Path "$cliDocsFolderPath\docs\cmd\*.md" -Recurse -Force -Exclude "_global*"
+$allCommands = Get-ChildItem -Path "$cliDocsFolderPath\docs\cmd\*.mdx" -Recurse -Force -Exclude "_global*"
 
-$globalContent = Get-Content "$cliDocsFolderPath\docs\cmd\_global.md"
+$globalContent = Get-Content "$cliDocsFolderPath\docs\cmd\_global.mdx"
+$globalContent = $globalContent.Replace('```md definition-list', '').Replace('```', '')
 [hashtable]$global = @{}
 $global.Add('content', $globalContent)
-New-Object -TypeName psobject -Property $global | ConvertTo-Json  | Out-File "..\data\global.json"
+New-Object -TypeName psobject -Property $global | ConvertTo-Json | Out-File "..\data\global.json"
 
 [hashtable]$commandSnippets = @{}
 [hashtable]$m365Model = @{}
@@ -35,6 +36,7 @@ foreach ($command in $allCommands) {
     $optionsEndIndex = @($html.all).IndexOf($subTitles[2])
     $commandOptions = @($html.all)[($optionsStartIndex + 1)..($optionsEndIndex - 1)]
     $commandOptions = $commandOptions | Where-Object { $_.nodeName -eq 'CODE' } | ForEach-Object { $_.innerText }
+    $commandOptions = $commandOptions  -split '\r?\n'
     $commandOptions = $commandOptions | Where-Object { $_ -match '\<(.*?)\>' }
     $commandOptions = $commandOptions | ForEach-Object { $_.split('<')[1].split('>')[0] }
     $commandOptions = $commandOptions | ForEach-Object { "--" + $_ + ' $' + $($commandOptions.IndexOf($_) + 1) }
@@ -51,7 +53,7 @@ foreach ($command in $allCommands) {
     $commandUrl = $command.FullName.Split("cli-microsoft365")[1]
     $commandUrl = $commandUrl.Replace('\', '/')
     $commandDocsUrl = $commandUrl.Replace('docs/docs/', '')
-    $commandDocsUrl = $commandDocsUrl.Replace('.md', '')
+    $commandDocsUrl = $commandDocsUrl.Replace('.mdx', '')
     $commands += [pscustomobject]@{
         name = "$commandTitle"; 
         url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl";
