@@ -2465,6 +2465,15 @@
     ],
     "description": "Removes an application customizer that is added to a site"
   },
+  "spo applicationcustomizer set": {
+    "body": [
+      "m365 spo applicationcustomizer set --webUrl $1"
+    ],
+    "prefix": [
+      "m365 spo applicationcustomizer set"
+    ],
+    "description": "Updates an existing Application Customizer on a site"
+  },
   "spo apppage add": {
     "body": [
       "m365 spo apppage add --webUrl $1 --title $2 --webPartData $3"
@@ -3562,6 +3571,15 @@
       "m365 spo list roleinheritance reset"
     ],
     "description": "Restores role inheritance on list or library"
+  },
+  "spo list sensitivitylabel ensure": {
+    "body": [
+      "m365 spo list sensitivitylabel ensure --webUrl $1 --name $2"
+    ],
+    "prefix": [
+      "m365 spo list sensitivitylabel ensure"
+    ],
+    "description": "Applies a default sensitivity label to the specified document library"
   },
   "spo list set": {
     "body": [
@@ -4876,6 +4894,33 @@
       "m365 spo tenant applicationcustomizer remove"
     ],
     "description": "Removes an application customizer that is installed tenant wide."
+  },
+  "spo tenant commandset add": {
+    "body": [
+      "m365 spo tenant commandset add --title $1 --listType $2 --clientSideComponentId $3"
+    ],
+    "prefix": [
+      "m365 spo tenant commandset add"
+    ],
+    "description": "Add a ListView Command Set as a tenant-wide extension."
+  },
+  "spo tenant commandset get": {
+    "body": [
+      "m365 spo tenant commandset get "
+    ],
+    "prefix": [
+      "m365 spo tenant commandset get"
+    ],
+    "description": "Get a ListView Command Set that is installed tenant wide"
+  },
+  "spo tenant commandset list": {
+    "body": [
+      "m365 spo tenant commandset list "
+    ],
+    "prefix": [
+      "m365 spo tenant commandset list"
+    ],
+    "description": "Retrieves a list of ListView Command Sets that are installed tenant-wide"
   },
   "spo tenant commandset remove": {
     "body": [

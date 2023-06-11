@@ -1346,6 +1346,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-remove"
     },
     {
+      "name": "spo applicationcustomizer set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/applicationcustomizer/applicationcustomizer-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/applicationcustomizer/applicationcustomizer-set"
+    },
+    {
       "name": "spo apppage add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/apppage/apppage-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/apppage/apppage-add"
@@ -1949,6 +1954,11 @@
       "name": "spo list roleinheritance reset",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-roleinheritance-reset.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-roleinheritance-reset"
+    },
+    {
+      "name": "spo list sensitivitylabel ensure",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-sensitivitylabel-ensure.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-sensitivitylabel-ensure"
     },
     {
       "name": "spo list set",
@@ -2669,6 +2679,21 @@
       "name": "spo tenant applicationcustomizer remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-remove"
+    },
+    {
+      "name": "spo tenant commandset add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-add"
+    },
+    {
+      "name": "spo tenant commandset get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-get"
+    },
+    {
+      "name": "spo tenant commandset list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-list"
     },
     {
       "name": "spo tenant commandset remove",
