@@ -99,7 +99,7 @@ foreach ($sample in $allCLiSamples) {
 
     $rawUrl = $sampleJson.url
     $rawUrl = $rawUrl.Replace('https://pnp.github.io/cli-microsoft365/sample-scripts/', 'https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/')
-    $rawUrl = "$rawUrl/index.md"
+    $rawUrl = "$rawUrl/index.mdx"
     
     $sampleAuthors = @()
     foreach($author in $sampleJson.authors) {
