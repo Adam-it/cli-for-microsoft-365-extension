@@ -271,6 +271,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-get"
     },
     {
+      "name": "aad sp list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/sp/sp-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-list"
+    },
+    {
       "name": "aad user add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-add"
@@ -1561,6 +1566,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-checkin"
     },
     {
+      "name": "spo file checkout undo",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-checkout-undo.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-checkout-undo"
+    },
+    {
       "name": "spo file checkout",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-checkout.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-checkout"
@@ -2679,6 +2689,11 @@
       "name": "spo tenant applicationcustomizer remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-remove"
+    },
+    {
+      "name": "spo tenant applicationcustomizer set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-applicationcustomizer-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-applicationcustomizer-set"
     },
     {
       "name": "spo tenant commandset add",

@@ -3808,6 +3808,31 @@
       "source": "cli"
     },
     {
+      "title": "Install .sppkg package in the specified app catalog",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/install-package",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/install-package/index.mdx",
+      "description": "This script is to install .sppkg package in the tenant or site collection app catalog.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/install-package/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Saurabh Tripathi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18114579?v=4"
+        }
+      ],
+      "tags": [
+        "apps",
+        "deployment"
+      ],
+      "createDate": "2023-05-24",
+      "source": "cli"
+    },
+    {
       "title": "List all application customizers in a tenant",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-all-application-customizers",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-all-application-customizers/index.mdx",
@@ -4013,6 +4038,32 @@
         "reports"
       ],
       "createDate": "2022-07-29",
+      "source": "cli"
+    },
+    {
+      "title": "List empty folders on a site (for multiple libraries)",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-empty-folders-on-site",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-empty-folders-on-site/index.mdx",
+      "description": "Lists the empty folders for each library on a specific site.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-empty-folders-on-site/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "governance",
+        "lists",
+        "reports"
+      ],
+      "createDate": "2023-06-08",
       "source": "cli"
     },
     {
@@ -4322,6 +4373,31 @@
         "security"
       ],
       "createDate": "2021-06-17",
+      "source": "cli"
+    },
+    {
+      "title": "Remove users from a SharePoint list who are no longer members of a Teams Team",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/remove-non-team-members-from-list",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-non-team-members-from-list/index.mdx",
+      "description": "This script is to remove users from a SharePoint list who are no longer members of a Teams Team.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-non-team-members-from-list/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Saurabh Tripathi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18114579?v=4"
+        }
+      ],
+      "tags": [
+        "list",
+        "cleanup"
+      ],
+      "createDate": "2023-06-16",
       "source": "cli"
     },
     {
