@@ -518,6 +518,10 @@
       ],
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -526,7 +530,16 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ],
       "createDate": "2018-09-17",
       "source": "script-samples"
     },
@@ -595,6 +608,10 @@
         "#tab/cli-m365-ps"
       ],
       "authors": [
+        {
+          "name": "Rob Ellis",
+          "pictureUrl": "https://github.com/ee61re.png"
+        },
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://github.com/ValerasNarbutas.png"
@@ -724,6 +741,41 @@
       ],
       "tags": [],
       "createDate": "2021-06-18",
+      "source": "script-samples"
+    },
+    {
+      "title": "Associate Form Customizer Extension with List or Libraries Form",
+      "url": "https://pnp.github.io/script-samples/spo-add-formextension-to-list/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-formextension-to-list/README.md",
+      "description": "This script allows you to associate Form Customizer Extension to List/Library via Content Type properties",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-formextension-to-list/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/9557557?s=400&u=cbb0afefedb5a1d5db510a2e5e6579c8e6fc66ad&v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPContentType",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo contenttype set",
+        "m365 logout"
+      ],
+      "createDate": "2022-11-20",
       "source": "script-samples"
     },
     {
@@ -1090,6 +1142,41 @@
         "m365 spo list view set"
       ],
       "createDate": "2021-10-08",
+      "source": "script-samples"
+    },
+    {
+      "title": "Copy SharePoint List",
+      "url": "https://pnp.github.io/script-samples/spo-copy-list/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-list/README.md",
+      "description": "Script to copy SharePoint list to a different site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-list/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 context option set",
+        "m365 spo list get",
+        "m365 spo list view list",
+        "m365 spo field list",
+        "m365 spo list add",
+        "m365 spo list set",
+        "m365 spo list roleinheritance break",
+        "m365 spo list roleassignment add",
+        "m365 spo field add",
+        "m365 spo list view add"
+      ],
+      "createDate": "2023-06-20",
       "source": "script-samples"
     },
     {
@@ -1565,6 +1652,49 @@
         "m365 aad user get"
       ],
       "createDate": "2023-03-15",
+      "source": "script-samples"
+    },
+    {
+      "title": "File Version Trimmer",
+      "url": "https://pnp.github.io/script-samples/spo-file-version-trimmer/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-file-version-trimmer/README.md",
+      "description": "This sample shows how to delete a number of file versions to reduce SharePoint Storage",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-file-version-trimmer/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPFileVersion",
+        "Remove-PnPFileVersion",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPFile",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Remove-PnPFile",
+        "m365 login",
+        "m365 status",
+        "m365 spo file list",
+        "m365 spo file version list",
+        "m365 spo file version remove",
+        "m365 logout"
+      ],
+      "createDate": "2023-05-12",
       "source": "script-samples"
     },
     {
