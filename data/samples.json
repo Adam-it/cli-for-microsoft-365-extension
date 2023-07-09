@@ -2784,6 +2784,10 @@
       ],
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -2792,7 +2796,19 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo listitem get",
+        "m365 spo listitem list",
+        "m365 spo listitem set",
+        "m365 logout"
+      ],
       "createDate": "2021-05-11",
       "source": "script-samples"
     },
