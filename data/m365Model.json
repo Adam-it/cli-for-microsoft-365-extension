@@ -756,6 +756,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-list"
     },
     {
+      "name": "pa app owner set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/app/app-owner-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-owner-set"
+    },
+    {
+      "name": "pa app permission list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/app/app-permission-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-permission-list"
+    },
+    {
       "name": "pa app remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/app/app-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/app/app-remove"
@@ -3014,6 +3024,11 @@
       "name": "teams chat list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/chat/chat-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/chat/chat-list"
+    },
+    {
+      "name": "teams chat member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/chat/chat-member-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/chat/chat-member-add"
     },
     {
       "name": "teams chat member list",
