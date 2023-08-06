@@ -755,6 +755,15 @@
       "m365 cli config get"
     ]
   },
+  "cli config list": {
+    "body": [
+      "m365 cli config list "
+    ],
+    "description": "List all self set CLI for Microsoft 365 configurations",
+    "prefix": [
+      "m365 cli config list"
+    ]
+  },
   "cli config reset": {
     "body": [
       "m365 cli config reset "
@@ -4899,7 +4908,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer add --title $1 --clientSideComponentId $2"
     ],
-    "description": "Add an application customizer as a tenant wide extension.",
+    "description": "Add an application customizer as a tenant wide extension",
     "prefix": [
       "m365 spo tenant applicationcustomizer add"
     ]
@@ -4917,7 +4926,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer list "
     ],
-    "description": "Retrieves a list of application customizers that are installed tenant-wide.",
+    "description": "Retrieves a list of application customizers that are installed tenant-wide",
     "prefix": [
       "m365 spo tenant applicationcustomizer list"
     ]
@@ -4926,7 +4935,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer remove "
     ],
-    "description": "Removes an application customizer that is installed tenant wide.",
+    "description": "Removes an application customizer that is installed tenant wide",
     "prefix": [
       "m365 spo tenant applicationcustomizer remove"
     ]
@@ -4944,7 +4953,7 @@
     "body": [
       "m365 spo tenant commandset add --title $1 --listType $2 --clientSideComponentId $3"
     ],
-    "description": "Add a ListView Command Set as a tenant-wide extension.",
+    "description": "Add a ListView Command Set as a tenant-wide extension",
     "prefix": [
       "m365 spo tenant commandset add"
     ]
@@ -4971,7 +4980,7 @@
     "body": [
       "m365 spo tenant commandset remove "
     ],
-    "description": "Removes a ListView Command Set that is installed tenant wide.",
+    "description": "Removes a ListView Command Set that is installed tenant wide",
     "prefix": [
       "m365 spo tenant commandset remove"
     ]
@@ -4980,7 +4989,7 @@
     "body": [
       "m365 spo tenant commandset set --id $1"
     ],
-    "description": "Updates a ListView Command Set that is installed tenant wide.",
+    "description": "Updates a ListView Command Set that is installed tenant wide",
     "prefix": [
       "m365 spo tenant commandset set"
     ]
@@ -6227,13 +6236,13 @@
       "m365 yammer message remove"
     ]
   },
-  "Yammer network list": {
+  "yammer network list": {
     "body": [
-      "m365 Yammer network list "
+      "m365 yammer network list "
     ],
     "description": "Returns a list of networks to which the current user has access",
     "prefix": [
-      "m365 Yammer network list"
+      "m365 yammer network list"
     ]
   },
   "yammer report activitycounts": {
