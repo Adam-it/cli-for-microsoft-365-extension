@@ -1,10 +1,10 @@
 import { ICommand } from '../../../../models/ICommand';
-import { ICommandGroup } from './model/ICommandGroup';
+import { ICommandTree } from './model/ICommandTree';
 
 
 export interface ICommandsListState {
     commandsListView: ICommand[];
-    commandsTreeView: ICommandGroup[];
+    commandsTreeView: ICommandTree;
     isTreeViewEnabled: boolean;
     previousSearchInput: string;
 }
