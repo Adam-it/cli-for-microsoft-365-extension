@@ -9,7 +9,6 @@ import { VSCodeDivider } from '@vscode/webview-ui-toolkit/react';
 import CommandsAction from '../commandsActionComponent/CommandsAction';
 import CommandsSearch from '../commandsSearchComponent/CommandsSearch';
 import { ICommandGroup } from './model/ICommandGroup';
-
 import { ICommandTree } from './model/ICommandTree';
 
 
@@ -31,7 +30,10 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
   public componentDidMount(): void {
     const previousState = vscode.getState() as ICommandsListState;
 
-    if (previousState && previousState.commandsListView && previousState.commandsTreeView) {
+    if (previousState
+       && previousState.commandsListView
+       && previousState.commandsTreeView
+       && previousState.commandsTreeView.commandGroups) {
       this.setState({
         isTreeViewEnabled: previousState.isTreeViewEnabled,
         previousSearchInput: previousState.previousSearchInput,
@@ -123,6 +125,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   private _handleShowListViewButtonClick(): void {
     const treeView = this.state.commandsTreeView;
+    const listView = this.state.commandsListView;
     const collapse = (group: ICommandGroup) => {
       group.isExpanded = false;
       group.commandGroups.forEach(group => collapse(group));
@@ -135,13 +138,18 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
     const state = vscode.getState() as ICommandsListState;
     state.isTreeViewEnabled = false;
     state.commandsTreeView = treeView;
+    state.commandsListView = listView;
     vscode.setState(state);
   }
 
   private _handleShowTreeViewButtonClick(): void {
     this.setState({ isTreeViewEnabled: true });
+    const treeView = this.state.commandsTreeView;
+    const listView = this.state.commandsListView;
     const state = vscode.getState() as ICommandsListState;
     state.isTreeViewEnabled = true;
+    state.commandsTreeView = treeView;
+    state.commandsListView = listView;
     vscode.setState(state);
   }
 
