@@ -4009,7 +4009,7 @@
       "m365 spo orgassetslibrary add"
     ],
     "body": [
-      "m365 spo orgassetslibrary add --libraryUrl $1 --thumbnailUrl $2"
+      "m365 spo orgassetslibrary add --libraryUrl $1"
     ],
     "description": "Promotes an existing library to become an organization assets library"
   },

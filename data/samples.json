@@ -505,6 +505,36 @@
       "source": "script-samples"
     },
     {
+      "title": "Replace owner in all Power Automate flows",
+      "url": "https://pnp.github.io/script-samples/power-automate-replace-owner/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/power-automate-replace-owner/README.md",
+      "description": "Script to replace all the Power Automate flows where someone is owner of",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/power-automate-replace-owner/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nico De Cleyre",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/35696168?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 aad user get",
+        "m365 pp environment get",
+        "m365 flow list",
+        "m365 flow owner list",
+        "m365 flow owner remove",
+        "m365 flow owner ensure"
+      ],
+      "createDate": "2023-08-11",
+      "source": "script-samples"
+    },
+    {
       "title": "Remove delete option on a document library",
       "url": "https://pnp.github.io/script-samples/remove-delete-option-library/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/remove-delete-option-library/README.md",
@@ -892,7 +922,14 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "m365 login",
+        "m365 aad app add",
+        "m365 spo site apppermission add",
+        "m365 spo set",
+        "m365 status",
+        "m365 spo app add"
+      ],
       "createDate": "2023-07-27",
       "source": "script-samples"
     },
@@ -1180,6 +1217,10 @@
       ],
       "authors": [
         {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
@@ -1196,7 +1237,8 @@
         "m365 spo list roleinheritance break",
         "m365 spo list roleassignment add",
         "m365 spo field add",
-        "m365 spo list view add"
+        "m365 spo list view add",
+        "pnp powershell"
       ],
       "createDate": "2023-06-20",
       "source": "script-samples"
