@@ -2357,6 +2357,15 @@
     ],
     "description": "Externalizes SharePoint Framework project dependencies"
   },
+  "spfx project github workflow add": {
+    "prefix": [
+      "m365 spfx project github workflow add"
+    ],
+    "body": [
+      "m365 spfx project github workflow add "
+    ],
+    "description": "Adds a GitHub workflow for a SharePoint Framework project"
+  },
   "spfx project permissions grant": {
     "prefix": [
       "m365 spfx project permissions grant"

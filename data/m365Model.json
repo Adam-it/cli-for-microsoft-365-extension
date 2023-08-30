@@ -1281,6 +1281,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-externalize"
     },
     {
+      "name": "spfx project github workflow add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-github-workflow-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-github-workflow-add"
+    },
+    {
       "name": "spfx project permissions grant",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-permissions-grant.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-permissions-grant"
