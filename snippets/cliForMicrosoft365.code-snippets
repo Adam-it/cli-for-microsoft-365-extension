@@ -188,201 +188,201 @@
     ],
     "description": "Lists commercial subscriptions that an organization has acquired"
   },
-  "aad o365group add": {
+  "aad m365group add": {
     "prefix": [
-      "m365 aad o365group add"
+      "m365 aad m365group add"
     ],
     "body": [
-      "m365 aad o365group add --displayName $1 --description $2 --mailNickname $3"
+      "m365 aad m365group add --displayName $1 --description $2 --mailNickname $3"
     ],
     "description": "Creates a Microsoft 365 Group"
   },
-  "aad o365group conversation list": {
+  "aad m365group conversation list": {
     "prefix": [
-      "m365 aad o365group conversation list"
+      "m365 aad m365group conversation list"
     ],
     "body": [
-      "m365 aad o365group conversation list --groupId $1"
+      "m365 aad m365group conversation list --groupId $1"
     ],
     "description": "Lists conversations for the specified Microsoft 365 group"
   },
-  "aad o365group conversation post list": {
+  "aad m365group conversation post list": {
     "prefix": [
-      "m365 aad o365group conversation post list"
+      "m365 aad m365group conversation post list"
     ],
     "body": [
-      "m365 aad o365group conversation post list --threadId $1"
+      "m365 aad m365group conversation post list --threadId $1"
     ],
     "description": "Lists conversation posts of a Microsoft 365 group"
   },
-  "aad o365group get": {
+  "aad m365group get": {
     "prefix": [
-      "m365 aad o365group get"
+      "m365 aad m365group get"
     ],
     "body": [
-      "m365 aad o365group get --id $1"
+      "m365 aad m365group get --id $1"
     ],
     "description": "Gets information about the specified Microsoft 365 Group or Microsoft Teams team"
   },
-  "aad o365group list": {
+  "aad m365group list": {
     "prefix": [
-      "m365 aad o365group list"
+      "m365 aad m365group list"
     ],
     "body": [
-      "m365 aad o365group list "
+      "m365 aad m365group list "
     ],
     "description": "Lists Microsoft 365 Groups in the current tenant"
   },
-  "aad o365group recyclebinitem clear": {
+  "aad m365group recyclebinitem clear": {
     "prefix": [
-      "m365 aad o365group recyclebinitem clear"
+      "m365 aad m365group recyclebinitem clear"
     ],
     "body": [
-      "m365 aad o365group recyclebinitem clear "
+      "m365 aad m365group recyclebinitem clear "
     ],
     "description": "Clears Microsoft 365 Groups from the recycle bin in the current tenant"
   },
-  "aad o365group recyclebinitem list": {
+  "aad m365group recyclebinitem list": {
     "prefix": [
-      "m365 aad o365group recyclebinitem list"
+      "m365 aad m365group recyclebinitem list"
     ],
     "body": [
-      "m365 aad o365group recyclebinitem list "
+      "m365 aad m365group recyclebinitem list "
     ],
     "description": "Lists Groups from the recycle bin in the current tenant"
   },
-  "aad o365group recyclebinitem remove": {
+  "aad m365group recyclebinitem remove": {
     "prefix": [
-      "m365 aad o365group recyclebinitem remove"
+      "m365 aad m365group recyclebinitem remove"
     ],
     "body": [
-      "m365 aad o365group recyclebinitem remove "
+      "m365 aad m365group recyclebinitem remove "
     ],
     "description": "Permanently deletes a Microsoft 365 Group from the recycle bin in the current tenant"
   },
-  "aad o365group recyclebinitem restore": {
+  "aad m365group recyclebinitem restore": {
     "prefix": [
-      "m365 aad o365group recyclebinitem restore"
+      "m365 aad m365group recyclebinitem restore"
     ],
     "body": [
-      "m365 aad o365group recyclebinitem restore "
+      "m365 aad m365group recyclebinitem restore "
     ],
     "description": "Restores a deleted Microsoft 365 Group"
   },
-  "aad o365group remove": {
+  "aad m365group remove": {
     "prefix": [
-      "m365 aad o365group remove"
+      "m365 aad m365group remove"
     ],
     "body": [
-      "m365 aad o365group remove --id $1"
+      "m365 aad m365group remove --id $1"
     ],
     "description": "Removes an Microsoft 365 Group"
   },
-  "aad o365group renew": {
+  "aad m365group renew": {
     "prefix": [
-      "m365 aad o365group renew"
+      "m365 aad m365group renew"
     ],
     "body": [
-      "m365 aad o365group renew --id $1"
+      "m365 aad m365group renew --id $1"
     ],
     "description": "Renews Microsoft 365 group's expiration"
   },
-  "aad o365group report activitycounts": {
+  "aad m365group report activitycounts": {
     "prefix": [
-      "m365 aad o365group report activitycounts"
+      "m365 aad m365group report activitycounts"
     ],
     "body": [
-      "m365 aad o365group report activitycounts --period $1"
+      "m365 aad m365group report activitycounts --period $1"
     ],
     "description": "Get the number of group activities across group workloads"
   },
-  "aad o365group report activitydetail": {
+  "aad m365group report activitydetail": {
     "prefix": [
-      "m365 aad o365group report activitydetail"
+      "m365 aad m365group report activitydetail"
     ],
     "body": [
-      "m365 aad o365group report activitydetail "
+      "m365 aad m365group report activitydetail "
     ],
     "description": "Get details about Microsoft 365 Groups activity by group."
   },
-  "aad o365group report activityfilecounts": {
+  "aad m365group report activityfilecounts": {
     "prefix": [
-      "m365 aad o365group report activityfilecounts"
+      "m365 aad m365group report activityfilecounts"
     ],
     "body": [
-      "m365 aad o365group report activityfilecounts --period $1"
+      "m365 aad m365group report activityfilecounts --period $1"
     ],
     "description": "Get the total number of files and how many of them were active across all group sites associated with an Microsoft 365 Group"
   },
-  "aad o365group report activitygroupcounts": {
+  "aad m365group report activitygroupcounts": {
     "prefix": [
-      "m365 aad o365group report activitygroupcounts"
+      "m365 aad m365group report activitygroupcounts"
     ],
     "body": [
-      "m365 aad o365group report activitygroupcounts --period $1"
+      "m365 aad m365group report activitygroupcounts --period $1"
     ],
     "description": "Get the daily total number of groups and how many of them were active based on email conversations, Yammer posts, and SharePoint file activities."
   },
-  "aad o365group report activitystorage": {
+  "aad m365group report activitystorage": {
     "prefix": [
-      "m365 aad o365group report activitystorage"
+      "m365 aad m365group report activitystorage"
     ],
     "body": [
-      "m365 aad o365group report activitystorage --period $1"
+      "m365 aad m365group report activitystorage --period $1"
     ],
     "description": "Get the total storage used across all group mailboxes and group sites"
   },
-  "aad o365group set": {
+  "aad m365group set": {
     "prefix": [
-      "m365 aad o365group set"
+      "m365 aad m365group set"
     ],
     "body": [
-      "m365 aad o365group set --id $1"
+      "m365 aad m365group set --id $1"
     ],
     "description": "Updates Microsoft 365 Group properties"
   },
-  "aad o365group teamify": {
+  "aad m365group teamify": {
     "prefix": [
-      "m365 aad o365group teamify"
+      "m365 aad m365group teamify"
     ],
     "body": [
-      "m365 aad o365group teamify "
+      "m365 aad m365group teamify "
     ],
     "description": "Creates a new Microsoft Teams team under existing Microsoft 365 group"
   },
-  "aad o365group user add": {
+  "aad m365group user add": {
     "prefix": [
-      "m365 aad o365group user add"
+      "m365 aad m365group user add"
     ],
     "body": [
-      "m365 aad o365group user add "
+      "m365 aad m365group user add "
     ],
     "description": "Adds user to specified Microsoft 365 Group or Microsoft Teams team"
   },
-  "aad o365group user list": {
+  "aad m365group user list": {
     "prefix": [
-      "m365 aad o365group user list"
+      "m365 aad m365group user list"
     ],
     "body": [
-      "m365 aad o365group user list --groupId $1"
+      "m365 aad m365group user list --groupId $1"
     ],
     "description": "Lists users for the specified Microsoft 365 group"
   },
-  "aad o365group user remove": {
+  "aad m365group user remove": {
     "prefix": [
-      "m365 aad o365group user remove"
+      "m365 aad m365group user remove"
     ],
     "body": [
-      "m365 aad o365group user remove "
+      "m365 aad m365group user remove "
     ],
     "description": "Removes the specified user from specified Microsoft 365 Group or Microsoft Teams team"
   },
-  "aad o365group user set": {
+  "aad m365group user set": {
     "prefix": [
-      "m365 aad o365group user set"
+      "m365 aad m365group user set"
     ],
     "body": [
-      "m365 aad o365group user set "
+      "m365 aad m365group user set "
     ],
     "description": "Updates role of the specified user in the specified Microsoft 365 Group or Microsoft Teams team"
   },
@@ -1363,7 +1363,7 @@
       "m365 pa app consent set"
     ],
     "body": [
-      "m365 pa app consent set --environment $1 --name $2"
+      "m365 pa app consent set --environmentName $1 --name $2"
     ],
     "description": "Configures if users can bypass the API Consent window for the selected canvas app"
   },
@@ -1372,7 +1372,7 @@
       "m365 pa app export"
     ],
     "body": [
-      "m365 pa app export --id $1 --environment $2"
+      "m365 pa app export --id $1 --environmentName $2"
     ],
     "description": "Exports the specified Power App"
   },
@@ -1474,33 +1474,6 @@
       "m365 pa environment list "
     ],
     "description": "Lists Microsoft Power Apps environments in the current tenant"
-  },
-  "pa pcf init": {
-    "prefix": [
-      "m365 pa pcf init"
-    ],
-    "body": [
-      "m365 pa pcf init --namespace $1 --template $2"
-    ],
-    "description": "Creates new PowerApps component framework project"
-  },
-  "pa solution init": {
-    "prefix": [
-      "m365 pa solution init"
-    ],
-    "body": [
-      "m365 pa solution init --publisherName $1 --publisherPrefix $2"
-    ],
-    "description": "Initializes a directory with a new CDS solution project"
-  },
-  "pa solution reference add": {
-    "prefix": [
-      "m365 pa solution reference add"
-    ],
-    "body": [
-      "m365 pa solution reference add --projectPath $1"
-    ],
-    "description": "Adds a project reference to the solution in the current directory"
   },
   "planner bucket add": {
     "prefix": [
@@ -1786,7 +1759,7 @@
       "m365 pp aibuildermodel get"
     ],
     "body": [
-      "m365 pp aibuildermodel get --environment $1"
+      "m365 pp aibuildermodel get --environmentName $1"
     ],
     "description": "Gets a specific AI builder models in the specified Power Platform environment"
   },
@@ -1795,7 +1768,7 @@
       "m365 pp aibuildermodel list"
     ],
     "body": [
-      "m365 pp aibuildermodel list --environment $1"
+      "m365 pp aibuildermodel list --environmentName $1"
     ],
     "description": "List available AI builder models in the specified Power Platform environment"
   },
@@ -1804,7 +1777,7 @@
       "m365 pp aibuildermodel remove"
     ],
     "body": [
-      "m365 pp aibuildermodel remove --environment $1"
+      "m365 pp aibuildermodel remove --environmentName $1"
     ],
     "description": "Removes the specified Microsoft Power Platform aibuildermodel in the specified Power Platform environment"
   },
@@ -1813,7 +1786,7 @@
       "m365 pp card clone"
     ],
     "body": [
-      "m365 pp card clone --environment $1 --newName $2"
+      "m365 pp card clone --environmentName $1 --newName $2"
     ],
     "description": "Clones a specific Microsoft Power Platform card in the specified Power Platform environment"
   },
@@ -1822,7 +1795,7 @@
       "m365 pp card get"
     ],
     "body": [
-      "m365 pp card get --environment $1"
+      "m365 pp card get --environmentName $1"
     ],
     "description": "Gets a specific Microsoft Power Platform card in the specified Power Platform environment"
   },
@@ -1831,7 +1804,7 @@
       "m365 pp card list"
     ],
     "body": [
-      "m365 pp card list --environment $1"
+      "m365 pp card list --environmentName $1"
     ],
     "description": "Lists Microsoft Power Platform cards in the specified Power Platform environment."
   },
@@ -1840,7 +1813,7 @@
       "m365 pp card remove"
     ],
     "body": [
-      "m365 pp card remove --environment $1"
+      "m365 pp card remove --environmentName $1"
     ],
     "description": "Removes the specified Microsoft Power Platform card in the specified Power Platform environment"
   },
@@ -1849,7 +1822,7 @@
       "m365 pp chatbot get"
     ],
     "body": [
-      "m365 pp chatbot get --environment $1"
+      "m365 pp chatbot get --environmentName $1"
     ],
     "description": "Get information about the specified chatbot"
   },
@@ -1858,7 +1831,7 @@
       "m365 pp chatbot list"
     ],
     "body": [
-      "m365 pp chatbot list --environment $1"
+      "m365 pp chatbot list --environmentName $1"
     ],
     "description": "Lists Microsoft Power Platform chatbot in the specified Power Platform environment"
   },
@@ -1867,7 +1840,7 @@
       "m365 pp chatbot remove"
     ],
     "body": [
-      "m365 pp chatbot remove --environment $1"
+      "m365 pp chatbot remove --environmentName $1"
     ],
     "description": "Removes the specified chatbot"
   },
@@ -1876,7 +1849,7 @@
       "m365 pp dataverse table get"
     ],
     "body": [
-      "m365 pp dataverse table get --environment $1 --name $2"
+      "m365 pp dataverse table get --environmentName $1 --name $2"
     ],
     "description": "List a dataverse table in a given environment"
   },
@@ -1885,7 +1858,7 @@
       "m365 pp dataverse table list"
     ],
     "body": [
-      "m365 pp dataverse table list --environment $1"
+      "m365 pp dataverse table list --environmentName $1"
     ],
     "description": "Lists dataverse tables in a given environment"
   },
@@ -1894,7 +1867,7 @@
       "m365 pp dataverse table remove"
     ],
     "body": [
-      "m365 pp dataverse table remove --environment $1 --name $2"
+      "m365 pp dataverse table remove --environmentName $1 --name $2"
     ],
     "description": "Removes a dataverse table in a given environment"
   },
@@ -1903,7 +1876,7 @@
       "m365 pp dataverse table row list"
     ],
     "body": [
-      "m365 pp dataverse table row list --environment $1"
+      "m365 pp dataverse table row list --environmentName $1"
     ],
     "description": "Lists table rows for the given Dataverse table"
   },
@@ -1912,7 +1885,7 @@
       "m365 pp dataverse table row remove"
     ],
     "body": [
-      "m365 pp dataverse table row remove --environment $1 --id $2"
+      "m365 pp dataverse table row remove --environmentName $1 --id $2"
     ],
     "description": "Removes a row from a dataverse table in a given environment."
   },
@@ -1975,7 +1948,7 @@
       "m365 pp solution get"
     ],
     "body": [
-      "m365 pp solution get --environment $1"
+      "m365 pp solution get --environmentName $1"
     ],
     "description": "Gets a specific solution in a given environment."
   },
@@ -1984,7 +1957,7 @@
       "m365 pp solution list"
     ],
     "body": [
-      "m365 pp solution list --environment $1"
+      "m365 pp solution list --environmentName $1"
     ],
     "description": "Lists solutions in a given environment."
   },
@@ -1993,7 +1966,7 @@
       "m365 pp solution publish"
     ],
     "body": [
-      "m365 pp solution publish --environment $1"
+      "m365 pp solution publish --environmentName $1"
     ],
     "description": "Publishes the components of a solution in a given Power Platform environment"
   },
@@ -2002,7 +1975,7 @@
       "m365 pp solution publisher add"
     ],
     "body": [
-      "m365 pp solution publisher add --environment $1 --name $2 --displayName $3 --prefix $4 --choiceValuePrefix $5"
+      "m365 pp solution publisher add --environmentName $1 --name $2 --displayName $3 --prefix $4 --choiceValuePrefix $5"
     ],
     "description": "Adds a specified publisher in a given environment"
   },
@@ -2011,7 +1984,7 @@
       "m365 pp solution publisher get"
     ],
     "body": [
-      "m365 pp solution publisher get --environment $1"
+      "m365 pp solution publisher get --environmentName $1"
     ],
     "description": "Get information about the specified publisher in a given environment."
   },
@@ -2020,7 +1993,7 @@
       "m365 pp solution publisher list"
     ],
     "body": [
-      "m365 pp solution publisher list --environment $1"
+      "m365 pp solution publisher list --environmentName $1"
     ],
     "description": "Lists publishers in a given environment."
   },
@@ -2029,7 +2002,7 @@
       "m365 pp solution publisher remove"
     ],
     "body": [
-      "m365 pp solution publisher remove --environment $1"
+      "m365 pp solution publisher remove --environmentName $1"
     ],
     "description": "Removes the specified publisher in the specified Power Platform environment"
   },
@@ -2038,7 +2011,7 @@
       "m365 pp solution remove"
     ],
     "body": [
-      "m365 pp solution remove --environment $1"
+      "m365 pp solution remove --environmentName $1"
     ],
     "description": "Removes the specified solution in the specified Power Platform environment"
   },
@@ -2956,7 +2929,7 @@
       "m365 spo file list"
     ],
     "body": [
-      "m365 spo file list --webUrl $1 --folderUrl $2 --folder $3"
+      "m365 spo file list --webUrl $1 --folderUrl $2"
     ],
     "description": "Gets all files within the specified folder and site"
   },
@@ -2965,7 +2938,7 @@
       "m365 spo file move"
     ],
     "body": [
-      "m365 spo file move --webUrl $1 --sourceUrl $2 --targetUrl $3"
+      "m365 spo file move --webUrl $1 --targetUrl $2"
     ],
     "description": "Moves a file to another location"
   },
@@ -3163,7 +3136,7 @@
       "m365 spo folder copy"
     ],
     "body": [
-      "m365 spo folder copy --webUrl $1 --sourceUrl $2 --targetUrl $3"
+      "m365 spo folder copy --webUrl $1 --targetUrl $2"
     ],
     "description": "Copies a folder to another location"
   },
@@ -3190,7 +3163,7 @@
       "m365 spo folder move"
     ],
     "body": [
-      "m365 spo folder move --webUrl $1 --sourceUrl $2 --targetUrl $3"
+      "m365 spo folder move --webUrl $1 --targetUrl $2"
     ],
     "description": "Moves a folder to another location"
   },
@@ -3586,7 +3559,7 @@
       "m365 spo list retentionlabel ensure"
     ],
     "body": [
-      "m365 spo list retentionlabel ensure "
+      "m365 spo list retentionlabel ensure --webUrl $1 --name $2"
     ],
     "description": "Sets a default retention label on the specified list or library."
   },
@@ -3595,7 +3568,7 @@
       "m365 spo list retentionlabel get"
     ],
     "body": [
-      "m365 spo list retentionlabel get "
+      "m365 spo list retentionlabel get --webUrl $1"
     ],
     "description": "Gets the default retention label set on the specified list or library."
   },
@@ -3802,7 +3775,7 @@
       "m365 spo listitem attachment list"
     ],
     "body": [
-      "m365 spo listitem attachment list --webUrl $1 --itemId $2"
+      "m365 spo listitem attachment list --webUrl $1 --listItemId $2"
     ],
     "description": "Gets the attachments associated to a list item"
   },
@@ -5017,7 +4990,7 @@
       "m365 spo tenant commandset set"
     ],
     "body": [
-      "m365 spo tenant commandset set --id $1"
+      "m365 spo tenant commandset set "
     ],
     "description": "Updates a ListView Command Set that is installed tenant wide"
   },

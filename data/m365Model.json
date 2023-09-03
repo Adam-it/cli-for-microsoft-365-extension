@@ -106,114 +106,114 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/license/license-list"
     },
     {
-      "name": "aad o365group add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-add"
+      "name": "aad m365group add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-add"
     },
     {
-      "name": "aad o365group conversation list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-conversation-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-conversation-list"
+      "name": "aad m365group conversation list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-conversation-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-conversation-list"
     },
     {
-      "name": "aad o365group conversation post list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-conversation-post-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-conversation-post-list"
+      "name": "aad m365group conversation post list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-conversation-post-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-conversation-post-list"
     },
     {
-      "name": "aad o365group get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-get"
+      "name": "aad m365group get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-get"
     },
     {
-      "name": "aad o365group list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-list"
+      "name": "aad m365group list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-list"
     },
     {
-      "name": "aad o365group recyclebinitem clear",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-recyclebinitem-clear.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-clear"
+      "name": "aad m365group recyclebinitem clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-clear.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-clear"
     },
     {
-      "name": "aad o365group recyclebinitem list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-recyclebinitem-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-list"
+      "name": "aad m365group recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-list"
     },
     {
-      "name": "aad o365group recyclebinitem remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-recyclebinitem-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-remove"
+      "name": "aad m365group recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-remove"
     },
     {
-      "name": "aad o365group recyclebinitem restore",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-recyclebinitem-restore.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-recyclebinitem-restore"
+      "name": "aad m365group recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-restore"
     },
     {
-      "name": "aad o365group remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-remove"
+      "name": "aad m365group remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-remove"
     },
     {
-      "name": "aad o365group renew",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-renew.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-renew"
+      "name": "aad m365group renew",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-renew.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-renew"
     },
     {
-      "name": "aad o365group report activitycounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-report-activitycounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-report-activitycounts"
+      "name": "aad m365group report activitycounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitycounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitycounts"
     },
     {
-      "name": "aad o365group report activitydetail",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-report-activitydetail.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-report-activitydetail"
+      "name": "aad m365group report activitydetail",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitydetail.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitydetail"
     },
     {
-      "name": "aad o365group report activityfilecounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-report-activityfilecounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-report-activityfilecounts"
+      "name": "aad m365group report activityfilecounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activityfilecounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activityfilecounts"
     },
     {
-      "name": "aad o365group report activitygroupcounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-report-activitygroupcounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-report-activitygroupcounts"
+      "name": "aad m365group report activitygroupcounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitygroupcounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitygroupcounts"
     },
     {
-      "name": "aad o365group report activitystorage",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-report-activitystorage.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-report-activitystorage"
+      "name": "aad m365group report activitystorage",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitystorage.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitystorage"
     },
     {
-      "name": "aad o365group set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-set"
+      "name": "aad m365group set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-set"
     },
     {
-      "name": "aad o365group teamify",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-teamify.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-teamify"
+      "name": "aad m365group teamify",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-teamify.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-teamify"
     },
     {
-      "name": "aad o365group user add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-user-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-user-add"
+      "name": "aad m365group user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-add"
     },
     {
-      "name": "aad o365group user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-user-list"
+      "name": "aad m365group user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-list"
     },
     {
-      "name": "aad o365group user remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-user-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-user-remove"
+      "name": "aad m365group user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-remove"
     },
     {
-      "name": "aad o365group user set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/o365group/o365group-user-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/o365group/o365group-user-set"
+      "name": "aad m365group user set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-set"
     },
     {
       "name": "aad oauth2grant add",
@@ -804,21 +804,6 @@
       "name": "pa environment list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/environment/environment-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/environment/environment-list"
-    },
-    {
-      "name": "pa pcf init",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/pcf/pcf-init.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/pcf/pcf-init"
-    },
-    {
-      "name": "pa solution init",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/solution/solution-init.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/solution/solution-init"
-    },
-    {
-      "name": "pa solution reference add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pa/solution/solution-reference-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pa/solution/solution-reference-add"
     },
     {
       "name": "planner bucket add",
