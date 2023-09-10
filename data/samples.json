@@ -1282,6 +1282,44 @@
       "source": "script-samples"
     },
     {
+      "title": "Create Colored Folder",
+      "url": "https://pnp.github.io/script-samples/spo-create-colored-folder/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/README.md",
+      "description": "This sample code creates a Colored Folder in a SharePoint document library.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPFolder",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo folder add",
+        "m365 spo listitem get",
+        "m365 spo listitem set",
+        "m365 logout"
+      ],
+      "createDate": "2023-09-03",
+      "source": "script-samples"
+    },
+    {
       "title": "Create SharePoint Groups in Bulk using CSV file",
       "url": "https://pnp.github.io/script-samples/spo-create-sharepoint-groups-bulk-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-groups-bulk-csv/README.md",
