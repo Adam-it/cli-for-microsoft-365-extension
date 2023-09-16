@@ -66,6 +66,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-list"
     },
     {
+      "name": "aad group remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-remove"
+    },
+    {
       "name": "aad groupsetting add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-add"
@@ -3264,6 +3269,11 @@
       "name": "tenant id get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/id/id-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/id/id-get"
+    },
+    {
+      "name": "tenant info get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/info/info-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/info/info-get"
     },
     {
       "name": "tenant report activeusercounts",

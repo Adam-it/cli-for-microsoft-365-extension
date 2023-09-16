@@ -73,7 +73,7 @@
   },
   "aad approleassignment add": {
     "body": [
-      "m365 aad approleassignment add --resource $1 --scope $2"
+      "m365 aad approleassignment add --resource $1 --scopes $2"
     ],
     "prefix": [
       "m365 aad approleassignment add"
@@ -91,7 +91,7 @@
   },
   "aad approleassignment remove": {
     "body": [
-      "m365 aad approleassignment remove --resource $1 --scope $2"
+      "m365 aad approleassignment remove --resource $1 --scopes $2"
     ],
     "prefix": [
       "m365 aad approleassignment remove"
@@ -115,6 +115,15 @@
       "m365 aad group list"
     ],
     "description": "Lists Azure AD groups"
+  },
+  "aad group remove": {
+    "body": [
+      "m365 aad group remove "
+    ],
+    "prefix": [
+      "m365 aad group remove"
+    ],
+    "description": "Removes an Azure AD group"
   },
   "aad groupsetting add": {
     "body": [
@@ -762,7 +771,7 @@
     "prefix": [
       "m365 cli config list"
     ],
-    "description": "List all self set CLI for Microsoft 365 configurations"
+    "description": "List all self-set CLI for Microsoft 365 configurations"
   },
   "cli config reset": {
     "body": [
@@ -1090,7 +1099,7 @@
   },
   "graph subscription add": {
     "body": [
-      "m365 graph subscription add --resource $1 --changeType $2 --notificationUrl $3"
+      "m365 graph subscription add --resource $1 --changeTypes $2 --notificationUrl $3"
     ],
     "prefix": [
       "m365 graph subscription add"
@@ -5833,7 +5842,7 @@
   },
   "teams team clone": {
     "body": [
-      "m365 teams team clone --partsToClone $1"
+      "m365 teams team clone --id $1 --partsToClone $2"
     ],
     "prefix": [
       "m365 teams team clone"
@@ -5929,6 +5938,15 @@
       "m365 tenant id get"
     ],
     "description": "Gets Microsoft 365 tenant ID for the specified domain"
+  },
+  "tenant info get": {
+    "body": [
+      "m365 tenant info get "
+    ],
+    "prefix": [
+      "m365 tenant info get"
+    ],
+    "description": "Gets information about any tenant"
   },
   "tenant report activeusercounts": {
     "body": [
