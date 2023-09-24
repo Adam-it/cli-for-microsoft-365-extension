@@ -2071,9 +2071,29 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-add"
     },
     {
+      "name": "spo listitem attachment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-add"
+    },
+    {
+      "name": "spo listitem attachment get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-get"
+    },
+    {
       "name": "spo listitem attachment list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-list"
+    },
+    {
+      "name": "spo listitem attachment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-remove"
+    },
+    {
+      "name": "spo listitem attachment set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/listitem/listitem-attachment-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-attachment-set"
     },
     {
       "name": "spo listitem batch add",
