@@ -2481,7 +2481,7 @@
     "body": [
       "m365 spo applicationcustomizer add --title $1 --webUrl $2 --clientSideComponentId $3"
     ],
-    "description": "Add an application customizer to a site."
+    "description": "Add an application customizer to a site"
   },
   "spo applicationcustomizer get": {
     "prefix": [
@@ -2490,7 +2490,7 @@
     "body": [
       "m365 spo applicationcustomizer get --webUrl $1"
     ],
-    "description": "Get an application customizer that is added to a site."
+    "description": "Get an application customizer that is added to a site"
   },
   "spo applicationcustomizer list": {
     "prefix": [
@@ -2499,7 +2499,7 @@
     "body": [
       "m365 spo applicationcustomizer list --webUrl $1"
     ],
-    "description": "Get a list of application customizers that are added to a site."
+    "description": "Get a list of application customizers that are added to a site"
   },
   "spo applicationcustomizer remove": {
     "prefix": [
@@ -2616,7 +2616,7 @@
     "body": [
       "m365 spo commandset get --webUrl $1"
     ],
-    "description": "Get a ListView Command Set that is added to a site."
+    "description": "Get a ListView Command Set that is added to a site"
   },
   "spo commandset list": {
     "prefix": [
@@ -2625,7 +2625,7 @@
     "body": [
       "m365 spo commandset list --webUrl $1"
     ],
-    "description": "Get a list of ListView Command Sets that are added to a site."
+    "description": "Get a list of ListView Command Sets that are added to a site"
   },
   "spo commandset remove": {
     "prefix": [
@@ -2634,7 +2634,7 @@
     "body": [
       "m365 spo commandset remove --webUrl $1"
     ],
-    "description": "Remove a ListView Command Set that is added to a site."
+    "description": "Remove a ListView Command Set that is added to a site"
   },
   "spo commandset set": {
     "prefix": [
@@ -2643,7 +2643,7 @@
     "body": [
       "m365 spo commandset set --webUrl $1"
     ],
-    "description": "Updates a ListView Command Set on a site."
+    "description": "Updates a ListView Command Set on a site"
   },
   "spo contenttype add": {
     "prefix": [
@@ -2661,7 +2661,7 @@
     "body": [
       "m365 spo contenttype field remove --webUrl $1 --contentTypeId $2 --fieldLinkId $3"
     ],
-    "description": "Removes a column from a site- or list content type"
+    "description": "Removes a column from a site or list content type"
   },
   "spo contenttype field set": {
     "prefix": [
@@ -4956,7 +4956,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer add --title $1 --clientSideComponentId $2"
     ],
-    "description": "Add an application customizer as a tenant wide extension"
+    "description": "Add an application customizer as a tenant-wide extension"
   },
   "spo tenant applicationcustomizer get": {
     "prefix": [
@@ -4965,7 +4965,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer get "
     ],
-    "description": "Get an application customizer that is installed tenant wide"
+    "description": "Get an application customizer that is installed tenant-wide"
   },
   "spo tenant applicationcustomizer list": {
     "prefix": [
@@ -4983,7 +4983,7 @@
     "body": [
       "m365 spo tenant applicationcustomizer remove "
     ],
-    "description": "Removes an application customizer that is installed tenant wide"
+    "description": "Removes an application customizer that is installed tenant-wide"
   },
   "spo tenant applicationcustomizer set": {
     "prefix": [
@@ -5010,7 +5010,7 @@
     "body": [
       "m365 spo tenant commandset get "
     ],
-    "description": "Get a ListView Command Set that is installed tenant wide"
+    "description": "Get a ListView Command Set that is installed tenant-wide"
   },
   "spo tenant commandset list": {
     "prefix": [
@@ -5028,7 +5028,7 @@
     "body": [
       "m365 spo tenant commandset remove "
     ],
-    "description": "Removes a ListView Command Set that is installed tenant wide"
+    "description": "Removes a ListView Command Set that is installed tenant-wide"
   },
   "spo tenant commandset set": {
     "prefix": [
@@ -5037,7 +5037,7 @@
     "body": [
       "m365 spo tenant commandset set "
     ],
-    "description": "Updates a ListView Command Set that is installed tenant wide"
+    "description": "Updates a ListView Command Set that is installed tenant-wide"
   },
   "spo tenant recyclebinitem list": {
     "prefix": [
