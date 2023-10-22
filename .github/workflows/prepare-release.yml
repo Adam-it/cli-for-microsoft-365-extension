@@ -35,7 +35,7 @@ jobs:
           path: script-samples
       
       - name: Run create script samples script
-        run: .\cli-for-microsoft-365-extension\scripts\createScriptSampleDefenition.ps1 -scriptSampleFolderPath ".\script-samples" -cliScriptSampleFolderPath ".\cli-microsoft365\docs\docs\sample-scripts"
+        run: .\cli-for-microsoft-365-extension\scripts\createScriptSampleDefenition.ps1 -scriptSampleFolderPath ".\script-samples" -cliScriptSampleFolderPath ".\cli-microsoft365\docs\docs\sample-scripts" -workingDirectory ".\cli-for-microsoft-365-extension"
         shell: pwsh
         continue-on-error: false
 

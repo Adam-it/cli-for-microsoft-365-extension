@@ -1,4 +1,4 @@
-param ($scriptSampleFolderPath, $cliScriptSampleFolderPath)
+param ($scriptSampleFolderPath, $cliScriptSampleFolderPath, $workingDirectory)
 
 if ($null -eq $scriptSampleFolderPath -or $scriptSampleFolderPath -eq "") {
     write-host "Please pass path to script samples from pnp/script-sample repo"
@@ -7,6 +7,11 @@ if ($null -eq $scriptSampleFolderPath -or $scriptSampleFolderPath -eq "") {
 
 if ($null -eq $cliScriptSampleFolderPath -or $cliScriptSampleFolderPath -eq "") {
     write-host "Please pass path to script samples folder from pnp/cli-microsoft365 repo"
+    exit
+}
+
+if ($null -eq $workingDirectory -or $workingDirectory -eq "") {
+    write-host "Please pass path to working directory"
     exit
 }
 
@@ -129,4 +134,4 @@ $orderedSampleModel = [ordered]@{}
 foreach ($Item in ($sampleModel.GetEnumerator() | Sort-Object -Property Key)) {
     $orderedSampleModel[$Item.Key] = $Item.Value
 }
-New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json -Depth 10 | Out-File "..\data\samples.json"
+New-Object -TypeName psobject -Property $orderedSampleModel | ConvertTo-Json -Depth 10 | Out-File "$workingDirectory\data\samples.json"
