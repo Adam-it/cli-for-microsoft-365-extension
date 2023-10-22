@@ -1,7 +1,12 @@
-param ($cliDocsFolderPath)
+param ($cliDocsFolderPath, $workingDirectory)
 
 if ($null -eq $cliDocsFolderPath -or $cliDocsFolderPath -eq "") {
     write-host "Please pass path to cli docs folder"
+    exit
+}
+
+if ($null -eq $workingDirectory -or $workingDirectory -eq "") {
+    write-host "Please pass path to working directory"
     exit
 }
 
@@ -11,7 +16,7 @@ $globalContent = Get-Content "$cliDocsFolderPath\docs\cmd\_global.mdx"
 $globalContent = $globalContent.Replace('```md definition-list', '').Replace('```', '')
 [hashtable]$global = @{}
 $global.Add('content', $globalContent)
-New-Object -TypeName psobject -Property $global | ConvertTo-Json | Out-File "..\data\global.json"
+New-Object -TypeName psobject -Property $global | ConvertTo-Json | Out-File "$workingDirectory\data\global.json"
 
 [hashtable]$commandSnippets = @{}
 [hashtable]$m365Model = @{}
@@ -65,11 +70,11 @@ $orderedCommandSnippets = [ordered]@{}
 foreach ($Item in ($commandSnippets.GetEnumerator() | Sort-Object -Property Key)) {
     $orderedCommandSnippets[$Item.Key] = $Item.Value
 }
-New-Object -TypeName psobject -Property $orderedCommandSnippets | ConvertTo-Json | Out-File "..\snippets\cliForMicrosoft365.code-snippets"
+New-Object -TypeName psobject -Property $orderedCommandSnippets | ConvertTo-Json | Out-File "$workingDirectory\snippets\cliForMicrosoft365.code-snippets"
 
 $m365Model.Add('commands', $commands)
 $orderedM365Model = [ordered]@{}
 foreach ($Item in ($m365Model.GetEnumerator() | Sort-Object -Property Key)) {
     $orderedM365Model[$Item.Key] = $Item.Value
 }
-New-Object -TypeName psobject -Property $orderedM365Model | ConvertTo-Json | Out-File "..\data\m365Model.json"
+New-Object -TypeName psobject -Property $orderedM365Model | ConvertTo-Json | Out-File "$workingDirectory\data\m365Model.json"
