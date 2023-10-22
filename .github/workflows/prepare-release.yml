@@ -63,5 +63,6 @@ jobs:
           path: cli-for-microsoft-365-extension
           commit-message: prepare release
           branch: prepare-release
-          title: Release      
+          title: Prepare Release      
+          body: Prepare Release
 ...
