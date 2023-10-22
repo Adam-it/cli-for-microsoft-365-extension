@@ -40,12 +40,12 @@ jobs:
         continue-on-error: false
 
       - name: Run create snippets script
-        run: .\cli-for-microsoft-365-extension\scripts\createSnippetDefenition.ps1 -cliDocsFolderPath ".\cli-microsoft365\docs"
+        run: .\cli-for-microsoft-365-extension\scripts\createSnippetDefenition.ps1 -cliDocsFolderPath ".\cli-microsoft365\docs" -workingDirectory ".\cli-for-microsoft-365-extension"
         shell: pwsh
         continue-on-error: false
 
       - name: Run update package version script
-        run: .\cli-for-microsoft-365-extension\scripts\updatePackageVersion.ps1 -currentWorkspace ".\cli-for-microsoft-365-extension"
+        run: .\cli-for-microsoft-365-extension\scripts\updatePackageVersion.ps1 -currentWorkspace ".\cli-for-microsoft-365-extension" -workingDirectory ".\cli-for-microsoft-365-extension"
         shell: pwsh
         continue-on-error: false
 
