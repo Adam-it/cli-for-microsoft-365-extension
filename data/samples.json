@@ -774,6 +774,44 @@
       "source": "script-samples"
     },
     {
+      "title": "Create fields and add to Content Types",
+      "url": "https://pnp.github.io/script-samples/spo-add-fields-to-contenttypes/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/README.md",
+      "description": "Script to create site columns and add them to content types",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Ahamed Fazil Buhari",
+          "pictureUrl": "https://github.com/ahamedfazil.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPFieldToContentType",
+        "m365 status",
+        "m365 login",
+        "m365 logout",
+        "m365 spo field get",
+        "m365 spo field add",
+        "m365 spo contenttype get",
+        "m365 spo contenttype field set"
+      ],
+      "createDate": "2023-09-06",
+      "source": "script-samples"
+    },
+    {
       "title": "Associate Form Customizer Extension with List or Libraries Form",
       "url": "https://pnp.github.io/script-samples/spo-add-formextension-to-list/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-formextension-to-list/README.md",
@@ -1138,6 +1176,42 @@
         "m365 logout"
       ],
       "createDate": "2023-02-17",
+      "source": "script-samples"
+    },
+    {
+      "title": "Creation of SharePoint Online sites from CSV",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-creation-sharepoint-sites-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/README.md",
+      "description": "This script helps you in creation of SharePoint Online Communication and Team sites in bulk. It takes an input from CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Kshitiz Kalra",
+          "pictureUrl": "https://github.com/kzkalra.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "New-PnPSite",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo site get",
+        "m365 spo site add",
+        "m365 logout"
+      ],
+      "createDate": "2023-10-03",
       "source": "script-samples"
     },
     {
@@ -1989,6 +2063,10 @@
       ],
       "authors": [
         {
+          "name": "Alex Talarico",
+          "pictureUrl": "https://github.com/getalex.png"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -2167,6 +2245,37 @@
         "m365 spo app install"
       ],
       "createDate": "2022-06-06",
+      "source": "script-samples"
+    },
+    {
+      "title": "Disable Quick property editing (Grid view) from SharePoint list",
+      "url": "https://pnp.github.io/script-samples/spo-list-disable-quick-property-editing/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/README.md",
+      "description": "This sample script will show you how to disable the Quick property editing (Grid view) from SharePoint list.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ],
+      "createDate": "2023-10-26",
       "source": "script-samples"
     },
     {
@@ -2777,6 +2886,68 @@
         "<Cmdlets-Used>"
       ],
       "createDate": "2023-09-17",
+      "source": "script-samples"
+    },
+    {
+      "title": "Export Microsoft Teams Direct Routing Calls",
+      "url": "https://pnp.github.io/script-samples/teams-export-direct-routing-calls/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-export-direct-routing-calls/README.md",
+      "description": "Exports the log of direct routing calls for a given duration",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-export-direct-routing-calls/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        }
+      ],
+      "tags": [
+        "Invoke-WebRequest",
+        "Invoke-RestMethod",
+        "m365 login",
+        "m365 teams report directroutingcalls"
+      ],
+      "createDate": "2023-10-24",
+      "source": "script-samples"
+    },
+    {
+      "title": "Export Microsoft Teams PSTN call logs",
+      "url": "https://pnp.github.io/script-samples/teams-export-pstn-call-logs/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-export-pstn-call-logs/README.md",
+      "description": "Exports the log of PSTN calls for a given duration",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-export-pstn-call-logs/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        }
+      ],
+      "tags": [
+        "Invoke-WebRequest",
+        "Invoke-RestMethod",
+        "m365 login",
+        "m365 teams report pstncalls"
+      ],
+      "createDate": "2023-10-24",
       "source": "script-samples"
     },
     {
