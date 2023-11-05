@@ -1,6 +1,26 @@
 {
   "commands": [
     {
+      "name": "aad administrativeunit add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-add"
+    },
+    {
+      "name": "aad administrativeunit get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-get"
+    },
+    {
+      "name": "aad administrativeunit list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-list"
+    },
+    {
+      "name": "aad administrativeunit remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-remove"
+    },
+    {
       "name": "aad app add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-add"
@@ -3299,6 +3319,26 @@
       "name": "tenant info get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/info/info-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/info/info-get"
+    },
+    {
+      "name": "tenant people profilecardproperty add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-add"
+    },
+    {
+      "name": "tenant people profilecardproperty get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-get"
+    },
+    {
+      "name": "tenant people profilecardproperty list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-list"
+    },
+    {
+      "name": "tenant people profilecardproperty remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-remove"
     },
     {
       "name": "tenant report activeusercounts",
