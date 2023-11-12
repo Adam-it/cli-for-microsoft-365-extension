@@ -5470,6 +5470,34 @@
       "source": "cli"
     },
     {
+      "title": "Lists information on decluttering teams",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/m365-teams-decluttering",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/m365-teams-decluttering/index.mdx",
+      "description": "Lists all the teams to provide insights",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/lists-teams-decluttering/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Maestrini",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/69770609?v=4"
+        }
+      ],
+      "tags": [
+        "teams",
+        "insights",
+        "decluttering",
+        "usage",
+        "governance"
+      ],
+      "createDate": "2023-10-17",
+      "source": "cli"
+    },
+    {
       "title": "CLI - List all Microsoft Teams team's Owners and Members",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/list-teams-owners-and-members",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/list-teams-owners-and-members/index.mdx",

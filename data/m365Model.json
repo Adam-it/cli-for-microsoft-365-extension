@@ -511,6 +511,31 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-remove"
     },
     {
+      "name": "external connection add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-add"
+    },
+    {
+      "name": "external connection get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-get"
+    },
+    {
+      "name": "external connection list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-list"
+    },
+    {
+      "name": "external connection remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-remove"
+    },
+    {
+      "name": "external connection schema add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-schema-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-schema-add"
+    },
+    {
       "name": "file convert pdf",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/file/convert/convert-pdf.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/convert/convert-pdf"
@@ -1239,31 +1264,6 @@
       "name": "purview threatassessment get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/threatassessment/threatassessment-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/threatassessment/threatassessment-get"
-    },
-    {
-      "name": "search externalconnection add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-add"
-    },
-    {
-      "name": "search externalconnection get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-get"
-    },
-    {
-      "name": "search externalconnection list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-list"
-    },
-    {
-      "name": "search externalconnection remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-remove"
-    },
-    {
-      "name": "search externalconnection schema add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search/externalconnection/externalconnection-schema-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search/externalconnection/externalconnection-schema-add"
     },
     {
       "name": "skype report activitycounts",
@@ -3339,6 +3339,11 @@
       "name": "tenant people profilecardproperty remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-remove"
+    },
+    {
+      "name": "tenant people profilecardproperty set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-set"
     },
     {
       "name": "tenant report activeusercounts",
