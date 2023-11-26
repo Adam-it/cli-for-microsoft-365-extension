@@ -3064,6 +3064,38 @@
       "source": "script-samples"
     },
     {
+      "title": "List installed apps within Teams in a tenant",
+      "url": "https://pnp.github.io/script-samples/teams-list-installed-apps/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-installed-apps/README.md",
+      "description": "Exports the installed apps in Microsoft Teams teams",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-installed-apps/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        },
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "Invoke-WebRequest",
+        "Invoke-RestMethod",
+        "m365 login",
+        "m365 teams team list",
+        "m365 teams team app list"
+      ],
+      "createDate": "2023-11-22",
+      "source": "script-samples"
+    },
+    {
       "title": "List all Microsoft Teams team's Owners and Members",
       "url": "https://pnp.github.io/script-samples/teams-list-teams-owners-and-members/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-teams-owners-and-members/README.md",
