@@ -516,6 +516,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-add"
     },
     {
+      "name": "external connection doctor",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-doctor.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-doctor"
+    },
+    {
       "name": "external connection get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-get"
@@ -534,6 +539,11 @@
       "name": "external connection schema add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/connection/connection-schema-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/connection/connection-schema-add"
+    },
+    {
+      "name": "external item add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/external/item/item-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/external/item/item-add"
     },
     {
       "name": "file convert pdf",
