@@ -1676,6 +1676,48 @@
       "source": "script-samples"
     },
     {
+      "title": "Enable/Disable Search Crawling on Sites and Libraries",
+      "url": "https://pnp.github.io/script-samples/spo-enable-disable-search-crawling/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-search-crawling/README.md",
+      "description": "Control the sites and libraries that get crawled. Also useful for Copilot projects to chose which areas to include",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-search-crawling/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Set-PnPSite",
+        "Set-PnPWeb",
+        "Get-PnPList",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo web get",
+        "m365 spo site set",
+        "m365 spo web set",
+        "m365 spo list get",
+        "m365 spo list set",
+        "m365 logout"
+      ],
+      "createDate": "2023-11-13",
+      "source": "script-samples"
+    },
+    {
       "title": "Enable Site Collection App Catalog on a specific sites using CSV",
       "url": "https://pnp.github.io/script-samples/spo-enable-site-collection-app-catalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-site-collection-app-catalog/README.md",

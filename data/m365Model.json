@@ -16,6 +16,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-list"
     },
     {
+      "name": "aad administrativeunit member list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-list"
+    },
+    {
       "name": "aad administrativeunit remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-remove"
@@ -3134,6 +3139,11 @@
       "name": "teams guestsettings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/guestsettings/guestsettings-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/guestsettings/guestsettings-set"
+    },
+    {
+      "name": "teams meeting add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-add"
     },
     {
       "name": "teams meeting attendancereport list",
