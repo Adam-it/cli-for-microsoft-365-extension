@@ -16,6 +16,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-list"
     },
     {
+      "name": "aad administrativeunit member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-add"
+    },
+    {
+      "name": "aad administrativeunit member get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-get"
+    },
+    {
       "name": "aad administrativeunit member list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-list"
@@ -39,6 +49,11 @@
       "name": "aad app list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-list"
+    },
+    {
+      "name": "aad app permission add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-permission-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-permission-add"
     },
     {
       "name": "aad app remove",
