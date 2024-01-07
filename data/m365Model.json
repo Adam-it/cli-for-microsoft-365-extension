@@ -1,411 +1,6 @@
 {
   "commands": [
     {
-      "name": "aad administrativeunit add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-add"
-    },
-    {
-      "name": "aad administrativeunit get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-get"
-    },
-    {
-      "name": "aad administrativeunit list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-list"
-    },
-    {
-      "name": "aad administrativeunit member add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-add"
-    },
-    {
-      "name": "aad administrativeunit member get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-get"
-    },
-    {
-      "name": "aad administrativeunit member list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-member-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-member-list"
-    },
-    {
-      "name": "aad administrativeunit remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/administrativeunit/administrativeunit-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/administrativeunit/administrativeunit-remove"
-    },
-    {
-      "name": "aad app add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-add"
-    },
-    {
-      "name": "aad app get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-get"
-    },
-    {
-      "name": "aad app list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-list"
-    },
-    {
-      "name": "aad app permission add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-permission-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-permission-add"
-    },
-    {
-      "name": "aad app remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-remove"
-    },
-    {
-      "name": "aad app role add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-role-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-role-add"
-    },
-    {
-      "name": "aad app role list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-role-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-role-list"
-    },
-    {
-      "name": "aad app role remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-role-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-role-remove"
-    },
-    {
-      "name": "aad app set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/app/app-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/app/app-set"
-    },
-    {
-      "name": "aad approleassignment add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/approleassignment/approleassignment-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/approleassignment/approleassignment-add"
-    },
-    {
-      "name": "aad approleassignment list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/approleassignment/approleassignment-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/approleassignment/approleassignment-list"
-    },
-    {
-      "name": "aad approleassignment remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/approleassignment/approleassignment-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/approleassignment/approleassignment-remove"
-    },
-    {
-      "name": "aad group get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-get"
-    },
-    {
-      "name": "aad group list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-list"
-    },
-    {
-      "name": "aad group remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-remove"
-    },
-    {
-      "name": "aad group user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/group/group-user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/group/group-user-list"
-    },
-    {
-      "name": "aad groupsetting add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-add"
-    },
-    {
-      "name": "aad groupsetting get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-get"
-    },
-    {
-      "name": "aad groupsetting list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-list"
-    },
-    {
-      "name": "aad groupsetting remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-remove"
-    },
-    {
-      "name": "aad groupsetting set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsetting/groupsetting-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsetting/groupsetting-set"
-    },
-    {
-      "name": "aad groupsettingtemplate get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsettingtemplate/groupsettingtemplate-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsettingtemplate/groupsettingtemplate-get"
-    },
-    {
-      "name": "aad groupsettingtemplate list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/groupsettingtemplate/groupsettingtemplate-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/groupsettingtemplate/groupsettingtemplate-list"
-    },
-    {
-      "name": "aad license list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/license/license-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/license/license-list"
-    },
-    {
-      "name": "aad m365group add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-add"
-    },
-    {
-      "name": "aad m365group conversation list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-conversation-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-conversation-list"
-    },
-    {
-      "name": "aad m365group conversation post list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-conversation-post-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-conversation-post-list"
-    },
-    {
-      "name": "aad m365group get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-get"
-    },
-    {
-      "name": "aad m365group list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-list"
-    },
-    {
-      "name": "aad m365group recyclebinitem clear",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-clear.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-clear"
-    },
-    {
-      "name": "aad m365group recyclebinitem list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-list"
-    },
-    {
-      "name": "aad m365group recyclebinitem remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-remove"
-    },
-    {
-      "name": "aad m365group recyclebinitem restore",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-recyclebinitem-restore.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-recyclebinitem-restore"
-    },
-    {
-      "name": "aad m365group remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-remove"
-    },
-    {
-      "name": "aad m365group renew",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-renew.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-renew"
-    },
-    {
-      "name": "aad m365group report activitycounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitycounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitycounts"
-    },
-    {
-      "name": "aad m365group report activitydetail",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitydetail.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitydetail"
-    },
-    {
-      "name": "aad m365group report activityfilecounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activityfilecounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activityfilecounts"
-    },
-    {
-      "name": "aad m365group report activitygroupcounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitygroupcounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitygroupcounts"
-    },
-    {
-      "name": "aad m365group report activitystorage",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-report-activitystorage.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-report-activitystorage"
-    },
-    {
-      "name": "aad m365group set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-set"
-    },
-    {
-      "name": "aad m365group teamify",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-teamify.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-teamify"
-    },
-    {
-      "name": "aad m365group user add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-add"
-    },
-    {
-      "name": "aad m365group user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-list"
-    },
-    {
-      "name": "aad m365group user remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-remove"
-    },
-    {
-      "name": "aad m365group user set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/m365group/m365group-user-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/m365group/m365group-user-set"
-    },
-    {
-      "name": "aad oauth2grant add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/oauth2grant/oauth2grant-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/oauth2grant/oauth2grant-add"
-    },
-    {
-      "name": "aad oauth2grant list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/oauth2grant/oauth2grant-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/oauth2grant/oauth2grant-list"
-    },
-    {
-      "name": "aad oauth2grant remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/oauth2grant/oauth2grant-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/oauth2grant/oauth2grant-remove"
-    },
-    {
-      "name": "aad oauth2grant set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/oauth2grant/oauth2grant-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/oauth2grant/oauth2grant-set"
-    },
-    {
-      "name": "aad policy list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/policy/policy-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/policy/policy-list"
-    },
-    {
-      "name": "aad siteclassification disable",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/siteclassification/siteclassification-disable.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/siteclassification/siteclassification-disable"
-    },
-    {
-      "name": "aad siteclassification enable",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/siteclassification/siteclassification-enable.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/siteclassification/siteclassification-enable"
-    },
-    {
-      "name": "aad siteclassification get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/siteclassification/siteclassification-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/siteclassification/siteclassification-get"
-    },
-    {
-      "name": "aad siteclassification set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/siteclassification/siteclassification-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/siteclassification/siteclassification-set"
-    },
-    {
-      "name": "aad sp add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/sp/sp-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-add"
-    },
-    {
-      "name": "aad sp get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/sp/sp-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-get"
-    },
-    {
-      "name": "aad sp list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/sp/sp-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/sp/sp-list"
-    },
-    {
-      "name": "aad user add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-add"
-    },
-    {
-      "name": "aad user get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-get"
-    },
-    {
-      "name": "aad user guest add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-guest-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-guest-add"
-    },
-    {
-      "name": "aad user hibp",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-hibp.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-hibp"
-    },
-    {
-      "name": "aad user license add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-add"
-    },
-    {
-      "name": "aad user license list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-list"
-    },
-    {
-      "name": "aad user license remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-license-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-license-remove"
-    },
-    {
-      "name": "aad user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-list"
-    },
-    {
-      "name": "aad user password validate",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-password-validate.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-password-validate"
-    },
-    {
-      "name": "aad user recyclebinitem clear",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-clear.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-clear"
-    },
-    {
-      "name": "aad user recyclebinitem list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-list"
-    },
-    {
-      "name": "aad user recyclebinitem remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-remove"
-    },
-    {
-      "name": "aad user recyclebinitem restore",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-recyclebinitem-restore.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-recyclebinitem-restore"
-    },
-    {
-      "name": "aad user remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-remove"
-    },
-    {
-      "name": "aad user set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-set"
-    },
-    {
-      "name": "aad user signin list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/aad/user/user-signin-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/aad/user/user-signin-list"
-    },
-    {
       "name": "adaptivecard send",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/adaptivecard/adaptivecard-send.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/adaptivecard/adaptivecard-send"
@@ -529,6 +124,416 @@
       "name": "context remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/context-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/context-remove"
+    },
+    {
+      "name": "entra administrativeunit add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-add"
+    },
+    {
+      "name": "entra administrativeunit get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-get"
+    },
+    {
+      "name": "entra administrativeunit list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-list"
+    },
+    {
+      "name": "entra administrativeunit member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-member-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-member-add"
+    },
+    {
+      "name": "entra administrativeunit member get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-member-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-member-get"
+    },
+    {
+      "name": "entra administrativeunit member list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-member-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-member-list"
+    },
+    {
+      "name": "entra administrativeunit remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-remove"
+    },
+    {
+      "name": "entra administrativeunit roleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-roleassignment-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-roleassignment-add"
+    },
+    {
+      "name": "entra app add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-add"
+    },
+    {
+      "name": "entra app get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-get"
+    },
+    {
+      "name": "entra app list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-list"
+    },
+    {
+      "name": "entra app permission add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-permission-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-permission-add"
+    },
+    {
+      "name": "entra app remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-remove"
+    },
+    {
+      "name": "entra app role add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-role-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-role-add"
+    },
+    {
+      "name": "entra app role list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-role-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-role-list"
+    },
+    {
+      "name": "entra app role remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-role-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-role-remove"
+    },
+    {
+      "name": "entra app set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-set"
+    },
+    {
+      "name": "entra approleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/approleassignment/approleassignment-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/approleassignment/approleassignment-add"
+    },
+    {
+      "name": "entra approleassignment list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/approleassignment/approleassignment-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/approleassignment/approleassignment-list"
+    },
+    {
+      "name": "entra approleassignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/approleassignment/approleassignment-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/approleassignment/approleassignment-remove"
+    },
+    {
+      "name": "entra group get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-get"
+    },
+    {
+      "name": "entra group list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-list"
+    },
+    {
+      "name": "entra group remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-remove"
+    },
+    {
+      "name": "entra group user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-list"
+    },
+    {
+      "name": "entra groupsetting add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsetting/groupsetting-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsetting/groupsetting-add"
+    },
+    {
+      "name": "entra groupsetting get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsetting/groupsetting-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsetting/groupsetting-get"
+    },
+    {
+      "name": "entra groupsetting list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsetting/groupsetting-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsetting/groupsetting-list"
+    },
+    {
+      "name": "entra groupsetting remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsetting/groupsetting-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsetting/groupsetting-remove"
+    },
+    {
+      "name": "entra groupsetting set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsetting/groupsetting-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsetting/groupsetting-set"
+    },
+    {
+      "name": "entra groupsettingtemplate get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsettingtemplate/groupsettingtemplate-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsettingtemplate/groupsettingtemplate-get"
+    },
+    {
+      "name": "entra groupsettingtemplate list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/groupsettingtemplate/groupsettingtemplate-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/groupsettingtemplate/groupsettingtemplate-list"
+    },
+    {
+      "name": "entra license list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/license/license-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/license/license-list"
+    },
+    {
+      "name": "entra m365group add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-add"
+    },
+    {
+      "name": "entra m365group conversation list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-conversation-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-conversation-list"
+    },
+    {
+      "name": "entra m365group conversation post list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-conversation-post-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-conversation-post-list"
+    },
+    {
+      "name": "entra m365group get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-get"
+    },
+    {
+      "name": "entra m365group list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-list"
+    },
+    {
+      "name": "entra m365group recyclebinitem clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-recyclebinitem-clear.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-recyclebinitem-clear"
+    },
+    {
+      "name": "entra m365group recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-recyclebinitem-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-recyclebinitem-list"
+    },
+    {
+      "name": "entra m365group recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-recyclebinitem-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-recyclebinitem-remove"
+    },
+    {
+      "name": "entra m365group recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-recyclebinitem-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-recyclebinitem-restore"
+    },
+    {
+      "name": "entra m365group remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-remove"
+    },
+    {
+      "name": "entra m365group renew",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-renew.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-renew"
+    },
+    {
+      "name": "entra m365group report activitycounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-report-activitycounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-report-activitycounts"
+    },
+    {
+      "name": "entra m365group report activitydetail",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-report-activitydetail.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-report-activitydetail"
+    },
+    {
+      "name": "entra m365group report activityfilecounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-report-activityfilecounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-report-activityfilecounts"
+    },
+    {
+      "name": "entra m365group report activitygroupcounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-report-activitygroupcounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-report-activitygroupcounts"
+    },
+    {
+      "name": "entra m365group report activitystorage",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-report-activitystorage.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-report-activitystorage"
+    },
+    {
+      "name": "entra m365group set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-set"
+    },
+    {
+      "name": "entra m365group teamify",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-teamify.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-teamify"
+    },
+    {
+      "name": "entra m365group user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-add"
+    },
+    {
+      "name": "entra m365group user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-list"
+    },
+    {
+      "name": "entra m365group user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-user-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-remove"
+    },
+    {
+      "name": "entra m365group user set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/m365group/m365group-user-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-set"
+    },
+    {
+      "name": "entra oauth2grant add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/oauth2grant/oauth2grant-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-add"
+    },
+    {
+      "name": "entra oauth2grant list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/oauth2grant/oauth2grant-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-list"
+    },
+    {
+      "name": "entra oauth2grant remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/oauth2grant/oauth2grant-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-remove"
+    },
+    {
+      "name": "entra oauth2grant set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/oauth2grant/oauth2grant-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-set"
+    },
+    {
+      "name": "entra policy list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/policy/policy-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/policy/policy-list"
+    },
+    {
+      "name": "entra siteclassification disable",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-disable.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-disable"
+    },
+    {
+      "name": "entra siteclassification enable",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-enable.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-enable"
+    },
+    {
+      "name": "entra siteclassification get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-get"
+    },
+    {
+      "name": "entra siteclassification set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-set"
+    },
+    {
+      "name": "entra sp add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-add"
+    },
+    {
+      "name": "entra sp get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-get"
+    },
+    {
+      "name": "entra sp list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-list"
+    },
+    {
+      "name": "entra user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-add"
+    },
+    {
+      "name": "entra user get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-get"
+    },
+    {
+      "name": "entra user guest add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-guest-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-guest-add"
+    },
+    {
+      "name": "entra user hibp",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-hibp.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-hibp"
+    },
+    {
+      "name": "entra user license add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-license-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-license-add"
+    },
+    {
+      "name": "entra user license list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-license-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-license-list"
+    },
+    {
+      "name": "entra user license remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-license-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-license-remove"
+    },
+    {
+      "name": "entra user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-list"
+    },
+    {
+      "name": "entra user password validate",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-password-validate.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-password-validate"
+    },
+    {
+      "name": "entra user recyclebinitem clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-recyclebinitem-clear.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-recyclebinitem-clear"
+    },
+    {
+      "name": "entra user recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-recyclebinitem-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-recyclebinitem-list"
+    },
+    {
+      "name": "entra user recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-recyclebinitem-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-recyclebinitem-remove"
+    },
+    {
+      "name": "entra user recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-recyclebinitem-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-recyclebinitem-restore"
+    },
+    {
+      "name": "entra user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-remove"
+    },
+    {
+      "name": "entra user set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-set"
+    },
+    {
+      "name": "entra user signin list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-signin-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-signin-list"
     },
     {
       "name": "external connection add",

@@ -3256,10 +3256,10 @@
     },
     {
       "title": "Analyze User Profile Photos using Azure Computer Vision API",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/analyze-user-profile-photos",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-user-profile-photos/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/analyze-user-profile-photos",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/analyze-user-profile-photos/index.mdx",
       "description": "This script uses Azure Cognitive Service API and Microsoft 365 CLI to analyze user profile pictures.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-user-profile-photos/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/analyze-user-profile-photos/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3282,10 +3282,10 @@
     },
     {
       "title": "Analyze users for known data breaches with have i been pwned",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/analyze-users-haveibeenpwnd",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-users-haveibeenpwnd/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/analyze-users-haveibeenpwnd",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/analyze-users-haveibeenpwnd/index.mdx",
       "description": "Validate all your users against known breaches with the have I been pwned api.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/analyze-users-haveibeenpwnd/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/analyze-users-haveibeenpwnd/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3307,10 +3307,10 @@
     },
     {
       "title": "Bulk add/remove users to Microsoft Teams and Microsoft 365 Groups",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/bulk-manage-group-users",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/bulk-manage-group-users/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/bulk-manage-group-users",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/bulk-manage-group-users/index.mdx",
       "description": "Sample script to add/remove bulk users to/from Microsoft Teams team or Microsoft 365 group.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/bulk-manage-group-users/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/bulk-manage-group-users/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3334,10 +3334,10 @@
     },
     {
       "title": "CLI - Delete all Microsoft 365 groups",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/delete-m365-groups",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/delete-m365-groups/index.mdx",
-      "description": "this script deletes the AAD groups you no longer need.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/delete-m365-groups/assets/preview.png",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/delete-m365-groups",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/delete-m365-groups/index.mdx",
+      "description": "this script deletes the Entra groups you no longer need.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/delete-m365-groups/assets/preview.png",
       "type": [
         "powershell",
         "bash"
@@ -3365,10 +3365,10 @@
     },
     {
       "title": "CLI - Delete all Microsoft 365 groups and SharePoint sites",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/delete-m365-groups-and-sharepoint-sites",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/delete-m365-groups-and-sharepoint-sites/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/delete-m365-groups-and-sharepoint-sites",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/delete-m365-groups-and-sharepoint-sites/index.mdx",
       "description": "delete all Microsoft 365 Groups and SharePoint Online site.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/delete-m365-groups-and-sharepoint-sites/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/delete-m365-groups-and-sharepoint-sites/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3391,10 +3391,10 @@
     },
     {
       "title": "CLI - Replace a user's membership in selected Microsoft 365 Groups or Teams",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/replace-membership-of-selected-groups",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/replace-membership-of-selected-groups/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/replace-membership-of-selected-groups",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-membership-of-selected-groups/index.mdx",
       "description": "This script can be used to replace the membership of a user for a selected list of Groups.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/replace-membership-of-selected-groups/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-membership-of-selected-groups/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3419,10 +3419,10 @@
     },
     {
       "title": "CLI - Replace an owner in a Microsoft 365 Group or Microsoft Team",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/replace-owner-with-a-different-one",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/replace-owner-with-a-different-one/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/replace-owner-with-a-different-one",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-owner-with-a-different-one/index.mdx",
       "description": "Find all the Microsoft 365 Groups that a user is an Owner of and replace them with someone else.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/replace-owner-with-a-different-one/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-owner-with-a-different-one/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -3446,10 +3446,10 @@
     },
     {
       "title": "Scan for Microsoft 365 Groups created with user's first or last name",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/aad/scan-groups-with-user-names",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/scan-groups-with-user-names/index.mdx",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/scan-groups-with-user-names",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/scan-groups-with-user-names/index.mdx",
       "description": "This sample script scans the Microsoft 365 groups that may contain user’s first or last name as the group mail.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/aad/scan-groups-with-user-names/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/scan-groups-with-user-names/assets/preview.png",
       "type": [
         "powershell",
         "bash"
