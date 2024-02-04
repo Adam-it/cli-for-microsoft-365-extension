@@ -81,7 +81,16 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/5527235?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "m365 status",
+        "m365 spo list get",
+        "m365 spo list add",
+        "m365 spo field add",
+        "m365 spo listitem list",
+        "m365 spo listitem add",
+        "m365 spo listitem set",
+        "m365 util accesstoken get"
+      ],
       "createDate": "2021-12-21",
       "source": "script-samples"
     },
@@ -143,7 +152,15 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Connect-PnPOnline",
+        "New-PnPTenantSite",
+        "Connect-SPOService",
+        "New-SPOSite",
+        "m365 status",
+        "m365 login",
+        "m365 spo site add"
+      ],
       "createDate": "2021-05-11",
       "source": "script-samples"
     },
@@ -169,7 +186,22 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Set-PnPList",
+        "Connect-PnPOnline",
+        "Add-PnPFile",
+        "Add-PnPFolder",
+        "Set-PnPFileCheckedOut",
+        "Set-PnPFileCheckedIn",
+        "m365 login",
+        "m365 status",
+        "m365 spo file add",
+        "m365 spo folder add",
+        "m365 spo file checkin",
+        "m365 spo file checkout",
+        "m365 spo list get",
+        "m365 spo list set"
+      ],
       "createDate": "2022-01-02",
       "source": "script-samples"
     },
@@ -218,7 +250,14 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>"
+        "m365 login",
+        "m365 flow environment get",
+        "m365 flow list",
+        "m365 flow run list",
+        "m365 spo listitem add",
+        "m365 flow run get",
+        "m365 spo listitem set",
+        "m365 logout"
       ],
       "createDate": "2023-10-30",
       "source": "script-samples"
@@ -241,12 +280,21 @@
           "pictureUrl": "https://github.com/Ryan365Apps.png"
         }
       ],
-      "tags": [],
+      "tags": [
+        "m365 status",
+        "m365 login",
+        "m365 flow environment list",
+        "m365 flow list",
+        "m365 spo listitem list",
+        "m365 flow run list",
+        "m365 spo listitem add",
+        "m365 spo listitem set"
+      ],
       "createDate": "2022-02-01",
       "source": "script-samples"
     },
     {
-      "title": " Generate Markdown Report of LCIDs",
+      "title": "Generate Markdown Report of LCIDs",
       "url": "https://pnp.github.io/script-samples/generate-markdown-lcids/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/generate-markdown-lcids/README.md",
       "description": "Simple report listing out the language IDs in Markdown",
@@ -267,7 +315,13 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "m365 status",
+        "m365 login",
+        "m365 spo web installedlanguage list"
+      ],
       "createDate": "2021-05-11",
       "source": "script-samples"
     },
@@ -371,7 +425,11 @@
       "tags": [
         "Document Library",
         "Conversion",
-        "PDF"
+        "PDF",
+        "Invoke-RestMethod",
+        "m365 status",
+        "m365 login",
+        "m365 request"
       ],
       "createDate": "2021-08-13",
       "source": "script-samples"
@@ -397,27 +455,6 @@
         "Disconnect-MgGraph"
       ],
       "createDate": "2023-03-07",
-      "source": "script-samples"
-    },
-    {
-      "title": "Get Started with Tooltip for Connected Account",
-      "url": "https://pnp.github.io/script-samples/magic-tooltips-module/README.html",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/magic-tooltips-module/README.md",
-      "description": "The Magic Tooltips module can be installed to help determine the account that is connected to Microsoft 365 or Azure.",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/magic-tooltips-module/assets/preview.png",
-      "type": [],
-      "tabTag": [],
-      "authors": [
-        {
-          "name": "Paul Schaeflein",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/8008013?v=4"
-        }
-      ],
-      "tags": [
-        "magic tooltips",
-        "magic"
-      ],
-      "createDate": "2021-06-21",
       "source": "script-samples"
     },
     {
@@ -619,7 +656,15 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Add-PnPFile",
+        "m365 status",
+        "m365 login",
+        "m365 spo site classic list",
+        "m365 spo file add"
+      ],
       "createDate": "2021-02-27",
       "source": "script-samples"
     },
@@ -645,7 +690,23 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Get-PnPList",
+        "Get-PnPField",
+        "Get-PnPListItem",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Disconnect-PnPOnline",
+        "Get-PnPWeb",
+        "Get-PnPSubWeb",
+        "m365 status",
+        "m365 login",
+        "m365 spo list list",
+        "m365 spo field list",
+        "m365 spo listitem list",
+        "m365 spo site list",
+        "m365 spo web list"
+      ],
       "createDate": "2021-12-13",
       "source": "script-samples"
     },
@@ -763,7 +824,16 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPSiteCollectionAppCatalog",
+        "Connect-SPOService",
+        "Get-SPOSite",
+        "Add-SPOSiteCollectionAppCatalog",
+        "m365 status",
+        "m365 login",
+        "m365 spo site appcatalog add"
+      ],
       "createDate": "2021-05-11",
       "source": "script-samples"
     },
@@ -834,7 +904,22 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/47852415?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPPage",
+        "Add-PnPPageSection",
+        "Add-PnPPageTextPart",
+        "Get-PnPList",
+        "Add-PnPPageWebPart",
+        "Get-PnPPage",
+        "m365 status",
+        "m365 login",
+        "m365 spo page add",
+        "m365 spo page section add",
+        "m365 spo page text add",
+        "m365 spo page clientsidewebpart add",
+        "m365 spo page set"
+      ],
       "createDate": "2021-06-18",
       "source": "script-samples"
     },
@@ -1002,7 +1087,14 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "New-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list add"
+      ],
       "createDate": "2021-10-08",
       "source": "script-samples"
     },
@@ -1135,7 +1227,15 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPTenantTheme",
+        "m365 status",
+        "m365 login",
+        "m365 spo theme set",
+        "Connect-SPOService",
+        "Add-SPOTheme"
+      ],
       "createDate": "2021-10-02",
       "source": "script-samples"
     },
@@ -1356,7 +1456,7 @@
       "title": "Clean Up Unwanted Site Columns from Content Types and Lists/Libraries",
       "url": "https://pnp.github.io/script-samples/spo-cleanup-site-column-usage/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-site-column-usage/README.md",
-      "description": "We decide we want to trim away a few of the Site Columns we’ve created, here is the script that does just that",
+      "description": "We decide we want to trim away a few of the Site Columns we've created, here is the script that does just that",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-site-column-usage/assets/preview.png",
       "type": [
         "powershell"
@@ -1374,7 +1474,22 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/1295627?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPContentType",
+        "Get-PnPProperty",
+        "Remove-PnPFieldFromContentType",
+        "Get-PnPList",
+        "Get-PnPField",
+        "Remove-PnPField",
+        "m365 status",
+        "m365 login",
+        "m365 spo contenttype get",
+        "m365 spo contenttype field remove",
+        "m365 spo list list",
+        "m365 spo field get",
+        "m365 spo field remove"
+      ],
       "createDate": "2021-10-15",
       "source": "script-samples"
     },
@@ -1450,7 +1565,16 @@
         "m365 spo list roleassignment add",
         "m365 spo field add",
         "m365 spo list view add",
-        "pnp powershell"
+        "Get-PnPContext",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "New-PnPList",
+        "Set-PnPList",
+        "Get-PnPRoleDefinition",
+        "Set-PnPListPermission",
+        "Get-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPView"
       ],
       "createDate": "2023-06-20",
       "source": "script-samples"
@@ -1719,6 +1843,40 @@
       "source": "script-samples"
     },
     {
+      "title": "Download all files from array of documents urls and archive them",
+      "url": "https://pnp.github.io/script-samples/spo-download-files-and-archive/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-and-archive/README.md",
+      "description": "The script downloads all files from array of documents urls and archive them to a zip file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-and-archive/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        }
+      ],
+      "tags": [
+        "Modern",
+        "Files",
+        "Documents",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPFile",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo file get",
+        "m365 logout"
+      ],
+      "createDate": "2024-02-01",
+      "source": "script-samples"
+    },
+    {
       "title": "Empty SharePoint Online Site Recycle Bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-recycle-bin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/README.md",
@@ -1920,9 +2078,15 @@
         }
       ],
       "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPContext",
+        "Get-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
         "m365 login",
         "m365 spo file list",
-        "spo file sharinginfo get"
+        "m365 spo file sharinginfo get",
+        "m365 logout"
       ],
       "createDate": "2023-02-18",
       "source": "script-samples"
@@ -1952,7 +2116,12 @@
       "tags": [
         "SharePoint Online",
         "Connect-PnPOnline",
-        "Get-PnPHubSite"
+        "Get-PnPHubSite",
+        "m365 status",
+        "m365 login",
+        "m365 spo hubsite list",
+        "Connect-SPOService",
+        "Get-SPOHubSite"
       ],
       "createDate": "2022-04-20",
       "source": "script-samples"
@@ -1984,7 +2153,13 @@
         "m365 spo field list",
         "m365 spo listitem list",
         "m365 spo listitem attachment list",
-        "m365 spo file get"
+        "m365 spo file get",
+        "Get-PnPField",
+        "Get-PnPListItem",
+        "Get-PnPProperty",
+        "Get-PnPFile",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline"
       ],
       "createDate": "2021-09-26",
       "source": "script-samples"
@@ -2155,7 +2330,13 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPApp",
+        "m365 status",
+        "m365 login",
+        "m365 spo app list"
+      ],
       "createDate": "2021-12-15",
       "source": "script-samples"
     },
@@ -2255,7 +2436,15 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/40450958?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPProperty",
+        "m365 status",
+        "m365 login",
+        "m365 spo list list",
+        "m365 spo list view list"
+      ],
       "createDate": "2021-10-08",
       "source": "script-samples"
     },
@@ -2301,7 +2490,7 @@
       "source": "script-samples"
     },
     {
-      "title": "Get permission group report of a site.",
+      "title": "Get permission group report of a site",
       "url": "https://pnp.github.io/script-samples/spo-group-permission-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-group-permission-report/README.md",
       "description": "The scripts get group permission report of site and each list on the site and prints it to console and also sends it as an adaptive card to Teams channel specified by webhook.",
@@ -2318,7 +2507,15 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "m365 status",
+        "m365 login",
+        "m365 spo web get",
+        "m365 spo group list",
+        "m365 spo list list",
+        "m365 spo list get",
+        "m365 adaptivecard send"
+      ],
       "createDate": "2022-03-06",
       "source": "script-samples"
     },
@@ -2563,7 +2760,13 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "m365 status",
+        "m365 login",
+        "m365 spo listitem list"
+      ],
       "createDate": "2021-07-19",
       "source": "script-samples"
     },
@@ -2697,8 +2900,49 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPRecycleBinItem",
+        "m365 status",
+        "m365 login",
+        "m365 spo site recyclebinitem list"
+      ],
       "createDate": "2021-07-13",
+      "source": "script-samples"
+    },
+    {
+      "title": "Register SharePoint Organization Assets Library",
+      "url": "https://pnp.github.io/script-samples/spo-register-org-assets-library/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-register-org-assets-library/README.md",
+      "description": "This sample script shows how to register a SharePoint document library as an organization assets library.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-register-org-assets-library/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-SPOService",
+        "Add-SPOOrgAssetsLibrary",
+        "Disconnect-SPOService",
+        "m365 login",
+        "m365 status",
+        "m365 spo orgassetslibrary add",
+        "m365 logout",
+        "Connect-PnPOnline",
+        "Add-PnPOrgAssetsLibrary",
+        "Disconnect-PnPOnline"
+      ],
+      "createDate": "2024-02-03",
       "source": "script-samples"
     },
     {
@@ -2744,7 +2988,7 @@
       "source": "script-samples"
     },
     {
-      "title": "Delete a library exceeding the list threshold limit. ",
+      "title": "Delete a library exceeding the list threshold limit",
       "url": "https://pnp.github.io/script-samples/spo-remove-large-library/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-large-library/README.md",
       "description": "Delete a large SharePoint library by removing the files and folders before deleting the library",
@@ -2765,8 +3009,58 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Get-PnPList",
+        "Get-PnPFolderItem",
+        "Remove-PnPFile",
+        "Remove-PnPFolder",
+        "Remove-PnPList",
+        "m365 status",
+        "m365 login",
+        "m365 spo folder list",
+        "m365 spo folder remove",
+        "m365 spo file list",
+        "m365 spo file remove",
+        "m365 spo list remove"
+      ],
       "createDate": "2021-12-29",
+      "source": "script-samples"
+    },
+    {
+      "title": "Remove SharePoint Organization Assets Library",
+      "url": "https://pnp.github.io/script-samples/spo-remove-org-assets-library/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-org-assets-library/README.md",
+      "description": "This sample script shows how to remove a SharePoint document library from organization assets libraries.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-org-assets-library/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-SPOService",
+        "Remove-SPOOrgAssetsLibrary",
+        "Disconnect-SPOService",
+        "m365 login",
+        "m365 status",
+        "m365 spo orgassetslibrary remove",
+        "m365 logout",
+        "Connect-PnPOnline",
+        "Remove-PnPOrgAssetsLibrary",
+        "Disconnect-PnPOnline"
+      ],
+      "createDate": "2024-02-03",
       "source": "script-samples"
     },
     {
@@ -3007,7 +3301,10 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Set-PnPUserProfileProperty"
+        "Set-PnPUserProfileProperty",
+        "m365 status",
+        "m365 login",
+        "m365 spo userprofile set"
       ],
       "createDate": "2022-03-24",
       "source": "script-samples"
@@ -3035,6 +3332,10 @@
         }
       ],
       "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "New-PnPMicrosoft365Group",
+        "m365 status",
         "m365 login",
         "m365 teams team get",
         "m365 aad o365group add",
@@ -3063,7 +3364,12 @@
         }
       ],
       "tags": [
-        "<Cmdlets-Used>"
+        "m365 login",
+        "m365 teams team list",
+        "m365 teams channel list",
+        "m365 teams message list",
+        "m365 teams message reply list",
+        "m365 logout"
       ],
       "createDate": "2023-09-17",
       "source": "script-samples"
@@ -3185,7 +3491,24 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAccessToken",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPTeamsUser",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 teams team list",
+        "m365 aad o365group",
+        "m365 teams user list",
+        "m365 teams channel list",
+        "m365 teams channel get",
+        "m365 teams tab list",
+        "m365 logout"
+      ],
       "createDate": "2021-11-02",
       "source": "script-samples"
     },
@@ -3215,7 +3538,18 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Connect-MicrosoftTeams",
+        "Get-TeamUser",
+        "Get-Team",
+        "Connect-PnPOnline",
+        "Get-PnPTeamsTeam",
+        "Get-PnPTeamsUser",
+        "m365 status",
+        "m365 login",
+        "m365 teams team list",
+        "m365 teams user list"
+      ],
       "createDate": "2021-12-24",
       "source": "script-samples"
     },
