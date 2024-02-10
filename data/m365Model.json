@@ -241,6 +241,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-remove"
     },
     {
+      "name": "entra group user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-add"
+    },
+    {
       "name": "entra group user list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-list"
