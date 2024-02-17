@@ -458,6 +458,35 @@
       "source": "script-samples"
     },
     {
+      "title": "Get Unified log for SharePoint DLP Exchange and Entra",
+      "url": "https://pnp.github.io/script-samples/m365-get-unifiedlog-spo-dlp-exchange-entra/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/m365-get-unifiedlog-spo-dlp-exchange-entra/README.md",
+      "description": "Understand and track activities within your M365 environment is crucial for maintaining security and compliance.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/m365-get-unifiedlog-spo-dlp-exchange-entra/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPUnifiedAuditLog",
+        "m365 purview auditlog list",
+        "m365 login"
+      ],
+      "createDate": "2024-01-27",
+      "source": "script-samples"
+    },
+    {
       "title": "Copy Planner plan",
       "url": "https://pnp.github.io/script-samples/planner-copy-planner-plan/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/planner-copy-planner-plan/README.md",

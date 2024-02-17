@@ -186,6 +186,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-permission-add"
     },
     {
+      "name": "entra app permission list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-permission-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-permission-list"
+    },
+    {
       "name": "entra app remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-remove"
@@ -224,6 +229,11 @@
       "name": "entra approleassignment remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/approleassignment/approleassignment-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/approleassignment/approleassignment-remove"
+    },
+    {
+      "name": "entra group add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-add"
     },
     {
       "name": "entra group get",
@@ -589,6 +599,11 @@
       "name": "file add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/file/file-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/file-add"
+    },
+    {
+      "name": "file copy",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/file/file-copy.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/file-copy"
     },
     {
       "name": "file list",
