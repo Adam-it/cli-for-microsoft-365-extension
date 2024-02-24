@@ -6153,7 +6153,7 @@
       "title": "Share social champions to Teams",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/teams/share-socialchampions",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/share-socialchampions/index.mdx",
-      "description": "Retrieves activities for SharePoint Online, Teams and Yammer and shares the top 3 contributors for each category as an adaptive card to the specified webhook url.",
+      "description": "Retrieves activities for SharePoint Online, Teams and Viva Engage and shares the top 3 contributors for each category as an adaptive card to the specified webhook url.",
       "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/teams/share-socialchampions/assets/preview.png",
       "type": [
         "powershell"

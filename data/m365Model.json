@@ -156,6 +156,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-member-list"
     },
     {
+      "name": "entra administrativeunit member remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-member-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-member-remove"
+    },
+    {
       "name": "entra administrativeunit remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/administrativeunit/administrativeunit-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-remove"
@@ -229,6 +234,21 @@
       "name": "entra approleassignment remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/approleassignment/approleassignment-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/approleassignment/approleassignment-remove"
+    },
+    {
+      "name": "entra enterpriseapp add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/enterpriseapp/enterpriseapp-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/enterpriseapp/enterpriseapp-add"
+    },
+    {
+      "name": "entra enterpriseapp get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/enterpriseapp/enterpriseapp-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/enterpriseapp/enterpriseapp-get"
+    },
+    {
+      "name": "entra enterpriseapp list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/enterpriseapp/enterpriseapp-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/enterpriseapp/enterpriseapp-list"
     },
     {
       "name": "entra group add",
@@ -456,21 +476,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-set"
     },
     {
-      "name": "entra sp add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-add"
-    },
-    {
-      "name": "entra sp get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-get"
-    },
-    {
-      "name": "entra sp list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/sp/sp-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/sp/sp-list"
-    },
-    {
       "name": "entra user add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-add"
@@ -534,6 +539,11 @@
       "name": "entra user recyclebinitem restore",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-recyclebinitem-restore.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-recyclebinitem-restore"
+    },
+    {
+      "name": "entra user registrationdetails list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-registrationdetails-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-registrationdetails-list"
     },
     {
       "name": "entra user remove",
@@ -3536,109 +3546,109 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/connections/connections-app-create"
     },
     {
-      "name": "yammer group list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/group/group-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/group/group-list"
+      "name": "viva engage group list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-group-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-group-list"
     },
     {
-      "name": "yammer group user add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/group/group-user-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/group/group-user-add"
+      "name": "viva engage group user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-group-user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-group-user-add"
     },
     {
-      "name": "yammer group user remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/group/group-user-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/group/group-user-remove"
+      "name": "viva engage group user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-group-user-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-group-user-remove"
     },
     {
-      "name": "yammer message add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/message/message-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/message/message-add"
+      "name": "viva engage message add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-message-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-message-add"
     },
     {
-      "name": "yammer message get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/message/message-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/message/message-get"
+      "name": "viva engage message get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-message-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-message-get"
     },
     {
-      "name": "yammer message like set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/message/message-like-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/message/message-like-set"
+      "name": "viva engage message like set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-message-like-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-message-like-set"
     },
     {
-      "name": "yammer message list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/message/message-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/message/message-list"
+      "name": "viva engage message list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-message-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-message-list"
     },
     {
-      "name": "yammer message remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/message/message-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/message/message-remove"
+      "name": "viva engage message remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-message-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-message-remove"
     },
     {
-      "name": "yammer network list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/network/network-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/network/network-list"
+      "name": "viva engage network list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-network-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-network-list"
     },
     {
-      "name": "yammer report activitycounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-activitycounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-activitycounts"
+      "name": "viva engage report activitycounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-activitycounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-activitycounts"
     },
     {
-      "name": "yammer report activityusercounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-activityusercounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-activityusercounts"
+      "name": "viva engage report activityusercounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-activityusercounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-activityusercounts"
     },
     {
-      "name": "yammer report activityuserdetail",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-activityuserdetail.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-activityuserdetail"
+      "name": "viva engage report activityuserdetail",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-activityuserdetail.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-activityuserdetail"
     },
     {
-      "name": "yammer report deviceusagedistributionusercounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-deviceusagedistributionusercounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-deviceusagedistributionusercounts"
+      "name": "viva engage report deviceusagedistributionusercounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-deviceusagedistributionusercounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-deviceusagedistributionusercounts"
     },
     {
-      "name": "yammer report deviceusageusercounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-deviceusageusercounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-deviceusageusercounts"
+      "name": "viva engage report deviceusageusercounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-deviceusageusercounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-deviceusageusercounts"
     },
     {
-      "name": "yammer report deviceusageuserdetail",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-deviceusageuserdetail.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-deviceusageuserdetail"
+      "name": "viva engage report deviceusageuserdetail",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-deviceusageuserdetail.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-deviceusageuserdetail"
     },
     {
-      "name": "yammer report groupsactivitycounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-groupsactivitycounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-groupsactivitycounts"
+      "name": "viva engage report groupsactivitycounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-groupsactivitycounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-groupsactivitycounts"
     },
     {
-      "name": "yammer report groupsactivitydetail",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-groupsactivitydetail.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-groupsactivitydetail"
+      "name": "viva engage report groupsactivitydetail",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-groupsactivitydetail.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-groupsactivitydetail"
     },
     {
-      "name": "yammer report groupsactivitygroupcounts",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/report/report-groupsactivitygroupcounts.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/report/report-groupsactivitygroupcounts"
+      "name": "viva engage report groupsactivitygroupcounts",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-report-groupsactivitygroupcounts.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-groupsactivitygroupcounts"
     },
     {
-      "name": "yammer user get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/user/user-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/user/user-get"
+      "name": "viva engage search",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-search.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-search"
     },
     {
-      "name": "yammer user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/user/user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/user/user-list"
+      "name": "viva engage user get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-user-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-user-get"
     },
     {
-      "name": "yammer search",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/yammer/yammer-search.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/yammer/yammer-search"
+      "name": "viva engage user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-user-list"
     },
     {
       "name": "docs",
