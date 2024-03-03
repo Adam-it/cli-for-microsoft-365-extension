@@ -101,6 +101,26 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-reconsent"
     },
     {
+      "name": "connection list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/connection/connection-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/connection/connection-list"
+    },
+    {
+      "name": "connection remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/connection/connection-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/connection/connection-remove"
+    },
+    {
+      "name": "connection set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/connection/connection-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/connection/connection-set"
+    },
+    {
+      "name": "connection use",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/connection/connection-use.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/connection/connection-use"
+    },
+    {
       "name": "context option list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/context/option/option-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/context/option/option-list"
@@ -1331,9 +1351,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/sensitivitylabel/sensitivitylabel-policysettings-list"
     },
     {
+      "name": "purview threatassessment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/threatassessment/threatassessment-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/threatassessment/threatassessment-add"
+    },
+    {
       "name": "purview threatassessment get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/threatassessment/threatassessment-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/threatassessment/threatassessment-get"
+    },
+    {
+      "name": "purview threatassessment list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/purview/threatassessment/threatassessment-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/purview/threatassessment/threatassessment-list"
     },
     {
       "name": "skype report activitycounts",
