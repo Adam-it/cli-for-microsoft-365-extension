@@ -2121,6 +2121,42 @@
       "source": "script-samples"
     },
     {
+      "title": "Export of the Hierarchy of Hub Sites",
+      "url": "https://pnp.github.io/script-samples/spo-export-hub-site-hierarchy/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-site-hierarchy/README.md",
+      "description": "This script exports the SharePoint site hierarchy into a Markdown file to visualize the hub sites and its associated sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-site-hierarchy/assets/example.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPHubSite",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo site list",
+        "m365 spo hubsite list",
+        "m365 logout"
+      ],
+      "createDate": "2023-11-03",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Hub Sites Information And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-export-hub-sites-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-sites-details-to-csv/README.md",
@@ -2972,6 +3008,46 @@
         "Disconnect-PnPOnline"
       ],
       "createDate": "2024-02-03",
+      "source": "script-samples"
+    },
+    {
+      "title": "Reindex SharePoint sites",
+      "url": "https://pnp.github.io/script-samples/spo-reindex-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/README.md",
+      "description": "Keeping your SharePoint environment up-to-date is crucial, especially after making schema changes - this script streamlines the process of reindexing sites, libraries, or lists.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Mikael Svenson",
+          "pictureUrl": "https://github.com/wobba.png"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Request-PnPReIndexWeb",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo site list",
+        "m365 spo web reindex",
+        "m365 logout"
+      ],
+      "createDate": "2024-02-19",
       "source": "script-samples"
     },
     {
