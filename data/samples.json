@@ -33,6 +33,47 @@
       "source": "script-samples"
     },
     {
+      "title": "Delete all Microsoft 365 groups and SharePoint sites",
+      "url": "https://pnp.github.io/script-samples/aad-delete-m365-groups-and-sharepoint-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/README.md",
+      "description": "Sample shows how you can delete Microsoft 365 Groups and associated SharePoint Online sites in your development environment",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Microsoft 365 Groups",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Remove-PnPDeletedMicrosoft365Group",
+        "Remove-PnPMicrosoft365Group",
+        "Remove-PnPTenantDeletedSite",
+        "Remove-PnPTenantSite",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 entra m365group list",
+        "m365 entra m365group remove",
+        "m365 logout"
+      ],
+      "createDate": "2021-03-15",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Azure AD app permission info (delegated or application)",
       "url": "https://pnp.github.io/script-samples/aad-get-app-permission/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-app-permission/README.md",
@@ -92,6 +133,50 @@
         "m365 util accesstoken get"
       ],
       "createDate": "2021-12-21",
+      "source": "script-samples"
+    },
+    {
+      "title": "Replace an owner in a Microsoft 365 Group or Microsoft Team",
+      "url": "https://pnp.github.io/script-samples/aad-replace-owner-with-a-different-one/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-owner-with-a-different-one/README.md",
+      "description": "Find all the Microsoft 365 Groups that a user is an Owner of and replace them with someone",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-owner-with-a-different-one/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft 365 Groups",
+        "Microsoft Teams",
+        "Governance",
+        "Add-PnPMicrosoft365GroupOwner",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Remove-PnPMicrosoft365Group",
+        "Remove-PnPMicrosoft365GroupOwner",
+        "m365 login",
+        "m365 status",
+        "m365 entra m365group list",
+        "m365 entra m365group user list",
+        "m365 entra m365group user add",
+        "m365 entra m365group user remove",
+        "m365 logout"
+      ],
+      "createDate": "2021-05-04",
       "source": "script-samples"
     },
     {
@@ -1482,6 +1567,46 @@
       "source": "script-samples"
     },
     {
+      "title": "Scan for potential inaccessible site collection homepages",
+      "url": "https://pnp.github.io/script-samples/spo-check-unaccessable-homepages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/README.md",
+      "description": "Looks for site collections where the home page has custom permissions and outputs to a CSV file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPList",
+        "Get-PnPHomePage",
+        "Get-PnPListItem",
+        "Get-PnPListItemPermission",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo site list",
+        "m365 spo web get",
+        "m365 spo listitem list",
+        "m365 logout"
+      ],
+      "createDate": "2024-03-04",
+      "source": "script-samples"
+    },
+    {
       "title": "Clean Up Unwanted Site Columns from Content Types and Lists/Libraries",
       "url": "https://pnp.github.io/script-samples/spo-cleanup-site-column-usage/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-site-column-usage/README.md",
@@ -2050,6 +2175,43 @@
         "Get-SPOSite"
       ],
       "createDate": "2023-01-09",
+      "source": "script-samples"
+    },
+    {
+      "title": "Export Content Type Details To CSV",
+      "url": "https://pnp.github.io/script-samples/spo-export-content-type-details-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/README.md",
+      "description": "This script exports all content types available on a SharePoint site to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPContentType",
+        "Get-PnPProperty",
+        "Export-Csv",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo contenttype list",
+        "m365 logout"
+      ],
+      "createDate": "2024-03-05",
       "source": "script-samples"
     },
     {
@@ -5674,6 +5836,30 @@
         "sites"
       ],
       "createDate": "2021-04-10",
+      "source": "cli"
+    },
+    {
+      "title": "SharePoint Add-ins and Azure ACS retirement report",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/sp-add-ins-and-azure-acs-retirement-report",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/sp-add-ins-and-azure-acs-retirement-report/index.mdx",
+      "description": "This script retrieves the retirement report of SharePoint Add-Ins and Azure ACS.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/sp-add-ins-and-azure-acs-retirement-report/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/17220108?v=4"
+        }
+      ],
+      "tags": [
+        "reports"
+      ],
+      "createDate": "2024-02-02",
       "source": "cli"
     },
     {

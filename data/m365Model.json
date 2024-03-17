@@ -1386,6 +1386,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/package/package-generate"
     },
     {
+      "name": "spfx project azuredevops pipeline add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-azuredevops-pipeline-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-azuredevops-pipeline-add"
+    },
+    {
       "name": "spfx project doctor",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/project/project-doctor.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/project/project-doctor"
