@@ -821,6 +821,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/message/message-move"
     },
     {
+      "name": "outlook message remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/message/message-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/message/message-remove"
+    },
+    {
       "name": "outlook report mailactivitycounts",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/report/report-mailactivitycounts.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/report/report-mailactivitycounts"
@@ -1876,11 +1881,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-remove"
     },
     {
-      "name": "spo folder rename",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-rename.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-rename"
-    },
-    {
       "name": "spo folder retentionlabel ensure",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-retentionlabel-ensure.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-retentionlabel-ensure"
@@ -1909,6 +1909,11 @@
       "name": "spo folder roleinheritance reset",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-roleinheritance-reset.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-roleinheritance-reset"
+    },
+    {
+      "name": "spo folder set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-set"
     },
     {
       "name": "spo group add",
